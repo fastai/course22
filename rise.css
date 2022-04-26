@@ -1,0 +1,37 @@
+body.rise-enabled div.inner_cell>div.input_area {
+    font-size: 125%;
+}
+
+body.rise-enabled div.output_subarea.output_text.output_result {
+    font-size: 125%;
+}
+body.rise-enabled div.output_subarea.output_text.output_stream.output_stdout {
+  font-size: 125%;
+}
+
+body.rise-enabled div.output_subarea.output_html.rendered_html.output_result {
+  font-size: 125%;
+}
+
+body.rise-enabled td {
+  font-size: 125%;
+}
+
+body.rise-enabled th {
+  font-size: 125%;
+}
+
+body.rise-enabled .prompt {
+  width: 0px; min-width: 0px; visibility: collapse
+}
+
+body.rise-enabled h1,
+body.rise-enabled h2,
+body.rise-enabled h3,
+body.rise-enabled h4,
+body.rise-enabled h5,
+body.rise-enabled h6
+{
+  font-family: "Cambria", serif !important;
+  font-weight: normal !important;
+}
