@@ -7,5 +7,6 @@ This is where the 2022 edition of Practical Deep Learning for Coders is being de
 - Repo root: notebooks
 - `clean` folder: notebooks without prose or outputs
 - `xl`: Excel spreadsheets
+- `slides`: Jeremy's slide decks
 - `tools`: Ignore (tools for creating this repo)
 
