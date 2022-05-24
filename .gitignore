@@ -1,6 +1,9 @@
 us-patent-phrase-to-phrase-matching*
 bird_or_not/
 
+*.swp
+~*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

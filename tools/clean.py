@@ -24,10 +24,11 @@ def proc_nb(fname, dest):
     clean_nb(nb, clear_all=True)
     with open(dest/fname.name, 'w') as f: nbformat.write(nb, f, version=4)
 
-def proc_all(path='.', dest_path='clean'):
+@call_parse
+def proc_all(
+        path:str='.', # Path for source NBs
+        dest_path:str='clean'): # Path for dest NBs
     path,dest_path = Path(path),Path(dest_path)
     fns = [f for f in path.iterdir() if f.suffix == '.ipynb' and not f.name.startswith('_')]
     for fn in fns: proc_nb(fn, dest=dest_path)
-
-if __name__=='__main__': proc_all()
 
