@@ -1,6 +1,7 @@
 *.zip
 *.csv
 us-patent-phrase-to-phrase-matching*
+titanic*
 bird_or_not/
 
 *.swp
