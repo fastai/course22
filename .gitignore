@@ -1,4 +1,7 @@
+*.csv
+*.pkl
 us-patent-phrase-to-phrase-matching*
+paddy-disease-classification/
 titanic*
 bird_or_not/
 
