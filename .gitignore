@@ -1,5 +1,6 @@
 *.csv
 *.pkl
+*.zip
 us-patent-phrase-to-phrase-matching*
 paddy-disease-classification/
 titanic*
