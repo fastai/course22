@@ -1,6 +1,6 @@
-## course22
+## course.fast.ai
 
-This is where the 2022 edition of Practical Deep Learning for Coders is being developed. It's not done yet. We hope to release it around August 2022, but that date may change.
+This is where you'll find the notebooks, slides, and spreadsheets for the 2022 edition of Practical Deep Learning for Coders. See [course.fast.ai](https://course.fast.ai) for the lessons.
 
 ## What's here
 
@@ -9,4 +9,3 @@ This is where the 2022 edition of Practical Deep Learning for Coders is being de
 - `xl`: Excel spreadsheets
 - `slides`: Jeremy's slide decks
 - `tools`: Ignore (tools for creating this repo)
-
