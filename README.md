@@ -5,7 +5,6 @@ This is where you'll find the notebooks, slides, and spreadsheets for the 2022 e
 ## What's here
 
 - Repo root: notebooks
-- `clean` folder: notebooks without prose or outputs
 - `xl`: Excel spreadsheets
 - `slides`: Jeremy's slide decks
 - `tools`: Ignore (tools for creating this repo)
