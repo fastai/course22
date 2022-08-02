@@ -6,6 +6,7 @@ This is where you'll find the notebooks, slides, and spreadsheets for the 2022 e
 
 - Repo root: notebooks
 - `clean` folder: notebooks without prose or outputs
+    - in your CLI run `python3 basic_clean_notebooks.py` to create this folder
 - `xl`: Excel spreadsheets
 - `slides`: Jeremy's slide decks
 - `tools`: Ignore (tools for creating this repo)
