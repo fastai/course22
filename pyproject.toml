@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "course22"
+version = "0.1.0"
+description = ""
+authors = ["basso1995 <federico.bassetto@prima.it>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipykernel = "^6.15.1"
+fastai = "^2.7.9"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
