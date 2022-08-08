@@ -1,38 +1,14 @@
 # %% [markdown]
 # ## Is it a bird?
 
-# %%
-#NB: Kaggle requires phone verification to use the internet or a GPU. If you haven't done that yet, the cell below will fail
-#    This code is only here to check that your internet is enabled. It doesn't do anything else.
-#    Here's a help thread on getting your phone number verified: https://www.kaggle.com/product-feedback/135367
-
-import socket,warnings
-try:
-    socket.setdefaulttimeout(1)
-    socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(('1.1.1.1', 53))
-except socket.error as ex: raise Exception("STOP: No internet. Click '>|' in top right and set 'Internet' switch to on")
-
-# %%
-# It's a good idea to ensure you're running the latest version of any libraries you need.
-# `!pip install -Uqq <libraries>` upgrades to the latest version of <libraries>
-# NB: You can safely ignore any warnings or errors pip spits out about running as root or incompatibilities
-import os
-iskaggle = os.environ.get('KAGGLE_KERNEL_RUN_TYPE', '')
-
-if iskaggle:
-    !pip install -Uqq fastai
-
 # %% [markdown]
-# In 2015 the idea of creating a computer system that could recognise birds was considered so outrageously challenging that it was the basis of [this XKCD joke](https://xkcd.com/1425/):
-
-# %% [markdown]
-# ![image.png](attachment:a0483178-c30e-4fdd-b2c2-349e130ab260.png)
+# In 2015 the idea of creating a computer system that could recognise birds was considered so outrageously challenging that it was the basis of [this XKCD joke](https://xkcd.com/1425/).
 
 # %% [markdown]
 # But today, we can do exactly that, in just a few minutes, using entirely free resources!
-# 
+#
 # The basic steps we'll take are:
-# 
+#
 # 1. Use DuckDuckGo to search for images of "bird photos"
 # 1. Use DuckDuckGo to search for images of "forest photos"
 # 1. Fine-tune a pretrained neural network to recognise these two groups
@@ -42,28 +18,40 @@ if iskaggle:
 # ## Step 1: Download images of birds and non-birds
 
 # %%
-from fastcore.all import *
+import re
 import time
 
-def search_images(term, max_images=200):
-    url = 'https://duckduckgo.com/'
-    res = urlread(url,data={'q':term})
-    searchObj = re.search(r'vqd=([\d-]+)\&', res)
-    requestUrl = url + 'i.js'
-    params = dict(l='us-en', o='json', q=term, vqd=searchObj.group(1), f=',,,', p='1', v7exp='a')
-    urls,data = set(),{'next':1}
-    while len(urls)<max_images and 'next' in data:
-        data = urljson(requestUrl,data=params)
-        urls.update(L(data['results']).itemgot('image'))
-        requestUrl = url + data['next']
+from fastcore.foundation import L
+from fastcore.net import urljson, urlread
+
+
+def search_images(term: str, max_images: int = 200):
+    """
+    Search images on the web
+    """
+    url = "https://duckduckgo.com/"
+    res = urlread(url, data={"q": term})
+    search_object = re.search(r"vqd=([\d-]+)\&", res)
+    if not search_object:
+        raise ValueError(f"Could not find any result for {term}")
+
+    request_url = f"{url}i.js"
+    search_params = dict(l="us-en", o="json", q=term, vqd=search_object[1], f=",,,", p="1", v7exp="a")
+
+    urls_set, data = set(), {"next": 1}
+    while len(urls_set) < max_images and "next" in data:
+        data = urljson(request_url, data=search_params)
+        urls_set.update(L(data["results"]).itemgot("image"))
+        request_url = url + data["next"]
         time.sleep(0.2)
-    return L(urls)[:max_images]
+    return L(urls_set)[:max_images]
+
 
 # %% [markdown]
 # Let's start by searching for a bird photo and seeing what kind of result we get. We'll start by getting URLs from a search:
 
 # %%
-urls = search_images('bird photos', max_images=1)
+urls = search_images("bird photos", max_images=1)
 urls[0]
 
 # %% [markdown]
@@ -71,32 +59,34 @@ urls[0]
 
 # %%
 from fastdownload import download_url
-dest = 'bird.jpg'
+
+dest = "bird.jpg"
 download_url(urls[0], dest, show_progress=False)
 
 from fastai.vision.all import *
+
 im = Image.open(dest)
-im.to_thumb(256,256)
+im.to_thumb(256, 256)
 
 # %% [markdown]
 # Now let's do the same with "forest photos":
 
 # %%
-download_url(search_images('forest photos', max_images=1)[0], 'forest.jpg', show_progress=False)
-Image.open('forest.jpg').to_thumb(256,256)
+download_url(search_images("forest photos", max_images=1)[0], "forest.jpg", show_progress=False)
+Image.open("forest.jpg").to_thumb(256, 256)
 
 # %% [markdown]
 # Our searches seem to be giving reasonable results, so let's grab 200 examples of each of "bird" and "forest" photos, and save each group of photos to a different folder:
 
 # %%
-searches = 'forest','bird'
-path = Path('bird_or_not')
+searches = "forest", "bird"
+path = Path("bird_or_not")
 
 for o in searches:
-    dest = (path/o)
+    dest = path / o
     dest.mkdir(exist_ok=True, parents=True)
-    download_images(dest, urls=search_images(f'{o} photo'))
-    resize_images(path/o, max_size=400, dest=path/o)
+    download_images(dest, urls=search_images(f"{o} photo"))
+    resize_images(path / o, max_size=400, dest=path / o)
 
 # %% [markdown]
 # ## Step 2: Train our model
@@ -114,41 +104,41 @@ len(failed)
 
 # %%
 dls = DataBlock(
-    blocks=(ImageBlock, CategoryBlock), 
-    get_items=get_image_files, 
+    blocks=(ImageBlock, CategoryBlock),
+    get_items=get_image_files,
     splitter=RandomSplitter(valid_pct=0.2, seed=42),
     get_y=parent_label,
-    item_tfms=[Resize(192, method='squish')]
+    item_tfms=[Resize(192, method="squish")],
 ).dataloaders(path)
 
 dls.show_batch(max_n=6)
 
 # %% [markdown]
 # Here what each of the `DataBlock` parameters means:
-# 
+#
 #     blocks=(ImageBlock, CategoryBlock),
-# 
+#
 # The inputs to our model are images, and the outputs are categories (in this case, "bird" or "forest").
-# 
-#     get_items=get_image_files, 
-# 
+#
+#     get_items=get_image_files,
+#
 # To find all the inputs to our model, run the `get_image_files` function (which returns a list of all image files in a path).
-# 
+#
 #     splitter=RandomSplitter(valid_pct=0.2, seed=42),
-# 
+#
 # Split the data into training and validation sets randomly, using 20% of the data for the validation set.
-# 
+#
 #     get_y=parent_label,
-# 
+#
 # The labels (`y` values) is the name of the `parent` of each file (i.e. the name of the folder they're in, which will be *bird* or *forest*).
-# 
+#
 #     item_tfms=[Resize(192, method='squish')]
-# 
+#
 # Before training, resize each image to 192x192 pixels by "squishing" it (as opposed to cropping it).
 
 # %% [markdown]
 # Now we're ready to train our model. The fastest widely used computer vision model is `resnet18`. You can train this in a few minutes, even on a CPU! (On a GPU, it generally takes under 10 seconds...)
-# 
+#
 # `fastai` comes with a helpful `fine_tune()` method which automatically uses best practices for fine tuning a pre-trained model, so we'll use that.
 
 # %%
@@ -157,7 +147,7 @@ learn.fine_tune(3)
 
 # %% [markdown]
 # Generally when I run this I see 100% accuracy on the validation set (although it might vary a bit from run to run).
-# 
+#
 # "Fine-tuning" a model means that we're starting with a model someone else has trained using some other dataset (called the *pretrained model*), and adjusting the weights a little bit so that the model learns to recognise your particular dataset. In this case, the pretrained model was trained to recognise photos in *imagenet*, and widely-used computer vision dataset with images covering 1000 categories) For details on fine-tuning and why it's important, check out the [free fast.ai course](https://course.fast.ai/).
 
 # %% [markdown]
@@ -167,22 +157,20 @@ learn.fine_tune(3)
 # Let's see what our model thinks about that bird we downloaded at the start:
 
 # %%
-is_bird,_,probs = learn.predict(PILImage.create('bird.jpg'))
+is_bird, _, probs = learn.predict(PILImage.create("bird.jpg"))
 print(f"This is a: {is_bird}.")
 print(f"Probability it's a bird: {probs[0]:.4f}")
 
 # %% [markdown]
 # Good job, resnet18. :)
-# 
+#
 # So, as you see, in the space of a few years, creating computer vision classification models has gone from "so hard it's a joke" to "trivially easy and free"!
-# 
+#
 # It's not just in computer vision. Thanks to deep learning, computers can now do many things which seemed impossible just a few years ago, including [creating amazing artworks](https://openai.com/dall-e-2/), and [explaining jokes](https://www.datanami.com/2022/04/22/googles-massive-new-language-model-can-explain-jokes/). It's moving so fast that even experts in the field have trouble predicting how it's going to impact society in the coming years.
-# 
+#
 # One thing is clear -- it's important that we all do our best to understand this technology, because otherwise we'll get left behind!
 
 # %% [markdown]
 # Now it's your turn. Click "Copy & Edit" and try creating your own image classifier using your own image searches!
-# 
+#
 # If you enjoyed this, please consider clicking the "upvote" button in the top-right -- it's very encouraging to us notebook authors to know when people appreciate our work.
-
-

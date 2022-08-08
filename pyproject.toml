@@ -11,7 +11,30 @@ fastai = "^2.7.9"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
+isort = "^5.10.1"
+mypy = "^0.971"
+pylint = "^2.14.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pylint."MESSAGES CONTROL"]
+persistent = "no"
+max-line-length = 120
+disable = ["missing-module-docstring", "fixme", "pointless-statement", "line-too-long"]
+extension-pkg-whitelist = "pydantic"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 120
+
+[tool.mypy]
+strict = false
+pretty = true
+show_error_codes = true
+show_error_context = true
+implicit_reexport = true
+namespace_packages = true
