@@ -22,7 +22,14 @@ build-backend = "poetry.core.masonry.api"
 [tool.pylint."MESSAGES CONTROL"]
 persistent = "no"
 max-line-length = 120
-disable = ["missing-module-docstring", "fixme", "pointless-statement", "line-too-long"]
+disable = [
+    "missing-module-docstring",
+    "fixme",
+    "pointless-statement",
+    "line-too-long",
+    "wrong-import-position",
+    "invalid-name"
+]
 extension-pkg-whitelist = "pydantic"
 
 [tool.isort]

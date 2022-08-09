@@ -60,10 +60,10 @@ urls[0]
 # %%
 from fastdownload import download_url
 
-dest = "bird.jpg"
+dest = "data/bird.jpg"
 download_url(urls[0], dest, show_progress=False)
 
-from fastai.vision.all import *
+from fastai.vision.all import Image
 
 im = Image.open(dest)
 im.to_thumb(256, 256)
@@ -72,21 +72,26 @@ im.to_thumb(256, 256)
 # Now let's do the same with "forest photos":
 
 # %%
-download_url(search_images("forest photos", max_images=1)[0], "forest.jpg", show_progress=False)
-Image.open("forest.jpg").to_thumb(256, 256)
+output_path = "data/forest.jpg"
+download_url(search_images("forest photos", max_images=1)[0], output_path, show_progress=False)
+Image.open(output_path).to_thumb(256, 256)
 
 # %% [markdown]
 # Our searches seem to be giving reasonable results, so let's grab 200 examples of each of "bird" and "forest" photos, and save each group of photos to a different folder:
 
 # %%
+from pathlib import Path
+from fastai.vision.utils import download_images, resize_images
+
 searches = "forest", "bird"
 path = Path("bird_or_not")
 
-for o in searches:
-    dest = path / o
+for target in searches:
+    dest = path / target
     dest.mkdir(exist_ok=True, parents=True)
-    download_images(dest, urls=search_images(f"{o} photo"))
-    resize_images(path / o, max_size=400, dest=path / o)
+    # TEMP DEBUG
+    download_images(dest, urls=search_images(f"{target} photo", max_images=2))
+    resize_images(path / target, max_size=400, dest=path / target)
 
 # %% [markdown]
 # ## Step 2: Train our model
