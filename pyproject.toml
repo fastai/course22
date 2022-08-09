@@ -29,6 +29,7 @@ disable = [
     "line-too-long",
     "wrong-import-position",
     "wrong-import-order",
+    "ungrouped-imports",
     "invalid-name"
 ]
 extension-pkg-whitelist = "pydantic"
@@ -46,3 +47,6 @@ show_error_codes = true
 show_error_context = true
 implicit_reexport = true
 namespace_packages = true
+disable_error_code = [
+    "import"
+]

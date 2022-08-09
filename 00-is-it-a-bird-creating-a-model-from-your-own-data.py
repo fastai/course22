@@ -20,12 +20,13 @@
 # %%
 import re
 import time
+from typing import Set
 
 from fastcore.foundation import L
 from fastcore.net import urljson, urlread
 
 
-def search_images(term: str, max_images: int = 200):
+def search_images(term: str, max_images: int = 200) -> L:
     """
     Search images on the web
     """
@@ -38,11 +39,12 @@ def search_images(term: str, max_images: int = 200):
     request_url = f"{url}i.js"
     search_params = dict(l="us-en", o="json", q=term, vqd=search_object[1], f=",,,", p="1", v7exp="a")
 
-    urls_set, data = set(), {"next": 1}
+    urls_set: Set[L] = set()
+    data = {"next": 1}
     while len(urls_set) < max_images and "next" in data:
         data = urljson(request_url, data=search_params)
         urls_set.update(L(data["results"]).itemgot("image"))
-        request_url = url + data["next"]
+        request_url = url + str(data["next"])
         time.sleep(0.2)
     return L(urls_set)[:max_images]
 
@@ -60,12 +62,12 @@ urls[0]
 # %%
 from fastdownload import download_url
 
-dest = "data/bird.jpg"
-download_url(urls[0], dest, show_progress=False)
+dest_bird = "data/bird.jpg"
+download_url(urls[0], dest_bird, show_progress=False)
 
 from fastai.vision.all import Image
 
-im = Image.open(dest)
+im = Image.open(dest_bird)
 im.to_thumb(256, 256)
 
 # %% [markdown]
@@ -112,7 +114,7 @@ len(failed)
 from fastai.data.block import CategoryBlock, DataBlock
 from fastai.data.transforms import RandomSplitter, parent_label
 from fastai.vision.augment import Resize
-from fastai.vision.data import ImageBlock   
+from fastai.vision.data import ImageBlock
 
 dls = DataBlock(
     blocks=[ImageBlock, CategoryBlock],
@@ -153,6 +155,10 @@ dls.show_batch(max_n=6)
 # `fastai` comes with a helpful `fine_tune()` method which automatically uses best practices for fine tuning a pre-trained model, so we'll use that.
 
 # %%
+from fastai.metrics import error_rate
+from fastai.vision.learner import vision_learner
+from torchvision.models import resnet18
+
 learn = vision_learner(dls, resnet18, metrics=error_rate)
 learn.fine_tune(3)
 
@@ -168,7 +174,9 @@ learn.fine_tune(3)
 # Let's see what our model thinks about that bird we downloaded at the start:
 
 # %%
-is_bird, _, probs = learn.predict(PILImage.create("bird.jpg"))
+from fastai.vision.core import PILImage
+
+is_bird, _, probs = learn.predict(PILImage.create("data/bird.jpg"))
 print(f"This is a: {is_bird}.")
 print(f"Probability it's a bird: {probs[0]:.4f}")
 
