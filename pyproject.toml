@@ -28,6 +28,7 @@ disable = [
     "pointless-statement",
     "line-too-long",
     "wrong-import-position",
+    "wrong-import-order",
     "invalid-name"
 ]
 extension-pkg-whitelist = "pydantic"

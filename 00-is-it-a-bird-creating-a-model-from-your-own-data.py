@@ -89,8 +89,7 @@ path = Path("bird_or_not")
 for target in searches:
     dest = path / target
     dest.mkdir(exist_ok=True, parents=True)
-    # TEMP DEBUG
-    download_images(dest, urls=search_images(f"{target} photo", max_images=2))
+    download_images(dest, urls=search_images(f"{target} photo"))
     resize_images(path / target, max_size=400, dest=path / target)
 
 # %% [markdown]
@@ -100,6 +99,8 @@ for target in searches:
 # Some photos might not download correctly which could cause our model training to fail, so we'll remove them:
 
 # %%
+from fastai.vision.utils import verify_images, get_image_files
+
 failed = verify_images(get_image_files(path))
 failed.map(Path.unlink)
 len(failed)
@@ -108,8 +109,13 @@ len(failed)
 # To train a model, we'll need `DataLoaders`, which is an object that contains a *training set* (the images used to create a model) and a *validation set* (the images used to check the accuracy of a model -- not used during training). In `fastai` we can create that easily using a `DataBlock`, and view sample images from it:
 
 # %%
+from fastai.data.block import CategoryBlock, DataBlock
+from fastai.data.transforms import RandomSplitter, parent_label
+from fastai.vision.augment import Resize
+from fastai.vision.data import ImageBlock   
+
 dls = DataBlock(
-    blocks=(ImageBlock, CategoryBlock),
+    blocks=[ImageBlock, CategoryBlock],
     get_items=get_image_files,
     splitter=RandomSplitter(valid_pct=0.2, seed=42),
     get_y=parent_label,
