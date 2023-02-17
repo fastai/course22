@@ -7,7 +7,7 @@ To get started, create a codespace for this repository by clicking this 👇
 
 A codespace will open in a web-based version of Visual Studio Code.
 
-**Note**: Dev containers is now an open spec which is supported by [GitHub Codespaces](https://github.com/codespaces) and [other supporting tools](https://containers.dev/supporting).
+**Note**: Dev containers is an open spec which is supported by [GitHub Codespaces](https://github.com/codespaces) and [other supporting tools](https://containers.dev/supporting).
 
 ## Opening a notebook
 
