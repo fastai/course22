@@ -1,12 +1,72 @@
-## course.fast.ai
+<div align="center" id="top">
 
-This is where you'll find the notebooks, slides, and spreadsheets for the 2022 edition of Practical Deep Learning for Coders. See [course.fast.ai](https://course.fast.ai) for the lessons.
+<!-- PROJECT LOGO -->
+<br />
+  <h3 align="center">Fast AI Course 22</h3>
 
-## What's here
+  <hr>
 
-- Repo root: notebooks
+  <p align="center">
+    This repository contains the notebooks, slides, and spreadsheets for Fast AI's Course 22: Practical Deep Learning for Coders.
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#repository-structure">Repository Structure</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+This repository contains the notebooks, slides, and spreadsheets for Fast AI's Course 22: Practical Deep Learning for Coders. It serves as a comprehensive resource for learning practical deep learning techniques and implementing them using Python and popular deep learning libraries.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+
+* [Fast AI Library](https://docs.fast.ai/)
+* [Jupyter Notebooks](https://jupyter.org/)
+* [Python](https://www.python.org/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- REPOSITORY STRUCTURE -->
+## Repository Structure
+
+- Root directory: notebooks
 - `clean` folder: notebooks without prose or outputs
 - `xl`: Excel spreadsheets
-- `slides`: Jeremy's slide decks
+- `slides`: Slide decks
 - `tools`: Ignore (tools for creating this repo)
 - `getting-started-with-codespaces`: A document to help run the notebooks in a GitHub Codespace
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+I would like to acknowledge the [Fast AI](https://github.com/fastai) team for creating and providing the [Practical Deep Learning for Coders](https://course.fast.ai/) course.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
