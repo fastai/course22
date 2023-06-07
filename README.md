@@ -1,17 +1,14 @@
 <div align="center" id="top">
 
 <!-- PROJECT LOGO -->
-<br />
-  <h3 align="center">Fast AI Course 22</h3>
-
-  <hr>
+  <h1 align="center">Fast AI Course 22</h1>
 
   <p align="center">
-    This repository contains the notebooks, slides, and spreadsheets for Fast AI's Course 22: Practical Deep Learning for Coders.
+    This repository contains my version of the notebooks, slides, and spreadsheets for <a href="https://github.com/fastai">Fast AI's</a> <a href="https://course.fast.ai/">Course 22: Practical Deep Learning for Coders</a>.
   </p>
 </div>
 
-
+<br>
 
 <!-- TABLE OF CONTENTS -->
 <details>
