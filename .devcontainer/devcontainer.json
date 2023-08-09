@@ -1,4 +1,7 @@
 // For more details, see https://aka.ms/devcontainer.json.
+
+// This section is used for CodeSpaces
+// --- CodeSpaces ---//
 {
     "build": {
         "context": ".",
@@ -19,3 +22,4 @@
         "--shm-size=16g"
     ]
 }
+//---CodeSpaces---//
