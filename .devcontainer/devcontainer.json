@@ -37,9 +37,9 @@
     "dockerfile": "DockerfileGPU"
   },
   // "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", // https://hub.docker.com/r/nvidia/cuda/tags
-  "runArgs": [
-    "--gpus=all"
-  ],
+  // "runArgs": [
+  //   "--gpus=all"
+  // ],
   "remoteUser": "vscode",    // Specify login user
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:/usr/local/cuda/bin",
@@ -47,9 +47,9 @@
     "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/usr/local/cuda"
   },
   // "updateContentCommand": "bash .devcontainer/install-dev-tools.sh",
-  "postCreateCommand": [
-    "nvidia-smi"
-  ],
+  // "postCreateCommand": [
+  //   "nvidia-smi"
+  // ],
   "customizations": {
     "vscode": {
       "extensions": [
