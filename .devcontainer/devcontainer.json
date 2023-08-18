@@ -1,55 +1,18 @@
-// For more details, see https://aka.ms/devcontainer.json.
-
-// Uncomment this section if running on Github CodeSpaces
-
-// --- CodeSpaces ---//
-// {
-//     "name": "CodeSpaces Image",
-//     "build": {
-//         "context": ".",
-//         "dockerfile": "Dockerfile"
-//     },
-
-//     // Uncomment to install NVIDIA CUDA - required for a GPU-powered codespace. For more details, see https://github.com/fastai/course22/blob/master/getting-started-with-codespaces.md#gpu-powered-codespaces
-//     // "features": {
-//     //     "ghcr.io/devcontainers/features/nvidia-cuda:1": {
-//     //         "installCudnn": true
-//     //     }
-//     // },
-
-//     "hostRequirements": {
-//         "storage": "64gb"
-//     },
-//     "runArgs": [
-//         "--shm-size=16g"
-//     ]
-// }
-// ---CodeSpaces---//
-
-// Uncomment this section if running on a local PC running Windows 10 or 11 with a GPU Card. 
-// You must have WSL, Docker Desktop and NVIDIA Container Toolkit installed in Windows to run GPU Containers.
-
-//---GPU---//
 {
-  "name": "GPU CUDA Image",
-  "build": {
-    "context": ".",
-    "dockerfile": "DockerfileGPU"
-  },
-  // "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", // https://hub.docker.com/r/nvidia/cuda/tags
-  // "runArgs": [
-  //   "--gpus=all"
-  // ],
-  "remoteUser": "vscode",    // Specify login user
+  "name": "CUDA",
+  "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", 
+  "runArgs": [
+    "--gpus=all"
+  ],
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:/usr/local/cuda/bin",
     "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64",
     "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/usr/local/cuda"
   },
-  // "updateContentCommand": "bash .devcontainer/install-dev-tools.sh",
-  // "postCreateCommand": [
-  //   "nvidia-smi"
-  // ],
+  "updateContentCommand": "bash .devcontainer/install-dev-tools.sh",
+  "postCreateCommand": [
+    "nvidia-smi"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -62,18 +25,5 @@
         "ms-python.vscode-pylance"
       ]
     }
-},
-"features": {
-	"ghcr.io/devcontainers/features/git:1": {
-		"version": "os-provided"
-	},
-	"ghcr.io/devcontainers/features/python:1": {
-		"installTools": true,
-		"optimize": true,
-		"installJupyterlab": true,
-		"version": "3.10"
-	},
-	"ghcr.io/akhildevelops/devcontainer-features/pip:0": {}
+  }
 }
-}
-//---GPU---//
