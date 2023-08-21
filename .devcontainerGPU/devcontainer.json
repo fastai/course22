@@ -1,0 +1,29 @@
+{
+  "name": "CUDA",
+  "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", 
+  "runArgs": [
+    "--gpus=all"
+  ],
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/usr/local/cuda/bin",
+    "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64",
+    "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/usr/local/cuda"
+  },
+  "updateContentCommand": "bash .devcontainer/install-dev-tools.sh",
+  "postCreateCommand": [
+    "nvidia-smi"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
