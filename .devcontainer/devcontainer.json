@@ -25,5 +25,11 @@
         "ms-python.vscode-pylance"
       ]
     }
-  }
+},
+"features": {
+	"ghcr.io/devcontainers/features/git:1": {
+		"ppa": true,
+		"version": "latest"
+	}
+}
 }
