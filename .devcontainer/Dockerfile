@@ -34,6 +34,6 @@ RUN groupadd --gid $USER_GID $USERNAME \
 #     && apt-get -y install --no-install-recommends graphviz
 
 ENV PATH="/home/vscode/.local/bin:${PATH}"
-USER $USERNAME  
+# USER $USERNAME  
 
 COPY welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt
