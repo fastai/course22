@@ -1,6 +1,10 @@
 {
   "name": "CUDA",
-  "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", 
+  //"image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", 
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+},
   "runArgs": [
     "--gpus=all"
   ],
@@ -25,5 +29,11 @@
         "ms-python.vscode-pylance"
       ]
     }
-  }
+},
+"features": {
+	"ghcr.io/devcontainers/features/git:1": {
+		"ppa": true,
+		"version": "latest"
+	}
+}
 }
