@@ -23,15 +23,22 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # [Optional] Change the User now. Omit if you want to keep the default as root.
 # USER $USERNAME
 
-# RUN apt install -y python3 \
+# update system
+RUN apt-get update \
+    && apt-get upgrade -y \
+    && apt-get install software-properties-common wget curl \
+    && python3-dev python3-pip python3-wheel python3-setuptools -y \
+    && python3 -m pip install --upgrade pip 
+    
+   # RUN apt install -y python3 \
 #     && apt install -y git \
 #     && apt install -y pip \
 #     && /usr/bin/python3 -m pip install ipykernel -U --user --force-reinstall
-
 COPY requirements.txt /tmp/
-# RUN echo "(*) Installing python packages..." \
-#     && su - $USERNAME -c "pip install -r /tmp/requirements.txt" \
-#     && apt-get -y install --no-install-recommends graphviz
+
+RUN echo "(*) Installing python packages..." \
+    && su - $USERNAME -c "pip install -r /tmp/requirements.txt" \
+    && apt-get -y install --no-install-recommends graphviz
 
 ENV PATH="/home/vscode/.local/bin:${PATH}"
 # USER $USERNAME  
