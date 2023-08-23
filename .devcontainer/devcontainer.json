@@ -17,8 +17,7 @@
   "postCreateCommand": [
     "nvidia-smi"
   ],
-  "remoteUser": "vscode",    // Specify login user
-  "customizations": {
+   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
@@ -36,5 +35,6 @@
 		"ppa": true,
 		"version": "latest"
 	}
-}
+},
+"remoteUser": "vscode"   // Specify login user
 }
