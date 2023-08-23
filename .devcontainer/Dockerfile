@@ -26,8 +26,8 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # USER $USERNAME
 
 # install python and system tools
-RUN apt-get install software-properties-common wget curl python3-dev python3-pip python3-wheel python3-setuptools -y
-RUN python3 -m pip install --upgrade pip -y
+RUN apt install software-properties-common wget curl python3-dev python3-pip python3-wheel python3-setuptools -y
+RUN /usr/bin/python3 -m pip install --upgrade pip -y
     
    # RUN apt install -y python3 \
 #     && apt install -y git \
