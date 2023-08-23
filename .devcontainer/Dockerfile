@@ -28,7 +28,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
 #     && apt install -y pip \
 #     && /usr/bin/python3 -m pip install ipykernel -U --user --force-reinstall
 
-# COPY requirements.txt /tmp/
+COPY requirements.txt /tmp/
 # RUN echo "(*) Installing python packages..." \
 #     && su - $USERNAME -c "pip install -r /tmp/requirements.txt" \
 #     && apt-get -y install --no-install-recommends graphviz
