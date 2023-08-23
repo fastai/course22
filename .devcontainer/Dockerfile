@@ -1,6 +1,8 @@
 FROM nvidia/cuda:11.8.0-devel-ubuntu22.04
 
-# RUN apt update
+# Update system
+RUN apt update \
+    && apt upgrade -y
 
 # Setup non-root user vscode
 ARG USERNAME=vscode
@@ -23,9 +25,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # [Optional] Change the User now. Omit if you want to keep the default as root.
 # USER $USERNAME
 
-# update system
-RUN apt-get update 
-RUN apt-get upgrade -y
+# install python and system tools
 RUN apt-get install software-properties-common wget curl \
     && python3-dev python3-pip python3-wheel python3-setuptools -y
 RUN python3 -m pip install --upgrade pip -y
