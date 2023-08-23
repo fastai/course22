@@ -8,8 +8,13 @@
   "runArgs": [
     "--gpus=all"
   ],
-  "remoteUser": "vscode",    // Specify login user
-  "remoteEnv": {
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+      "ppa": true,
+      "version": "latest"
+    }
+  }
+    "remoteEnv": {
     "PATH": "${containerEnv:PATH}:/usr/local/cuda/bin",
     "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64",
     "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/usr/local/cuda"
@@ -18,6 +23,7 @@
   "postCreateCommand": [
     "nvidia-smi"
   ],
+  "remoteUser": "vscode",    // Specify login user
   "customizations": {
     "vscode": {
       "extensions": [
