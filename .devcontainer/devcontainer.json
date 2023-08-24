@@ -36,6 +36,6 @@
 		"ppa": true,
 		"version": "latest"
 	}
-}
+},
 "remoteUser": "vscode"   // Specify login user
 }
