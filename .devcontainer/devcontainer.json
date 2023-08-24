@@ -26,7 +26,8 @@
         "ms-toolsai.jupyter-keymap",
         "ms-toolsai.jupyter-renderers",
         "ms-toolsai.vscode-jupyter-slideshow",
-        "ms-python.vscode-pylance"
+        "ms-python.vscode-pylance",
+        "ms-azuretools.vscode-docker"
       ]
     }
 },
@@ -36,5 +37,5 @@
 		"version": "latest"
 	}
 }
-// "remoteUser": "vscode"   // Specify login user
+"remoteUser": "vscode"   // Specify login user
 }
