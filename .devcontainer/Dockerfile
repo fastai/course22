@@ -28,6 +28,10 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # install python and system tools
 RUN apt install software-properties-common wget curl python3-dev python3-pip python3-wheel python3-setuptools -y
 RUN /usr/bin/python3 -m pip install --upgrade pip
+RUN apt-get install libcudnn8=8.9.0.*-1+cuda11.8 apt-get install libcudnn8-dev=8.9.0.*-1+cuda11.8 -y
+RUN apt-get install zlib1g g++ freeglut3-dev libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev libfreeimage-dev -y
+RUN apt-get install --no-install-recommends apt-utils -y
+RUN apt-get -y install procps lsb-release
     
    # RUN apt install -y python3 \
 #     && apt install -y git \
