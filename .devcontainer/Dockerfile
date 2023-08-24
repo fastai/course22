@@ -30,6 +30,8 @@ RUN apt install software-properties-common wget curl python3-dev python3-pip pyt
 RUN /usr/bin/python3 -m pip install --upgrade pip
 RUN apt-get install libcudnn8=8.9.0.*-1+cuda11.8 
 RUN apt-get install libcudnn8-dev=8.9.0.*-1+cuda11.8 -y
+# Need to clean up packages or we may run out of space in the cache
+RUN sudo apt-get clean
 RUN apt-get install zlib1g g++ freeglut3-dev libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev libfreeimage-dev -y
 RUN apt-get install --no-install-recommends apt-utils -y
 RUN apt-get -y install procps lsb-release
