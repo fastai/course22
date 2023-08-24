@@ -43,7 +43,7 @@ RUN echo "(*) Installing python packages..." \
     && rm /tmp/requirements.txt
     
 # Add .local/bin to path
-ENV PATH="/home/vscode/.local/bin:${PATH}"
+# ENV PATH="/home/vscode/.local/bin:${PATH}"
 
 # Add welcome message
 COPY welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt
