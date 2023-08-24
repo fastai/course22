@@ -1,6 +1,5 @@
 {
   "name": "CUDA",
-  //"image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", 
   "build": {
     "context": ".",
     "dockerfile": "Dockerfile"
@@ -27,7 +26,8 @@
         "ms-toolsai.jupyter-renderers",
         "ms-toolsai.vscode-jupyter-slideshow",
         "ms-python.vscode-pylance",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "run-ai.vscode-genv"
       ]
     }
 },
