@@ -27,7 +27,8 @@
         "ms-toolsai.vscode-jupyter-slideshow",
         "ms-python.vscode-pylance",
         "ms-azuretools.vscode-docker",
-        "run-ai.vscode-genv"
+        "run-ai.vscode-genv",
+        "ms-vscode-remote.remote-containers"
       ]
     }
 },
