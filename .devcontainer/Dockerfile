@@ -44,9 +44,6 @@ RUN echo "(*) Installing python packages with pip..." \
     
 # Add .local/bin to path
 ENV PATH="/home/vscode/.local/bin:${PATH}"
-# Pretend we are a codespaces instance so first run notice is printed
-ENV TERM_PROGRAM="codespaces"
-
 
 # Add welcome message
 COPY welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt
