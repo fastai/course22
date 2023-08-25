@@ -1,0 +1,17 @@
+duckduckgo_search
+fastai
+fastkaggle
+gradio
+graphviz
+ipywidgets
+jupyterlab
+kaggle
+nbdev
+plotly
+seaborn
+statsmodels
+sympy
+timm
+torch
+torchvision
+transformers
