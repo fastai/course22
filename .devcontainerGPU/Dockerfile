@@ -13,6 +13,12 @@ RUN echo "(*) Installing python and system tools..." \
     && apt-get install --no-install-recommends apt-utils -y \
     && apt-get -y install procps lsb-release \
     && /usr/bin/python3 -m pip install --upgrade pip
+    
+#  Install nvtop
+RUN echo "(*) Adding Mutiverse repository and installing nvtop..." \
+    && apt-add-repository multiverse \
+    &&  apt-get update \
+    && apt-get install nvtop
 
 # Need to clean up packages or we may run out of space in the cache
 RUN apt-get clean
