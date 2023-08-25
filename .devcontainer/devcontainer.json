@@ -14,7 +14,7 @@
   },
   "updateContentCommand": "bash .devcontainer/install-dev-tools.sh",
   "postCreateCommand": [
-    "cat /usr/local/etc/vscode-dev-containers/first-run-notice.txt && nvidia-smi"
+    "nvidia-smi"
   ],
    "customizations": {
     "vscode": {

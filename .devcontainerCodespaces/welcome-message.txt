@@ -1,7 +1,12 @@
-👋 Welcome to "Practical Deep Learning for Coders" in Codespaces!
+👋 Welcome to "Practical Deep Learning for Coders" in your own Decontainer with GPU support!  
+This container can run on Windows or Linux PCs with GPU support installed. 
+
+For Windows you will also need WSL2 with Ubuntu 22.04LTS installed, Docker Desktop installed on Windows, 
+and the Nvidia Container Toolkit installed on Linux in WSL2. 
+For Linux, you just need Docker and the Nvidia Container Toolkit. 
 
 🛠️  Your environment is fully setup with all the required software and machine learning libraries.
 
-🚀 To get started, either open the notebook file in the VS Code editor,
-   or open this Codespace with "Open in Jupyterlab" at https://github.com/codespaces
-
+🚀 To get started, open a Jupyter notebook file in the VS Code editor and start running the code.
+Have Fun!
+   
