@@ -7,18 +7,18 @@ RUN echo "(*) Update Ubuntu22 packages..." \
     && apt upgrade -y
 
 # Setup non-root user vscode
-ARG USERNAME=vscode
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
+# ARG USERNAME=vscode
+# ARG USER_UID=1000
+# ARG USER_GID=$USER_UID
 
 # Create the non-root user, vscode
-RUN groupadd --gid $USER_GID $USERNAME \
-    && useradd --uid $USER_UID --gid $USER_GID --shell /bin/bash -m $USERNAME \
-    #
-    # [Optional] Add sudo support. Omit if you don't need to install software after connecting.
-    && apt install -y sudo \
-    && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
-    && chmod 0440 /etc/sudoers.d/$USERNAME
+# RUN groupadd --gid $USER_GID $USERNAME \
+#     && useradd --uid $USER_UID --gid $USER_GID --shell /bin/bash -m $USERNAME \
+#     #
+#     # [Optional] Add sudo support. Omit if you don't need to install software after connecting.
+#     && apt install -y sudo \
+#     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
+#     && chmod 0440 /etc/sudoers.d/$USERNAME
 
 # install python and system tools
 RUN echo "(*) Installing python and system tools..." \

@@ -14,7 +14,7 @@
   },
   "updateContentCommand": "bash .devcontainer/install-dev-tools.sh",
   "postCreateCommand": [
-    "bash cat /usr/local/etc/vscode-dev-containers/first-run-notice.txt && nvidia-smi"
+    "cat /usr/local/etc/vscode-dev-containers/first-run-notice.txt && nvidia-smi"
   ],
    "customizations": {
     "vscode": {
@@ -33,10 +33,8 @@
     }
 },
 "features": {
-	"ghcr.io/devcontainers/features/git:1": {
-		"ppa": true,
-		"version": "latest"
-	}
+	"ghcr.io/devcontainers/features/git:1": {},
+	"ghcr.io/devcontainers/features/common-utils:2": {}
 },
 "remoteUser": "vscode"   // Specify login user
 }
