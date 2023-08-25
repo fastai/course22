@@ -1,11 +1,14 @@
 {
   "name": "CUDA",
-  "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", 
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+},
   "runArgs": [
     "--gpus=all"
   ],
-  "remoteEnv": {
-    "PATH": "${containerEnv:PATH}:/usr/local/cuda/bin",
+    "remoteEnv": {
+    "PATH": "/home/vscode/.local/bin:${containerEnv:PATH}",
     "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64",
     "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/usr/local/cuda"
   },
@@ -13,7 +16,7 @@
   "postCreateCommand": [
     "nvidia-smi"
   ],
-  "customizations": {
+   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
@@ -22,8 +25,16 @@
         "ms-toolsai.jupyter-keymap",
         "ms-toolsai.jupyter-renderers",
         "ms-toolsai.vscode-jupyter-slideshow",
-        "ms-python.vscode-pylance"
+        "ms-python.vscode-pylance",
+        "ms-azuretools.vscode-docker",
+        "run-ai.vscode-genv",
+        "ms-vscode-remote.remote-containers"
       ]
     }
-  }
+},
+"features": {
+	"ghcr.io/devcontainers/features/git:1": {},
+	"ghcr.io/devcontainers/features/common-utils:2": {}
+},
+"remoteUser": "vscode"   // Specify login user
 }
