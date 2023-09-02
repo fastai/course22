@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import nbformat
+from execnb.nbio import read_nb
 from nbdev.export import *
 from nbdev.clean import *
 from fastcore.all import *
@@ -30,6 +31,8 @@ def proc_all(
         path:str='.', # Path for source NBs
         dest_path:str='clean'): # Path for dest NBs
     path,dest_path = Path(path),Path(dest_path)
+    if not dest_path.is_dir():
+        dest_path.mkdir()
     fns = [f for f in path.iterdir() if f.suffix == '.ipynb' and not f.name.startswith('_')]
     for fn in fns: proc_nb(fn, dest=dest_path)
 
