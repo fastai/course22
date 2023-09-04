@@ -5,7 +5,8 @@
     "dockerfile": "Dockerfile"
 },
   "runArgs": [
-    "--gpus=all"
+    // "--gpus \"device=1,2\""   
+    "--gpus all"
   ],
     "remoteEnv": {
     "PATH": "/home/vscode/.local/bin:${containerEnv:PATH}",
