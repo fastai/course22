@@ -6,7 +6,7 @@
 },
   "runArgs": [
     // "--gpus \"device=1,2\""   
-    "--gpus all"
+    "--gpus=all"
   ],
     "remoteEnv": {
     "PATH": "/home/vscode/.local/bin:${containerEnv:PATH}",
