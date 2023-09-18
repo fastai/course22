@@ -1,8 +1,6 @@
-👋 Welcome to "Practical Deep Learning for Coders" in your own CUDA GPU devcontainer!
+👋 Welcome to "Practical Deep Learning for Coders" in Codespaces!
 
 🛠️  Your environment is fully setup with all the required software and machine learning libraries.
 
-🚀 To get started, open the Jupyter notebook file in the VS Code editor and start running your deep learning code.
-
-    Most importantly, have fun!
-
+🚀 To get started, either open the notebook file in the VS Code editor,
+   or open this Codespace with "Open in Jupyterlab" at https://github.com/codespaces
