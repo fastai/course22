@@ -29,8 +29,8 @@
             "ms-toolsai.vscode-jupyter-slideshow",
             "ms-python.vscode-pylance",
             "ms-azuretools.vscode-docker",
-            "run-ai.vscode-genv",
-            "ms-vscode-remote.remote-containers"
+            "ms-vscode-remote.remote-containers",            
+            "eamodio.gitlens"
           ]
         }
       }
