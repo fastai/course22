@@ -1,37 +1,26 @@
-// For more details, see https://aka.ms/devcontainer.json.
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-    "build": {
-        "context": ".",
-        "dockerfile": "Dockerfile"
-    },
+	// For CPU only machines
+	"name": "CPU",
+	"image": "lovellbrian/cpu"
 
-    // Uncomment to install NVIDIA CUDA - required for a GPU-powered codespace. For more details, see https://github.com/fastai/course22/blob/master/getting-started-with-codespaces.md#gpu-powered-codespaces
-    // "features": {
-    //     "ghcr.io/devcontainers/features/nvidia-cuda:1": {
-    //         "installCudnn": true
-    //     }
-    // },
+	// For GPU machines, uncomment  the next two lines and comment out the corresponding lines above
+	// "name": "GPU",
+	// "image": "lovellbrian/gpu"
 
-    "hostRequirements": {
-        "storage": "64gb"
-    },
-    "runArgs": [
-        "--shm-size=16g"
-    ],
-    "customizations": {
-        "vscode": {
-          "extensions": [
-            "ms-python.python",
-            "ms-toolsai.jupyter",
-            "ms-toolsai.vscode-jupyter-cell-tags",
-            "ms-toolsai.jupyter-keymap",
-            "ms-toolsai.jupyter-renderers",
-            "ms-toolsai.vscode-jupyter-slideshow",
-            "ms-python.vscode-pylance",
-            "ms-azuretools.vscode-docker",
-            "ms-vscode-remote.remote-containers",            
-            "eamodio.gitlens"
-          ]
-        }
-      }
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }
