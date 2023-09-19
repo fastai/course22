@@ -1,6 +1,6 @@
 {
-  "name": "CUDA",
-  "build": {
+    "name": "GPU",
+    "build": {
     "context": ".",
     "dockerfile": "Dockerfile"
 },

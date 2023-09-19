@@ -1,5 +1,6 @@
 // For more details, see https://aka.ms/devcontainer.json.
 {
+  "name": "CPU",
     "build": {
         "context": ".",
         "dockerfile": "Dockerfile"
