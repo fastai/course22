@@ -1,13 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	// For CPU only machines
-	"name": "CPU",
-	"image": "lovellbrian/cpu"
-
-	// For GPU machines, uncomment  the next two lines and comment out the corresponding lines above
-	// "name": "GPU",
-	// "image": "lovellbrian/gpu"
+		"name": "CUDA",
+		"build": {
+		  "context": ".",
+		  "dockerfile": "Dockerfile"
+	  }
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
