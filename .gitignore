@@ -1,7 +1,7 @@
 # Ignore everything in numeric folders
-[0-9]*/
+[0-9][0-9]/*
 # But don't ignore Jupyter notebook files
-![0-9]*/.ipynb
+![0-9][0-9]/*.ipynb
 
 .DS_Store
 *.csv
