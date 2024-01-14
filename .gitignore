@@ -1,5 +1,8 @@
-bird.jpg
-forest.jpg
+# Ignore everything in numeric folders
+[0-9]*/
+# But don't ignore Jupyter notebook files
+![0-9]*/.ipynb
+
 .DS_Store
 *.csv
 *.pkl
@@ -7,7 +10,7 @@ forest.jpg
 us-patent-phrase-to-phrase-matching*
 paddy-disease-classification/
 titanic*
-bird_or_not/
+
 
 *.swp
 ~*
