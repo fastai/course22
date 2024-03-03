@@ -1,0 +1,9 @@
+cudaroot=/usr/local/cuda-12.1
+libdir=${cudaroot}/targets/x86_64-linux/lib
+includedir=${cudaroot}/targets/x86_64-linux/include
+
+Name: nvToolsExt
+Description: NVIDIA Tools Extension
+Version: 12.1
+Libs: -L${libdir} -lnvToolsExt
+Cflags: -I${includedir}
