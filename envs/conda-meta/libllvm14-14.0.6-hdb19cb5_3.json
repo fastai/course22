@@ -1,0 +1,64 @@
+{
+  "arch": "x86_64",
+  "build": "hdb19cb5_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libffi >=3.4,<3.5",
+    "libffi >=3.4,<4.0a0",
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libllvm14-14.0.6-hdb19cb5_3",
+  "files": [
+    "lib/libLLVM-14.so",
+    "lib/libLTO.so.14",
+    "lib/libRemarks.so.14"
+  ],
+  "fn": "libllvm14-14.0.6-hdb19cb5_3.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libllvm14-14.0.6-hdb19cb5_3",
+    "type": 1
+  },
+  "md5": "aefea2b45cf32f12b4f1ffaa70aa3201",
+  "name": "libllvm14",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libllvm14-14.0.6-hdb19cb5_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-14.so",
+        "path_type": "hardlink",
+        "sha256": "e96ba88f26ac8d465ddc8bc4569cbb73a57c67d7ac56e95c701af4c168c3c60e",
+        "sha256_in_prefix": "e96ba88f26ac8d465ddc8bc4569cbb73a57c67d7ac56e95c701af4c168c3c60e",
+        "size_in_bytes": 131603152
+      },
+      {
+        "_path": "lib/libLTO.so.14",
+        "path_type": "hardlink",
+        "sha256": "68e203ccf1c201e3c015134fb17febb6f8de9ba8608ebc335e4cda9c455b3e00",
+        "sha256_in_prefix": "68e203ccf1c201e3c015134fb17febb6f8de9ba8608ebc335e4cda9c455b3e00",
+        "size_in_bytes": 104696
+      },
+      {
+        "_path": "lib/libRemarks.so.14",
+        "path_type": "hardlink",
+        "sha256": "06a1df05200ae512e775a0143058283a7474c9c2876553eb2bd0d71eb1d39110",
+        "sha256_in_prefix": "06a1df05200ae512e775a0143058283a7474c9c2876553eb2bd0d71eb1d39110",
+        "size_in_bytes": 15232
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::libllvm14==14.0.6=hdb19cb5_3",
+  "sha256": "67e1d43b6b6872fab33c4c99c8c6d37e4cd011222f53482b661b6dd17997c73c",
+  "size": 34976102,
+  "subdir": "linux-64",
+  "timestamp": 1683292829000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libllvm14-14.0.6-hdb19cb5_3.conda",
+  "version": "14.0.6"
+}

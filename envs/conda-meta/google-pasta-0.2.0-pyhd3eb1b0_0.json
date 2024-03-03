@@ -1,0 +1,405 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/google-pasta-0.2.0-pyhd3eb1b0_0",
+  "files": [
+    "lib/python3.9/site-packages/google_pasta-0.2.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/google_pasta-0.2.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/google_pasta-0.2.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/google_pasta-0.2.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/google_pasta-0.2.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/google_pasta-0.2.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/google_pasta-0.2.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pasta/__init__.py",
+    "lib/python3.9/site-packages/pasta/augment/__init__.py",
+    "lib/python3.9/site-packages/pasta/augment/errors.py",
+    "lib/python3.9/site-packages/pasta/augment/import_utils.py",
+    "lib/python3.9/site-packages/pasta/augment/import_utils_test.py",
+    "lib/python3.9/site-packages/pasta/augment/inline.py",
+    "lib/python3.9/site-packages/pasta/augment/inline_test.py",
+    "lib/python3.9/site-packages/pasta/augment/rename.py",
+    "lib/python3.9/site-packages/pasta/augment/rename_test.py",
+    "lib/python3.9/site-packages/pasta/base/__init__.py",
+    "lib/python3.9/site-packages/pasta/base/annotate.py",
+    "lib/python3.9/site-packages/pasta/base/annotate_test.py",
+    "lib/python3.9/site-packages/pasta/base/ast_constants.py",
+    "lib/python3.9/site-packages/pasta/base/ast_utils.py",
+    "lib/python3.9/site-packages/pasta/base/ast_utils_test.py",
+    "lib/python3.9/site-packages/pasta/base/codegen.py",
+    "lib/python3.9/site-packages/pasta/base/codegen_test.py",
+    "lib/python3.9/site-packages/pasta/base/formatting.py",
+    "lib/python3.9/site-packages/pasta/base/fstring_utils.py",
+    "lib/python3.9/site-packages/pasta/base/scope.py",
+    "lib/python3.9/site-packages/pasta/base/scope_test.py",
+    "lib/python3.9/site-packages/pasta/base/test_utils.py",
+    "lib/python3.9/site-packages/pasta/base/test_utils_test.py",
+    "lib/python3.9/site-packages/pasta/base/token_generator.py",
+    "lib/python3.9/site-packages/pasta/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/errors.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/import_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/import_utils_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/inline.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/inline_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/rename.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/augment/__pycache__/rename_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/annotate.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/annotate_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/ast_constants.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/ast_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/ast_utils_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/codegen.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/codegen_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/formatting.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/fstring_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/scope.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/scope_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/test_utils_test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pasta/base/__pycache__/token_generator.cpython-39.pyc"
+  ],
+  "fn": "google-pasta-0.2.0-pyhd3eb1b0_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/google-pasta-0.2.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "e0813186a62e13665a4e886815c50abc",
+  "name": "google-pasta",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/google-pasta-0.2.0-pyhd3eb1b0_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google_pasta-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_pasta-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "86aec7a18f3af96068276ae5ffdb9db082aa8429a317f30e5b99159bcb390fd8",
+        "sha256_in_prefix": "86aec7a18f3af96068276ae5ffdb9db082aa8429a317f30e5b99159bcb390fd8",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "site-packages/google_pasta-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "84315c5b288ecca36dcdd5f8ec19c91aa75ba96bda58e30feb775fad652425fe",
+        "sha256_in_prefix": "84315c5b288ecca36dcdd5f8ec19c91aa75ba96bda58e30feb775fad652425fe",
+        "size_in_bytes": 3870
+      },
+      {
+        "_path": "site-packages/google_pasta-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google_pasta-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/google_pasta-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "18b87975d5edbcda13316a6cebbb86731e74b22c948819637e5d01fab9921eb0",
+        "sha256_in_prefix": "18b87975d5edbcda13316a6cebbb86731e74b22c948819637e5d01fab9921eb0",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/google_pasta-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "071312e41ccc5d4a01923bd46ad42038e4b5164cc93e2b359314df06c7dba420",
+        "sha256_in_prefix": "071312e41ccc5d4a01923bd46ad42038e4b5164cc93e2b359314df06c7dba420",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/pasta/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bafc091b87452240b739c9fa0e6112de04a8984792abc239f58ddd59f9d0242e",
+        "sha256_in_prefix": "bafc091b87452240b739c9fa0e6112de04a8984792abc239f58ddd59f9d0242e",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "site-packages/pasta/augment/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pasta/augment/errors.py",
+        "path_type": "hardlink",
+        "sha256": "4c25065aa853b56ecdaf4f3c62d5a3674be0843638b42a19060390ce87487855",
+        "sha256_in_prefix": "4c25065aa853b56ecdaf4f3c62d5a3674be0843638b42a19060390ce87487855",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "site-packages/pasta/augment/import_utils.py",
+        "path_type": "hardlink",
+        "sha256": "68202db2c8271a044c72b707d33e9525992a764dd41c27730ee7d597c6e75787",
+        "sha256_in_prefix": "68202db2c8271a044c72b707d33e9525992a764dd41c27730ee7d597c6e75787",
+        "size_in_bytes": 7731
+      },
+      {
+        "_path": "site-packages/pasta/augment/import_utils_test.py",
+        "path_type": "hardlink",
+        "sha256": "92bf8c9f3989ad28c80dc0dc4938eda27d7037f6e0945cc9ee83db28bfeb8c37",
+        "sha256_in_prefix": "92bf8c9f3989ad28c80dc0dc4938eda27d7037f6e0945cc9ee83db28bfeb8c37",
+        "size_in_bytes": 14636
+      },
+      {
+        "_path": "site-packages/pasta/augment/inline.py",
+        "path_type": "hardlink",
+        "sha256": "f6e8ae5735392e392ee787490fb36aacaf8cf4ce4361f7bda45b873863d270b0",
+        "sha256_in_prefix": "f6e8ae5735392e392ee787490fb36aacaf8cf4ce4361f7bda45b873863d270b0",
+        "size_in_bytes": 2210
+      },
+      {
+        "_path": "site-packages/pasta/augment/inline_test.py",
+        "path_type": "hardlink",
+        "sha256": "e3075eb6934e7ca6ad2d64414525fab611909a98864397764515f5cb2a64001d",
+        "sha256_in_prefix": "e3075eb6934e7ca6ad2d64414525fab611909a98864397764515f5cb2a64001d",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "site-packages/pasta/augment/rename.py",
+        "path_type": "hardlink",
+        "sha256": "46cc3274f3bf05bfdea9cdd771f52f36eb5ee338d4f7c439fc2a10710f85da78",
+        "sha256_in_prefix": "46cc3274f3bf05bfdea9cdd771f52f36eb5ee338d4f7c439fc2a10710f85da78",
+        "size_in_bytes": 5090
+      },
+      {
+        "_path": "site-packages/pasta/augment/rename_test.py",
+        "path_type": "hardlink",
+        "sha256": "1375a5a2fcd37ab000e5fce890cecacc8194a98f94c0b70051e526194448b591",
+        "sha256_in_prefix": "1375a5a2fcd37ab000e5fce890cecacc8194a98f94c0b70051e526194448b591",
+        "size_in_bytes": 4262
+      },
+      {
+        "_path": "site-packages/pasta/base/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pasta/base/annotate.py",
+        "path_type": "hardlink",
+        "sha256": "03e9a2cde3f24784df7f014b9ed6f65b52671b12c02c16eb3c6d0d10c858e631",
+        "sha256_in_prefix": "03e9a2cde3f24784df7f014b9ed6f65b52671b12c02c16eb3c6d0d10c858e631",
+        "size_in_bytes": 55155
+      },
+      {
+        "_path": "site-packages/pasta/base/annotate_test.py",
+        "path_type": "hardlink",
+        "sha256": "dc297284985893205958f71e8b408eeeaf6c4530283020317e53fea6c58bb897",
+        "sha256_in_prefix": "dc297284985893205958f71e8b408eeeaf6c4530283020317e53fea6c58bb897",
+        "size_in_bytes": 15948
+      },
+      {
+        "_path": "site-packages/pasta/base/ast_constants.py",
+        "path_type": "hardlink",
+        "sha256": "a082c69e6f546a83d8ca980fc08a5c18cb533c176c34d728760960c6647c3e24",
+        "sha256_in_prefix": "a082c69e6f546a83d8ca980fc08a5c18cb533c176c34d728760960c6647c3e24",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "site-packages/pasta/base/ast_utils.py",
+        "path_type": "hardlink",
+        "sha256": "72f198c7b12fabf9aa34306785f6f8a557c4636cc0843bb855a58b3973f4c9b4",
+        "sha256_in_prefix": "72f198c7b12fabf9aa34306785f6f8a557c4636cc0843bb855a58b3973f4c9b4",
+        "size_in_bytes": 5500
+      },
+      {
+        "_path": "site-packages/pasta/base/ast_utils_test.py",
+        "path_type": "hardlink",
+        "sha256": "2e6f1e6e62eb707883622d2b1929cbe7fb73cc23dd587d2868f5f916a65c8638",
+        "sha256_in_prefix": "2e6f1e6e62eb707883622d2b1929cbe7fb73cc23dd587d2868f5f916a65c8638",
+        "size_in_bytes": 3564
+      },
+      {
+        "_path": "site-packages/pasta/base/codegen.py",
+        "path_type": "hardlink",
+        "sha256": "367295ba24a1f5d577e96453b6c9a1c31684f0cc8353cfe82cbf75786ccece2e",
+        "sha256_in_prefix": "367295ba24a1f5d577e96453b6c9a1c31684f0cc8353cfe82cbf75786ccece2e",
+        "size_in_bytes": 5390
+      },
+      {
+        "_path": "site-packages/pasta/base/codegen_test.py",
+        "path_type": "hardlink",
+        "sha256": "9fe3fc9e21eb094b3bbd53f89abebc67ff3f44bf7f443e8cdd5dc53af416dba5",
+        "sha256_in_prefix": "9fe3fc9e21eb094b3bbd53f89abebc67ff3f44bf7f443e8cdd5dc53af416dba5",
+        "size_in_bytes": 3313
+      },
+      {
+        "_path": "site-packages/pasta/base/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "3fbce9f0b121709419e30c3e6d98fec0e4935e323c3c9f2c9b3b8f4460f411b2",
+        "sha256_in_prefix": "3fbce9f0b121709419e30c3e6d98fec0e4935e323c3c9f2c9b3b8f4460f411b2",
+        "size_in_bytes": 1355
+      },
+      {
+        "_path": "site-packages/pasta/base/fstring_utils.py",
+        "path_type": "hardlink",
+        "sha256": "f94b679f682f4d2285ff5f6f76e3fb50d44dc168d8c7e5e6971c9ee6e4c5994e",
+        "sha256_in_prefix": "f94b679f682f4d2285ff5f6f76e3fb50d44dc168d8c7e5e6971c9ee6e4c5994e",
+        "size_in_bytes": 1415
+      },
+      {
+        "_path": "site-packages/pasta/base/scope.py",
+        "path_type": "hardlink",
+        "sha256": "84cb5cc236368f3079255c535b8e936a2e0e908996a54860025bac1198055e77",
+        "sha256_in_prefix": "84cb5cc236368f3079255c535b8e936a2e0e908996a54860025bac1198055e77",
+        "size_in_bytes": 8618
+      },
+      {
+        "_path": "site-packages/pasta/base/scope_test.py",
+        "path_type": "hardlink",
+        "sha256": "a6bd0e453ccf1adac975899caf57bd3bee73cc68920e24e41c0441e0d6aee1ab",
+        "sha256_in_prefix": "a6bd0e453ccf1adac975899caf57bd3bee73cc68920e24e41c0441e0d6aee1ab",
+        "size_in_bytes": 14804
+      },
+      {
+        "_path": "site-packages/pasta/base/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "4dcbfe0514a3a5da822fca20eea3fcd647af5c1b629bbf3260c9590c40fd9e46",
+        "sha256_in_prefix": "4dcbfe0514a3a5da822fca20eea3fcd647af5c1b629bbf3260c9590c40fd9e46",
+        "size_in_bytes": 3052
+      },
+      {
+        "_path": "site-packages/pasta/base/test_utils_test.py",
+        "path_type": "hardlink",
+        "sha256": "0c6349641e576a6b6fc4ad8b2fe407554523e6fe5c8a7738eb1ae1f5164cd744",
+        "sha256_in_prefix": "0c6349641e576a6b6fc4ad8b2fe407554523e6fe5c8a7738eb1ae1f5164cd744",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "site-packages/pasta/base/token_generator.py",
+        "path_type": "hardlink",
+        "sha256": "9ba2c66806059a1a33087b179e3fe6ffe14a68c7086563118fb596da1218c0ea",
+        "sha256_in_prefix": "9ba2c66806059a1a33087b179e3fe6ffe14a68c7086563118fb596da1218c0ea",
+        "size_in_bytes": 18115
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/errors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/import_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/import_utils_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/inline.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/inline_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/rename.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/augment/__pycache__/rename_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/annotate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/annotate_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/ast_constants.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/ast_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/ast_utils_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/codegen.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/codegen_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/formatting.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/fstring_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/scope.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/scope_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/test_utils_test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pasta/base/__pycache__/token_generator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "anaconda/noarch::google-pasta==0.2.0=pyhd3eb1b0_0",
+  "sha256": "2ac7dff32915a322178e1efb33472527e8906e6b72bf4991fd3ff8c4a76bf3a9",
+  "size": 43929,
+  "subdir": "noarch",
+  "timestamp": 1630578016000,
+  "url": "https://conda.anaconda.org/anaconda/noarch/google-pasta-0.2.0-pyhd3eb1b0_0.tar.bz2",
+  "version": "0.2.0"
+}

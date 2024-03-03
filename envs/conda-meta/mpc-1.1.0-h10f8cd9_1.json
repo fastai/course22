@@ -1,0 +1,93 @@
+{
+  "arch": "x86_64",
+  "build": "h10f8cd9_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "libgcc-ng >=7.2.0",
+    "mpfr >=4.0.1,<5.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/mpc-1.1.0-h10f8cd9_1",
+  "files": [
+    "include/mpc.h",
+    "lib/libmpc.a",
+    "lib/libmpc.la",
+    "lib/libmpc.so",
+    "lib/libmpc.so.3",
+    "lib/libmpc.so.3.1.0",
+    "share/info/mpc.info"
+  ],
+  "fn": "mpc-1.1.0-h10f8cd9_1.conda",
+  "license": "LGPL 3",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/mpc-1.1.0-h10f8cd9_1",
+    "type": 1
+  },
+  "md5": "a04e160ec0a1117f7638590e534f16c7",
+  "name": "mpc",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/mpc-1.1.0-h10f8cd9_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/mpc.h",
+        "path_type": "hardlink",
+        "sha256": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "sha256_in_prefix": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "size_in_bytes": 12898
+      },
+      {
+        "_path": "lib/libmpc.a",
+        "path_type": "hardlink",
+        "sha256": "e89ff784ad3eb82a53de3d68f26b838eea10a32b636c0fc96ef5fa4d191f71bc",
+        "sha256_in_prefix": "e89ff784ad3eb82a53de3d68f26b838eea10a32b636c0fc96ef5fa4d191f71bc",
+        "size_in_bytes": 249986
+      },
+      {
+        "_path": "lib/libmpc.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "9bc0c05b45aae8f5f04fc983126d0c7105108b5c24cea7645799cfca064b81a6",
+        "sha256_in_prefix": "d711b8f1df4500484b5a742b9c2c6db7f2c3a348e67ff7a3d8322943f5d109cb",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "lib/libmpc.so",
+        "path_type": "softlink",
+        "sha256": "83ce12fe2b2cef156ee5a8dff6b639a5ae8fd0f3c6da930e58897697cd301637",
+        "size_in_bytes": 114336
+      },
+      {
+        "_path": "lib/libmpc.so.3",
+        "path_type": "softlink",
+        "sha256": "83ce12fe2b2cef156ee5a8dff6b639a5ae8fd0f3c6da930e58897697cd301637",
+        "size_in_bytes": 114336
+      },
+      {
+        "_path": "lib/libmpc.so.3.1.0",
+        "path_type": "hardlink",
+        "sha256": "83ce12fe2b2cef156ee5a8dff6b639a5ae8fd0f3c6da930e58897697cd301637",
+        "sha256_in_prefix": "83ce12fe2b2cef156ee5a8dff6b639a5ae8fd0f3c6da930e58897697cd301637",
+        "size_in_bytes": 114336
+      },
+      {
+        "_path": "share/info/mpc.info",
+        "path_type": "hardlink",
+        "sha256": "661e792cc57d4703578a943aa2ba3fd9f87aa8c8ab9b1954e7b7c67f6a4d5789",
+        "sha256_in_prefix": "661e792cc57d4703578a943aa2ba3fd9f87aa8c8ab9b1954e7b7c67f6a4d5789",
+        "size_in_bytes": 88514
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::mpc==1.1.0=h10f8cd9_1",
+  "sha256": "90322d0e98d817ec615669aefb99d0bddce7e029ec7a7f3c5b48bd1bf4d41feb",
+  "size": 91993,
+  "subdir": "linux-64",
+  "timestamp": 1527612531000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/mpc-1.1.0-h10f8cd9_1.conda",
+  "version": "1.1.0"
+}

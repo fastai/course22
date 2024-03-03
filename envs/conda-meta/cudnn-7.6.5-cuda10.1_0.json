@@ -1,0 +1,65 @@
+{
+  "arch": "x86_64",
+  "build": "cuda10.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "cudatoolkit >=10.1,<10.2"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/cudnn-7.6.5-cuda10.1_0",
+  "files": [
+    "include/cudnn.h",
+    "lib/libcudnn.so",
+    "lib/libcudnn.so.7",
+    "lib/libcudnn.so.7.6.5"
+  ],
+  "fn": "cudnn-7.6.5-cuda10.1_0.tar.bz2",
+  "license": "Proprietary",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/cudnn-7.6.5-cuda10.1_0",
+    "type": 1
+  },
+  "md5": "f26fb613fdb2cc733802c8f2f8682eb0",
+  "name": "cudnn",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/cudnn-7.6.5-cuda10.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/cudnn.h",
+        "path_type": "hardlink",
+        "sha256": "9c6d4c25cd0c858e315df4553dd83f491796b4e8f0096437f5cd38ce930cc4fb",
+        "sha256_in_prefix": "9c6d4c25cd0c858e315df4553dd83f491796b4e8f0096437f5cd38ce930cc4fb",
+        "size_in_bytes": 134857
+      },
+      {
+        "_path": "lib/libcudnn.so",
+        "path_type": "softlink",
+        "sha256": "7560c8a2e29afde9bc82ed54612cb33be2fa0f53870603e53f981336bb30b9aa",
+        "size_in_bytes": 428724312
+      },
+      {
+        "_path": "lib/libcudnn.so.7",
+        "path_type": "softlink",
+        "sha256": "7560c8a2e29afde9bc82ed54612cb33be2fa0f53870603e53f981336bb30b9aa",
+        "size_in_bytes": 428724312
+      },
+      {
+        "_path": "lib/libcudnn.so.7.6.5",
+        "path_type": "hardlink",
+        "sha256": "7560c8a2e29afde9bc82ed54612cb33be2fa0f53870603e53f981336bb30b9aa",
+        "sha256_in_prefix": "7560c8a2e29afde9bc82ed54612cb33be2fa0f53870603e53f981336bb30b9aa",
+        "size_in_bytes": 428724312
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::cudnn==7.6.5=cuda10.1_0",
+  "sha256": "98d0422e4f59511fe9fa82945df23aad963b5ae15eb7c219395c7fbc617f06b4",
+  "size": 262774453,
+  "subdir": "linux-64",
+  "timestamp": 1576790463000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/cudnn-7.6.5-cuda10.1_0.tar.bz2",
+  "version": "7.6.5"
+}

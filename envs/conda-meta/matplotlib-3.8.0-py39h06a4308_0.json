@@ -1,0 +1,37 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.8.0,<3.8.1.0a0",
+    "pyqt >=5",
+    "python >=3.9,<3.10.0a0",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/matplotlib-3.8.0-py39h06a4308_0",
+  "files": [],
+  "fn": "matplotlib-3.8.0-py39h06a4308_0.conda",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/matplotlib-3.8.0-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "f96131484fa92291f565fe3cc5c5e480",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/matplotlib-3.8.0-py39h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::matplotlib==3.8.0=py39h06a4308_0",
+  "sha256": "66df62ed0c7888f1b50b1200d0a3c9dde815a6e3569a125ff91eb833ef7e14d9",
+  "size": 8011,
+  "subdir": "linux-64",
+  "timestamp": 1698692415000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/matplotlib-3.8.0-py39h06a4308_0.conda",
+  "version": "3.8.0"
+}

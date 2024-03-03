@@ -1,0 +1,49 @@
+# Print a test page, expecting the printer to run out of media
+{
+    PAUSE "Remove Paper"
+
+    NAME "Print file expecting media-empty"
+    OPERATION Print-Job
+    GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR name requesting-user-name $user
+	ATTR mimeMediaType document-format $filetype
+    FILE $filename
+    STATUS successful-ok
+
+    MONITOR-PRINTER-STATE $uri {
+        EXPECT printer-state-reasons WITH-VALUE "/^media-needed/" DEFINE-MATCH HAVE_MEDIA_NEEDED
+    }
+}
+
+{
+    PASS-IF-DEFINED HAVE_MEDIA_NEEDED
+
+    NAME "Wait for media-empty"
+    OPERATION Get-Printer-Attributes
+    GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR name requesting-user-name $user
+        ATTR keyword requested-attributes printer-state-reasons
+    STATUS successful-ok
+    EXPECT printer-state-reasons WITH-VALUE "/^media-needed/" REPEAT-NO-MATCH
+}
+
+{
+    PAUSE "Load Paper"
+
+    NAME "Wait for no media-empty"
+    OPERATION Get-Printer-Attributes
+    GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR name requesting-user-name $user
+        ATTR keyword requested-attributes printer-state-reasons
+    STATUS successful-ok
+    EXPECT printer-state-reasons WITH-VALUE "/^media-needed/" REPEAT-MATCH
+}

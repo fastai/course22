@@ -1,0 +1,63 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/cuda-nvrtc-12.1.105-0",
+  "files": [
+    "lib/libnvrtc-builtins.so.12.1",
+    "lib/libnvrtc-builtins.so.12.1.105",
+    "lib/libnvrtc.so.12",
+    "lib/libnvrtc.so.12.1.105"
+  ],
+  "fn": "cuda-nvrtc-12.1.105-0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/cuda-nvrtc-12.1.105-0",
+    "type": 1
+  },
+  "md5": "12c15423c4eeb41fee6df3a2e5ab53ab",
+  "name": "cuda-nvrtc",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/cuda-nvrtc-12.1.105-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libnvrtc-builtins.so.12.1",
+        "path_type": "softlink",
+        "sha256": "d0ffb4973b6651de10e60155e16d7f39a3ead8da0aa3b1a5be6fb181122a8f7d",
+        "size_in_bytes": 6846016
+      },
+      {
+        "_path": "lib/libnvrtc-builtins.so.12.1.105",
+        "path_type": "hardlink",
+        "sha256": "d0ffb4973b6651de10e60155e16d7f39a3ead8da0aa3b1a5be6fb181122a8f7d",
+        "sha256_in_prefix": "d0ffb4973b6651de10e60155e16d7f39a3ead8da0aa3b1a5be6fb181122a8f7d",
+        "size_in_bytes": 6846016
+      },
+      {
+        "_path": "lib/libnvrtc.so.12",
+        "path_type": "softlink",
+        "sha256": "8144a3bc736f59b9a271892b2440bdc3b49aee4436e687125a777d4d6ef4610c",
+        "size_in_bytes": 56875328
+      },
+      {
+        "_path": "lib/libnvrtc.so.12.1.105",
+        "path_type": "hardlink",
+        "sha256": "8144a3bc736f59b9a271892b2440bdc3b49aee4436e687125a777d4d6ef4610c",
+        "sha256_in_prefix": "8144a3bc736f59b9a271892b2440bdc3b49aee4436e687125a777d4d6ef4610c",
+        "size_in_bytes": 56875328
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "nvidia/linux-64::cuda-nvrtc==12.1.105=0",
+  "sha256": "33866252ee8515a30211ac8792fec628de1e9ead7f8e54deac5fe330b2e9a44c",
+  "size": 20683159,
+  "subdir": "linux-64",
+  "timestamp": 1680582964000,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/cuda-nvrtc-12.1.105-0.tar.bz2",
+  "version": "12.1.105"
+}

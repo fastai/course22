@@ -1,0 +1,337 @@
+@import url("cppapiref.css");
+@import url("dita.style.css");
+
+html, body { margin:0; padding:0; background:#fff; font-family:'Trebuchet MS', sans-serif; overflow:hidden }
+#header { background:#303030 url(bg-head.png) left bottom repeat-x; position:fixed; top:0; left:0; width:100%; height:53px; overflow:hidden; }
+#header #company { position:absolute; text-indent:-2000px; left:13px; top:15px; width:111px; height:23px; background:url(nvidia.png); }
+#header #site-title { position:absolute; text-indent:-2000px; left:213px; top:18px; width:329px; height:16px; background:url(devtools-documentation.png); }
+
+/* online class is added by JS */
+body.online #header #company { left:11px; top:12px; width:181px; height:31px; background:url(devzone.png); cursor:pointer; }
+body.online #header #site-title { top:15px }
+
+#site-content {
+  position:fixed; top:53px; bottom:0; left:0; right:0;
+  border-left:5px solid #303030;
+  border-bottom:5px solid #303030;
+  border-right:5px solid #303030;
+}
+
+#contents-container {
+  height:100%;
+  overflow:auto;
+}
+
+/* Equation warning and math highlighting */
+.math-unsupported { background:#f99; }
+
+#eqn-warning {
+  display:none;
+  background:#f99; color:#600;
+  padding:0.2em 10px;
+  font-size:12px;
+  overflow:auto;
+}
+
+#breadcrumbs {
+  text-align:left;
+  padding:10px;
+  font-size:14px;
+  margin:0px;
+  margin-bottom:1em;
+  float:left;
+}
+
+#release-info {
+  text-align:right;
+  padding:10px;
+  font-size:10px;
+  margin:0px;
+  margin-bottom:1em;
+  float:right;
+}
+
+tr.gray { background-color: lightgray; }
+
+/* for the search result highlighting */
+.highlight { background:yellow; }
+
+#search input {
+  position:absolute; width:204px; height:28px; top:12px; right:6px;
+  padding-left:26px;
+  font-size:14px; font-family:'Trebuchet MS', sans-serif; line-height:25px;
+
+  -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;
+  -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;
+
+  -webkit-box-shadow: 0px 1px #7D7D7D;
+  -moz-box-shadow: 0px 1px #7D7D7D;
+  box-shadow: 0px 1px #7D7D7D;
+
+  border:none;
+  color: #dadada;
+  background-color:#6F6F6F;
+
+  background: -moz-linear-gradient(top, #6F6F6F 0%, #555555 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6F6F6F), color-stop(100%,#555555));
+  background: -webkit-linear-gradient(top, #6F6F6F 0%, #555555 100%);
+  background: -o-linear-gradient(top, #6F6F6F 0%,#555555 100%);
+  background: -ms-linear-gradient(top, #6F6F6F 0%,#555555 100%);
+  background: linear-gradient(top, #6F6F6F 0%,#555555 100%);
+  -pie-background: linear-gradient(#6F6F6F, #555555);
+}
+
+#search-location { border:0 }
+#search-location legend { display: none; }
+/*#search-location legend {
+  text-indent:-2000px;
+  position:absolute; width:18px; height:18px; top:17px; right:186px;
+  background:url(magnify.png); border:0; padding:0; margin:0;
+}*/
+#search-location label { display:none }
+
+#search button[type="reset"] {
+  text-indent:-2000px; overflow:hidden;
+  position:absolute; width:20px; height:20px; top:17px; right:10px;
+  background:url(search-clear.png) no-repeat top left; border:0; padding:0; margin:0;
+  display:none;
+}
+
+/*#search #submit { display:none }*/
+#search #submit {
+  text-indent:-2000px; overflow:hidden;
+  position:absolute; width:20px; height:20px; top:17px; right:186px;
+  background:url(magnify.png) no-repeat top left; border:0; padding:0; margin:0;
+}
+
+#search button[type="reset"]:hover {
+  background-position-x:-20px;
+}
+body.search-visible #search button[type="reset"] {
+  display:block;
+}
+
+#site-nav {
+  height:100%;
+  float:left;
+  width:210px;
+  background-color:#d1d2d4;
+  overflow:auto;
+}
+
+#site-nav .category, #search-results .category { color:#fff; background:#3c3c3d url(bg-sidehead.png) left bottom repeat-x; padding:5px 1.7em; padding-right:6px; text-shadow:1px 1px #000; margin:0; font-size:12px; position:relative; line-height:120%; }
+
+#site-nav .category a { color:#fff; text-decoration:none; }
+#site-nav .category a:hover { color:#fff; text-decoration:underline;}
+
+#site-nav .section-link .twiddle { font-size:10px; width:1em; text-align:center; cursor:pointer; float:left; }
+
+#site-nav ul,
+#site-nav li { list-style-type:none; margin:0; padding:0; font-size:12px }
+#site-nav li { padding:0.3em 0; line-height:105%;  }
+#site-nav ul ul { margin-top:0.3em }
+
+#site-nav li a          { padding-left:1.8em; padding-right:0.6em; display:block;  }
+#site-nav li li a       { padding-left:2.8em }
+#site-nav li li li a    { padding-left:3.8em }
+#site-nav li li li li a { padding-left:4.8em }
+
+#site-nav li .twiddle          { padding-left:1.0em; }
+#site-nav li li .twiddle       { padding-left:2.0em; }
+#site-nav li li li .twiddle    { padding-left:3.0em; }
+#site-nav li li li li .twiddle { padding-left:4.0em; }
+
+#site-nav ul.closed,
+#site-nav li.closed ul { display:none; }
+
+#site-nav .current { font-weight:bold; text-shadow:1px 1px rgba(0,0,0,0.2); position:relative }
+#site-nav .current:after { content:'⇒'; position:absolute; top:0.2em; line-height:1.2em; right:6px; font-weight:bold; text-shadow:none; z-index:0; color:#666; }
+#site-nav .current > a { margin-right:1.6em } /* leave more space for arrow */
+#site-nav .current ul { font-weight:normal; text-shadow:none }
+
+#site-nav a { color:#000; text-decoration:none }
+#site-nav a:hover { color:#000; text-decoration:underline }
+
+#site-nav li { border-top:1px solid #c2c3c5; border-top:1px solid rgba(0,0,0,0.07) }
+#site-nav > ul > li:first-child { border:0 }
+#site-nav > ul { margin-right:2px } /* hack for IE8's solid colors to not overlap the shadow */
+
+#site-nav ul ul ul ul ul{ display:none }
+
+body.search-visible #search-results { display:block }
+#search-results { display:none; float:right; width:250px; height:100%; overflow-x:hidden; overflow-y:auto; background-color:#d1d2d4; border-left:5px solid #303030; }
+#search-results > h2 { display:none }
+#search-results > ol { list-style-type:none; margin:0; padding:0 }
+#search-results > ol > li { margin:0; padding:5px 9px; font-size:12px; border-top:1px solid rgba(0,0,0,0.07) }
+#search-results > ol > li:first-child { border-top:0; }
+#search-results > ol > li > h3 { margin:0; font-size:12px; text-shadow:1px 1px rgba(0,0,0,0.2) }
+#search-results > ol > li > p { margin:0; color:#666; line-height:105% }
+#search-results a { color:#000; text-decoration:none;  }
+#search-results a:hover { text-decoration:underline;  }
+#search-results strong { color:#444 }
+
+#contents { padding:1em 1.5em; margin-top:8pt; margin-bottom:8pt }
+#contents h1, #contents h2, #contents h3, #contents h4, #contents h5, #contents h6 { color:#76b900; margin:0; padding-top:0.3em; margin-bottom:0.5em; clear:both; }
+#contents > .header { display:none }
+#contents > .header > h1 { font-size:22px; color:#000; margin-bottom:1em; }
+#contents h2 { font-size:21px }
+#contents h3 { font-size:20px }
+#contents h4 { font-size:19px }
+#contents h5 { font-size:18px }
+#contents h6 { font-size:17px }
+#contents h5, #contents h6 { color:#000; }
+#contents .section { margin-top:1em; margin-bottom:2em }
+#contents .section.context { margin-bottom:0.8em }
+#contents .topic .topic h2 { font-size:21px }
+#contents .topic .topic h3 { font-size:20px }
+#contents .topic .topic h4 { font-size:19px; color:#406401; }
+#contents .topic .topic h5 { font-size:18px; color:#000; }
+#contents .topic .topic h6 { font-size:17px; color:#000; }
+#contents .topic .topic { margin-left:1em; padding-left:1em; border-left:3px double #eee; }
+
+#contents p { margin-top:10px; margin-bottom:10px; }
+#contents-end { visibility:hidden; margin-top:600px; }
+#contents a { color:#76b900; text-decoration:underline }
+#contents a:hover { color:#8c0; text-decoration:underline!important }
+
+#contents dl.landing-page { margin:2em; padding:0 }
+#contents dl.landing-page dt { font-weight:bold; margin:0; padding:0; font-size:15px; }
+#contents dl.landing-page dt a { text-decoration:none; }
+#contents dl.landing-page dd { margin:0; padding:0; margin-bottom:1em; }
+#contents dl.landing-page ul { margin-top:0 }
+#contents dl.landing-page li { color:rgba(0,0,0,0.3) }
+#contents dl.landing-page li a { text-decoration:none }
+#contents dl.landing-page li a:hover { text-decoration:underline }
+
+/* Hack for notebox table*/
+#contents table { padding: 2px; }
+#contents table.notebox {background-color: #DDEEBF} 
+#contents td.notebox {background-color: #DDEEBF}
+#contents tr.notebox {background-color: #DDEEBF}
+#contents table.nvidiagreen {background-color: #76B900} 
+#contents td.nvidiagreen {background-color: #76B900}
+#contents tr.nvidiagreen {background-color: #76B900}
+/* end notebox hack */
+
+/* Hack for text that needs to be in a red font */ 
+#contents .red {color: #FF0000} 
+/* end red text hack */ 
+
+/* Hack for text that needs to be in a gray font */ 
+/* Example: bug numbers in release notes*/
+#contents .gray {color: #A0A0A0} 
+/* end gray text hack */ 
+
+/* Hack to add horizontal rule with outputclass="hr" */ 
+/* Example: adding a line at the end of a topic to clarify where one topic ends & the next begins */
+#contents .hr{
+
+     height: 1px;  
+	 background-color: #A0A0A0;
+	 width: 100%; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 margin-top: 24px;
+	 margin-bottom: 24px; 
+
+}
+/* end horizontal rule hack */ 
+
+/* Hex based colors for table cells */
+#contents td.color-80B1D3 {background-color: #80B1D3}
+#contents td.color-8DD3C7 {background-color: #8DD3C7}
+#contents td.color-BEBADA {background-color: #BEBADA}
+#contents td.color-CCEBC5 {background-color: #CCEBC5}
+#contents td.color-D9D9D9 {background-color: #D9D9D9}
+#contents td.color-FB8072 {background-color: #FB8072}
+#contents td.color-FCCDE5 {background-color: #FCCDE5}
+#contents td.color-FDB462 {background-color: #FDB462}
+#contents td.color-FFFFB3 {background-color: #FFFFB3}
+
+*.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  /* Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/ */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#resize-nav {
+  float:left;
+  height:100%;
+  width:5px;
+  cursor:e-resize; cursor:ew-resize; cursor:col-resize;
+  background-color:#303030;
+  z-index:9900;
+}
+
+#resize-nav.nav-closed {
+  background:none;
+}
+
+#toggle-nav {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  -webkit-box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.3);
+  width:10px;
+  height:46px;
+  position:absolute;
+  top:50%;
+  margin-top:-20px;
+  background-color:#f7f7f7;
+  z-index:9999;
+  cursor:pointer;
+}
+
+#toggle-nav:after {
+  content:"";
+  border: solid 6px transparent;
+  border-right-width:6px;
+  border-left:none;
+  position:absolute;
+  top:50%;
+  left:50%; right:0;
+  margin-top:-6px;
+  margin-left:-3px;
+  width:0; height:0;
+  border-right-color:#898989;
+}
+
+#toggle-nav.nav-closed:after {
+  border-left-style:solid;
+  border-left-width:6px;
+  border-right:none;
+  border-left-color:#898989;
+}
+
+body.drag-active {
+  -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+  cursor:e-resize; cursor:ew-resize; cursor:col-resize;
+}
+
+ol.steps li { margin-bottom:1em }
+
+/* Fight some styling in cppapiref.css */
+code, .code, .codeph, pre, pre.screen { font-family:Consolas, Courier, 'Courier New', monospace; color:#240; background:#eaefe0; padding:0 0.2em; border:0!important; margin-bottom:1em }
+code, .codeph { background-color:#f4f7f0; }
+pre { padding:0.2em 0.5em }
+pre code { background-color:#eaefe0; padding:0 }
+h3 + pre, h4 + pre, h5 + pre { margin-top:0.2em }
+.cmd + pre.codeblock { margin-top:0.2em }
+#contents pre.prettyprint { margin-left:0 }
+
+img { max-width:100% }
+pre.codeblock, pre.screen { max-width:100%; overflow:auto }
+
+/* ********************** */
+/* Specific content hacks */
+/* ********************** */
+
+/* Fix kepler-tuning-guide.html#references */
+#references h3 { font-size:100%; color:#000; font-weight:normal; display:inline; }
+#references h3 + p { display:inline }

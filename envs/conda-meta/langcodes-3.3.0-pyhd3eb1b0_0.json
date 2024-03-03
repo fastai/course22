@@ -1,0 +1,258 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/langcodes-3.3.0-pyhd3eb1b0_0",
+  "files": [
+    "lib/python3.9/site-packages/langcodes-3.3.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/langcodes-3.3.0.dist-info/LICENSE.txt",
+    "lib/python3.9/site-packages/langcodes-3.3.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/langcodes-3.3.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/langcodes-3.3.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/langcodes-3.3.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/langcodes-3.3.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/langcodes/__init__.py",
+    "lib/python3.9/site-packages/langcodes/build_data.py",
+    "lib/python3.9/site-packages/langcodes/data/language-subtag-registry.txt",
+    "lib/python3.9/site-packages/langcodes/data_dicts.py",
+    "lib/python3.9/site-packages/langcodes/language_distance.py",
+    "lib/python3.9/site-packages/langcodes/language_lists.py",
+    "lib/python3.9/site-packages/langcodes/py.typed",
+    "lib/python3.9/site-packages/langcodes/registry_parser.py",
+    "lib/python3.9/site-packages/langcodes/tag_parser.py",
+    "lib/python3.9/site-packages/langcodes/tests/README.md",
+    "lib/python3.9/site-packages/langcodes/tests/test_alpha3.py",
+    "lib/python3.9/site-packages/langcodes/tests/test_language_data.py",
+    "lib/python3.9/site-packages/langcodes/tests/test_wikt_languages.py",
+    "lib/python3.9/site-packages/langcodes/util.py",
+    "lib/python3.9/site-packages/langcodes/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/__pycache__/build_data.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/__pycache__/data_dicts.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/__pycache__/language_distance.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/__pycache__/language_lists.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/__pycache__/registry_parser.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/__pycache__/tag_parser.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/tests/__pycache__/test_alpha3.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/tests/__pycache__/test_language_data.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/tests/__pycache__/test_wikt_languages.cpython-39.pyc",
+    "lib/python3.9/site-packages/langcodes/__pycache__/util.cpython-39.pyc"
+  ],
+  "fn": "langcodes-3.3.0-pyhd3eb1b0_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/langcodes-3.3.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "8546706e944c70c75fcc9cc72dfc7ff7",
+  "name": "langcodes",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/langcodes-3.3.0-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/langcodes-3.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/langcodes-3.3.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a0cceca169e5eed22f00f4c001c3851026e56cb60632904548889eb79a3c226d",
+        "sha256_in_prefix": "a0cceca169e5eed22f00f4c001c3851026e56cb60632904548889eb79a3c226d",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "site-packages/langcodes-3.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "548467cfab042d1c32c84f1ed0ea32a40c3ed5967405aff641f46782bc62eb7d",
+        "sha256_in_prefix": "548467cfab042d1c32c84f1ed0ea32a40c3ed5967405aff641f46782bc62eb7d",
+        "size_in_bytes": 29469
+      },
+      {
+        "_path": "site-packages/langcodes-3.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "26f59b63db5f16f0dfa63a28e02ccd958194ffde6eb441d35af141e48ee8715a",
+        "sha256_in_prefix": "26f59b63db5f16f0dfa63a28e02ccd958194ffde6eb441d35af141e48ee8715a",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "site-packages/langcodes-3.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langcodes-3.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "57b8957243fe198ade7afb130e7bf57808a742dfda02bc270319a73f48328016",
+        "sha256_in_prefix": "57b8957243fe198ade7afb130e7bf57808a742dfda02bc270319a73f48328016",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/langcodes-3.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6041d84a92471d84a9830675404177bb491403eb84c7efa3916c41cfd1bffecf",
+        "sha256_in_prefix": "6041d84a92471d84a9830675404177bb491403eb84c7efa3916c41cfd1bffecf",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/langcodes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a5d745675e96bd3b12f1ddcf5a2f8ba8c38d19f820d3c56252f0ec46fe00dd3f",
+        "sha256_in_prefix": "a5d745675e96bd3b12f1ddcf5a2f8ba8c38d19f820d3c56252f0ec46fe00dd3f",
+        "size_in_bytes": 69456
+      },
+      {
+        "_path": "site-packages/langcodes/build_data.py",
+        "path_type": "hardlink",
+        "sha256": "3f95e5a044282a0372014ab7e9d860fee11c11dd08e318e079cb3e7e1b7ea276",
+        "sha256_in_prefix": "3f95e5a044282a0372014ab7e9d860fee11c11dd08e318e079cb3e7e1b7ea276",
+        "size_in_bytes": 10120
+      },
+      {
+        "_path": "site-packages/langcodes/data/language-subtag-registry.txt",
+        "path_type": "hardlink",
+        "sha256": "c7b8078016e99de39bf5e758a376d54ac51bccb3c4e0d89502d2b11cb19070ce",
+        "sha256_in_prefix": "c7b8078016e99de39bf5e758a376d54ac51bccb3c4e0d89502d2b11cb19070ce",
+        "size_in_bytes": 715867
+      },
+      {
+        "_path": "site-packages/langcodes/data_dicts.py",
+        "path_type": "hardlink",
+        "sha256": "f0058d862155868728592920b816378c4b7237f28e6c4dbab779e02945df9f5a",
+        "sha256_in_prefix": "f0058d862155868728592920b816378c4b7237f28e6c4dbab779e02945df9f5a",
+        "size_in_bytes": 113788
+      },
+      {
+        "_path": "site-packages/langcodes/language_distance.py",
+        "path_type": "hardlink",
+        "sha256": "ae9bd4fa0945227fb01f15baf760af16cb737dd585233afee86857f73bd719cd",
+        "sha256_in_prefix": "ae9bd4fa0945227fb01f15baf760af16cb737dd585233afee86857f73bd719cd",
+        "size_in_bytes": 5751
+      },
+      {
+        "_path": "site-packages/langcodes/language_lists.py",
+        "path_type": "hardlink",
+        "sha256": "919e5a8dcf88d55b77eb52ea0dc802cd426d8abd42833c0b57a30d135b333958",
+        "sha256_in_prefix": "919e5a8dcf88d55b77eb52ea0dc802cd426d8abd42833c0b57a30d135b333958",
+        "size_in_bytes": 8650
+      },
+      {
+        "_path": "site-packages/langcodes/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langcodes/registry_parser.py",
+        "path_type": "hardlink",
+        "sha256": "7ff6caa97a0f28321a2f1a52eaabe088fbed7f36591faa4c38d3b0d63c9c98f7",
+        "sha256_in_prefix": "7ff6caa97a0f28321a2f1a52eaabe088fbed7f36591faa4c38d3b0d63c9c98f7",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "site-packages/langcodes/tag_parser.py",
+        "path_type": "hardlink",
+        "sha256": "75acc6e38e0f779442dad6f4c6db5ab913fc74dbad095f016b7e8f522c6bba56",
+        "sha256_in_prefix": "75acc6e38e0f779442dad6f4c6db5ab913fc74dbad095f016b7e8f522c6bba56",
+        "size_in_bytes": 14283
+      },
+      {
+        "_path": "site-packages/langcodes/tests/README.md",
+        "path_type": "hardlink",
+        "sha256": "9cbb997a2a481cd614786e72955ee3225a350d9eed206544c3aa6b75c58c369d",
+        "sha256_in_prefix": "9cbb997a2a481cd614786e72955ee3225a350d9eed206544c3aa6b75c58c369d",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "site-packages/langcodes/tests/test_alpha3.py",
+        "path_type": "hardlink",
+        "sha256": "28b7fedf4e18eb4c2c2ca721a1a8ae671433b109d7b26629f5e1966511a953af",
+        "sha256_in_prefix": "28b7fedf4e18eb4c2c2ca721a1a8ae671433b109d7b26629f5e1966511a953af",
+        "size_in_bytes": 797
+      },
+      {
+        "_path": "site-packages/langcodes/tests/test_language_data.py",
+        "path_type": "hardlink",
+        "sha256": "2fbd5a9409a1361090151cc6c2208209e18305406340cd33c549dc76c5102d75",
+        "sha256_in_prefix": "2fbd5a9409a1361090151cc6c2208209e18305406340cd33c549dc76c5102d75",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "site-packages/langcodes/tests/test_wikt_languages.py",
+        "path_type": "hardlink",
+        "sha256": "f729838c44a704c6dcc2e288ccc611992f3392296e5db0db4567d8c5d3f3e487",
+        "sha256_in_prefix": "f729838c44a704c6dcc2e288ccc611992f3392296e5db0db4567d8c5d3f3e487",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "site-packages/langcodes/util.py",
+        "path_type": "hardlink",
+        "sha256": "069614b6e3f9ad01043467942a1c86d53111731d36f162941b01bff0a98e2ecc",
+        "sha256_in_prefix": "069614b6e3f9ad01043467942a1c86d53111731d36f162941b01bff0a98e2ecc",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/build_data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/data_dicts.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/language_distance.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/language_lists.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/registry_parser.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/tag_parser.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/tests/__pycache__/test_alpha3.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/tests/__pycache__/test_language_data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/tests/__pycache__/test_wikt_languages.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langcodes/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::langcodes==3.3.0=pyhd3eb1b0_0",
+  "sha256": "12468c23c8bcdfa59c18d7546299d31c084c9a874931b63e9098fea831c2d046",
+  "size": 154994,
+  "subdir": "noarch",
+  "timestamp": 1643477794000,
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/langcodes-3.3.0-pyhd3eb1b0_0.conda",
+  "version": "3.3.0"
+}

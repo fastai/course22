@@ -1,0 +1,216 @@
+#! /bin/sh
+#
+# Copyright by The HDF Group.
+# Copyright by the Board of Trustees of the University of Illinois.
+# All rights reserved.
+#
+# This file is part of HDF5.  The full HDF5 copyright notice, including
+# terms governing use, modification, and redistribution, is contained in
+# the COPYING file, which can be found at the root of the source code
+# distribution tree, or in https://support.hdfgroup.org/ftp/HDF5/releases.
+# If you do not have access to either file, you may request a copy from
+# help@hdfgroup.org.
+#
+
+## Update HDF5 compiler tools after the HDF5 software has been installed  ##
+## in a new location.							  ##
+## For help page, use "h5redeploy -help"				  ##
+##									  ##
+
+# Constants definitions
+EXIT_SUCCESS=0
+EXIT_FAILURE=1
+
+# Function definitions
+
+# show help page
+usage() {
+  # A wonderfully informative "usage" message.
+  echo "usage: $prog_name [OPTIONS]"
+  echo "  OPTIONS:"
+  echo "    -help|help        This help message"
+  echo "    -echo             Show all the shell commands executed"
+  echo "    -force            No prompt, just do it"
+  echo "    -prefix=DIR       New directory to find HDF5 lib/ and include/"
+  echo "                        subdirectories [default: current directory]"
+  echo "    -exec-prefix=DIR  New directory to find HDF5 lib/"
+  echo "                        subdirectory [default: <prefix>]"
+  echo "    -libdir=DIR       New directory for the HDF5 lib directory"
+  echo "                        [default: <exec-prefix>/lib]"
+  echo "    -includedir=DIR   New directory for the HDF5 header files"
+  echo "                        [default: <prefix>/include]"
+  echo "    -tool=TOOL        Tool to update. TOOL must be in the current"
+  echo "                        directory and writable. [default: $h5tools]"
+  echo "    -show             Show the commands without executing them"
+  echo " "
+  exit $EXIT_FAILURE
+}
+
+# display variable values
+dump_vars(){
+    echo "====Showing all variable values====="
+    echo prefix=$prefix
+    echo h5tools=$h5tools
+    echo "====End Showing====="
+}
+
+# show actions to be taken
+show_action()
+{
+    echo "Update the following tools because they are now installed at a new directory"
+    for t in $foundtools; do
+	echo "${t}:"
+	echo "   current setting=`sed -e '/^prefix=/s/prefix=//p' -e d $t`"
+	echo "   new     setting="\""$prefix"\"
+    done
+}
+
+
+# Report Error message
+ERROR()
+{
+    echo "***ERROR***"
+    echo "$1"
+}
+
+# Main
+#
+############################################################################
+## Installation directories:						  ##
+## prefix	architecture-independent files.				  ##
+## exec_prefix	architecture-dependent files, default is <prefix>.	  ##
+## libdir	libraries, default is <exec_prefix>/lib.		  ##
+## includedir	header files, default is <prefix/include>.		  ##
+## Not used here:							  ##
+## bindir	executables, <exec_prefix/bin>.				  ##
+############################################################################
+# Initialization
+h5tools="h5cc h5pcc h5fc h5pfc h5c++"	# possible hdf5 tools
+foundtools=		# tools found and will be modified
+fmode=			# force mode, default is off
+prefix=
+exec_prefix=
+libdir=
+includedir=
+
+# Parse options
+for arg in $@ ; do
+  case "$arg" in
+    -prefix=*)
+      prefix="`echo $arg | cut -f2 -d=`"
+      ;;
+    -exec-prefix=*)
+      exec_prefix="`echo $arg | cut -f2 -d=`"
+      ;;
+    -libdir=*)
+      libdir="`echo $arg | cut -f2 -d=`"
+      ;;
+    -includedir=*)
+      includedir="`echo $arg | cut -f2 -d=`"
+      ;;
+    -echo)
+      set -x
+      ;;
+    -show)
+      SHOW="echo"
+      ;;
+    -tool=*)
+      h5tools="`echo $arg | cut -f2 -d=`"
+      ;;
+    -help|help)
+      usage
+      ;;
+    -force)
+      fmode=yes
+      ;;
+    *)
+      ERROR "Unknown Option($arg)"
+      usage
+      exit $EXIT_FAILURE
+      ;;
+  esac
+done
+
+# Set to default value, one above where i am, if not given by user
+if [ -z "$prefix" ]; then
+    prefix=`(cd ..;pwd)`
+fi
+if [ -z "$exec_prefix" ]; then
+    exec_prefix='${prefix}'		# use single quotes to prevent expansion of $
+fi
+if [ -z "$libdir" ]; then
+    libdir='${exec_prefix}'/lib	# use single quotes to prevent expansion of $
+fi
+if [ -z "$includedir" ]; then
+    includedir='${prefix}'/include # use single quotes to prevent expansion of $
+fi
+
+for x in $h5tools; do
+    if [ -f $x ]; then
+	foundtools="$foundtools $x"
+	if [ ! -w $x ]; then
+	    ERROR "h5tool($x) is not writable"
+	    exit $EXIT_FAILURE
+	fi
+    fi
+done
+
+if [ -z "$foundtools" ]; then
+    ERROR "found no tools to modify"
+    exit $EXIT_FAILURE
+fi
+
+# Show actions to be taken and get consent
+show_action
+# Ask confirmation unless fmode is on
+if [ x-$fmode = x- ]; then
+    echo "Continue? (yes/no)"
+    read ansx
+    ans=`echo $ansx | tr "[A-Z]" "[a-z]"`
+    if [ x-$ans != x-yes ]; then
+	echo ABORT.  No tools changed.
+	exit $EXIT_FAILURE
+    fi
+fi
+
+
+# Create the update commands
+CMDFILE=/tmp/h5redeploy.$$
+touch $CMDFILE
+chmod 0600 $CMDFILE
+echo "/^prefix=/c"                    >> $CMDFILE
+echo prefix=\""$prefix"\"             >> $CMDFILE
+echo .                                >> $CMDFILE
+echo "/^exec_prefix=/c"               >> $CMDFILE
+echo exec_prefix=\""$exec_prefix"\"   >> $CMDFILE
+echo .                                >> $CMDFILE
+echo "/^libdir=/c"                    >> $CMDFILE
+echo libdir=\""$libdir"\"             >> $CMDFILE
+echo .                                >> $CMDFILE
+echo "/^includedir=/c"                >> $CMDFILE
+echo includedir=\""$includedir"\"     >> $CMDFILE
+echo .                                >> $CMDFILE
+(echo w; echo q)                      >> $CMDFILE
+
+
+# Update them
+if [ "$SHOW" = "echo" ]; then
+    echo "===Update commands are:===="
+    cat $CMDFILE
+    echo "===End Update commands====="
+fi
+
+for t in $foundtools; do
+    echo Update $t ...
+    COMMAND="ed - $t"
+    if [ "$SHOW" = "echo" ]; then
+	echo $COMMAND
+    else
+	$COMMAND < $CMDFILE
+    fi
+done
+
+
+# Cleanup
+rm -f $CMDFILE
+exit $EXIT_SUCCESS

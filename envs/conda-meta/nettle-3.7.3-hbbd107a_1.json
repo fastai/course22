@@ -1,0 +1,673 @@
+{
+  "arch": "x86_64",
+  "build": "hbbd107a_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/nettle-3.7.3-hbbd107a_1",
+  "files": [
+    "bin/nettle-hash",
+    "bin/nettle-lfib-stream",
+    "bin/nettle-pbkdf2",
+    "bin/pkcs1-conv",
+    "bin/sexp-conv",
+    "include/nettle/aes.h",
+    "include/nettle/arcfour.h",
+    "include/nettle/arctwo.h",
+    "include/nettle/asn1.h",
+    "include/nettle/base16.h",
+    "include/nettle/base64.h",
+    "include/nettle/bignum.h",
+    "include/nettle/blowfish.h",
+    "include/nettle/buffer.h",
+    "include/nettle/camellia.h",
+    "include/nettle/cast128.h",
+    "include/nettle/cbc.h",
+    "include/nettle/ccm.h",
+    "include/nettle/cfb.h",
+    "include/nettle/chacha-poly1305.h",
+    "include/nettle/chacha.h",
+    "include/nettle/cmac.h",
+    "include/nettle/ctr.h",
+    "include/nettle/curve25519.h",
+    "include/nettle/curve448.h",
+    "include/nettle/des.h",
+    "include/nettle/dsa-compat.h",
+    "include/nettle/dsa.h",
+    "include/nettle/eax.h",
+    "include/nettle/ecc-curve.h",
+    "include/nettle/ecc.h",
+    "include/nettle/ecdsa.h",
+    "include/nettle/eddsa.h",
+    "include/nettle/gcm.h",
+    "include/nettle/gostdsa.h",
+    "include/nettle/gosthash94.h",
+    "include/nettle/hkdf.h",
+    "include/nettle/hmac.h",
+    "include/nettle/knuth-lfib.h",
+    "include/nettle/macros.h",
+    "include/nettle/md2.h",
+    "include/nettle/md4.h",
+    "include/nettle/md5-compat.h",
+    "include/nettle/md5.h",
+    "include/nettle/memops.h",
+    "include/nettle/memxor.h",
+    "include/nettle/nettle-meta.h",
+    "include/nettle/nettle-types.h",
+    "include/nettle/pbkdf2.h",
+    "include/nettle/pgp.h",
+    "include/nettle/pkcs1.h",
+    "include/nettle/poly1305.h",
+    "include/nettle/pss-mgf1.h",
+    "include/nettle/pss.h",
+    "include/nettle/realloc.h",
+    "include/nettle/ripemd160.h",
+    "include/nettle/rsa.h",
+    "include/nettle/salsa20.h",
+    "include/nettle/serpent.h",
+    "include/nettle/sexp.h",
+    "include/nettle/sha.h",
+    "include/nettle/sha1.h",
+    "include/nettle/sha2.h",
+    "include/nettle/sha3.h",
+    "include/nettle/siv-cmac.h",
+    "include/nettle/streebog.h",
+    "include/nettle/twofish.h",
+    "include/nettle/umac.h",
+    "include/nettle/version.h",
+    "include/nettle/xts.h",
+    "include/nettle/yarrow.h",
+    "lib/libhogweed.so",
+    "lib/libhogweed.so.6",
+    "lib/libhogweed.so.6.4",
+    "lib/libnettle.so",
+    "lib/libnettle.so.8",
+    "lib/libnettle.so.8.4",
+    "lib/pkgconfig/hogweed.pc",
+    "lib/pkgconfig/nettle.pc"
+  ],
+  "fn": "nettle-3.7.3-hbbd107a_1.conda",
+  "license": "GPL-2.0-or-later AND LGPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/nettle-3.7.3-hbbd107a_1",
+    "type": 1
+  },
+  "md5": "9357ec2203a163a92a0337eb5e8e3356",
+  "name": "nettle",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/nettle-3.7.3-hbbd107a_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nettle-hash",
+        "path_type": "hardlink",
+        "sha256": "f88a73aa26e5d4e48255d714987b0cbd2eba178bc7a8f0f0ca7999ecae1c4015",
+        "sha256_in_prefix": "f88a73aa26e5d4e48255d714987b0cbd2eba178bc7a8f0f0ca7999ecae1c4015",
+        "size_in_bytes": 91768
+      },
+      {
+        "_path": "bin/nettle-lfib-stream",
+        "path_type": "hardlink",
+        "sha256": "abab18693fb55a91e911dd8268f74ff85d567aba6eab38e9ebdb9cdf7630436a",
+        "sha256_in_prefix": "abab18693fb55a91e911dd8268f74ff85d567aba6eab38e9ebdb9cdf7630436a",
+        "size_in_bytes": 69816
+      },
+      {
+        "_path": "bin/nettle-pbkdf2",
+        "path_type": "hardlink",
+        "sha256": "34bb00431176f21e235315efd0fc2357266b7bd442d9fcd900ea12b90d81fd98",
+        "sha256_in_prefix": "34bb00431176f21e235315efd0fc2357266b7bd442d9fcd900ea12b90d81fd98",
+        "size_in_bytes": 92584
+      },
+      {
+        "_path": "bin/pkcs1-conv",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/nettle_1623151066875/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "c5ab6c7747a20b7803f7f1b8886670f6c6c4b3c6582d26262fb39399e95a978f",
+        "sha256_in_prefix": "13608e15d87fe47af95c00f2b50fc7980accbf758d8fd49ae87efdc0e6c2abab",
+        "size_in_bytes": 137992
+      },
+      {
+        "_path": "bin/sexp-conv",
+        "path_type": "hardlink",
+        "sha256": "3b58c714d9c41e98df6ad1139c3ece727339e6cb5da47142d15e06b44c8b3051",
+        "sha256_in_prefix": "3b58c714d9c41e98df6ad1139c3ece727339e6cb5da47142d15e06b44c8b3051",
+        "size_in_bytes": 176424
+      },
+      {
+        "_path": "include/nettle/aes.h",
+        "path_type": "hardlink",
+        "sha256": "bc71d108394bf92a711a241f8bc69d9ee36d2b9810b6084f5475d1de620d960c",
+        "sha256_in_prefix": "bc71d108394bf92a711a241f8bc69d9ee36d2b9810b6084f5475d1de620d960c",
+        "size_in_bytes": 5221
+      },
+      {
+        "_path": "include/nettle/arcfour.h",
+        "path_type": "hardlink",
+        "sha256": "5c770d26d23f2925086c809ab384e1a7e0bf3e57f4967d55bfcf081fab0368b0",
+        "sha256_in_prefix": "5c770d26d23f2925086c809ab384e1a7e0bf3e57f4967d55bfcf081fab0368b0",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "include/nettle/arctwo.h",
+        "path_type": "hardlink",
+        "sha256": "4f266529b2ac20c843d4c463aec035efb0269b22f0e3fc291a812160b045ff4f",
+        "sha256_in_prefix": "4f266529b2ac20c843d4c463aec035efb0269b22f0e3fc291a812160b045ff4f",
+        "size_in_bytes": 3013
+      },
+      {
+        "_path": "include/nettle/asn1.h",
+        "path_type": "hardlink",
+        "sha256": "c18dc28e2c89f79c07c706d3b1b5e8a27f0d4c5ec0efac53835526ee5d73abe2",
+        "sha256_in_prefix": "c18dc28e2c89f79c07c706d3b1b5e8a27f0d4c5ec0efac53835526ee5d73abe2",
+        "size_in_bytes": 4217
+      },
+      {
+        "_path": "include/nettle/base16.h",
+        "path_type": "hardlink",
+        "sha256": "e061c93f76b002661fd4599869b3ae7452ede39ff48ca1843cf601fb41f2dd93",
+        "sha256_in_prefix": "e061c93f76b002661fd4599869b3ae7452ede39ff48ca1843cf601fb41f2dd93",
+        "size_in_bytes": 3097
+      },
+      {
+        "_path": "include/nettle/base64.h",
+        "path_type": "hardlink",
+        "sha256": "b3463c83c0940d654b7fcdb453f0b46b5c8ed9cd6ac30a9e8b48024090b0a594",
+        "sha256_in_prefix": "b3463c83c0940d654b7fcdb453f0b46b5c8ed9cd6ac30a9e8b48024090b0a594",
+        "size_in_bytes": 5342
+      },
+      {
+        "_path": "include/nettle/bignum.h",
+        "path_type": "hardlink",
+        "sha256": "54ba51d57768bf53861a9fce86d9064d1675d6e18f20ed02299c0e1276acd243",
+        "sha256_in_prefix": "54ba51d57768bf53861a9fce86d9064d1675d6e18f20ed02299c0e1276acd243",
+        "size_in_bytes": 3331
+      },
+      {
+        "_path": "include/nettle/blowfish.h",
+        "path_type": "hardlink",
+        "sha256": "090750fb750e8b226a5764727ec92f170f304d1cd51b31eee5ba664091863541",
+        "sha256_in_prefix": "090750fb750e8b226a5764727ec92f170f304d1cd51b31eee5ba664091863541",
+        "size_in_bytes": 3063
+      },
+      {
+        "_path": "include/nettle/buffer.h",
+        "path_type": "hardlink",
+        "sha256": "a9a82aa50b0bedb47686d72f639a8d5e5e056f3659785a63433d884c79620a61",
+        "sha256_in_prefix": "a9a82aa50b0bedb47686d72f639a8d5e5e056f3659785a63433d884c79620a61",
+        "size_in_bytes": 2760
+      },
+      {
+        "_path": "include/nettle/camellia.h",
+        "path_type": "hardlink",
+        "sha256": "93e64783568a8c66d807785ed4d93d8d9637b28168afabbc2b3eb40b288480e8",
+        "sha256_in_prefix": "93e64783568a8c66d807785ed4d93d8d9637b28168afabbc2b3eb40b288480e8",
+        "size_in_bytes": 4252
+      },
+      {
+        "_path": "include/nettle/cast128.h",
+        "path_type": "hardlink",
+        "sha256": "0c9844236752c644fe3f870a5d9b18397c8cb03cb54ec9714be918c16ac89278",
+        "sha256_in_prefix": "0c9844236752c644fe3f870a5d9b18397c8cb03cb54ec9714be918c16ac89278",
+        "size_in_bytes": 2218
+      },
+      {
+        "_path": "include/nettle/cbc.h",
+        "path_type": "hardlink",
+        "sha256": "27d59eb95045b14cba52a5514bfad5b078718c2c5529b1b5b5dcd1a218a229d4",
+        "sha256_in_prefix": "27d59eb95045b14cba52a5514bfad5b078718c2c5529b1b5b5dcd1a218a229d4",
+        "size_in_bytes": 2420
+      },
+      {
+        "_path": "include/nettle/ccm.h",
+        "path_type": "hardlink",
+        "sha256": "20a5588bc7a6fd299de28f4698fffd51fb4ae94ff519429ca0962e49128ed7e4",
+        "sha256_in_prefix": "20a5588bc7a6fd299de28f4698fffd51fb4ae94ff519429ca0962e49128ed7e4",
+        "size_in_bytes": 9625
+      },
+      {
+        "_path": "include/nettle/cfb.h",
+        "path_type": "hardlink",
+        "sha256": "f4c8f046c0b8f85fa3a2e2263c92caf45bbd150f05527f5873674b51a64d9f3d",
+        "sha256_in_prefix": "f4c8f046c0b8f85fa3a2e2263c92caf45bbd150f05527f5873674b51a64d9f3d",
+        "size_in_bytes": 3495
+      },
+      {
+        "_path": "include/nettle/chacha-poly1305.h",
+        "path_type": "hardlink",
+        "sha256": "be105a7c9294ec61afdebba0732a686bc1c7c2dff50309cf002b6e4fc9b4d5d5",
+        "sha256_in_prefix": "be105a7c9294ec61afdebba0732a686bc1c7c2dff50309cf002b6e4fc9b4d5d5",
+        "size_in_bytes": 2841
+      },
+      {
+        "_path": "include/nettle/chacha.h",
+        "path_type": "hardlink",
+        "sha256": "d45d5f0087b7ea782fe986968c6a60d77e4cda21b876cf94c5c861ef949c3c86",
+        "sha256_in_prefix": "d45d5f0087b7ea782fe986968c6a60d77e4cda21b876cf94c5c861ef949c3c86",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "include/nettle/cmac.h",
+        "path_type": "hardlink",
+        "sha256": "e9dca7073be02fc557b1de8bd0728431f2dc81d19e5601e79b684b6f4846e6a8",
+        "sha256_in_prefix": "e9dca7073be02fc557b1de8bd0728431f2dc81d19e5601e79b684b6f4846e6a8",
+        "size_in_bytes": 6730
+      },
+      {
+        "_path": "include/nettle/ctr.h",
+        "path_type": "hardlink",
+        "sha256": "fbc508d64a6d86fc804e12870d586641b5734834a94b0bc05f598d45480756c8",
+        "sha256_in_prefix": "fbc508d64a6d86fc804e12870d586641b5734834a94b0bc05f598d45480756c8",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "include/nettle/curve25519.h",
+        "path_type": "hardlink",
+        "sha256": "e538cde50433b684782a74de44ba6f1725da1d8d6edf3bd442de21eac19adec6",
+        "sha256_in_prefix": "e538cde50433b684782a74de44ba6f1725da1d8d6edf3bd442de21eac19adec6",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "include/nettle/curve448.h",
+        "path_type": "hardlink",
+        "sha256": "fab160b9d84c1675cd99ca5ff3bf2df3c74c3e4ec8e06a5f15a88bda67077ace",
+        "sha256_in_prefix": "fab160b9d84c1675cd99ca5ff3bf2df3c74c3e4ec8e06a5f15a88bda67077ace",
+        "size_in_bytes": 1485
+      },
+      {
+        "_path": "include/nettle/des.h",
+        "path_type": "hardlink",
+        "sha256": "879e6452a7ec997ad01688c122e6ec0fae489df64cea1a4a518d67d307e1b880",
+        "sha256_in_prefix": "879e6452a7ec997ad01688c122e6ec0fae489df64cea1a4a518d67d307e1b880",
+        "size_in_bytes": 2922
+      },
+      {
+        "_path": "include/nettle/dsa-compat.h",
+        "path_type": "hardlink",
+        "sha256": "6712bf45cff07d12ff9e797b284c898d67e4ccaa674026610bacb5bce0c834c2",
+        "sha256_in_prefix": "6712bf45cff07d12ff9e797b284c898d67e4ccaa674026610bacb5bce0c834c2",
+        "size_in_bytes": 5263
+      },
+      {
+        "_path": "include/nettle/dsa.h",
+        "path_type": "hardlink",
+        "sha256": "eb757c014c62cb8bb40c4d69f68be536fce3e437e3d0d47ee942502d9e967b52",
+        "sha256_in_prefix": "eb757c014c62cb8bb40c4d69f68be536fce3e437e3d0d47ee942502d9e967b52",
+        "size_in_bytes": 5639
+      },
+      {
+        "_path": "include/nettle/eax.h",
+        "path_type": "hardlink",
+        "sha256": "9bc741f045a07a6d6a2e7b5bca36128cead2ae03585afec5fdcae5b6a1034daf",
+        "sha256_in_prefix": "9bc741f045a07a6d6a2e7b5bca36128cead2ae03585afec5fdcae5b6a1034daf",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "include/nettle/ecc-curve.h",
+        "path_type": "hardlink",
+        "sha256": "b2a4a107ac04a9b0472186f9f7e77fe62bccc2c499eacdfe6b8f80f2ab79a3e0",
+        "sha256_in_prefix": "b2a4a107ac04a9b0472186f9f7e77fe62bccc2c499eacdfe6b8f80f2ab79a3e0",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "include/nettle/ecc.h",
+        "path_type": "hardlink",
+        "sha256": "7f80a92eae458bf1129fa7272f1804a488867ddba9f20b7fa9c88c4d7037934f",
+        "sha256_in_prefix": "7f80a92eae458bf1129fa7272f1804a488867ddba9f20b7fa9c88c4d7037934f",
+        "size_in_bytes": 4794
+      },
+      {
+        "_path": "include/nettle/ecdsa.h",
+        "path_type": "hardlink",
+        "sha256": "3632e4b461527d4abf7db75abf35954b4ddc2eb39b54239b1b4091311f9e08e3",
+        "sha256_in_prefix": "3632e4b461527d4abf7db75abf35954b4ddc2eb39b54239b1b4091311f9e08e3",
+        "size_in_bytes": 2924
+      },
+      {
+        "_path": "include/nettle/eddsa.h",
+        "path_type": "hardlink",
+        "sha256": "1a6f5c04ed744d7a1e10b327d10382f091e3fd69dfaa0731089d07a4cc62d811",
+        "sha256_in_prefix": "1a6f5c04ed744d7a1e10b327d10382f091e3fd69dfaa0731089d07a4cc62d811",
+        "size_in_bytes": 2486
+      },
+      {
+        "_path": "include/nettle/gcm.h",
+        "path_type": "hardlink",
+        "sha256": "d6e7a1a4720b6daa5d2919ce1ce390f25a169516bb4e521c420cdd4ebf374d5f",
+        "sha256_in_prefix": "d6e7a1a4720b6daa5d2919ce1ce390f25a169516bb4e521c420cdd4ebf374d5f",
+        "size_in_bytes": 10760
+      },
+      {
+        "_path": "include/nettle/gostdsa.h",
+        "path_type": "hardlink",
+        "sha256": "f4ec6c1e4aee644a76b312efb3947a2c5c9253e406e6e8c5989da85e35bb2c3e",
+        "sha256_in_prefix": "f4ec6c1e4aee644a76b312efb3947a2c5c9253e406e6e8c5989da85e35bb2c3e",
+        "size_in_bytes": 3073
+      },
+      {
+        "_path": "include/nettle/gosthash94.h",
+        "path_type": "hardlink",
+        "sha256": "8f50d6c92ed90e5f44762f10122e265d88247ff0137b0a4393c54b2f3f7b5025",
+        "sha256_in_prefix": "8f50d6c92ed90e5f44762f10122e265d88247ff0137b0a4393c54b2f3f7b5025",
+        "size_in_bytes": 3897
+      },
+      {
+        "_path": "include/nettle/hkdf.h",
+        "path_type": "hardlink",
+        "sha256": "908555fdae5cd4cd0323abe8147cdcf2df68b6014bc58db7bddbd2c336635797",
+        "sha256_in_prefix": "908555fdae5cd4cd0323abe8147cdcf2df68b6014bc58db7bddbd2c336635797",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "include/nettle/hmac.h",
+        "path_type": "hardlink",
+        "sha256": "a466a51dcc289f73b7bed5885305ce8db1e41fe753aca4805d72a7a6fa6e7679",
+        "sha256_in_prefix": "a466a51dcc289f73b7bed5885305ce8db1e41fe753aca4805d72a7a6fa6e7679",
+        "size_in_bytes": 8055
+      },
+      {
+        "_path": "include/nettle/knuth-lfib.h",
+        "path_type": "hardlink",
+        "sha256": "34fb346030c568a182d4593bce236b47523d0141a4c25123f68ee5b1b106e191",
+        "sha256_in_prefix": "34fb346030c568a182d4593bce236b47523d0141a4c25123f68ee5b1b106e191",
+        "size_in_bytes": 2214
+      },
+      {
+        "_path": "include/nettle/macros.h",
+        "path_type": "hardlink",
+        "sha256": "faa0a6c8ad612581fdc6fcd86157c70a1d022b27fb360ac6b7bdf225a6f2e835",
+        "sha256_in_prefix": "faa0a6c8ad612581fdc6fcd86157c70a1d022b27fb360ac6b7bdf225a6f2e835",
+        "size_in_bytes": 7309
+      },
+      {
+        "_path": "include/nettle/md2.h",
+        "path_type": "hardlink",
+        "sha256": "896445c24a53ee87ef413c5119d5c5b47475d1b01cf6eb755cbecf1b9b6da3cc",
+        "sha256_in_prefix": "896445c24a53ee87ef413c5119d5c5b47475d1b01cf6eb755cbecf1b9b6da3cc",
+        "size_in_bytes": 1893
+      },
+      {
+        "_path": "include/nettle/md4.h",
+        "path_type": "hardlink",
+        "sha256": "433642a6b67b9ee6d908c61749ab53220ecf239d7d20c075bda85408ea2974a9",
+        "sha256_in_prefix": "433642a6b67b9ee6d908c61749ab53220ecf239d7d20c075bda85408ea2974a9",
+        "size_in_bytes": 2009
+      },
+      {
+        "_path": "include/nettle/md5-compat.h",
+        "path_type": "hardlink",
+        "sha256": "9671142df4f658aafeb665dba598ab2c28daeafa4b404efd16f9a270253bc50d",
+        "sha256_in_prefix": "9671142df4f658aafeb665dba598ab2c28daeafa4b404efd16f9a270253bc50d",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "include/nettle/md5.h",
+        "path_type": "hardlink",
+        "sha256": "c1742a2b62d31229b70bb50db916bd1bb566e89eee5783597cd4552ed5ce786f",
+        "sha256_in_prefix": "c1742a2b62d31229b70bb50db916bd1bb566e89eee5783597cd4552ed5ce786f",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "include/nettle/memops.h",
+        "path_type": "hardlink",
+        "sha256": "3db0e3fd7efd64e4e61da79ac60d9dc13263322097995695a04079f74b7d2d68",
+        "sha256_in_prefix": "3db0e3fd7efd64e4e61da79ac60d9dc13263322097995695a04079f74b7d2d68",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "include/nettle/memxor.h",
+        "path_type": "hardlink",
+        "sha256": "e5f50e687f42d1176aa685818981d632780098df79e3a26f927b3f72efdc22f0",
+        "sha256_in_prefix": "e5f50e687f42d1176aa685818981d632780098df79e3a26f927b3f72efdc22f0",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "include/nettle/nettle-meta.h",
+        "path_type": "hardlink",
+        "sha256": "df0c6b94b122677fb556a1f448bd26f45a519b8ab4ee53aec9e0324e6630d185",
+        "sha256_in_prefix": "df0c6b94b122677fb556a1f448bd26f45a519b8ab4ee53aec9e0324e6630d185",
+        "size_in_bytes": 9144
+      },
+      {
+        "_path": "include/nettle/nettle-types.h",
+        "path_type": "hardlink",
+        "sha256": "94fbd0d196da3856f9a02f471efee53425dace7edf2ccc96b2fc394afc0ed013",
+        "sha256_in_prefix": "94fbd0d196da3856f9a02f471efee53425dace7edf2ccc96b2fc394afc0ed013",
+        "size_in_bytes": 3635
+      },
+      {
+        "_path": "include/nettle/pbkdf2.h",
+        "path_type": "hardlink",
+        "sha256": "2d722d2c63ec99875f69e62ee38bf01ca9a8996631d51876d75001062e012cf9",
+        "sha256_in_prefix": "2d722d2c63ec99875f69e62ee38bf01ca9a8996631d51876d75001062e012cf9",
+        "size_in_bytes": 3141
+      },
+      {
+        "_path": "include/nettle/pgp.h",
+        "path_type": "hardlink",
+        "sha256": "187afbaaf88b81016e1365adb5685c236b19e3af5d3c35e32da580fdd463331b",
+        "sha256_in_prefix": "187afbaaf88b81016e1365adb5685c236b19e3af5d3c35e32da580fdd463331b",
+        "size_in_bytes": 6337
+      },
+      {
+        "_path": "include/nettle/pkcs1.h",
+        "path_type": "hardlink",
+        "sha256": "7fe5e7bd6bf6ca2379c82005de28169927a40827a246975d3db3f5c133390f9d",
+        "sha256_in_prefix": "7fe5e7bd6bf6ca2379c82005de28169927a40827a246975d3db3f5c133390f9d",
+        "size_in_bytes": 3062
+      },
+      {
+        "_path": "include/nettle/poly1305.h",
+        "path_type": "hardlink",
+        "sha256": "1a4ff5eccc23da86164666cf6d2b08ddc16aba9373e0bad8e28973401cba6965",
+        "sha256_in_prefix": "1a4ff5eccc23da86164666cf6d2b08ddc16aba9373e0bad8e28973401cba6965",
+        "size_in_bytes": 3105
+      },
+      {
+        "_path": "include/nettle/pss-mgf1.h",
+        "path_type": "hardlink",
+        "sha256": "4579ab2bc313e69079cc89f4b5f6a66aa3ad9bc627632299398a485b4ef1115f",
+        "sha256_in_prefix": "4579ab2bc313e69079cc89f4b5f6a66aa3ad9bc627632299398a485b4ef1115f",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "include/nettle/pss.h",
+        "path_type": "hardlink",
+        "sha256": "1a47eee9b6f0b98568b351bcc85b5bf4dce6cf1c41a1ce27db097e3c24952af3",
+        "sha256_in_prefix": "1a47eee9b6f0b98568b351bcc85b5bf4dce6cf1c41a1ce27db097e3c24952af3",
+        "size_in_bytes": 1648
+      },
+      {
+        "_path": "include/nettle/realloc.h",
+        "path_type": "hardlink",
+        "sha256": "4c2a7c5247fcfddedea5bad32bce9adb4b3f317d842c3057481ac5fc645d52bb",
+        "sha256_in_prefix": "4c2a7c5247fcfddedea5bad32bce9adb4b3f317d842c3057481ac5fc645d52bb",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "include/nettle/ripemd160.h",
+        "path_type": "hardlink",
+        "sha256": "49a7a4f4ea29a3b904ceffa415a6bcf341c0acb9f8290df8eec8f6752b41ece0",
+        "sha256_in_prefix": "49a7a4f4ea29a3b904ceffa415a6bcf341c0acb9f8290df8eec8f6752b41ece0",
+        "size_in_bytes": 2088
+      },
+      {
+        "_path": "include/nettle/rsa.h",
+        "path_type": "hardlink",
+        "sha256": "99022a9a979956bcb670d03826c67f9da7b7e6f887fdd9621ca9e7a8066dde2d",
+        "sha256_in_prefix": "99022a9a979956bcb670d03826c67f9da7b7e6f887fdd9621ca9e7a8066dde2d",
+        "size_in_bytes": 16409
+      },
+      {
+        "_path": "include/nettle/salsa20.h",
+        "path_type": "hardlink",
+        "sha256": "a025e8f7c8da851cceeb22a40eb1c04d00e9e9e38cf41df85183ab91cc757c7e",
+        "sha256_in_prefix": "a025e8f7c8da851cceeb22a40eb1c04d00e9e9e38cf41df85183ab91cc757c7e",
+        "size_in_bytes": 2863
+      },
+      {
+        "_path": "include/nettle/serpent.h",
+        "path_type": "hardlink",
+        "sha256": "25cc956eb037d6ad22ba2e3dfa19febc0a1606e4086adac2d6d1e01e4f93c723",
+        "sha256_in_prefix": "25cc956eb037d6ad22ba2e3dfa19febc0a1606e4086adac2d6d1e01e4f93c723",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "include/nettle/sexp.h",
+        "path_type": "hardlink",
+        "sha256": "0b01b2ae50f9d8eb8befd9c3e8d994c1dd29f53d329912adbb6871c0a381b75a",
+        "sha256_in_prefix": "0b01b2ae50f9d8eb8befd9c3e8d994c1dd29f53d329912adbb6871c0a381b75a",
+        "size_in_bytes": 5974
+      },
+      {
+        "_path": "include/nettle/sha.h",
+        "path_type": "hardlink",
+        "sha256": "1b22ed7bade0f944edfb8ba227e8b674d2a0175a45ddb2db177677c50ff1d2d8",
+        "sha256_in_prefix": "1b22ed7bade0f944edfb8ba227e8b674d2a0175a45ddb2db177677c50ff1d2d8",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "include/nettle/sha1.h",
+        "path_type": "hardlink",
+        "sha256": "d1c5a4840e3f935d384d6be5142d4594351b0c214e32f2c494c7d4df6d31c9f0",
+        "sha256_in_prefix": "d1c5a4840e3f935d384d6be5142d4594351b0c214e32f2c494c7d4df6d31c9f0",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "include/nettle/sha2.h",
+        "path_type": "hardlink",
+        "sha256": "b0fbc6c75feaa5d1edb4deca4cc29237021f4d90ec75949e3c4b5eb3eb18e9da",
+        "sha256_in_prefix": "b0fbc6c75feaa5d1edb4deca4cc29237021f4d90ec75949e3c4b5eb3eb18e9da",
+        "size_in_bytes": 4942
+      },
+      {
+        "_path": "include/nettle/sha3.h",
+        "path_type": "hardlink",
+        "sha256": "99b54ab432360e37d698a98dda111deecaa394463468e1cef8b128e5b48a6e18",
+        "sha256_in_prefix": "99b54ab432360e37d698a98dda111deecaa394463468e1cef8b128e5b48a6e18",
+        "size_in_bytes": 4545
+      },
+      {
+        "_path": "include/nettle/siv-cmac.h",
+        "path_type": "hardlink",
+        "sha256": "6d0e1bc4b3d1f9bb03732be1a63de6f0cf6b8237f70b708b5de4ca361acc5d0e",
+        "sha256_in_prefix": "6d0e1bc4b3d1f9bb03732be1a63de6f0cf6b8237f70b708b5de4ca361acc5d0e",
+        "size_in_bytes": 4356
+      },
+      {
+        "_path": "include/nettle/streebog.h",
+        "path_type": "hardlink",
+        "sha256": "2a94aa579113cd9220ea08b7321b36f22b379ca9b57a816ea5c489158731cdde",
+        "sha256_in_prefix": "2a94aa579113cd9220ea08b7321b36f22b379ca9b57a816ea5c489158731cdde",
+        "size_in_bytes": 2659
+      },
+      {
+        "_path": "include/nettle/twofish.h",
+        "path_type": "hardlink",
+        "sha256": "4e1d9f28d1cfe916fc5ff3d40148d689495405af78885586b6fefe20498885c4",
+        "sha256_in_prefix": "4e1d9f28d1cfe916fc5ff3d40148d689495405af78885586b6fefe20498885c4",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "include/nettle/umac.h",
+        "path_type": "hardlink",
+        "sha256": "969f61cb628cb69c87d71069df9db205dde6a5203b079bbc20ca6ce7494b44a4",
+        "sha256_in_prefix": "969f61cb628cb69c87d71069df9db205dde6a5203b079bbc20ca6ce7494b44a4",
+        "size_in_bytes": 5584
+      },
+      {
+        "_path": "include/nettle/version.h",
+        "path_type": "hardlink",
+        "sha256": "d801b1e5cdaf512f354fcd1363b8d8eb26f28e76867d20a1a3160165481c10cb",
+        "sha256_in_prefix": "d801b1e5cdaf512f354fcd1363b8d8eb26f28e76867d20a1a3160165481c10cb",
+        "size_in_bytes": 1655
+      },
+      {
+        "_path": "include/nettle/xts.h",
+        "path_type": "hardlink",
+        "sha256": "3a7f9a12e911613d9a67b25d6043f71adf2f8d2d17fbabe95363fee718528cac",
+        "sha256_in_prefix": "3a7f9a12e911613d9a67b25d6043f71adf2f8d2d17fbabe95363fee718528cac",
+        "size_in_bytes": 3959
+      },
+      {
+        "_path": "include/nettle/yarrow.h",
+        "path_type": "hardlink",
+        "sha256": "326d2f27f0997b621b25e775ed93403da8703d46d5dfc9a3bf0a71bc84c6f611",
+        "sha256_in_prefix": "326d2f27f0997b621b25e775ed93403da8703d46d5dfc9a3bf0a71bc84c6f611",
+        "size_in_bytes": 3684
+      },
+      {
+        "_path": "lib/libhogweed.so",
+        "path_type": "softlink",
+        "sha256": "8535a3d2b04e103c36638d39212db3efbfc5e9c32664fbda3239075bff2dca4c",
+        "size_in_bytes": 1227960
+      },
+      {
+        "_path": "lib/libhogweed.so.6",
+        "path_type": "softlink",
+        "sha256": "8535a3d2b04e103c36638d39212db3efbfc5e9c32664fbda3239075bff2dca4c",
+        "size_in_bytes": 1227960
+      },
+      {
+        "_path": "lib/libhogweed.so.6.4",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/nettle_1623151066875/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "8535a3d2b04e103c36638d39212db3efbfc5e9c32664fbda3239075bff2dca4c",
+        "sha256_in_prefix": "bd89d37df1eaaa0b3b1aefbe3511ad3a63711a91057435e78fb9e6fba2e01bf1",
+        "size_in_bytes": 1227960
+      },
+      {
+        "_path": "lib/libnettle.so",
+        "path_type": "softlink",
+        "sha256": "90708fbbce4c895ba7c413e5e91107a7b14c7d9a789cffd0be93657d91832678",
+        "size_in_bytes": 1509784
+      },
+      {
+        "_path": "lib/libnettle.so.8",
+        "path_type": "softlink",
+        "sha256": "90708fbbce4c895ba7c413e5e91107a7b14c7d9a789cffd0be93657d91832678",
+        "size_in_bytes": 1509784
+      },
+      {
+        "_path": "lib/libnettle.so.8.4",
+        "path_type": "hardlink",
+        "sha256": "90708fbbce4c895ba7c413e5e91107a7b14c7d9a789cffd0be93657d91832678",
+        "sha256_in_prefix": "90708fbbce4c895ba7c413e5e91107a7b14c7d9a789cffd0be93657d91832678",
+        "size_in_bytes": 1509784
+      },
+      {
+        "_path": "lib/pkgconfig/hogweed.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/nettle_1623151066875/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "8ee053e45ed8a42c15c795571526680377dea0158581d96b5b8a6113bd7d4ee9",
+        "sha256_in_prefix": "044bb4e0ca99b52d8f9eb3d1cd86d07decbb0c1a67e9f1685c1c58d9d35cdb2b",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "lib/pkgconfig/nettle.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/nettle_1623151066875/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "4edbba5de2d711fbf2b577595d9756f1e166ab0fa9dd288fb6bcc4aac8b22869",
+        "sha256_in_prefix": "77eb55c95609b91cc5e0f5b8d4c926cbafaa4904871ec1badf680476d6fa368c",
+        "size_in_bytes": 781
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::nettle==3.7.3=hbbd107a_1",
+  "sha256": "8b41d588238bac265c740eafa2170b5df2fd31c2db3d7081301d98b0ba814a2d",
+  "size": 828846,
+  "subdir": "linux-64",
+  "timestamp": 1623151158000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/nettle-3.7.3-hbbd107a_1.conda",
+  "version": "3.7.3"
+}

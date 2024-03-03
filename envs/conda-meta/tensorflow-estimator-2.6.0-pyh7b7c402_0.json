@@ -1,0 +1,1621 @@
+{
+  "build": "pyh7b7c402_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "absl-py >=0.7.0",
+    "astor >=0.6.0",
+    "gast >=0.2.0",
+    "grpcio >=1.8.6",
+    "numpy >=1.16.1",
+    "protobuf >=3.6.1",
+    "python",
+    "six >=1.10.0",
+    "termcolor >=1.1.0",
+    "wrapt >=1.11.1"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/tensorflow-estimator-2.6.0-pyh7b7c402_0",
+  "files": [
+    "lib/python3.9/site-packages/tensorflow_estimator-2.6.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/tensorflow_estimator-2.6.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/tensorflow_estimator-2.6.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/tensorflow_estimator-2.6.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/tensorflow_estimator-2.6.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/tensorflow_estimator-2.6.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/tensorflow_estimator-2.6.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/tensorflow_estimator/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/experimental/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/export/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/inputs/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/tpu/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/tpu/experimental/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/v1.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/experimental/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/export/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/inputs/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/v2.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/experimental/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/export/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/inputs/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/experimental/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/v1.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/experimental/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/export/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/inputs/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/v2.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/baseline.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/boosted_trees.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/boosted_trees_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/dnn.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/dnn_linear_combined.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/dnn_testing_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/kmeans.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/sdca_ops.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/sharded_mutable_dense_hashtable.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_testing_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/metric_keys.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/optimizers.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/parsing_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/prediction_keys.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/rnn.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/saved_model_estimator.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/ar_model.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/estimators.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/feature_keys.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/math_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/model.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/model_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/saved_model_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/state_management.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/dnn_testing_utils_v1.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/linear_testing_utils_v1.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/early_stopping.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/estimator.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/estimator_lib.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/export.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/export_lib.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/export_output.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/function.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/exporter.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/extenders.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/gc.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/base_head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/binary_class_head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/head_utils.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/multi_class_head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/multi_head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/multi_label_head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/regression_head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/sequential_head.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/basic_session_run_hooks.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/fake_summary_writer.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/hooks.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/session_run_hook.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/inputs.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/numpy_io.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/pandas_io.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/feeding_functions.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/feeding_queue_runner.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/keras_lib.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/mode_keys.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/model_fn.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/run_config.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/analytics.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/checkpoint_converter.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__init__.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/_tpu_estimator_embedding.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/error_handling.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/iteration_count_estimator.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_config.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_context.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/util.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/training.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/util.py",
+    "lib/python3.9/site-packages/tensorflow_estimator/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/export/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/tpu/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/tpu/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/__pycache__/v1.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/export/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/__pycache__/v2.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/export/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/__pycache__/v1.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/export/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/__pycache__/v2.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/baseline.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/boosted_trees.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/boosted_trees_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/dnn.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/dnn_linear_combined.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/dnn_testing_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/kmeans.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/linear.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__pycache__/sdca_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__pycache__/sharded_mutable_dense_hashtable.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/linear_testing_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/metric_keys.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/optimizers.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/parsing_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/prediction_keys.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/rnn.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/saved_model_estimator.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/ar_model.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/estimators.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/feature_keys.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/math_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/model.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/model_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/saved_model_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/state_management.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/__pycache__/dnn_testing_utils_v1.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/__pycache__/linear_testing_utils_v1.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/early_stopping.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/estimator.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/estimator_lib.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/export.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/export_lib.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/export_output.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/function.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/exporter.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/extenders.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/gc.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/base_head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/binary_class_head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/head_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/multi_class_head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/multi_head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/multi_label_head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/regression_head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/sequential_head.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/basic_session_run_hooks.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/fake_summary_writer.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/hooks.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/session_run_hook.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/inputs.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/numpy_io.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/pandas_io.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/__pycache__/feeding_functions.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/__pycache__/feeding_queue_runner.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/keras_lib.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/mode_keys.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/model_fn.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/run_config.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/__pycache__/analytics.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/__pycache__/checkpoint_converter.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/_tpu_estimator_embedding.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/error_handling.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/iteration_count_estimator.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/tpu_config.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/tpu_context.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/tpu_estimator.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/util.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/training.cpython-39.pyc",
+    "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/util.cpython-39.pyc"
+  ],
+  "fn": "tensorflow-estimator-2.6.0-pyh7b7c402_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/tensorflow-estimator-2.6.0-pyh7b7c402_0",
+    "type": 1
+  },
+  "md5": "7c9af5f32ae2b09dd1b78e8ad6015b17",
+  "name": "tensorflow-estimator",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/tensorflow-estimator-2.6.0-pyh7b7c402_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/tensorflow_estimator-2.6.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator-2.6.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "83d6e75f1138137dabacf5d3e518c9f2df983a92d3107674e7ba5447f84a0e19",
+        "sha256_in_prefix": "83d6e75f1138137dabacf5d3e518c9f2df983a92d3107674e7ba5447f84a0e19",
+        "size_in_bytes": 1221
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator-2.6.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4da08c5f167369ee7587690e3536afbc0dcfafafac88ab82e81a517950fd17c5",
+        "sha256_in_prefix": "4da08c5f167369ee7587690e3536afbc0dcfafafac88ab82e81a517950fd17c5",
+        "size_in_bytes": 24764
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator-2.6.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator-2.6.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator-2.6.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a423e9cf3ce7e6706a49e98c21e8a01425ebd5b118d7c1f93605cc519ed7a048",
+        "sha256_in_prefix": "a423e9cf3ce7e6706a49e98c21e8a01425ebd5b118d7c1f93605cc519ed7a048",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator-2.6.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2396bff898d9471fe49a6740a8e12bec1f7fe329d191bd1c2d4760a181c37896",
+        "sha256_in_prefix": "2396bff898d9471fe49a6740a8e12bec1f7fe329d191bd1c2d4760a181c37896",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a0b432140ef9b2012f78ac9b58a38d6695737391fee61087ff814ff48681457f",
+        "sha256_in_prefix": "a0b432140ef9b2012f78ac9b58a38d6695737391fee61087ff814ff48681457f",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/estimator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f796b3c9279af170c5c631e234ad0e614122b57b7e087579f10e2a81e8104dcc",
+        "sha256_in_prefix": "f796b3c9279af170c5c631e234ad0e614122b57b7e087579f10e2a81e8104dcc",
+        "size_in_bytes": 5661
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/estimator/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4a476035235e5254aec701db32ba001863ecde91e21e4312b800c0977d9f7eba",
+        "sha256_in_prefix": "4a476035235e5254aec701db32ba001863ecde91e21e4312b800c0977d9f7eba",
+        "size_in_bytes": 1741
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/estimator/export/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d8dec25016f73d011295be98985fd94df097cb7c8df13ec29fdcc7ec512e2c09",
+        "sha256_in_prefix": "d8dec25016f73d011295be98985fd94df097cb7c8df13ec29fdcc7ec512e2c09",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/estimator/inputs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eb5a76ec51637ee1d5b46ebe9275192734592f08cf4439dbca76f75fb4963203",
+        "sha256_in_prefix": "eb5a76ec51637ee1d5b46ebe9275192734592f08cf4439dbca76f75fb4963203",
+        "size_in_bytes": 760
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/estimator/tpu/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b95d5e46dfae86eeef691399399e3f5f59e1fde3539d8375774944bf36b11f9c",
+        "sha256_in_prefix": "b95d5e46dfae86eeef691399399e3f5f59e1fde3539d8375774944bf36b11f9c",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/estimator/tpu/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7461985b9da8ce83951eff28a305d0971bc0ec784b6f09786efd12971787f6a",
+        "sha256_in_prefix": "d7461985b9da8ce83951eff28a305d0971bc0ec784b6f09786efd12971787f6a",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v1/v1.py",
+        "path_type": "hardlink",
+        "sha256": "a0b432140ef9b2012f78ac9b58a38d6695737391fee61087ff814ff48681457f",
+        "sha256_in_prefix": "a0b432140ef9b2012f78ac9b58a38d6695737391fee61087ff814ff48681457f",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v2/estimator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "253eb95ac5968a0a360df42142d0627c2c0e1ee0e85199323ce17a153d19f343",
+        "sha256_in_prefix": "253eb95ac5968a0a360df42142d0627c2c0e1ee0e85199323ce17a153d19f343",
+        "size_in_bytes": 5612
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v2/estimator/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5df656d6a1778344b5842c2a79141bd43664e48a668f2157399b1409e1cd362f",
+        "sha256_in_prefix": "5df656d6a1778344b5842c2a79141bd43664e48a668f2157399b1409e1cd362f",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v2/estimator/export/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa333a318456d591b4bf4e4d773e239997f68fe9def2ae999656948d0146fe24",
+        "sha256_in_prefix": "fa333a318456d591b4bf4e4d773e239997f68fe9def2ae999656948d0146fe24",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v2/estimator/inputs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/_api/v2/v2.py",
+        "path_type": "hardlink",
+        "sha256": "8f783d57e98627d6bd8fa2b9051918ed6989a671e29a9e6137caa99b5f773474",
+        "sha256_in_prefix": "8f783d57e98627d6bd8fa2b9051918ed6989a671e29a9e6137caa99b5f773474",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6c0019fdb314c55fedef913f187c0f31fd39a04aec8f3d69e9651a6ac25aa5a6",
+        "sha256_in_prefix": "6c0019fdb314c55fedef913f187c0f31fd39a04aec8f3d69e9651a6ac25aa5a6",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "531058d8af9dc9db77e507dc7e4a33b60e33be9524d6c31772a82ce0a9533c2f",
+        "sha256_in_prefix": "531058d8af9dc9db77e507dc7e4a33b60e33be9524d6c31772a82ce0a9533c2f",
+        "size_in_bytes": 5729
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4a476035235e5254aec701db32ba001863ecde91e21e4312b800c0977d9f7eba",
+        "sha256_in_prefix": "4a476035235e5254aec701db32ba001863ecde91e21e4312b800c0977d9f7eba",
+        "size_in_bytes": 1741
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/export/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d8dec25016f73d011295be98985fd94df097cb7c8df13ec29fdcc7ec512e2c09",
+        "sha256_in_prefix": "d8dec25016f73d011295be98985fd94df097cb7c8df13ec29fdcc7ec512e2c09",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/inputs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eb5a76ec51637ee1d5b46ebe9275192734592f08cf4439dbca76f75fb4963203",
+        "sha256_in_prefix": "eb5a76ec51637ee1d5b46ebe9275192734592f08cf4439dbca76f75fb4963203",
+        "size_in_bytes": 760
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa695b3cc00a66a737d54057bd1c0ce2a65a9e947210b7a6319660ae8331bbe1",
+        "sha256_in_prefix": "fa695b3cc00a66a737d54057bd1c0ce2a65a9e947210b7a6319660ae8331bbe1",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7461985b9da8ce83951eff28a305d0971bc0ec784b6f09786efd12971787f6a",
+        "sha256_in_prefix": "d7461985b9da8ce83951eff28a305d0971bc0ec784b6f09786efd12971787f6a",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v1/v1.py",
+        "path_type": "hardlink",
+        "sha256": "6c0019fdb314c55fedef913f187c0f31fd39a04aec8f3d69e9651a6ac25aa5a6",
+        "sha256_in_prefix": "6c0019fdb314c55fedef913f187c0f31fd39a04aec8f3d69e9651a6ac25aa5a6",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "64bb015e33e3038326267cb06d8ba974d857e08a2d3ef85e082f360a4958123d",
+        "sha256_in_prefix": "64bb015e33e3038326267cb06d8ba974d857e08a2d3ef85e082f360a4958123d",
+        "size_in_bytes": 5646
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5df656d6a1778344b5842c2a79141bd43664e48a668f2157399b1409e1cd362f",
+        "sha256_in_prefix": "5df656d6a1778344b5842c2a79141bd43664e48a668f2157399b1409e1cd362f",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/export/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa333a318456d591b4bf4e4d773e239997f68fe9def2ae999656948d0146fe24",
+        "sha256_in_prefix": "fa333a318456d591b4bf4e4d773e239997f68fe9def2ae999656948d0146fe24",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/inputs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/api/_v2/v2.py",
+        "path_type": "hardlink",
+        "sha256": "73720a1ab556c8f8908f0283e7246217465828a374d89517e90b9b8561c94a16",
+        "sha256_in_prefix": "73720a1ab556c8f8908f0283e7246217465828a374d89517e90b9b8561c94a16",
+        "size_in_bytes": 335
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/baseline.py",
+        "path_type": "hardlink",
+        "sha256": "322484d535b8ba1fbe700fedb7c8f88fc7abd43cb358155697b81ed8b5d74fa2",
+        "sha256_in_prefix": "322484d535b8ba1fbe700fedb7c8f88fc7abd43cb358155697b81ed8b5d74fa2",
+        "size_in_bytes": 23515
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/boosted_trees.py",
+        "path_type": "hardlink",
+        "sha256": "22b25cf24b20a80297a342afe245fcf97bfadafd6e8efbada0c531966e77d1bb",
+        "sha256_in_prefix": "22b25cf24b20a80297a342afe245fcf97bfadafd6e8efbada0c531966e77d1bb",
+        "size_in_bytes": 101230
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/boosted_trees_utils.py",
+        "path_type": "hardlink",
+        "sha256": "8139cda1d058c3432d7f2eaa090b4154b7e025bb01b5b013fd4d0eb12c62d575",
+        "sha256_in_prefix": "8139cda1d058c3432d7f2eaa090b4154b7e025bb01b5b013fd4d0eb12c62d575",
+        "size_in_bytes": 3635
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/dnn.py",
+        "path_type": "hardlink",
+        "sha256": "2f55425f6874ab2c68a54dcd949fc74b04e81ac59962935f8b942cbb16bc676c",
+        "sha256_in_prefix": "2f55425f6874ab2c68a54dcd949fc74b04e81ac59962935f8b942cbb16bc676c",
+        "size_in_bytes": 48423
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/dnn_linear_combined.py",
+        "path_type": "hardlink",
+        "sha256": "fef88c046838abe1b159aa50e40ea8f5f2f0d551d410cccb96f90a498b86ac39",
+        "sha256_in_prefix": "fef88c046838abe1b159aa50e40ea8f5f2f0d551d410cccb96f90a498b86ac39",
+        "size_in_bytes": 48513
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/dnn_testing_utils.py",
+        "path_type": "hardlink",
+        "sha256": "adf6bf70c8c794ec130c9ef0a30ca6ad2a85e044f489b19f562fafa1a8e2831b",
+        "sha256_in_prefix": "adf6bf70c8c794ec130c9ef0a30ca6ad2a85e044f489b19f562fafa1a8e2831b",
+        "size_in_bytes": 82018
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/head.py",
+        "path_type": "hardlink",
+        "sha256": "90b296ed918e9b953d5c296dc702dbf27f3817bf627bf8f69131292b58cf98fc",
+        "sha256_in_prefix": "90b296ed918e9b953d5c296dc702dbf27f3817bf627bf8f69131292b58cf98fc",
+        "size_in_bytes": 72566
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/kmeans.py",
+        "path_type": "hardlink",
+        "sha256": "4d44bcee5c141572df28eabf3005ab235d5a609f6f15aca5b7bce347e80dcb27",
+        "sha256_in_prefix": "4d44bcee5c141572df28eabf3005ab235d5a609f6f15aca5b7bce347e80dcb27",
+        "size_in_bytes": 20373
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/linear.py",
+        "path_type": "hardlink",
+        "sha256": "a8026066103bbd72271e15fa99c13808eab70ebd655c10fe0b7ee1c86e4471b2",
+        "sha256_in_prefix": "a8026066103bbd72271e15fa99c13808eab70ebd655c10fe0b7ee1c86e4471b2",
+        "size_in_bytes": 68069
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "30b6dc752c475ec779c92a07cf221c2c06a418230ad007ebacddf7e8910a9d4c",
+        "sha256_in_prefix": "30b6dc752c475ec779c92a07cf221c2c06a418230ad007ebacddf7e8910a9d4c",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/sdca_ops.py",
+        "path_type": "hardlink",
+        "sha256": "a2fdadf64365a00e99f36c59dd6fea919ffcf995dad642941e43ff40b16b18ba",
+        "sha256_in_prefix": "a2fdadf64365a00e99f36c59dd6fea919ffcf995dad642941e43ff40b16b18ba",
+        "size_in_bytes": 32208
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/sharded_mutable_dense_hashtable.py",
+        "path_type": "hardlink",
+        "sha256": "5f80a55bff97a4818dd4429a61d87f8d051334918d4784dcf3c5d631eb2064d0",
+        "sha256_in_prefix": "5f80a55bff97a4818dd4429a61d87f8d051334918d4784dcf3c5d631eb2064d0",
+        "size_in_bytes": 14149
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/linear_testing_utils.py",
+        "path_type": "hardlink",
+        "sha256": "9127b27f2fc9f100981efbdffb610663469dc693ae8372e00ec444d56c941400",
+        "sha256_in_prefix": "9127b27f2fc9f100981efbdffb610663469dc693ae8372e00ec444d56c941400",
+        "size_in_bytes": 84178
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/metric_keys.py",
+        "path_type": "hardlink",
+        "sha256": "e8f3fabe5b08a584ed052e19e473569a228128fba42cf66b3cda3198b22b3620",
+        "sha256_in_prefix": "e8f3fabe5b08a584ed052e19e473569a228128fba42cf66b3cda3198b22b3620",
+        "size_in_bytes": 2364
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/optimizers.py",
+        "path_type": "hardlink",
+        "sha256": "47392b8f35a925851aaf9951a30f3637d72d09f00c4243831c15b90bd2b904c7",
+        "sha256_in_prefix": "47392b8f35a925851aaf9951a30f3637d72d09f00c4243831c15b90bd2b904c7",
+        "size_in_bytes": 5304
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/parsing_utils.py",
+        "path_type": "hardlink",
+        "sha256": "f7a69f2493e447d462504188965626523bbada6efa4d9b9addac8701e1e8b76c",
+        "sha256_in_prefix": "f7a69f2493e447d462504188965626523bbada6efa4d9b9addac8701e1e8b76c",
+        "size_in_bytes": 15332
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/prediction_keys.py",
+        "path_type": "hardlink",
+        "sha256": "ce39cd20e2c993318a35701455828bce43efdd99bc9905f2ec1ad288f4060298",
+        "sha256_in_prefix": "ce39cd20e2c993318a35701455828bce43efdd99bc9905f2ec1ad288f4060298",
+        "size_in_bytes": 1275
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/rnn.py",
+        "path_type": "hardlink",
+        "sha256": "0bfb0ff55d0d24c4abc50831d0c9eee7018f282dd81c107642e2ae33d896a154",
+        "sha256_in_prefix": "0bfb0ff55d0d24c4abc50831d0c9eee7018f282dd81c107642e2ae33d896a154",
+        "size_in_bytes": 28716
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/saved_model_estimator.py",
+        "path_type": "hardlink",
+        "sha256": "1a2ca1f6e8a7abddd872f9f19dbfa819fba00bd076d5de311ab139ffaf304d23",
+        "sha256_in_prefix": "1a2ca1f6e8a7abddd872f9f19dbfa819fba00bd076d5de311ab139ffaf304d23",
+        "size_in_bytes": 20330
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/ar_model.py",
+        "path_type": "hardlink",
+        "sha256": "e12c27fab02c6a7ca8665534d9c820939189e16d1a1115f0ac6e62e8a6b3c856",
+        "sha256_in_prefix": "e12c27fab02c6a7ca8665534d9c820939189e16d1a1115f0ac6e62e8a6b3c856",
+        "size_in_bytes": 38356
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/estimators.py",
+        "path_type": "hardlink",
+        "sha256": "1ead090bc07f84f0c6bc89ba72383b7b7d36a57dbbc186e8bc3b6072680af710",
+        "sha256_in_prefix": "1ead090bc07f84f0c6bc89ba72383b7b7d36a57dbbc186e8bc3b6072680af710",
+        "size_in_bytes": 20770
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/feature_keys.py",
+        "path_type": "hardlink",
+        "sha256": "08b30db6dc05565a03c807dbbe5dfba2ff39a3c76de752bde07f370bcbbba533",
+        "sha256_in_prefix": "08b30db6dc05565a03c807dbbe5dfba2ff39a3c76de752bde07f370bcbbba533",
+        "size_in_bytes": 2314
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/head.py",
+        "path_type": "hardlink",
+        "sha256": "43e24fb0fc519ff74d4c1dec05819414ae7f83aa82f4a54c78842a9e23052ce7",
+        "sha256_in_prefix": "43e24fb0fc519ff74d4c1dec05819414ae7f83aa82f4a54c78842a9e23052ce7",
+        "size_in_bytes": 21379
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/math_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7dbaeb26ab12de830dde60fcf8699dd28d82b0c722dfed4f81e0a32d2242d705",
+        "sha256_in_prefix": "7dbaeb26ab12de830dde60fcf8699dd28d82b0c722dfed4f81e0a32d2242d705",
+        "size_in_bytes": 19761
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/model.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4f8fec6503bf495eca8b2db13a753e6f480be2e7c65eac288f72b5e72882",
+        "sha256_in_prefix": "01ba4f8fec6503bf495eca8b2db13a753e6f480be2e7c65eac288f72b5e72882",
+        "size_in_bytes": 14441
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/model_utils.py",
+        "path_type": "hardlink",
+        "sha256": "4b0decf200e1fbce1118d347c98145eac230efb6ab9bdd00fa60f4c6538e731f",
+        "sha256_in_prefix": "4b0decf200e1fbce1118d347c98145eac230efb6ab9bdd00fa60f4c6538e731f",
+        "size_in_bytes": 3212
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/saved_model_utils.py",
+        "path_type": "hardlink",
+        "sha256": "1530463a0266be1388457bca7d143b4811e4786859936db6ef776a920a30b857",
+        "sha256_in_prefix": "1530463a0266be1388457bca7d143b4811e4786859936db6ef776a920a30b857",
+        "size_in_bytes": 14941
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/timeseries/state_management.py",
+        "path_type": "hardlink",
+        "sha256": "aa7cd342e973d2cdbc3a7f41a9997844d19263cd5fa152ed92745ddf99be9af2",
+        "sha256_in_prefix": "aa7cd342e973d2cdbc3a7f41a9997844d19263cd5fa152ed92745ddf99be9af2",
+        "size_in_bytes": 4004
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/v1/dnn_testing_utils_v1.py",
+        "path_type": "hardlink",
+        "sha256": "e5dbcd96b977d30f9414546dd27005adf610c408af77b885d8ae75f411b6bf72",
+        "sha256_in_prefix": "e5dbcd96b977d30f9414546dd27005adf610c408af77b885d8ae75f411b6bf72",
+        "size_in_bytes": 82598
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/canned/v1/linear_testing_utils_v1.py",
+        "path_type": "hardlink",
+        "sha256": "52e6a4892aa11a2720d0dff5919ff5ca20b556c3fce4e11ae89d08d7e8338c9a",
+        "sha256_in_prefix": "52e6a4892aa11a2720d0dff5919ff5ca20b556c3fce4e11ae89d08d7e8338c9a",
+        "size_in_bytes": 91108
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/early_stopping.py",
+        "path_type": "hardlink",
+        "sha256": "6b21fbb88c6f0564237bc48bc62ab8d0f3b47586c3b5f159e103ff0d43aed1aa",
+        "sha256_in_prefix": "6b21fbb88c6f0564237bc48bc62ab8d0f3b47586c3b5f159e103ff0d43aed1aa",
+        "size_in_bytes": 23603
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/estimator.py",
+        "path_type": "hardlink",
+        "sha256": "6fe3a23d5f2b716efa14aa23df74c9c2d2573dcf59e34ca50b6f7362036251a4",
+        "sha256_in_prefix": "6fe3a23d5f2b716efa14aa23df74c9c2d2573dcf59e34ca50b6f7362036251a4",
+        "size_in_bytes": 102822
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/estimator_lib.py",
+        "path_type": "hardlink",
+        "sha256": "9788373c140c55b3d789687b6ca73ad76997b98410e5c0febba73ff32e6d4b5c",
+        "sha256_in_prefix": "9788373c140c55b3d789687b6ca73ad76997b98410e5c0febba73ff32e6d4b5c",
+        "size_in_bytes": 5073
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/export/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/export/export.py",
+        "path_type": "hardlink",
+        "sha256": "bb1c992fc21590d11037a18071629f01c00e9bd7027f542ffd66ebb901b665ce",
+        "sha256_in_prefix": "bb1c992fc21590d11037a18071629f01c00e9bd7027f542ffd66ebb901b665ce",
+        "size_in_bytes": 20630
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/export/export_lib.py",
+        "path_type": "hardlink",
+        "sha256": "0b2ba669e39cffa2ebc05c98732afd34a6624dd23dba98517000ad2ae05ae85d",
+        "sha256_in_prefix": "0b2ba669e39cffa2ebc05c98732afd34a6624dd23dba98517000ad2ae05ae85d",
+        "size_in_bytes": 3055
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/export/export_output.py",
+        "path_type": "hardlink",
+        "sha256": "7e12dd02d35d2705310462cd36b5d51e6ea778061b9db8a61d859ea0aab6efda",
+        "sha256_in_prefix": "7e12dd02d35d2705310462cd36b5d51e6ea778061b9db8a61d859ea0aab6efda",
+        "size_in_bytes": 1902
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/export/function.py",
+        "path_type": "hardlink",
+        "sha256": "accd4f7df028ae70008b33e6c2bb0c9bbd64395e40856c7ca40c3a1335f30703",
+        "sha256_in_prefix": "accd4f7df028ae70008b33e6c2bb0c9bbd64395e40856c7ca40c3a1335f30703",
+        "size_in_bytes": 13810
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/exporter.py",
+        "path_type": "hardlink",
+        "sha256": "7d81bcf53398d71aefea16225941138e966f6d0a54334c11d72c87952d68e844",
+        "sha256_in_prefix": "7d81bcf53398d71aefea16225941138e966f6d0a54334c11d72c87952d68e844",
+        "size_in_bytes": 19851
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/extenders.py",
+        "path_type": "hardlink",
+        "sha256": "63833c513636a450091f36cc5d2afbd03cc4cbd0341a9c977d8524bb7e9d9fae",
+        "sha256_in_prefix": "63833c513636a450091f36cc5d2afbd03cc4cbd0341a9c977d8524bb7e9d9fae",
+        "size_in_bytes": 4874
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/gc.py",
+        "path_type": "hardlink",
+        "sha256": "bb7f6f712ccd043baa6ddb4efca7075afeb25880d3b27503c532b3a9ccb89c5d",
+        "sha256_in_prefix": "bb7f6f712ccd043baa6ddb4efca7075afeb25880d3b27503c532b3a9ccb89c5d",
+        "size_in_bytes": 6327
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/base_head.py",
+        "path_type": "hardlink",
+        "sha256": "b82250bcc3d5858338030dc7cba7beaf6d1639e924f475f56284ed82cc03ad08",
+        "sha256_in_prefix": "b82250bcc3d5858338030dc7cba7beaf6d1639e924f475f56284ed82cc03ad08",
+        "size_in_bytes": 39599
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/binary_class_head.py",
+        "path_type": "hardlink",
+        "sha256": "b1304a2ecf7a5de15174fac5b6eb44b5bc7f4ac975c0b57008a4f9a0f29df25f",
+        "sha256_in_prefix": "b1304a2ecf7a5de15174fac5b6eb44b5bc7f4ac975c0b57008a4f9a0f29df25f",
+        "size_in_bytes": 26870
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/head_utils.py",
+        "path_type": "hardlink",
+        "sha256": "1ace40f148c0024e57e84091a50283addc7e72e41a1d0a31cfcae290508f0d3c",
+        "sha256_in_prefix": "1ace40f148c0024e57e84091a50283addc7e72e41a1d0a31cfcae290508f0d3c",
+        "size_in_bytes": 3986
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/multi_class_head.py",
+        "path_type": "hardlink",
+        "sha256": "098e54d9d3af82624d969b11a85be89def20157a32f1d7ef51f3d9b0af1c1e06",
+        "sha256_in_prefix": "098e54d9d3af82624d969b11a85be89def20157a32f1d7ef51f3d9b0af1c1e06",
+        "size_in_bytes": 21394
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/multi_head.py",
+        "path_type": "hardlink",
+        "sha256": "99dfa5ab4c2abe5a4833433fbd5a4207896ddd9373243560eb9d9289dd462382",
+        "sha256_in_prefix": "99dfa5ab4c2abe5a4833433fbd5a4207896ddd9373243560eb9d9289dd462382",
+        "size_in_bytes": 23285
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/multi_label_head.py",
+        "path_type": "hardlink",
+        "sha256": "fcbf89cc977df313179f9bfce8675e8753420e4143fa303fd7fa4cbe722b15ad",
+        "sha256_in_prefix": "fcbf89cc977df313179f9bfce8675e8753420e4143fa303fd7fa4cbe722b15ad",
+        "size_in_bytes": 26768
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/regression_head.py",
+        "path_type": "hardlink",
+        "sha256": "11040cade777ba3acbc4578c2c57949f214ee9b89220cb0a90ae05239728326b",
+        "sha256_in_prefix": "11040cade777ba3acbc4578c2c57949f214ee9b89220cb0a90ae05239728326b",
+        "size_in_bytes": 23764
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/head/sequential_head.py",
+        "path_type": "hardlink",
+        "sha256": "56457d39ee360297db3a490208b190c680a0f7143c7354f5c57a9ec433aaf530",
+        "sha256_in_prefix": "56457d39ee360297db3a490208b190c680a0f7143c7354f5c57a9ec433aaf530",
+        "size_in_bytes": 20736
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/hooks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/hooks/basic_session_run_hooks.py",
+        "path_type": "hardlink",
+        "sha256": "9a8c537f30d0a6dfbd8fc9cee161de389afeb03a12093d2c8084e10264acabc5",
+        "sha256_in_prefix": "9a8c537f30d0a6dfbd8fc9cee161de389afeb03a12093d2c8084e10264acabc5",
+        "size_in_bytes": 2813
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/hooks/fake_summary_writer.py",
+        "path_type": "hardlink",
+        "sha256": "99c7a743999a41f667930c7e697788b2f42588fee1d63409e315ed937e787271",
+        "sha256_in_prefix": "99c7a743999a41f667930c7e697788b2f42588fee1d63409e315ed937e787271",
+        "size_in_bytes": 5595
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/hooks/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "3b354952cc608c7bd23a06808ce8b606ac9857a271870ec74aac7fce6269d84c",
+        "sha256_in_prefix": "3b354952cc608c7bd23a06808ce8b606ac9857a271870ec74aac7fce6269d84c",
+        "size_in_bytes": 11050
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/hooks/session_run_hook.py",
+        "path_type": "hardlink",
+        "sha256": "0b2238154743d2821349f4b0dc3c70a708146c6307b1b7f1cfa52362cf99bc90",
+        "sha256_in_prefix": "0b2238154743d2821349f4b0dc3c70a708146c6307b1b7f1cfa52362cf99bc90",
+        "size_in_bytes": 4182
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/inputs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/inputs/inputs.py",
+        "path_type": "hardlink",
+        "sha256": "2e5ad600d5338af96d73badefdc5b0d863858c0dcdbf73a0e9e0c713dff46f83",
+        "sha256_in_prefix": "2e5ad600d5338af96d73badefdc5b0d863858c0dcdbf73a0e9e0c713dff46f83",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/inputs/numpy_io.py",
+        "path_type": "hardlink",
+        "sha256": "8a5e9ef219ed6b99452272ec818ad32a269067a227e61f1083b856c6a64d8e1f",
+        "sha256_in_prefix": "8a5e9ef219ed6b99452272ec818ad32a269067a227e61f1083b856c6a64d8e1f",
+        "size_in_bytes": 7996
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/inputs/pandas_io.py",
+        "path_type": "hardlink",
+        "sha256": "5db8a653b85694426200b9d1d0cad77fc8274a700a0334ac1dbc451e47f1e6dc",
+        "sha256_in_prefix": "5db8a653b85694426200b9d1d0cad77fc8274a700a0334ac1dbc451e47f1e6dc",
+        "size_in_bytes": 5837
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/inputs/queues/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/inputs/queues/feeding_functions.py",
+        "path_type": "hardlink",
+        "sha256": "800eeb025e8f672c910932a7c06e3a3a96100d5955501a88a905dfcc107821d9",
+        "sha256_in_prefix": "800eeb025e8f672c910932a7c06e3a3a96100d5955501a88a905dfcc107821d9",
+        "size_in_bytes": 18804
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/inputs/queues/feeding_queue_runner.py",
+        "path_type": "hardlink",
+        "sha256": "9dcc29b83904fd44ff528421a9ad621c9c18232a2990095136ebc69443aa584c",
+        "sha256_in_prefix": "9dcc29b83904fd44ff528421a9ad621c9c18232a2990095136ebc69443aa584c",
+        "size_in_bytes": 6883
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/keras_lib.py",
+        "path_type": "hardlink",
+        "sha256": "9e4954cc86a8dd9c584096db55bdfe2e46a538a0d41649f5e954e984dce7d222",
+        "sha256_in_prefix": "9e4954cc86a8dd9c584096db55bdfe2e46a538a0d41649f5e954e984dce7d222",
+        "size_in_bytes": 32689
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/mode_keys.py",
+        "path_type": "hardlink",
+        "sha256": "37615aa988239041b16c194bad7e59451705429c024847edcda739cc1fb88cee",
+        "sha256_in_prefix": "37615aa988239041b16c194bad7e59451705429c024847edcda739cc1fb88cee",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/model_fn.py",
+        "path_type": "hardlink",
+        "sha256": "c45d30aa3082a030cfbfbd077c93760a3243ce1f08d40c73a969468a45f58f00",
+        "sha256_in_prefix": "c45d30aa3082a030cfbfbd077c93760a3243ce1f08d40c73a969468a45f58f00",
+        "size_in_bytes": 24987
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/run_config.py",
+        "path_type": "hardlink",
+        "sha256": "ad22db4a1fcde2cfe9c63e18b78df4fbbf5d6d26f40c6d8b2e2f22069accae7a",
+        "sha256_in_prefix": "ad22db4a1fcde2cfe9c63e18b78df4fbbf5d6d26f40c6d8b2e2f22069accae7a",
+        "size_in_bytes": 38211
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tools/analytics.py",
+        "path_type": "hardlink",
+        "sha256": "eaef8646f16edde622a332cd6e5ec08f42159620c7b4ec6c9ef3ae4f893462f2",
+        "sha256_in_prefix": "eaef8646f16edde622a332cd6e5ec08f42159620c7b4ec6c9ef3ae4f893462f2",
+        "size_in_bytes": 1265
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tools/checkpoint_converter.py",
+        "path_type": "hardlink",
+        "sha256": "d8efc1b5e0ad2f6efd95675f60f6962ebbf49706f22f9ad2f5f987aea3178ca8",
+        "sha256_in_prefix": "d8efc1b5e0ad2f6efd95675f60f6962ebbf49706f22f9ad2f5f987aea3178ca8",
+        "size_in_bytes": 14889
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/_tpu_estimator_embedding.py",
+        "path_type": "hardlink",
+        "sha256": "79576a1912ffad45b3c867d0e78abde5d581461c5ffb92951dbe72974ec88f6e",
+        "sha256_in_prefix": "79576a1912ffad45b3c867d0e78abde5d581461c5ffb92951dbe72974ec88f6e",
+        "size_in_bytes": 28896
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/error_handling.py",
+        "path_type": "hardlink",
+        "sha256": "6eb98767f2c1dee19f2a658d70c01b8fd19268e8c708c5ca769f2d9abfeec320",
+        "sha256_in_prefix": "6eb98767f2c1dee19f2a658d70c01b8fd19268e8c708c5ca769f2d9abfeec320",
+        "size_in_bytes": 5327
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/iteration_count_estimator.py",
+        "path_type": "hardlink",
+        "sha256": "fba17a029d63bf7ba4bfbfd2d06e742e08db4df77e948ec5ab1854a32bcbeb75",
+        "sha256_in_prefix": "fba17a029d63bf7ba4bfbfd2d06e742e08db4df77e948ec5ab1854a32bcbeb75",
+        "size_in_bytes": 7833
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/tpu_config.py",
+        "path_type": "hardlink",
+        "sha256": "794b51865593aba1d80476b1adad1e15bf5b577d9f51edbb26d70cd2f63ac0f1",
+        "sha256_in_prefix": "794b51865593aba1d80476b1adad1e15bf5b577d9f51edbb26d70cd2f63ac0f1",
+        "size_in_bytes": 15705
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/tpu_context.py",
+        "path_type": "hardlink",
+        "sha256": "2dec07165b1581e7abdb4bdfc1bbf32dc059e74fb47d162a9e4fe3ea5e7ba9ca",
+        "sha256_in_prefix": "2dec07165b1581e7abdb4bdfc1bbf32dc059e74fb47d162a9e4fe3ea5e7ba9ca",
+        "size_in_bytes": 34485
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py",
+        "path_type": "hardlink",
+        "sha256": "9535c044042426a611c63215798f4f4190f8988ffdcd5e020a1bf21e8bbcfdb6",
+        "sha256_in_prefix": "9535c044042426a611c63215798f4f4190f8988ffdcd5e020a1bf21e8bbcfdb6",
+        "size_in_bytes": 185238
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/tpu/util.py",
+        "path_type": "hardlink",
+        "sha256": "b690748e6981cdc0993c5e67ed173712c3dd0572ad4de7a797f521946254856c",
+        "sha256_in_prefix": "b690748e6981cdc0993c5e67ed173712c3dd0572ad4de7a797f521946254856c",
+        "size_in_bytes": 3607
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/training.py",
+        "path_type": "hardlink",
+        "sha256": "0e0f0b22ccee3853bb57058c545b58cffc6eac1d676365df4c3c3f7b50b457ec",
+        "sha256_in_prefix": "0e0f0b22ccee3853bb57058c545b58cffc6eac1d676365df4c3c3f7b50b457ec",
+        "size_in_bytes": 43985
+      },
+      {
+        "_path": "site-packages/tensorflow_estimator/python/estimator/util.py",
+        "path_type": "hardlink",
+        "sha256": "b3ab2652338e2a78394410cddc4ca257c3b40963f14f4c9d86ebdc00281db5cb",
+        "sha256_in_prefix": "b3ab2652338e2a78394410cddc4ca257c3b40963f14f4c9d86ebdc00281db5cb",
+        "size_in_bytes": 4129
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/export/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/tpu/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/estimator/tpu/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v1/__pycache__/v1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/export/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/_api/v2/__pycache__/v2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/export/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/estimator/tpu/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v1/__pycache__/v1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/export/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/api/_v2/__pycache__/v2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/baseline.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/boosted_trees.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/boosted_trees_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/dnn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/dnn_linear_combined.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/dnn_testing_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/kmeans.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/linear.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__pycache__/sdca_ops.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/linear_optimizer/python/utils/__pycache__/sharded_mutable_dense_hashtable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/linear_testing_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/metric_keys.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/optimizers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/parsing_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/prediction_keys.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/rnn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/__pycache__/saved_model_estimator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/ar_model.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/estimators.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/feature_keys.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/math_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/model.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/model_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/saved_model_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/timeseries/__pycache__/state_management.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/__pycache__/dnn_testing_utils_v1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/canned/v1/__pycache__/linear_testing_utils_v1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/early_stopping.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/estimator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/estimator_lib.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/export.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/export_lib.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/export_output.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/export/__pycache__/function.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/exporter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/extenders.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/gc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/base_head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/binary_class_head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/head_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/multi_class_head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/multi_head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/multi_label_head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/regression_head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/head/__pycache__/sequential_head.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/basic_session_run_hooks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/fake_summary_writer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/hooks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/hooks/__pycache__/session_run_hook.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/inputs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/numpy_io.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/__pycache__/pandas_io.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/__pycache__/feeding_functions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/inputs/queues/__pycache__/feeding_queue_runner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/keras_lib.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/mode_keys.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/model_fn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/run_config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/__pycache__/analytics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tools/__pycache__/checkpoint_converter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/_tpu_estimator_embedding.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/error_handling.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/iteration_count_estimator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/tpu_config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/tpu_context.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/tpu_estimator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/tpu/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/training.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tensorflow_estimator/python/estimator/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "anaconda/noarch::tensorflow-estimator==2.6.0=pyh7b7c402_0",
+  "sha256": "34ed1318a3f5aff7e9b8592ca4437da1a5a8ba9ad8ccf22aafcddff527ccdf65",
+  "size": 294774,
+  "subdir": "noarch",
+  "timestamp": 1630508989000,
+  "url": "https://conda.anaconda.org/anaconda/noarch/tensorflow-estimator-2.6.0-pyh7b7c402_0.tar.bz2",
+  "version": "2.6.0"
+}

@@ -1,0 +1,735 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "cloudpathlib >=0.7.0,<0.17.0",
+    "confection >=0.0.4,<0.2.0",
+    "packaging >=20.0",
+    "pydantic >=1.7.4,!=1.8,!=1.8.1,<3.0.0",
+    "python >=3.9,<3.10.0a0",
+    "requests >=2.13.0,<3.0.0",
+    "smart_open >=5.2.1,<7.0.0",
+    "srsly >=2.4.3,<3.0.0",
+    "typer >=0.3.0,<0.10.0",
+    "wasabi >=0.9.1,<1.2.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/weasel-0.3.4-py39h06a4308_0",
+  "files": [
+    "bin/weasel",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/LICENSE",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/weasel-0.3.4.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/weasel/__init__.py",
+    "lib/python3.9/site-packages/weasel/__main__.py",
+    "lib/python3.9/site-packages/weasel/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/__pycache__/about.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/__pycache__/compat.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/__pycache__/errors.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/__pycache__/schemas.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/about.py",
+    "lib/python3.9/site-packages/weasel/cli/__init__.py",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/assets.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/clone.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/document.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/dvc.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/main.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/pull.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/push.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/remote_storage.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/__pycache__/run.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/cli/assets.py",
+    "lib/python3.9/site-packages/weasel/cli/clone.py",
+    "lib/python3.9/site-packages/weasel/cli/document.py",
+    "lib/python3.9/site-packages/weasel/cli/dvc.py",
+    "lib/python3.9/site-packages/weasel/cli/main.py",
+    "lib/python3.9/site-packages/weasel/cli/pull.py",
+    "lib/python3.9/site-packages/weasel/cli/push.py",
+    "lib/python3.9/site-packages/weasel/cli/remote_storage.py",
+    "lib/python3.9/site-packages/weasel/cli/run.py",
+    "lib/python3.9/site-packages/weasel/compat.py",
+    "lib/python3.9/site-packages/weasel/errors.py",
+    "lib/python3.9/site-packages/weasel/schemas.py",
+    "lib/python3.9/site-packages/weasel/tests/__init__.py",
+    "lib/python3.9/site-packages/weasel/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/__pycache__/test_schemas.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/__pycache__/test_validation.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/__pycache__/util.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/cli/__init__.py",
+    "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_cli.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_cli_app.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_document.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_remote.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/tests/cli/test_cli.py",
+    "lib/python3.9/site-packages/weasel/tests/cli/test_cli_app.py",
+    "lib/python3.9/site-packages/weasel/tests/cli/test_document.py",
+    "lib/python3.9/site-packages/weasel/tests/cli/test_remote.py",
+    "lib/python3.9/site-packages/weasel/tests/test_schemas.py",
+    "lib/python3.9/site-packages/weasel/tests/test_validation.py",
+    "lib/python3.9/site-packages/weasel/tests/util.py",
+    "lib/python3.9/site-packages/weasel/util/__init__.py",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/commands.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/environment.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/filesystem.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/frozen.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/git.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/hashing.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/logging.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/modules.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/remote.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/validation.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/__pycache__/versions.cpython-39.pyc",
+    "lib/python3.9/site-packages/weasel/util/commands.py",
+    "lib/python3.9/site-packages/weasel/util/config.py",
+    "lib/python3.9/site-packages/weasel/util/environment.py",
+    "lib/python3.9/site-packages/weasel/util/filesystem.py",
+    "lib/python3.9/site-packages/weasel/util/frozen.py",
+    "lib/python3.9/site-packages/weasel/util/git.py",
+    "lib/python3.9/site-packages/weasel/util/hashing.py",
+    "lib/python3.9/site-packages/weasel/util/logging.py",
+    "lib/python3.9/site-packages/weasel/util/modules.py",
+    "lib/python3.9/site-packages/weasel/util/remote.py",
+    "lib/python3.9/site-packages/weasel/util/validation.py",
+    "lib/python3.9/site-packages/weasel/util/versions.py"
+  ],
+  "fn": "weasel-0.3.4-py39h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/weasel-0.3.4-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "cc0e7d12b35f8feca4375e331e23815a",
+  "name": "weasel",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/weasel-0.3.4-py39h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/weasel",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/weasel_1704815753318/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "9f19b4c20ca6a8a5ae68088d263e3cd26a47d43b6c6085ffb8e315511d63618e",
+        "sha256_in_prefix": "1ee2bef78ea3337adcd4805c8f0c775a9b820b0d170f138b551ae23ce492dfe5",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b4e5015878be0264d7a747a305338cc23cb2d3a50d6feb73847109a7b6e97e99",
+        "sha256_in_prefix": "b4e5015878be0264d7a747a305338cc23cb2d3a50d6feb73847109a7b6e97e99",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e315f609770aab583b1a30ddf0a10aa11f0331ab58451c2cc09af4316271baf4",
+        "sha256_in_prefix": "e315f609770aab583b1a30ddf0a10aa11f0331ab58451c2cc09af4316271baf4",
+        "size_in_bytes": 4665
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ee77b87da1beb1478f598c56b4f770f06cf54d31fe5ee36ec08164d88e536aeb",
+        "sha256_in_prefix": "ee77b87da1beb1478f598c56b4f770f06cf54d31fe5ee36ec08164d88e536aeb",
+        "size_in_bytes": 5765
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2726579e8534097135b8197649a0c142921121d1af555dd0645c5fd8ddc3ddae",
+        "sha256_in_prefix": "2726579e8534097135b8197649a0c142921121d1af555dd0645c5fd8ddc3ddae",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "2aee9aca9d9efd41bd72783dfbb9d20ced837f21b1b1c3eb10e6f3b81400b23c",
+        "sha256_in_prefix": "2aee9aca9d9efd41bd72783dfbb9d20ced837f21b1b1c3eb10e6f3b81400b23c",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel-0.3.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "abca9d8b2a78a0d8d1d4feae430b25ef458152cd013e409bd29a57dd31324f6d",
+        "sha256_in_prefix": "abca9d8b2a78a0d8d1d4feae430b25ef458152cd013e409bd29a57dd31324f6d",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4cdc57b133e06f9d8e85a90875af704d187dd5caa806a810471e53c63cd04055",
+        "sha256_in_prefix": "4cdc57b133e06f9d8e85a90875af704d187dd5caa806a810471e53c63cd04055",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "4895be1d7417f6937578dc59c0689272fc910f7c52c6d3ae40dce974b8928a19",
+        "sha256_in_prefix": "4895be1d7417f6937578dc59c0689272fc910f7c52c6d3ae40dce974b8928a19",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd2d404b41db650738177d1824fad15574e738daac38e4461ecbe64ac1a6dfcf",
+        "sha256_in_prefix": "dd2d404b41db650738177d1824fad15574e738daac38e4461ecbe64ac1a6dfcf",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea96779a181dfb284ade07401db1d66567f253776ea0ef55304566b0bde2e1a6",
+        "sha256_in_prefix": "ea96779a181dfb284ade07401db1d66567f253776ea0ef55304566b0bde2e1a6",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__pycache__/about.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1968de22ef0b469256c10ec4afea47106e94e2cfe196d5f887a9cd193413e84",
+        "sha256_in_prefix": "f1968de22ef0b469256c10ec4afea47106e94e2cfe196d5f887a9cd193413e84",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__pycache__/compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d8e635c86812ff39fdf3a12dd1590a2d9d9a181a76c6155c227d87741e69a49",
+        "sha256_in_prefix": "8d8e635c86812ff39fdf3a12dd1590a2d9d9a181a76c6155c227d87741e69a49",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__pycache__/errors.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fe9183cb83ab8087c416abf19bdfefd24f3aa36465ec328f6a5607c8c53f06e",
+        "sha256_in_prefix": "6fe9183cb83ab8087c416abf19bdfefd24f3aa36465ec328f6a5607c8c53f06e",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/__pycache__/schemas.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c86c5b37b8d6bc3b39bfe7b3f2f806971d6075e8ab7db0daf558fa4ee60ad95a",
+        "sha256_in_prefix": "c86c5b37b8d6bc3b39bfe7b3f2f806971d6075e8ab7db0daf558fa4ee60ad95a",
+        "size_in_bytes": 5168
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/about.py",
+        "path_type": "hardlink",
+        "sha256": "7bb597dba1606c61f7ea14a23feff2337cf21e1846a2a5d215db57741a4b6b6b",
+        "sha256_in_prefix": "7bb597dba1606c61f7ea14a23feff2337cf21e1846a2a5d215db57741a4b6b6b",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19795decaf3b4ae4a0386f82d60f677c41ea36ce6eea7cda97219f2b97c4e91b",
+        "sha256_in_prefix": "19795decaf3b4ae4a0386f82d60f677c41ea36ce6eea7cda97219f2b97c4e91b",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "48f26dcfe231239fd386a9f2eed041bf9921646d75270091cd6303db4594da93",
+        "sha256_in_prefix": "48f26dcfe231239fd386a9f2eed041bf9921646d75270091cd6303db4594da93",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/assets.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1eb1bf71155431391e872e14802b8324536c76a39ff6c8a9b6b5e3e5d360f447",
+        "sha256_in_prefix": "1eb1bf71155431391e872e14802b8324536c76a39ff6c8a9b6b5e3e5d360f447",
+        "size_in_bytes": 6590
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/clone.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb4215f2357a4abf23f83fb471c1eb1cbb4d4f55ee74a65b55f2de5ccf235559",
+        "sha256_in_prefix": "eb4215f2357a4abf23f83fb471c1eb1cbb4d4f55ee74a65b55f2de5ccf235559",
+        "size_in_bytes": 4637
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/document.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7af9904f00dc9c57997e634e54412cfcce789fe3cea9e2b8de81aeaef1c69f07",
+        "sha256_in_prefix": "7af9904f00dc9c57997e634e54412cfcce789fe3cea9e2b8de81aeaef1c69f07",
+        "size_in_bytes": 5094
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/dvc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "424a3b205b9490c8c3eab5202e0cafd41b27c869327558b319d24a61187b7330",
+        "sha256_in_prefix": "424a3b205b9490c8c3eab5202e0cafd41b27c869327558b319d24a61187b7330",
+        "size_in_bytes": 7974
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/main.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3619965c14b08fefd7cf183ccfa350cf24737ff61565bcc78fb4b148ab71ce6",
+        "sha256_in_prefix": "f3619965c14b08fefd7cf183ccfa350cf24737ff61565bcc78fb4b148ab71ce6",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/pull.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3130909ee264a4f3ceac97dec39f9a9c2616047d1355fe6bf1a21e98337f83c2",
+        "sha256_in_prefix": "3130909ee264a4f3ceac97dec39f9a9c2616047d1355fe6bf1a21e98337f83c2",
+        "size_in_bytes": 2610
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/push.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5307c38f4a1ee7eb56ec938ac8e18c105e1c36c49ce1575712592bed62316a7",
+        "sha256_in_prefix": "a5307c38f4a1ee7eb56ec938ac8e18c105e1c36c49ce1575712592bed62316a7",
+        "size_in_bytes": 3007
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/remote_storage.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "60aee5f511d03eae8de8931c94e3ce91e23f03991c26f425ea24ba65587f0691",
+        "sha256_in_prefix": "60aee5f511d03eae8de8931c94e3ce91e23f03991c26f425ea24ba65587f0691",
+        "size_in_bytes": 7689
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/__pycache__/run.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f0d97be9c5ddd6b4de5ed4fb7e4fbdfe1973e17ba4024d627809a2e0d56d55b",
+        "sha256_in_prefix": "8f0d97be9c5ddd6b4de5ed4fb7e4fbdfe1973e17ba4024d627809a2e0d56d55b",
+        "size_in_bytes": 11031
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/assets.py",
+        "path_type": "hardlink",
+        "sha256": "8089d917f350d21368b4685daa39d9197282748bfcea60c8fd2868c380c65cd1",
+        "sha256_in_prefix": "8089d917f350d21368b4685daa39d9197282748bfcea60c8fd2868c380c65cd1",
+        "size_in_bytes": 8231
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/clone.py",
+        "path_type": "hardlink",
+        "sha256": "89307bee5c94c95ad63d3d74a45d952b28b3b314b1543c5ffdfeb53887bda30b",
+        "sha256_in_prefix": "89307bee5c94c95ad63d3d74a45d952b28b3b314b1543c5ffdfeb53887bda30b",
+        "size_in_bytes": 5025
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/document.py",
+        "path_type": "hardlink",
+        "sha256": "9c703c114973c608982a1fd2bbd81c9a5c54a64e4a4a50564955fe8a1b81b2d9",
+        "sha256_in_prefix": "9c703c114973c608982a1fd2bbd81c9a5c54a64e4a4a50564955fe8a1b81b2d9",
+        "size_in_bytes": 5747
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/dvc.py",
+        "path_type": "hardlink",
+        "sha256": "b4adc26b90d6c66088d3316dc66cc64a37cae4350b8db36064e57897488cc36b",
+        "sha256_in_prefix": "b4adc26b90d6c66088d3316dc66cc64a37cae4350b8db36064e57897488cc36b",
+        "size_in_bytes": 8452
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/main.py",
+        "path_type": "hardlink",
+        "sha256": "68866fc82b0b63249af83214812a620f1e1fc35123d331d89a1d18b1119079fe",
+        "sha256_in_prefix": "68866fc82b0b63249af83214812a620f1e1fc35123d331d89a1d18b1119079fe",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/pull.py",
+        "path_type": "hardlink",
+        "sha256": "683bbf9b44dc86767fc3f62031333c1ea4df7ac2338021515a6cf35601719205",
+        "sha256_in_prefix": "683bbf9b44dc86767fc3f62031333c1ea4df7ac2338021515a6cf35601719205",
+        "size_in_bytes": 2934
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/push.py",
+        "path_type": "hardlink",
+        "sha256": "67a1a712d85d70c9c2a67001bbfcc8aa66c5e3a02fd4631ba7d03b9d5f410aac",
+        "sha256_in_prefix": "67a1a712d85d70c9c2a67001bbfcc8aa66c5e3a02fd4631ba7d03b9d5f410aac",
+        "size_in_bytes": 2764
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/remote_storage.py",
+        "path_type": "hardlink",
+        "sha256": "2943b093269f85780c0b74c4486d382019ac1242c0ea880e6b22d1ba9bb5539e",
+        "sha256_in_prefix": "2943b093269f85780c0b74c4486d382019ac1242c0ea880e6b22d1ba9bb5539e",
+        "size_in_bytes": 8118
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/cli/run.py",
+        "path_type": "hardlink",
+        "sha256": "72767058d3322f4a6382c9f2f7eacd8c2f645522cd7f97f968b870f668833705",
+        "sha256_in_prefix": "72767058d3322f4a6382c9f2f7eacd8c2f645522cd7f97f968b870f668833705",
+        "size_in_bytes": 13248
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/compat.py",
+        "path_type": "hardlink",
+        "sha256": "dc3f272129c7fb211910c02fee8452bde3b504ba3dc36963b5b30a4f6f984ba0",
+        "sha256_in_prefix": "dc3f272129c7fb211910c02fee8452bde3b504ba3dc36963b5b30a4f6f984ba0",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/errors.py",
+        "path_type": "hardlink",
+        "sha256": "8e4302041ec5619025c73edd1d4e136fd6e74e49b3e7fe4d2dcce835d37bb704",
+        "sha256_in_prefix": "8e4302041ec5619025c73edd1d4e136fd6e74e49b3e7fe4d2dcce835d37bb704",
+        "size_in_bytes": 1171
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/schemas.py",
+        "path_type": "hardlink",
+        "sha256": "0bf719c3b40ccb4ef7ccc121cbf3d41ff0db904065c18237844efd51c492722a",
+        "sha256_in_prefix": "0bf719c3b40ccb4ef7ccc121cbf3d41ff0db904065c18237844efd51c492722a",
+        "size_in_bytes": 4268
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec725cb49305cd40b38158442d8d07ea8ff1bdbc51d31363e31d14e76b957f82",
+        "sha256_in_prefix": "ec725cb49305cd40b38158442d8d07ea8ff1bdbc51d31363e31d14e76b957f82",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/__pycache__/test_schemas.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b600d4eb4821e4c387977ebdfe1d3fee7109f1c1624e915f939e9233d5da38d",
+        "sha256_in_prefix": "9b600d4eb4821e4c387977ebdfe1d3fee7109f1c1624e915f939e9233d5da38d",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/__pycache__/test_validation.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2046bd21ed53262f6a3ad18fd87f33748d822a6c9637efa30ac55b10b836ff4",
+        "sha256_in_prefix": "c2046bd21ed53262f6a3ad18fd87f33748d822a6c9637efa30ac55b10b836ff4",
+        "size_in_bytes": 4411
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/__pycache__/util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b66b5c1086e0c5b8a514ffc75204041ca5f99b703b1bde0222a280cd7152334",
+        "sha256_in_prefix": "2b66b5c1086e0c5b8a514ffc75204041ca5f99b703b1bde0222a280cd7152334",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c077db421e3415c91236133ee755ea94d8babb4eaca800356e101c84087bad62",
+        "sha256_in_prefix": "c077db421e3415c91236133ee755ea94d8babb4eaca800356e101c84087bad62",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_cli.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3c1192926161a99732b267e197cb670992eef361a307ca03f6e11420fc4527f",
+        "sha256_in_prefix": "d3c1192926161a99732b267e197cb670992eef361a307ca03f6e11420fc4527f",
+        "size_in_bytes": 4353
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_cli_app.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f673a0614e64d31dd3e92d7caa2d6037a1a477e556a26318cab4e2df8e0663b6",
+        "sha256_in_prefix": "f673a0614e64d31dd3e92d7caa2d6037a1a477e556a26318cab4e2df8e0663b6",
+        "size_in_bytes": 5091
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_document.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "760606e1c763172f803bb18c4462eb65e0843150942e04266c8851f78bef9d0b",
+        "sha256_in_prefix": "760606e1c763172f803bb18c4462eb65e0843150942e04266c8851f78bef9d0b",
+        "size_in_bytes": 3182
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/__pycache__/test_remote.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3526ce567179be395d6ab0204a33bd9a692c6ff0e5bb901572490570c645390",
+        "sha256_in_prefix": "d3526ce567179be395d6ab0204a33bd9a692c6ff0e5bb901572490570c645390",
+        "size_in_bytes": 2037
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/test_cli.py",
+        "path_type": "hardlink",
+        "sha256": "a561778998fb07f6abe330b869709453e2263e67772399f614c9d5b93e7ba1fc",
+        "sha256_in_prefix": "a561778998fb07f6abe330b869709453e2263e67772399f614c9d5b93e7ba1fc",
+        "size_in_bytes": 5673
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/test_cli_app.py",
+        "path_type": "hardlink",
+        "sha256": "99cb60d4ba4ec0983910a9b9c6c8d4fb22767c556fdf465ebe6f57965cccc22b",
+        "sha256_in_prefix": "99cb60d4ba4ec0983910a9b9c6c8d4fb22767c556fdf465ebe6f57965cccc22b",
+        "size_in_bytes": 5972
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/test_document.py",
+        "path_type": "hardlink",
+        "sha256": "78f3e42c8de361fc2217d35f78d7e7970ac59e2e180b3b85c1d503d100e62538",
+        "sha256_in_prefix": "78f3e42c8de361fc2217d35f78d7e7970ac59e2e180b3b85c1d503d100e62538",
+        "size_in_bytes": 3628
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/cli/test_remote.py",
+        "path_type": "hardlink",
+        "sha256": "d26c63fa76a700115a88a0459ba60a3eb5640eab475136d079f350059b4f40eb",
+        "sha256_in_prefix": "d26c63fa76a700115a88a0459ba60a3eb5640eab475136d079f350059b4f40eb",
+        "size_in_bytes": 2156
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/test_schemas.py",
+        "path_type": "hardlink",
+        "sha256": "751d041f89570956a3bc97a65b7944d08378994e6f715c96133f63e4a9fbd320",
+        "sha256_in_prefix": "751d041f89570956a3bc97a65b7944d08378994e6f715c96133f63e4a9fbd320",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/test_validation.py",
+        "path_type": "hardlink",
+        "sha256": "1fb4c19f89d80b31e4450249b30c1a0f82f6e9b82b76ccc701b1f9cd11485f06",
+        "sha256_in_prefix": "1fb4c19f89d80b31e4450249b30c1a0f82f6e9b82b76ccc701b1f9cd11485f06",
+        "size_in_bytes": 5222
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/tests/util.py",
+        "path_type": "hardlink",
+        "sha256": "43b6de0b02b103494e5edbfef9c95a84feed3ad4e5a65c00edcd56bf44676be2",
+        "sha256_in_prefix": "43b6de0b02b103494e5edbfef9c95a84feed3ad4e5a65c00edcd56bf44676be2",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a16d1ee1eebb0db98154a28477a7c62fc418d174b14c3a91bd9faffc6c197d3a",
+        "sha256_in_prefix": "a16d1ee1eebb0db98154a28477a7c62fc418d174b14c3a91bd9faffc6c197d3a",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b3d2dee789b39e6c9f8ff6810fe252579d900299bfe968faeb840ba49aeb6ca",
+        "sha256_in_prefix": "8b3d2dee789b39e6c9f8ff6810fe252579d900299bfe968faeb840ba49aeb6ca",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/commands.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d8f4b09567f2ecec3f9a4b2e7da40e3846116d30dedf21a1ba111beda9befda",
+        "sha256_in_prefix": "6d8f4b09567f2ecec3f9a4b2e7da40e3846116d30dedf21a1ba111beda9befda",
+        "size_in_bytes": 2911
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/config.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "957f3fd6f4871954d9bccbc0b6681774adc0eb4b0a9eba6b2c68403d31790163",
+        "sha256_in_prefix": "957f3fd6f4871954d9bccbc0b6681774adc0eb4b0a9eba6b2c68403d31790163",
+        "size_in_bytes": 4903
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/environment.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f258388f9909ec9f33726a9b326c931af76c0c520b9f17ace45e7d09fd0feed",
+        "sha256_in_prefix": "7f258388f9909ec9f33726a9b326c931af76c0c520b9f17ace45e7d09fd0feed",
+        "size_in_bytes": 1394
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/filesystem.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9f7d06716a820621189988314aa6bbc0f2d20d17296808ea71a2378956a197b",
+        "sha256_in_prefix": "b9f7d06716a820621189988314aa6bbc0f2d20d17296808ea71a2378956a197b",
+        "size_in_bytes": 3193
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/frozen.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "34391476f04cdb4160704ab6a342f257c021a0a0368a59bc6eb0e103ec8a0e1c",
+        "sha256_in_prefix": "34391476f04cdb4160704ab6a342f257c021a0a0368a59bc6eb0e103ec8a0e1c",
+        "size_in_bytes": 3446
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/git.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d18be45a7276b2412bf4da89eb68c7b0cddc96756aa5819bd1e3ba1ada278875",
+        "sha256_in_prefix": "d18be45a7276b2412bf4da89eb68c7b0cddc96756aa5819bd1e3ba1ada278875",
+        "size_in_bytes": 4389
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/hashing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6016e704a84577c1c1ebdd695fcc3a222cdee46de8fec4171aa8f86eaf595198",
+        "sha256_in_prefix": "6016e704a84577c1c1ebdd695fcc3a222cdee46de8fec4171aa8f86eaf595198",
+        "size_in_bytes": 1803
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/logging.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aedc3151feee9ca7f5a67a231d221464f5bd710bd4754dfc58f51299d03a70d1",
+        "sha256_in_prefix": "aedc3151feee9ca7f5a67a231d221464f5bd710bd4754dfc58f51299d03a70d1",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/modules.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7581c8a15d9c506ec7949b7b9a7db00cafb2e3ef18a7cae17638b8b1b162b28d",
+        "sha256_in_prefix": "7581c8a15d9c506ec7949b7b9a7db00cafb2e3ef18a7cae17638b8b1b162b28d",
+        "size_in_bytes": 753
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/remote.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "25c96d3ad467dc6b88c7a78fef1b935730aec063e1b5fd460ef38b62a3712335",
+        "sha256_in_prefix": "25c96d3ad467dc6b88c7a78fef1b935730aec063e1b5fd460ef38b62a3712335",
+        "size_in_bytes": 1544
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/validation.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "041ad29f1cbc2b6b357dd596229bdcd512cfce6e2f0c7c5b4210b140aa473f75",
+        "sha256_in_prefix": "041ad29f1cbc2b6b357dd596229bdcd512cfce6e2f0c7c5b4210b140aa473f75",
+        "size_in_bytes": 3197
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/__pycache__/versions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d41a6fa80d9a11cd75cf3986d6380b18db9c7c0eecf31efc2f661bb4367d6aab",
+        "sha256_in_prefix": "d41a6fa80d9a11cd75cf3986d6380b18db9c7c0eecf31efc2f661bb4367d6aab",
+        "size_in_bytes": 2196
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/commands.py",
+        "path_type": "hardlink",
+        "sha256": "7d77236ba0d3bfe8164ff350e352e1d87a5e28e6935333f772a9cfeccb537370",
+        "sha256_in_prefix": "7d77236ba0d3bfe8164ff350e352e1d87a5e28e6935333f772a9cfeccb537370",
+        "size_in_bytes": 2960
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/config.py",
+        "path_type": "hardlink",
+        "sha256": "be5535cc028a360ef856f89e3cc2276ac84ced78deee1d4116389aeea821d0f5",
+        "sha256_in_prefix": "be5535cc028a360ef856f89e3cc2276ac84ced78deee1d4116389aeea821d0f5",
+        "size_in_bytes": 5778
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/environment.py",
+        "path_type": "hardlink",
+        "sha256": "361df35c0f2ce488b8222a28ef7ffdcc2f2fdc9dbee11b455fee43fd9c19dacf",
+        "sha256_in_prefix": "361df35c0f2ce488b8222a28ef7ffdcc2f2fdc9dbee11b455fee43fd9c19dacf",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/filesystem.py",
+        "path_type": "hardlink",
+        "sha256": "374d25de3697a9fc0f6df28f4d1650dba4c1e07724faa02c358083ad2130b9c6",
+        "sha256_in_prefix": "374d25de3697a9fc0f6df28f4d1650dba4c1e07724faa02c358083ad2130b9c6",
+        "size_in_bytes": 2965
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/frozen.py",
+        "path_type": "hardlink",
+        "sha256": "1b0ec61b459622d6773e136a743b3983e32570fb0325531785d880cf5c361acf",
+        "sha256_in_prefix": "1b0ec61b459622d6773e136a743b3983e32570fb0325531785d880cf5c361acf",
+        "size_in_bytes": 2232
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/git.py",
+        "path_type": "hardlink",
+        "sha256": "d70177dc56968e2db5fccfb9e4a7d0cae74f2fba3e4d1bcb34605b52827cd5bf",
+        "sha256_in_prefix": "d70177dc56968e2db5fccfb9e4a7d0cae74f2fba3e4d1bcb34605b52827cd5bf",
+        "size_in_bytes": 6419
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/hashing.py",
+        "path_type": "hardlink",
+        "sha256": "3379306fb2030fe125f9c3f023bbbc1f0ebcab40838c2b929a68453948e81f78",
+        "sha256_in_prefix": "3379306fb2030fe125f9c3f023bbbc1f0ebcab40838c2b929a68453948e81f78",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/logging.py",
+        "path_type": "hardlink",
+        "sha256": "4fdd105d872764e38ae5a878ff7b1f2116239c9c07992bc89d9e673c23375c03",
+        "sha256_in_prefix": "4fdd105d872764e38ae5a878ff7b1f2116239c9c07992bc89d9e673c23375c03",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/modules.py",
+        "path_type": "hardlink",
+        "sha256": "d3e792882b48740c5b3c9a6da39500040746f988b0623d4736b926d8cc9c404e",
+        "sha256_in_prefix": "d3e792882b48740c5b3c9a6da39500040746f988b0623d4736b926d8cc9c404e",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/remote.py",
+        "path_type": "hardlink",
+        "sha256": "af1a98c7037e0d39704c6a9df3b16bb4c000fd961610ae817d285ca3190b62ed",
+        "sha256_in_prefix": "af1a98c7037e0d39704c6a9df3b16bb4c000fd961610ae817d285ca3190b62ed",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/validation.py",
+        "path_type": "hardlink",
+        "sha256": "7d63b456ba8a3ba6aee1597bd06b4575f7b0584a2f4b818084f0c07a438b8ab0",
+        "sha256_in_prefix": "7d63b456ba8a3ba6aee1597bd06b4575f7b0584a2f4b818084f0c07a438b8ab0",
+        "size_in_bytes": 3218
+      },
+      {
+        "_path": "lib/python3.9/site-packages/weasel/util/versions.py",
+        "path_type": "hardlink",
+        "sha256": "f7dbbfbdb0224f2c76a5cfdcdea5e56c58e38c0282cca416ea2da68a5ae630d5",
+        "sha256_in_prefix": "f7dbbfbdb0224f2c76a5cfdcdea5e56c58e38c0282cca416ea2da68a5ae630d5",
+        "size_in_bytes": 2098
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::weasel==0.3.4=py39h06a4308_0",
+  "sha256": "26ddccd579e0211a28aea68c1e33bfca492e04284bc2afe815d08d390738c8b1",
+  "size": 77786,
+  "subdir": "linux-64",
+  "timestamp": 1704815879000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/weasel-0.3.4-py39h06a4308_0.conda",
+  "version": "0.3.4"
+}

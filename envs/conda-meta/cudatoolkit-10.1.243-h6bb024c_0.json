@@ -1,0 +1,643 @@
+{
+  "arch": "x86_64",
+  "build": "h6bb024c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/cudatoolkit-10.1.243-h6bb024c_0",
+  "files": [
+    "lib/cudatoolkit_config.yaml",
+    "lib/libcublas.so",
+    "lib/libcublas.so.10",
+    "lib/libcublas.so.10.2.1.243",
+    "lib/libcublasLt.so",
+    "lib/libcublasLt.so.10",
+    "lib/libcublasLt.so.10.2.1.243",
+    "lib/libcudart.so",
+    "lib/libcudart.so.10.1",
+    "lib/libcudart.so.10.1.243",
+    "lib/libcufft.so",
+    "lib/libcufft.so.10",
+    "lib/libcufft.so.10.1.1.243",
+    "lib/libcufftw.so",
+    "lib/libcufftw.so.10",
+    "lib/libcufftw.so.10.1.1.243",
+    "lib/libcurand.so",
+    "lib/libcurand.so.10",
+    "lib/libcurand.so.10.1.1.243",
+    "lib/libcusolver.so",
+    "lib/libcusolver.so.10",
+    "lib/libcusolver.so.10.2.0.243",
+    "lib/libcusparse.so",
+    "lib/libcusparse.so.10",
+    "lib/libcusparse.so.10.3.0.243",
+    "lib/libdevice.10.bc",
+    "lib/libnppc.so",
+    "lib/libnppc.so.10",
+    "lib/libnppc.so.10.2.0.243",
+    "lib/libnppial.so",
+    "lib/libnppial.so.10",
+    "lib/libnppial.so.10.2.0.243",
+    "lib/libnppicc.so",
+    "lib/libnppicc.so.10",
+    "lib/libnppicc.so.10.2.0.243",
+    "lib/libnppicom.so",
+    "lib/libnppicom.so.10",
+    "lib/libnppicom.so.10.2.0.243",
+    "lib/libnppidei.so",
+    "lib/libnppidei.so.10",
+    "lib/libnppidei.so.10.2.0.243",
+    "lib/libnppif.so",
+    "lib/libnppif.so.10",
+    "lib/libnppif.so.10.2.0.243",
+    "lib/libnppig.so",
+    "lib/libnppig.so.10",
+    "lib/libnppig.so.10.2.0.243",
+    "lib/libnppim.so",
+    "lib/libnppim.so.10",
+    "lib/libnppim.so.10.2.0.243",
+    "lib/libnppist.so",
+    "lib/libnppist.so.10",
+    "lib/libnppist.so.10.2.0.243",
+    "lib/libnppisu.so",
+    "lib/libnppisu.so.10",
+    "lib/libnppisu.so.10.2.0.243",
+    "lib/libnppitc.so",
+    "lib/libnppitc.so.10",
+    "lib/libnppitc.so.10.2.0.243",
+    "lib/libnpps.so",
+    "lib/libnpps.so.10",
+    "lib/libnpps.so.10.2.0.243",
+    "lib/libnvToolsExt.so",
+    "lib/libnvToolsExt.so.1",
+    "lib/libnvToolsExt.so.1.0.0",
+    "lib/libnvblas.so",
+    "lib/libnvblas.so.10",
+    "lib/libnvblas.so.10.2.1.243",
+    "lib/libnvgraph.so",
+    "lib/libnvgraph.so.10",
+    "lib/libnvgraph.so.10.1.243",
+    "lib/libnvjpeg.so",
+    "lib/libnvjpeg.so.10",
+    "lib/libnvjpeg.so.10.3.0.243",
+    "lib/libnvrtc-builtins.so",
+    "lib/libnvrtc-builtins.so.10.1",
+    "lib/libnvrtc-builtins.so.10.1.243",
+    "lib/libnvrtc.so",
+    "lib/libnvrtc.so.10.1",
+    "lib/libnvrtc.so.10.1.243",
+    "lib/libnvvm.so",
+    "lib/libnvvm.so.3",
+    "lib/libnvvm.so.3.3.0"
+  ],
+  "fn": "cudatoolkit-10.1.243-h6bb024c_0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/cudatoolkit-10.1.243-h6bb024c_0",
+    "type": 1
+  },
+  "md5": "0fab1ab5da0a51c6eb907cb5b4e8fc1b",
+  "name": "cudatoolkit",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/cudatoolkit-10.1.243-h6bb024c_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/cudatoolkit_config.yaml",
+        "path_type": "hardlink",
+        "sha256": "2b80c5a4288c8688adbddc0e4b33f260c934157bb01a19cdcb193be5937d5515",
+        "sha256_in_prefix": "2b80c5a4288c8688adbddc0e4b33f260c934157bb01a19cdcb193be5937d5515",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/libcublas.so",
+        "path_type": "softlink",
+        "sha256": "6baf96404e8c7fe48de785b48d97b7253e55779ab60031743f1453212d4793f0",
+        "size_in_bytes": 62470680
+      },
+      {
+        "_path": "lib/libcublas.so.10",
+        "path_type": "softlink",
+        "sha256": "6baf96404e8c7fe48de785b48d97b7253e55779ab60031743f1453212d4793f0",
+        "size_in_bytes": 62470680
+      },
+      {
+        "_path": "lib/libcublas.so.10.2.1.243",
+        "path_type": "hardlink",
+        "sha256": "6baf96404e8c7fe48de785b48d97b7253e55779ab60031743f1453212d4793f0",
+        "sha256_in_prefix": "6baf96404e8c7fe48de785b48d97b7253e55779ab60031743f1453212d4793f0",
+        "size_in_bytes": 62470680
+      },
+      {
+        "_path": "lib/libcublasLt.so",
+        "path_type": "softlink",
+        "sha256": "73cd753928f0402a453a3d590d916f55899c656cccbbaf50ef9bc0e3cc8e7fc9",
+        "size_in_bytes": 30003584
+      },
+      {
+        "_path": "lib/libcublasLt.so.10",
+        "path_type": "softlink",
+        "sha256": "73cd753928f0402a453a3d590d916f55899c656cccbbaf50ef9bc0e3cc8e7fc9",
+        "size_in_bytes": 30003584
+      },
+      {
+        "_path": "lib/libcublasLt.so.10.2.1.243",
+        "path_type": "hardlink",
+        "sha256": "73cd753928f0402a453a3d590d916f55899c656cccbbaf50ef9bc0e3cc8e7fc9",
+        "sha256_in_prefix": "73cd753928f0402a453a3d590d916f55899c656cccbbaf50ef9bc0e3cc8e7fc9",
+        "size_in_bytes": 30003584
+      },
+      {
+        "_path": "lib/libcudart.so",
+        "path_type": "softlink",
+        "sha256": "eb81c81614d1b08149e2adff0864f5edeeb0315da512ba13d1e515534ef050e2",
+        "size_in_bytes": 517432
+      },
+      {
+        "_path": "lib/libcudart.so.10.1",
+        "path_type": "softlink",
+        "sha256": "eb81c81614d1b08149e2adff0864f5edeeb0315da512ba13d1e515534ef050e2",
+        "size_in_bytes": 517432
+      },
+      {
+        "_path": "lib/libcudart.so.10.1.243",
+        "path_type": "hardlink",
+        "sha256": "eb81c81614d1b08149e2adff0864f5edeeb0315da512ba13d1e515534ef050e2",
+        "sha256_in_prefix": "eb81c81614d1b08149e2adff0864f5edeeb0315da512ba13d1e515534ef050e2",
+        "size_in_bytes": 517432
+      },
+      {
+        "_path": "lib/libcufft.so",
+        "path_type": "softlink",
+        "sha256": "5c409daed6ba75c30ba384971ece529ea1962cf86bb9ae1a3b50efeb8f21fb0a",
+        "size_in_bytes": 138163000
+      },
+      {
+        "_path": "lib/libcufft.so.10",
+        "path_type": "softlink",
+        "sha256": "5c409daed6ba75c30ba384971ece529ea1962cf86bb9ae1a3b50efeb8f21fb0a",
+        "size_in_bytes": 138163000
+      },
+      {
+        "_path": "lib/libcufft.so.10.1.1.243",
+        "path_type": "hardlink",
+        "sha256": "5c409daed6ba75c30ba384971ece529ea1962cf86bb9ae1a3b50efeb8f21fb0a",
+        "sha256_in_prefix": "5c409daed6ba75c30ba384971ece529ea1962cf86bb9ae1a3b50efeb8f21fb0a",
+        "size_in_bytes": 138163000
+      },
+      {
+        "_path": "lib/libcufftw.so",
+        "path_type": "softlink",
+        "sha256": "71af059c670f7fbdf3913ca6b6a18afce709f17fe0eed44bb41dd0bf44f3e485",
+        "size_in_bytes": 508264
+      },
+      {
+        "_path": "lib/libcufftw.so.10",
+        "path_type": "softlink",
+        "sha256": "71af059c670f7fbdf3913ca6b6a18afce709f17fe0eed44bb41dd0bf44f3e485",
+        "size_in_bytes": 508264
+      },
+      {
+        "_path": "lib/libcufftw.so.10.1.1.243",
+        "path_type": "hardlink",
+        "sha256": "71af059c670f7fbdf3913ca6b6a18afce709f17fe0eed44bb41dd0bf44f3e485",
+        "sha256_in_prefix": "71af059c670f7fbdf3913ca6b6a18afce709f17fe0eed44bb41dd0bf44f3e485",
+        "size_in_bytes": 508264
+      },
+      {
+        "_path": "lib/libcurand.so",
+        "path_type": "softlink",
+        "sha256": "0f9ef3d3c83e30b691814bc250abcca15df27cf52f54d4eecbbbb72975126780",
+        "size_in_bytes": 59817560
+      },
+      {
+        "_path": "lib/libcurand.so.10",
+        "path_type": "softlink",
+        "sha256": "0f9ef3d3c83e30b691814bc250abcca15df27cf52f54d4eecbbbb72975126780",
+        "size_in_bytes": 59817560
+      },
+      {
+        "_path": "lib/libcurand.so.10.1.1.243",
+        "path_type": "hardlink",
+        "sha256": "0f9ef3d3c83e30b691814bc250abcca15df27cf52f54d4eecbbbb72975126780",
+        "sha256_in_prefix": "0f9ef3d3c83e30b691814bc250abcca15df27cf52f54d4eecbbbb72975126780",
+        "size_in_bytes": 59817560
+      },
+      {
+        "_path": "lib/libcusolver.so",
+        "path_type": "softlink",
+        "sha256": "c91eff7eb99056e52afd00526dbe333875673886abd94688eeb873078d990ad6",
+        "size_in_bytes": 177185432
+      },
+      {
+        "_path": "lib/libcusolver.so.10",
+        "path_type": "softlink",
+        "sha256": "c91eff7eb99056e52afd00526dbe333875673886abd94688eeb873078d990ad6",
+        "size_in_bytes": 177185432
+      },
+      {
+        "_path": "lib/libcusolver.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "c91eff7eb99056e52afd00526dbe333875673886abd94688eeb873078d990ad6",
+        "sha256_in_prefix": "c91eff7eb99056e52afd00526dbe333875673886abd94688eeb873078d990ad6",
+        "size_in_bytes": 177185432
+      },
+      {
+        "_path": "lib/libcusparse.so",
+        "path_type": "softlink",
+        "sha256": "a391718ee3059a94fdce518d53457d9172e77023c973332d3005b4ecb25730ed",
+        "size_in_bytes": 117980632
+      },
+      {
+        "_path": "lib/libcusparse.so.10",
+        "path_type": "softlink",
+        "sha256": "a391718ee3059a94fdce518d53457d9172e77023c973332d3005b4ecb25730ed",
+        "size_in_bytes": 117980632
+      },
+      {
+        "_path": "lib/libcusparse.so.10.3.0.243",
+        "path_type": "hardlink",
+        "sha256": "a391718ee3059a94fdce518d53457d9172e77023c973332d3005b4ecb25730ed",
+        "sha256_in_prefix": "a391718ee3059a94fdce518d53457d9172e77023c973332d3005b4ecb25730ed",
+        "size_in_bytes": 117980632
+      },
+      {
+        "_path": "lib/libdevice.10.bc",
+        "path_type": "hardlink",
+        "sha256": "03fba009227a684e5e0c72693a77a9741eb4e79dfc634ba3b00aff266d5796eb",
+        "sha256_in_prefix": "03fba009227a684e5e0c72693a77a9741eb4e79dfc634ba3b00aff266d5796eb",
+        "size_in_bytes": 453352
+      },
+      {
+        "_path": "lib/libnppc.so",
+        "path_type": "softlink",
+        "sha256": "a6eb15010eabd8ccf8ca5ed996ec4c5fb6b34e5e40b66de8efd50807f815e182",
+        "size_in_bytes": 503136
+      },
+      {
+        "_path": "lib/libnppc.so.10",
+        "path_type": "softlink",
+        "sha256": "a6eb15010eabd8ccf8ca5ed996ec4c5fb6b34e5e40b66de8efd50807f815e182",
+        "size_in_bytes": 503136
+      },
+      {
+        "_path": "lib/libnppc.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "a6eb15010eabd8ccf8ca5ed996ec4c5fb6b34e5e40b66de8efd50807f815e182",
+        "sha256_in_prefix": "a6eb15010eabd8ccf8ca5ed996ec4c5fb6b34e5e40b66de8efd50807f815e182",
+        "size_in_bytes": 503136
+      },
+      {
+        "_path": "lib/libnppial.so",
+        "path_type": "softlink",
+        "sha256": "65a1069d853c0f0acf52c297be37e3c9820f79cdcb47528f94e36cfa068e46ef",
+        "size_in_bytes": 11902592
+      },
+      {
+        "_path": "lib/libnppial.so.10",
+        "path_type": "softlink",
+        "sha256": "65a1069d853c0f0acf52c297be37e3c9820f79cdcb47528f94e36cfa068e46ef",
+        "size_in_bytes": 11902592
+      },
+      {
+        "_path": "lib/libnppial.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "65a1069d853c0f0acf52c297be37e3c9820f79cdcb47528f94e36cfa068e46ef",
+        "sha256_in_prefix": "65a1069d853c0f0acf52c297be37e3c9820f79cdcb47528f94e36cfa068e46ef",
+        "size_in_bytes": 11902592
+      },
+      {
+        "_path": "lib/libnppicc.so",
+        "path_type": "softlink",
+        "sha256": "b60652319c11de2c8235b412df48824ca16518f32194f482faf87aa24204598c",
+        "size_in_bytes": 4459560
+      },
+      {
+        "_path": "lib/libnppicc.so.10",
+        "path_type": "softlink",
+        "sha256": "b60652319c11de2c8235b412df48824ca16518f32194f482faf87aa24204598c",
+        "size_in_bytes": 4459560
+      },
+      {
+        "_path": "lib/libnppicc.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "b60652319c11de2c8235b412df48824ca16518f32194f482faf87aa24204598c",
+        "sha256_in_prefix": "b60652319c11de2c8235b412df48824ca16518f32194f482faf87aa24204598c",
+        "size_in_bytes": 4459560
+      },
+      {
+        "_path": "lib/libnppicom.so",
+        "path_type": "softlink",
+        "sha256": "95036989f7f4b2954826a1fb2287ce6c9aeade13a8743e437bd40503bf441f35",
+        "size_in_bytes": 1352504
+      },
+      {
+        "_path": "lib/libnppicom.so.10",
+        "path_type": "softlink",
+        "sha256": "95036989f7f4b2954826a1fb2287ce6c9aeade13a8743e437bd40503bf441f35",
+        "size_in_bytes": 1352504
+      },
+      {
+        "_path": "lib/libnppicom.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "95036989f7f4b2954826a1fb2287ce6c9aeade13a8743e437bd40503bf441f35",
+        "sha256_in_prefix": "95036989f7f4b2954826a1fb2287ce6c9aeade13a8743e437bd40503bf441f35",
+        "size_in_bytes": 1352504
+      },
+      {
+        "_path": "lib/libnppidei.so",
+        "path_type": "softlink",
+        "sha256": "bf00823b5838eed045fffb8290e54264b769acfefa8fc61e75195f4ea6426981",
+        "size_in_bytes": 8221432
+      },
+      {
+        "_path": "lib/libnppidei.so.10",
+        "path_type": "softlink",
+        "sha256": "bf00823b5838eed045fffb8290e54264b769acfefa8fc61e75195f4ea6426981",
+        "size_in_bytes": 8221432
+      },
+      {
+        "_path": "lib/libnppidei.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "bf00823b5838eed045fffb8290e54264b769acfefa8fc61e75195f4ea6426981",
+        "sha256_in_prefix": "bf00823b5838eed045fffb8290e54264b769acfefa8fc61e75195f4ea6426981",
+        "size_in_bytes": 8221432
+      },
+      {
+        "_path": "lib/libnppif.so",
+        "path_type": "softlink",
+        "sha256": "f08954bda30865fe6acbbde7259ae8039832e8fefd4f4d7831fa4a3614c7a593",
+        "size_in_bytes": 46482880
+      },
+      {
+        "_path": "lib/libnppif.so.10",
+        "path_type": "softlink",
+        "sha256": "f08954bda30865fe6acbbde7259ae8039832e8fefd4f4d7831fa4a3614c7a593",
+        "size_in_bytes": 46482880
+      },
+      {
+        "_path": "lib/libnppif.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "f08954bda30865fe6acbbde7259ae8039832e8fefd4f4d7831fa4a3614c7a593",
+        "sha256_in_prefix": "f08954bda30865fe6acbbde7259ae8039832e8fefd4f4d7831fa4a3614c7a593",
+        "size_in_bytes": 46482880
+      },
+      {
+        "_path": "lib/libnppig.so",
+        "path_type": "softlink",
+        "sha256": "b4ddaa69b34e949979373ed78d2f67a64156829bc7649a5994088f6abbacc9da",
+        "size_in_bytes": 26019448
+      },
+      {
+        "_path": "lib/libnppig.so.10",
+        "path_type": "softlink",
+        "sha256": "b4ddaa69b34e949979373ed78d2f67a64156829bc7649a5994088f6abbacc9da",
+        "size_in_bytes": 26019448
+      },
+      {
+        "_path": "lib/libnppig.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "b4ddaa69b34e949979373ed78d2f67a64156829bc7649a5994088f6abbacc9da",
+        "sha256_in_prefix": "b4ddaa69b34e949979373ed78d2f67a64156829bc7649a5994088f6abbacc9da",
+        "size_in_bytes": 26019448
+      },
+      {
+        "_path": "lib/libnppim.so",
+        "path_type": "softlink",
+        "sha256": "634684db7c8b761ff1f6bbbb1e60715517e75eec6340d18a70de677defc12afd",
+        "size_in_bytes": 6294240
+      },
+      {
+        "_path": "lib/libnppim.so.10",
+        "path_type": "softlink",
+        "sha256": "634684db7c8b761ff1f6bbbb1e60715517e75eec6340d18a70de677defc12afd",
+        "size_in_bytes": 6294240
+      },
+      {
+        "_path": "lib/libnppim.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "634684db7c8b761ff1f6bbbb1e60715517e75eec6340d18a70de677defc12afd",
+        "sha256_in_prefix": "634684db7c8b761ff1f6bbbb1e60715517e75eec6340d18a70de677defc12afd",
+        "size_in_bytes": 6294240
+      },
+      {
+        "_path": "lib/libnppist.so",
+        "path_type": "softlink",
+        "sha256": "a6275d1838f23b7487937e126a3db223958fc4099ab160a65a2db035d45b43cb",
+        "size_in_bytes": 19318696
+      },
+      {
+        "_path": "lib/libnppist.so.10",
+        "path_type": "softlink",
+        "sha256": "a6275d1838f23b7487937e126a3db223958fc4099ab160a65a2db035d45b43cb",
+        "size_in_bytes": 19318696
+      },
+      {
+        "_path": "lib/libnppist.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "a6275d1838f23b7487937e126a3db223958fc4099ab160a65a2db035d45b43cb",
+        "sha256_in_prefix": "a6275d1838f23b7487937e126a3db223958fc4099ab160a65a2db035d45b43cb",
+        "size_in_bytes": 19318696
+      },
+      {
+        "_path": "lib/libnppisu.so",
+        "path_type": "softlink",
+        "sha256": "2cd7a28a5ebae1fac45d7cd8c499bfdb39793b9140a387443b090ae376a4ddb6",
+        "size_in_bytes": 490824
+      },
+      {
+        "_path": "lib/libnppisu.so.10",
+        "path_type": "softlink",
+        "sha256": "2cd7a28a5ebae1fac45d7cd8c499bfdb39793b9140a387443b090ae376a4ddb6",
+        "size_in_bytes": 490824
+      },
+      {
+        "_path": "lib/libnppisu.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "2cd7a28a5ebae1fac45d7cd8c499bfdb39793b9140a387443b090ae376a4ddb6",
+        "sha256_in_prefix": "2cd7a28a5ebae1fac45d7cd8c499bfdb39793b9140a387443b090ae376a4ddb6",
+        "size_in_bytes": 490824
+      },
+      {
+        "_path": "lib/libnppitc.so",
+        "path_type": "softlink",
+        "sha256": "3e77ff4b4165864571f54dc25c35588a1edcfeda94b12fd1ff650622c3384b9a",
+        "size_in_bytes": 3066368
+      },
+      {
+        "_path": "lib/libnppitc.so.10",
+        "path_type": "softlink",
+        "sha256": "3e77ff4b4165864571f54dc25c35588a1edcfeda94b12fd1ff650622c3384b9a",
+        "size_in_bytes": 3066368
+      },
+      {
+        "_path": "lib/libnppitc.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "3e77ff4b4165864571f54dc25c35588a1edcfeda94b12fd1ff650622c3384b9a",
+        "sha256_in_prefix": "3e77ff4b4165864571f54dc25c35588a1edcfeda94b12fd1ff650622c3384b9a",
+        "size_in_bytes": 3066368
+      },
+      {
+        "_path": "lib/libnpps.so",
+        "path_type": "softlink",
+        "sha256": "52b083d08f6a46767512e796e44b51b33b4b143546fb97e41f0df3d368441626",
+        "size_in_bytes": 8840360
+      },
+      {
+        "_path": "lib/libnpps.so.10",
+        "path_type": "softlink",
+        "sha256": "52b083d08f6a46767512e796e44b51b33b4b143546fb97e41f0df3d368441626",
+        "size_in_bytes": 8840360
+      },
+      {
+        "_path": "lib/libnpps.so.10.2.0.243",
+        "path_type": "hardlink",
+        "sha256": "52b083d08f6a46767512e796e44b51b33b4b143546fb97e41f0df3d368441626",
+        "sha256_in_prefix": "52b083d08f6a46767512e796e44b51b33b4b143546fb97e41f0df3d368441626",
+        "size_in_bytes": 8840360
+      },
+      {
+        "_path": "lib/libnvToolsExt.so",
+        "path_type": "softlink",
+        "sha256": "31bceda3f9890ae18d364c90df03ff76ee67e7bdbba50872d5813f777ffb274a",
+        "size_in_bytes": 43368
+      },
+      {
+        "_path": "lib/libnvToolsExt.so.1",
+        "path_type": "softlink",
+        "sha256": "31bceda3f9890ae18d364c90df03ff76ee67e7bdbba50872d5813f777ffb274a",
+        "size_in_bytes": 43368
+      },
+      {
+        "_path": "lib/libnvToolsExt.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "31bceda3f9890ae18d364c90df03ff76ee67e7bdbba50872d5813f777ffb274a",
+        "sha256_in_prefix": "31bceda3f9890ae18d364c90df03ff76ee67e7bdbba50872d5813f777ffb274a",
+        "size_in_bytes": 43368
+      },
+      {
+        "_path": "lib/libnvblas.so",
+        "path_type": "softlink",
+        "sha256": "f4321e19a41d99da796fb6c8e6e92d59f33b7d545939964205516ddb847c84ae",
+        "size_in_bytes": 544552
+      },
+      {
+        "_path": "lib/libnvblas.so.10",
+        "path_type": "softlink",
+        "sha256": "f4321e19a41d99da796fb6c8e6e92d59f33b7d545939964205516ddb847c84ae",
+        "size_in_bytes": 544552
+      },
+      {
+        "_path": "lib/libnvblas.so.10.2.1.243",
+        "path_type": "hardlink",
+        "sha256": "f4321e19a41d99da796fb6c8e6e92d59f33b7d545939964205516ddb847c84ae",
+        "sha256_in_prefix": "f4321e19a41d99da796fb6c8e6e92d59f33b7d545939964205516ddb847c84ae",
+        "size_in_bytes": 544552
+      },
+      {
+        "_path": "lib/libnvgraph.so",
+        "path_type": "softlink",
+        "sha256": "a9863d1b0a95c1a50c3d907d1c577ec152fd487761f8ca80e53a569626627725",
+        "size_in_bytes": 162179712
+      },
+      {
+        "_path": "lib/libnvgraph.so.10",
+        "path_type": "softlink",
+        "sha256": "a9863d1b0a95c1a50c3d907d1c577ec152fd487761f8ca80e53a569626627725",
+        "size_in_bytes": 162179712
+      },
+      {
+        "_path": "lib/libnvgraph.so.10.1.243",
+        "path_type": "hardlink",
+        "sha256": "a9863d1b0a95c1a50c3d907d1c577ec152fd487761f8ca80e53a569626627725",
+        "sha256_in_prefix": "a9863d1b0a95c1a50c3d907d1c577ec152fd487761f8ca80e53a569626627725",
+        "size_in_bytes": 162179712
+      },
+      {
+        "_path": "lib/libnvjpeg.so",
+        "path_type": "softlink",
+        "sha256": "6f3db7de5a3af709a37493ebb81c9c81d6c3c4880a2e8e7a5758b3bb969f2898",
+        "size_in_bytes": 3524808
+      },
+      {
+        "_path": "lib/libnvjpeg.so.10",
+        "path_type": "softlink",
+        "sha256": "6f3db7de5a3af709a37493ebb81c9c81d6c3c4880a2e8e7a5758b3bb969f2898",
+        "size_in_bytes": 3524808
+      },
+      {
+        "_path": "lib/libnvjpeg.so.10.3.0.243",
+        "path_type": "hardlink",
+        "sha256": "6f3db7de5a3af709a37493ebb81c9c81d6c3c4880a2e8e7a5758b3bb969f2898",
+        "sha256_in_prefix": "6f3db7de5a3af709a37493ebb81c9c81d6c3c4880a2e8e7a5758b3bb969f2898",
+        "size_in_bytes": 3524808
+      },
+      {
+        "_path": "lib/libnvrtc-builtins.so",
+        "path_type": "softlink",
+        "sha256": "f3c5585300ea4dbd63e4a708545aa278f7ad6fe1f4135474457ecfe3b0a082a7",
+        "size_in_bytes": 4756520
+      },
+      {
+        "_path": "lib/libnvrtc-builtins.so.10.1",
+        "path_type": "softlink",
+        "sha256": "f3c5585300ea4dbd63e4a708545aa278f7ad6fe1f4135474457ecfe3b0a082a7",
+        "size_in_bytes": 4756520
+      },
+      {
+        "_path": "lib/libnvrtc-builtins.so.10.1.243",
+        "path_type": "hardlink",
+        "sha256": "f3c5585300ea4dbd63e4a708545aa278f7ad6fe1f4135474457ecfe3b0a082a7",
+        "sha256_in_prefix": "f3c5585300ea4dbd63e4a708545aa278f7ad6fe1f4135474457ecfe3b0a082a7",
+        "size_in_bytes": 4756520
+      },
+      {
+        "_path": "lib/libnvrtc.so",
+        "path_type": "softlink",
+        "sha256": "b67324c3087a2faec6bc902d709bea96032d008f866eb4ba40c2b35b9ea8b725",
+        "size_in_bytes": 21794136
+      },
+      {
+        "_path": "lib/libnvrtc.so.10.1",
+        "path_type": "softlink",
+        "sha256": "b67324c3087a2faec6bc902d709bea96032d008f866eb4ba40c2b35b9ea8b725",
+        "size_in_bytes": 21794136
+      },
+      {
+        "_path": "lib/libnvrtc.so.10.1.243",
+        "path_type": "hardlink",
+        "sha256": "b67324c3087a2faec6bc902d709bea96032d008f866eb4ba40c2b35b9ea8b725",
+        "sha256_in_prefix": "b67324c3087a2faec6bc902d709bea96032d008f866eb4ba40c2b35b9ea8b725",
+        "size_in_bytes": 21794136
+      },
+      {
+        "_path": "lib/libnvvm.so",
+        "path_type": "softlink",
+        "sha256": "9135632a994a754a1ccef770d9d35a75fdbbf8172168ae9abc10040234256741",
+        "size_in_bytes": 15052032
+      },
+      {
+        "_path": "lib/libnvvm.so.3",
+        "path_type": "softlink",
+        "sha256": "9135632a994a754a1ccef770d9d35a75fdbbf8172168ae9abc10040234256741",
+        "size_in_bytes": 15052032
+      },
+      {
+        "_path": "lib/libnvvm.so.3.3.0",
+        "path_type": "hardlink",
+        "sha256": "9135632a994a754a1ccef770d9d35a75fdbbf8172168ae9abc10040234256741",
+        "sha256_in_prefix": "9135632a994a754a1ccef770d9d35a75fdbbf8172168ae9abc10040234256741",
+        "size_in_bytes": 15052032
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::cudatoolkit==10.1.243=h6bb024c_0",
+  "sha256": "6780176757ca55b8d851a40eb27eebf29958ae562f24f7c232253be6a8501c17",
+  "size": 538138815,
+  "subdir": "linux-64",
+  "timestamp": 1572634034000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/cudatoolkit-10.1.243-h6bb024c_0.tar.bz2",
+  "version": "10.1.243"
+}

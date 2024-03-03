@@ -1,0 +1,228 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/spacy-loggers-1.0.4-py39h06a4308_0",
+  "files": [
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/LICENSE",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/zip-safe",
+    "lib/python3.9/site-packages/spacy_loggers/__init__.py",
+    "lib/python3.9/site-packages/spacy_loggers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/spacy_loggers/__pycache__/clearml.cpython-39.pyc",
+    "lib/python3.9/site-packages/spacy_loggers/__pycache__/mlflow.cpython-39.pyc",
+    "lib/python3.9/site-packages/spacy_loggers/__pycache__/util.cpython-39.pyc",
+    "lib/python3.9/site-packages/spacy_loggers/__pycache__/wandb.cpython-39.pyc",
+    "lib/python3.9/site-packages/spacy_loggers/clearml.py",
+    "lib/python3.9/site-packages/spacy_loggers/mlflow.py",
+    "lib/python3.9/site-packages/spacy_loggers/tests/__init__.py",
+    "lib/python3.9/site-packages/spacy_loggers/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/spacy_loggers/tests/__pycache__/test_registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/spacy_loggers/tests/test_registry.py",
+    "lib/python3.9/site-packages/spacy_loggers/util.py",
+    "lib/python3.9/site-packages/spacy_loggers/wandb.py"
+  ],
+  "fn": "spacy-loggers-1.0.4-py39h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/spacy-loggers-1.0.4-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "256936c9771bb22cfae1950cd788c61a",
+  "name": "spacy-loggers",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/spacy-loggers-1.0.4-py39h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "95437f29c5577d43e50a0c6a5b6e74b55984e41661d1e43e32cbafa3ca557099",
+        "sha256_in_prefix": "95437f29c5577d43e50a0c6a5b6e74b55984e41661d1e43e32cbafa3ca557099",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a255c35f895166239b26bd2b8250d301c0024898f8a982c227cea289398d6a2e",
+        "sha256_in_prefix": "a255c35f895166239b26bd2b8250d301c0024898f8a982c227cea289398d6a2e",
+        "size_in_bytes": 14227
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1445dac876df4c7f38e4cfdd3d3d101e3e480f0d3c4078f36db1f73b4dbd2838",
+        "sha256_in_prefix": "1445dac876df4c7f38e4cfdd3d3d101e3e480f0d3c4078f36db1f73b4dbd2838",
+        "size_in_bytes": 1867
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4883c70d8f42f77d9fda1e7b4b9d4feda1a9c9e259a868160dce9cdfe8b42d53",
+        "sha256_in_prefix": "4883c70d8f42f77d9fda1e7b4b9d4feda1a9c9e259a868160dce9cdfe8b42d53",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "737dadd4e4f7eb6dd6ec741a7f7143f0e3cfd8b9a2b1ec374e2ee1b16390ad4c",
+        "sha256_in_prefix": "737dadd4e4f7eb6dd6ec741a7f7143f0e3cfd8b9a2b1ec374e2ee1b16390ad4c",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3e97af465a4f0ff24800e3b0c6875b82ff0e98a87af0bf243b08d3442d987e9d",
+        "sha256_in_prefix": "3e97af465a4f0ff24800e3b0c6875b82ff0e98a87af0bf243b08d3442d987e9d",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers-1.0.4.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5f27c34ba36401e7ce7d70faf387cd354b039f9c2e2036f1611f6414f645ead",
+        "sha256_in_prefix": "a5f27c34ba36401e7ce7d70faf387cd354b039f9c2e2036f1611f6414f645ead",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/__pycache__/clearml.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "940528a3b6c54a341275c5199275cd2cb5bf186d2e6534ad8c9758bc674c1a42",
+        "sha256_in_prefix": "940528a3b6c54a341275c5199275cd2cb5bf186d2e6534ad8c9758bc674c1a42",
+        "size_in_bytes": 3610
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/__pycache__/mlflow.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b8987169b0bc6a9a68bc6ae54edefaebb70a0bca1da9927a3729489370da0a3",
+        "sha256_in_prefix": "8b8987169b0bc6a9a68bc6ae54edefaebb70a0bca1da9927a3729489370da0a3",
+        "size_in_bytes": 3511
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/__pycache__/util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "132f189f34941db37b0037631558ba342b1d24360e3200bc2d1b94d336ff949e",
+        "sha256_in_prefix": "132f189f34941db37b0037631558ba342b1d24360e3200bc2d1b94d336ff949e",
+        "size_in_bytes": 1880
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/__pycache__/wandb.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "84445662df71d66bfd0d1172825255a85b908ec8624d8e3ca2378c8d396a7607",
+        "sha256_in_prefix": "84445662df71d66bfd0d1172825255a85b908ec8624d8e3ca2378c8d396a7607",
+        "size_in_bytes": 8804
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/clearml.py",
+        "path_type": "hardlink",
+        "sha256": "733ad86bc7d9a244a468109c2ec342c9e2993cc2e74457acd38cbc39a68c9ece",
+        "sha256_in_prefix": "733ad86bc7d9a244a468109c2ec342c9e2993cc2e74457acd38cbc39a68c9ece",
+        "size_in_bytes": 5912
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/mlflow.py",
+        "path_type": "hardlink",
+        "sha256": "2a3948be0081b51e8f6ffbc4a31a11a0ecdf1c8520c12f57a11b0a5d6d110b56",
+        "sha256_in_prefix": "2a3948be0081b51e8f6ffbc4a31a11a0ecdf1c8520c12f57a11b0a5d6d110b56",
+        "size_in_bytes": 3172
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ef21fced3e36282cfa5f35fa89596149e81cc0a07527fb6e59766e17be0ba6e",
+        "sha256_in_prefix": "8ef21fced3e36282cfa5f35fa89596149e81cc0a07527fb6e59766e17be0ba6e",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/tests/__pycache__/test_registry.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ffb3ef7f0caeec6692edf6ec83f1d645c937cd7931f92c512621b258ab4e2bc",
+        "sha256_in_prefix": "8ffb3ef7f0caeec6692edf6ec83f1d645c937cd7931f92c512621b258ab4e2bc",
+        "size_in_bytes": 642
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/tests/test_registry.py",
+        "path_type": "hardlink",
+        "sha256": "5ee0fd83d518f8abe2923dfb06e87aeffb68f66738658fb9349b5e2d19f5c241",
+        "sha256_in_prefix": "5ee0fd83d518f8abe2923dfb06e87aeffb68f66738658fb9349b5e2d19f5c241",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/util.py",
+        "path_type": "hardlink",
+        "sha256": "13dfb6e325de1454520a3f915b094f1b52e1742e2adf540f44e22703900f90fe",
+        "sha256_in_prefix": "13dfb6e325de1454520a3f915b094f1b52e1742e2adf540f44e22703900f90fe",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "lib/python3.9/site-packages/spacy_loggers/wandb.py",
+        "path_type": "hardlink",
+        "sha256": "b0e7326afd5b7e624932e94a82b6c25df321844fef835009ae5ae00ce2157d18",
+        "sha256_in_prefix": "b0e7326afd5b7e624932e94a82b6c25df321844fef835009ae5ae00ce2157d18",
+        "size_in_bytes": 12598
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::spacy-loggers==1.0.4=py39h06a4308_0",
+  "sha256": "cbe4fc8a3d556e138876857c6896f79f7c9a9035b4c4893968481cfedf85641d",
+  "size": 21132,
+  "subdir": "linux-64",
+  "timestamp": 1684138804000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/spacy-loggers-1.0.4-py39h06a4308_0.conda",
+  "version": "1.0.4"
+}

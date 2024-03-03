@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64",
+  "build": "gpu_py39h8236f22_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "_tflow_select 2.1.0 gpu",
+    "python 3.9.*",
+    "tensorboard >=2.4.0",
+    "tensorflow-base 2.4.1 gpu_py39h29c2da4_0",
+    "tensorflow-estimator >=2.4.1"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/tensorflow-2.4.1-gpu_py39h8236f22_0",
+  "files": [],
+  "fn": "tensorflow-2.4.1-gpu_py39h8236f22_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/tensorflow-2.4.1-gpu_py39h8236f22_0",
+    "type": 1
+  },
+  "md5": "2a30d30dc6b6765b1c9b449d4155471c",
+  "name": "tensorflow",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/tensorflow-2.4.1-gpu_py39h8236f22_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::tensorflow==2.4.1=gpu_py39h8236f22_0",
+  "sha256": "8bc2b6c6185675ac0b822da7798fc9b9fc88d71863e9ec3fed28ccdcdcdea966",
+  "size": 3467,
+  "subdir": "linux-64",
+  "timestamp": 1614594600000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/tensorflow-2.4.1-gpu_py39h8236f22_0.tar.bz2",
+  "version": "2.4.1"
+}

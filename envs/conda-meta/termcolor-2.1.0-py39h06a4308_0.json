@@ -1,0 +1,132 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/termcolor-2.1.0-py39h06a4308_0",
+  "files": [
+    "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/licenses/COPYING.txt",
+    "lib/python3.9/site-packages/termcolor/__init__.py",
+    "lib/python3.9/site-packages/termcolor/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/termcolor/__pycache__/termcolor.cpython-39.pyc",
+    "lib/python3.9/site-packages/termcolor/py.typed",
+    "lib/python3.9/site-packages/termcolor/termcolor.py"
+  ],
+  "fn": "termcolor-2.1.0-py39h06a4308_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/termcolor-2.1.0-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "ec08cd0d9194191d0adde97ec1dde914",
+  "name": "termcolor",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/termcolor-2.1.0-py39h06a4308_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fa1d9138dfe0cbe0090363a14871b0339bf3abf1d57c30b8017166f172ba49b5",
+        "sha256_in_prefix": "fa1d9138dfe0cbe0090363a14871b0339bf3abf1d57c30b8017166f172ba49b5",
+        "size_in_bytes": 4227
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a4db2ba6413a133410d65a794076ed55358d45bfaccf6aa4bf799cba31860002",
+        "sha256_in_prefix": "a4db2ba6413a133410d65a794076ed55358d45bfaccf6aa4bf799cba31860002",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "dc34a64b2604d520c444edbeac8dea51b315a2f06cefefa081cee6b9b39e9ac7",
+        "sha256_in_prefix": "dc34a64b2604d520c444edbeac8dea51b315a2f06cefefa081cee6b9b39e9ac7",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "500b0bd3ac06f1deee360027b4049b803648af0cf20a6cd5e4ca77a90bda7e49",
+        "sha256_in_prefix": "500b0bd3ac06f1deee360027b4049b803648af0cf20a6cd5e4ca77a90bda7e49",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor-2.1.0.dist-info/licenses/COPYING.txt",
+        "path_type": "hardlink",
+        "sha256": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+        "sha256_in_prefix": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0469c24bbbb47926f3660fffa8922b552729218265f088a3684203ec9a5cb7b3",
+        "sha256_in_prefix": "0469c24bbbb47926f3660fffa8922b552729218265f088a3684203ec9a5cb7b3",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d91b62c7f9662875e25e4d5566c2f6420c2ecc6d2841d4a072c011205ffb4c9a",
+        "sha256_in_prefix": "d91b62c7f9662875e25e4d5566c2f6420c2ecc6d2841d4a072c011205ffb4c9a",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor/__pycache__/termcolor.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c06482d91d65afdfbdd69d0b893457c1bd312b8864f00a943c72b37e8ac87f58",
+        "sha256_in_prefix": "c06482d91d65afdfbdd69d0b893457c1bd312b8864f00a943c72b37e8ac87f58",
+        "size_in_bytes": 4106
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/termcolor/termcolor.py",
+        "path_type": "hardlink",
+        "sha256": "00e264412c722785f52111711d5a8a63b49205d13c1e5ba2259bdeab1670b8ec",
+        "sha256_in_prefix": "00e264412c722785f52111711d5a8a63b49205d13c1e5ba2259bdeab1670b8ec",
+        "size_in_bytes": 6101
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::termcolor==2.1.0=py39h06a4308_0",
+  "sha256": "cd01e2810af68caf0d40b6d67cc9076a338ccae0944456b9e0c11f338ec21cf9",
+  "size": 11080,
+  "subdir": "linux-64",
+  "timestamp": 1668084711000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/termcolor-2.1.0-py39h06a4308_0.tar.bz2",
+  "version": "2.1.0"
+}

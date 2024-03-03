@@ -1,0 +1,248 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [
+    "keras >=2.1.6"
+  ],
+  "depends": [
+    "numpy >=1.9.1",
+    "python >=3.6",
+    "scipy >=0.14",
+    "six >=1.9.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/keras-preprocessing-1.1.2-pyhd3eb1b0_0",
+  "files": [
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/LICENSE",
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/Keras_Preprocessing-1.1.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/keras_preprocessing/__init__.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__init__.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/affine_transformations.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/dataframe_iterator.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/directory_iterator.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/image_data_generator.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/iterator.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/numpy_array_iterator.py",
+    "lib/python3.9/site-packages/keras_preprocessing/image/utils.py",
+    "lib/python3.9/site-packages/keras_preprocessing/sequence.py",
+    "lib/python3.9/site-packages/keras_preprocessing/text.py",
+    "lib/python3.9/site-packages/keras_preprocessing/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/affine_transformations.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/dataframe_iterator.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/directory_iterator.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/image_data_generator.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/iterator.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/numpy_array_iterator.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/__pycache__/sequence.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras_preprocessing/__pycache__/text.cpython-39.pyc"
+  ],
+  "fn": "keras-preprocessing-1.1.2-pyhd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/keras-preprocessing-1.1.2-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "85e0c4015cf695750f966b7a2ca48950",
+  "name": "keras-preprocessing",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/keras-preprocessing-1.1.2-pyhd3eb1b0_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7dffdb96ce7c00e31b2403cf346516301daabb67de3ee930f69d5e55a05b3393",
+        "sha256_in_prefix": "7dffdb96ce7c00e31b2403cf346516301daabb67de3ee930f69d5e55a05b3393",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a5c85151605472b72f890b57ae44498f9c013bef158e95b8bd3dc4a513e34867",
+        "sha256_in_prefix": "a5c85151605472b72f890b57ae44498f9c013bef158e95b8bd3dc4a513e34867",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "54bb03316fd01dca8f815c7c3d45309549ddb1449b4ef39a79f30e3cd806cbf8",
+        "sha256_in_prefix": "54bb03316fd01dca8f815c7c3d45309549ddb1449b4ef39a79f30e3cd806cbf8",
+        "size_in_bytes": 2590
+      },
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4084f1aa329997d0678d980287485df030a942d993007a331ccad59f245df6aa",
+        "sha256_in_prefix": "4084f1aa329997d0678d980287485df030a942d993007a331ccad59f245df6aa",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Keras_Preprocessing-1.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e1d74d0549b319ab9ecdb57749b8ff6da86790975d4f92071813e403f80726b0",
+        "sha256_in_prefix": "e1d74d0549b319ab9ecdb57749b8ff6da86790975d4f92071813e403f80726b0",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0112c96baeffb833ba9c13830576011bc682383175d64c9a900282f74018d850",
+        "sha256_in_prefix": "0112c96baeffb833ba9c13830576011bc682383175d64c9a900282f74018d850",
+        "size_in_bytes": 1392
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e463e19e47ec1802cea65dc9a17c8ac5b409c2f9bab3776f98f693a8aad8df0a",
+        "sha256_in_prefix": "e463e19e47ec1802cea65dc9a17c8ac5b409c2f9bab3776f98f693a8aad8df0a",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/affine_transformations.py",
+        "path_type": "hardlink",
+        "sha256": "52a5f9a68d84913ac73446b29cc742998f5b393d432f3ef7ce414267eeead2ed",
+        "sha256_in_prefix": "52a5f9a68d84913ac73446b29cc742998f5b393d432f3ef7ce414267eeead2ed",
+        "size_in_bytes": 12248
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/dataframe_iterator.py",
+        "path_type": "hardlink",
+        "sha256": "a602c7f429c8f49174712fa3da7ade3fc1b1a4f2bb015f96ee54bfb622d09774",
+        "sha256_in_prefix": "a602c7f429c8f49174712fa3da7ade3fc1b1a4f2bb015f96ee54bfb622d09774",
+        "size_in_bytes": 14335
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/directory_iterator.py",
+        "path_type": "hardlink",
+        "sha256": "c99e85327ce714ba4a439b14f9ee6d7699e9512f0508541bfc4256e94d49b51f",
+        "sha256_in_prefix": "c99e85327ce714ba4a439b14f9ee6d7699e9512f0508541bfc4256e94d49b51f",
+        "size_in_bytes": 7322
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/image_data_generator.py",
+        "path_type": "hardlink",
+        "sha256": "8bea13421ab30354ab13cbe3f7c548653336c0f7240e24b6dd3c208f3b8193cb",
+        "sha256_in_prefix": "8bea13421ab30354ab13cbe3f7c548653336c0f7240e24b6dd3c208f3b8193cb",
+        "size_in_bytes": 43865
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/iterator.py",
+        "path_type": "hardlink",
+        "sha256": "9944f1f81c3e18a08043307f041d1ff86bcb095d7dcbde7ebfb314f5d7215ab0",
+        "sha256_in_prefix": "9944f1f81c3e18a08043307f041d1ff86bcb095d7dcbde7ebfb314f5d7215ab0",
+        "size_in_bytes": 11586
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/numpy_array_iterator.py",
+        "path_type": "hardlink",
+        "sha256": "926101bfdfa9e02a6520fb29f7e6414862ffd98f876b591c16eac8a9ea46dc38",
+        "sha256_in_prefix": "926101bfdfa9e02a6520fb29f7e6414862ffd98f876b591c16eac8a9ea46dc38",
+        "size_in_bytes": 8081
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/image/utils.py",
+        "path_type": "hardlink",
+        "sha256": "afc9bd7a7250baf367c74d96371e6cf3353b5c5a5c744f1217c634545c38124a",
+        "sha256_in_prefix": "afc9bd7a7250baf367c74d96371e6cf3353b5c5a5c744f1217c634545c38124a",
+        "size_in_bytes": 12375
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "4634744749159c43919b6651439dcedf05f35fc28d41841fabbe37abe2b42942",
+        "sha256_in_prefix": "4634744749159c43919b6651439dcedf05f35fc28d41841fabbe37abe2b42942",
+        "size_in_bytes": 16775
+      },
+      {
+        "_path": "site-packages/keras_preprocessing/text.py",
+        "path_type": "hardlink",
+        "sha256": "a4e78afc807442c94d9183b41ba5db106a2419c1a503d3b56cff2fe5accc90ce",
+        "sha256_in_prefix": "a4e78afc807442c94d9183b41ba5db106a2419c1a503d3b56cff2fe5accc90ce",
+        "size_in_bytes": 19077
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/affine_transformations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/dataframe_iterator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/directory_iterator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/image_data_generator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/iterator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/numpy_array_iterator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/image/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/__pycache__/sequence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras_preprocessing/__pycache__/text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "anaconda/noarch::keras-preprocessing==1.1.2=pyhd3eb1b0_0",
+  "sha256": "5d66b8a7734e9e9bcfe8191cbce8e2d6596cc6ead93fd7d245175f77f9faa780",
+  "size": 35457,
+  "subdir": "noarch",
+  "timestamp": 1612283681000,
+  "url": "https://conda.anaconda.org/anaconda/noarch/keras-preprocessing-1.1.2-pyhd3eb1b0_0.tar.bz2",
+  "version": "1.1.2"
+}

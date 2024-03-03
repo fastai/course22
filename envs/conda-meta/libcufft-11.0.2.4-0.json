@@ -1,0 +1,63 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libcufft-11.0.2.4-0",
+  "files": [
+    "lib/libcufft.so.11",
+    "lib/libcufft.so.11.0.2.4",
+    "lib/libcufftw.so.11",
+    "lib/libcufftw.so.11.0.2.4"
+  ],
+  "fn": "libcufft-11.0.2.4-0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libcufft-11.0.2.4-0",
+    "type": 1
+  },
+  "md5": "b53f7ea28a363eb6d218bcbffb9d26aa",
+  "name": "libcufft",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libcufft-11.0.2.4-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcufft.so.11",
+        "path_type": "softlink",
+        "sha256": "26331a608a64956e060a4152a21ba81097660e78764d5693a9476831edb26250",
+        "size_in_bytes": 192721224
+      },
+      {
+        "_path": "lib/libcufft.so.11.0.2.4",
+        "path_type": "hardlink",
+        "sha256": "26331a608a64956e060a4152a21ba81097660e78764d5693a9476831edb26250",
+        "sha256_in_prefix": "26331a608a64956e060a4152a21ba81097660e78764d5693a9476831edb26250",
+        "size_in_bytes": 192721224
+      },
+      {
+        "_path": "lib/libcufftw.so.11",
+        "path_type": "softlink",
+        "sha256": "6fce92fd9961a1794e8335dd914f23144408f0ff22e5359551d1c2c682e8038d",
+        "size_in_bytes": 1622968
+      },
+      {
+        "_path": "lib/libcufftw.so.11.0.2.4",
+        "path_type": "hardlink",
+        "sha256": "6fce92fd9961a1794e8335dd914f23144408f0ff22e5359551d1c2c682e8038d",
+        "sha256_in_prefix": "6fce92fd9961a1794e8335dd914f23144408f0ff22e5359551d1c2c682e8038d",
+        "size_in_bytes": 1622968
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "nvidia/linux-64::libcufft==11.0.2.4=0",
+  "sha256": "56936216c0abaa8a8ef46fa0be89f0c9066b8fd439b7bcab7f6c5a3c465670fc",
+  "size": 107875277,
+  "subdir": "linux-64",
+  "timestamp": 1674621809000,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcufft-11.0.2.4-0.tar.bz2",
+  "version": "11.0.2.4"
+}

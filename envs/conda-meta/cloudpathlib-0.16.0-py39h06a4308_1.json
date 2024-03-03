@@ -1,0 +1,453 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "typing_extensions >4"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/cloudpathlib-0.16.0-py39h06a4308_1",
+  "files": [
+    "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/cloudpathlib/__init__.py",
+    "lib/python3.9/site-packages/cloudpathlib/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/__pycache__/anypath.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/__pycache__/cloudpath.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/__pycache__/enums.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/anypath.py",
+    "lib/python3.9/site-packages/cloudpathlib/azure/__init__.py",
+    "lib/python3.9/site-packages/cloudpathlib/azure/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/azure/__pycache__/azblobclient.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/azure/__pycache__/azblobpath.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/azure/azblobclient.py",
+    "lib/python3.9/site-packages/cloudpathlib/azure/azblobpath.py",
+    "lib/python3.9/site-packages/cloudpathlib/client.py",
+    "lib/python3.9/site-packages/cloudpathlib/cloudpath.py",
+    "lib/python3.9/site-packages/cloudpathlib/enums.py",
+    "lib/python3.9/site-packages/cloudpathlib/exceptions.py",
+    "lib/python3.9/site-packages/cloudpathlib/gs/__init__.py",
+    "lib/python3.9/site-packages/cloudpathlib/gs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/gs/__pycache__/gsclient.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/gs/__pycache__/gspath.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/gs/gsclient.py",
+    "lib/python3.9/site-packages/cloudpathlib/gs/gspath.py",
+    "lib/python3.9/site-packages/cloudpathlib/local/__init__.py",
+    "lib/python3.9/site-packages/cloudpathlib/local/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/local/__pycache__/localclient.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/local/__pycache__/localpath.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/__init__.py",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/azure.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/gs.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/s3.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/azure.py",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/gs.py",
+    "lib/python3.9/site-packages/cloudpathlib/local/implementations/s3.py",
+    "lib/python3.9/site-packages/cloudpathlib/local/localclient.py",
+    "lib/python3.9/site-packages/cloudpathlib/local/localpath.py",
+    "lib/python3.9/site-packages/cloudpathlib/py.typed",
+    "lib/python3.9/site-packages/cloudpathlib/s3/__init__.py",
+    "lib/python3.9/site-packages/cloudpathlib/s3/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/s3/__pycache__/s3client.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/s3/__pycache__/s3path.cpython-39.pyc",
+    "lib/python3.9/site-packages/cloudpathlib/s3/s3client.py",
+    "lib/python3.9/site-packages/cloudpathlib/s3/s3path.py"
+  ],
+  "fn": "cloudpathlib-0.16.0-py39h06a4308_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/cloudpathlib-0.16.0-py39h06a4308_1",
+    "type": 1
+  },
+  "md5": "19a2abdbed9e7d1291e7c56b6b4a5dba",
+  "name": "cloudpathlib",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/cloudpathlib-0.16.0-py39h06a4308_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7ab01fa6c3fb599011ca55017e9f09f9e67b868fb421736a665992db7712c135",
+        "sha256_in_prefix": "7ab01fa6c3fb599011ca55017e9f09f9e67b868fb421736a665992db7712c135",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ba8c8b424f9a7d72d687e8e474971d44f8b3332e8566aba2154dc1c8eccb7048",
+        "sha256_in_prefix": "ba8c8b424f9a7d72d687e8e474971d44f8b3332e8566aba2154dc1c8eccb7048",
+        "size_in_bytes": 14166
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5f0b94353d86f8c8a610effb3b7009bf68212fddeb1a52cf7b59c853b1226f61",
+        "sha256_in_prefix": "5f0b94353d86f8c8a610effb3b7009bf68212fddeb1a52cf7b59c853b1226f61",
+        "size_in_bytes": 3894
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "sha256_in_prefix": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib-0.16.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "cc8d6215b887d9c509776cb6056399caae817cc1d98c845757f796b42da54720",
+        "sha256_in_prefix": "cc8d6215b887d9c509776cb6056399caae817cc1d98c845757f796b42da54720",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "abcb6558d24a61d67d9c72fd4c6cba37c7b5718f13862856f5a726c0984ba69b",
+        "sha256_in_prefix": "abcb6558d24a61d67d9c72fd4c6cba37c7b5718f13862856f5a726c0984ba69b",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d62a1f8cc3c51b234a12a60a968f75c4d7e9fae1ef425fc1152ae096a56c62ef",
+        "sha256_in_prefix": "d62a1f8cc3c51b234a12a60a968f75c4d7e9fae1ef425fc1152ae096a56c62ef",
+        "size_in_bytes": 818
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/__pycache__/anypath.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d75da530aa4b106d8a9101f75c27640d96f9ada3424bfbf98078f708bffc7d0",
+        "sha256_in_prefix": "7d75da530aa4b106d8a9101f75c27640d96f9ada3424bfbf98078f708bffc7d0",
+        "size_in_bytes": 3154
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/__pycache__/client.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0c223a0da0ab40340564baef9c11746d915feb57ac0546dd7d7da99a0381ba6",
+        "sha256_in_prefix": "e0c223a0da0ab40340564baef9c11746d915feb57ac0546dd7d7da99a0381ba6",
+        "size_in_bytes": 5418
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/__pycache__/cloudpath.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "af1f331f191a129d986b816d58cd2c06cb62a0610d38cf4a0d0bbde62356a2a6",
+        "sha256_in_prefix": "af1f331f191a129d986b816d58cd2c06cb62a0610d38cf4a0d0bbde62356a2a6",
+        "size_in_bytes": 37300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/__pycache__/enums.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0fa4de80461e378ffe625a4710bf7f1d7ad18d9fa544a209c5ce33e06ec64366",
+        "sha256_in_prefix": "0fa4de80461e378ffe625a4710bf7f1d7ad18d9fa544a209c5ce33e06ec64366",
+        "size_in_bytes": 1985
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9e361dd2fd2a5ac5a70e61f408307c2dc0ae436e3f92e582962bb5473d217d8",
+        "sha256_in_prefix": "f9e361dd2fd2a5ac5a70e61f408307c2dc0ae436e3f92e582962bb5473d217d8",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/anypath.py",
+        "path_type": "hardlink",
+        "sha256": "d71880c3e283c767fca2544bd90e7f89e3bbf56a5bd3de67cf27013ca56ff86b",
+        "sha256_in_prefix": "d71880c3e283c767fca2544bd90e7f89e3bbf56a5bd3de67cf27013ca56ff86b",
+        "size_in_bytes": 3208
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/azure/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7b2903d81a9bc727753527accaeeff298b259bfe57d0ea89a548d9b515fd0187",
+        "sha256_in_prefix": "7b2903d81a9bc727753527accaeeff298b259bfe57d0ea89a548d9b515fd0187",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/azure/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ec4acc27441781348ae2136b2693f2ed1f273b96941978f6b96d2b4afe47d84",
+        "sha256_in_prefix": "3ec4acc27441781348ae2136b2693f2ed1f273b96941978f6b96d2b4afe47d84",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/azure/__pycache__/azblobclient.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "46c1409d3937654179bb84d93731f87fe90c8accf428653ffe45ee17ef7875c6",
+        "sha256_in_prefix": "46c1409d3937654179bb84d93731f87fe90c8accf428653ffe45ee17ef7875c6",
+        "size_in_bytes": 10170
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/azure/__pycache__/azblobpath.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4202811fd7465fa62350d38d59001f01ad3c3b22d7de768961ce9a03398dfb40",
+        "sha256_in_prefix": "4202811fd7465fa62350d38d59001f01ad3c3b22d7de768961ce9a03398dfb40",
+        "size_in_bytes": 3832
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/azure/azblobclient.py",
+        "path_type": "hardlink",
+        "sha256": "407ae246eae1a93d5c396de6018e572c045a8ba849970819f9ec0629f6dd797c",
+        "sha256_in_prefix": "407ae246eae1a93d5c396de6018e572c045a8ba849970819f9ec0629f6dd797c",
+        "size_in_bytes": 12486
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/azure/azblobpath.py",
+        "path_type": "hardlink",
+        "sha256": "6a2fa21feaaf0bcaeb9dbc3f4e66d16f4c8411edb8a9d5156f076395c7faffb4",
+        "sha256_in_prefix": "6a2fa21feaaf0bcaeb9dbc3f4e66d16f4c8411edb8a9d5156f076395c7faffb4",
+        "size_in_bytes": 3371
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/client.py",
+        "path_type": "hardlink",
+        "sha256": "635c2d7b14eeef1d059bdf0378a86ac0ef4bac2268c4c90a78baabe4d68c8e7f",
+        "sha256_in_prefix": "635c2d7b14eeef1d059bdf0378a86ac0ef4bac2268c4c90a78baabe4d68c8e7f",
+        "size_in_bytes": 6121
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/cloudpath.py",
+        "path_type": "hardlink",
+        "sha256": "f00c59c6c2f49f4ee5b242e258a7598c666cbb81582677a2252058e0ab18e0c9",
+        "sha256_in_prefix": "f00c59c6c2f49f4ee5b242e258a7598c666cbb81582677a2252058e0ab18e0c9",
+        "size_in_bytes": 48011
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/enums.py",
+        "path_type": "hardlink",
+        "sha256": "112f5512efccb265c76bb3e3aa6cbaa446f0ff5cdd15ab5c437db1ab25e36d46",
+        "sha256_in_prefix": "112f5512efccb265c76bb3e3aa6cbaa446f0ff5cdd15ab5c437db1ab25e36d46",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "e1ccb49c773b50b1ce0f8d6571edefc7664bab5b5f594a627cd35c55ce1ec15b",
+        "sha256_in_prefix": "e1ccb49c773b50b1ce0f8d6571edefc7664bab5b5f594a627cd35c55ce1ec15b",
+        "size_in_bytes": 1662
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/gs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1fca6862ba497463381e9d7a8d1253d225ce5bf661ffa925b74286a13a3c6bea",
+        "sha256_in_prefix": "1fca6862ba497463381e9d7a8d1253d225ce5bf661ffa925b74286a13a3c6bea",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/gs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7105d67f70d3405cedcc1d1c62430ec3401e250d256e7b1b98e9506f4e4d5a8",
+        "sha256_in_prefix": "a7105d67f70d3405cedcc1d1c62430ec3401e250d256e7b1b98e9506f4e4d5a8",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/gs/__pycache__/gsclient.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f64dcaed2d3c4d2117109c6c4f70f0e57c923c516bd3bc52bf424bbf02d4bc44",
+        "sha256_in_prefix": "f64dcaed2d3c4d2117109c6c4f70f0e57c923c516bd3bc52bf424bbf02d4bc44",
+        "size_in_bytes": 8635
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/gs/__pycache__/gspath.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "29cfaad4791c069b246cf0e7f564922674d497c1ac38ab6177814d086b91f19d",
+        "sha256_in_prefix": "29cfaad4791c069b246cf0e7f564922674d497c1ac38ab6177814d086b91f19d",
+        "size_in_bytes": 3433
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/gs/gsclient.py",
+        "path_type": "hardlink",
+        "sha256": "0a2d1bade4718c9c20dc92c94a5146e1de341d9980b53bd2bbd9c863962c67e3",
+        "sha256_in_prefix": "0a2d1bade4718c9c20dc92c94a5146e1de341d9980b53bd2bbd9c863962c67e3",
+        "size_in_bytes": 10988
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/gs/gspath.py",
+        "path_type": "hardlink",
+        "sha256": "367cbfd7c18f9d04c780337540c848385a77f6ab0a584c51347908451dcdb919",
+        "sha256_in_prefix": "367cbfd7c18f9d04c780337540c848385a77f6ab0a584c51347908451dcdb919",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "44af1af2b1ccfba21a8d33d22a97f411a1ca08f61d926b82479e969644803aa4",
+        "sha256_in_prefix": "44af1af2b1ccfba21a8d33d22a97f411a1ca08f61d926b82479e969644803aa4",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4634ef43c921dda600a4432670ba2c84a0e7b9dafd0e9834b704e19a202a2885",
+        "sha256_in_prefix": "4634ef43c921dda600a4432670ba2c84a0e7b9dafd0e9834b704e19a202a2885",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/__pycache__/localclient.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6660c954fe8ee2305471f3f68c09c9652a49ffff42d491314ac80eba48b2db60",
+        "sha256_in_prefix": "6660c954fe8ee2305471f3f68c09c9652a49ffff42d491314ac80eba48b2db60",
+        "size_in_bytes": 6066
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/__pycache__/localpath.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "838d830f5cc79fe29112e0d1d6914ff0b12b034c4b25c760480d2d87d6acf124",
+        "sha256_in_prefix": "838d830f5cc79fe29112e0d1d6914ff0b12b034c4b25c760480d2d87d6acf124",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4a422c2924a8b38a2acfca3f04ab072799a0057568d92104fd6608aa64af8f0b",
+        "sha256_in_prefix": "4a422c2924a8b38a2acfca3f04ab072799a0057568d92104fd6608aa64af8f0b",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4103bfee2e4ca14b83d50d58c7d3eddeeb8418671fa3093f91d61b16e1335999",
+        "sha256_in_prefix": "4103bfee2e4ca14b83d50d58c7d3eddeeb8418671fa3093f91d61b16e1335999",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/azure.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a07cf4c8ea04f3bfac7bd03a4c5ec0cb355778dbea4582cdd5c864f3120034b8",
+        "sha256_in_prefix": "a07cf4c8ea04f3bfac7bd03a4c5ec0cb355778dbea4582cdd5c864f3120034b8",
+        "size_in_bytes": 2922
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/gs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b07b9bd1737f43e0b87800faaca21cdc206dc8ba4f13c532649428b96fe17e6d",
+        "sha256_in_prefix": "b07b9bd1737f43e0b87800faaca21cdc206dc8ba4f13c532649428b96fe17e6d",
+        "size_in_bytes": 1936
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/__pycache__/s3.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "69ebab6d4d754090a70ae598d426f175bf1f07368282a007aefce08e8956fb81",
+        "sha256_in_prefix": "69ebab6d4d754090a70ae598d426f175bf1f07368282a007aefce08e8956fb81",
+        "size_in_bytes": 1934
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/azure.py",
+        "path_type": "hardlink",
+        "sha256": "dd989be7eb935bb1d67bc8033e287e29d19b40e9958f9678b71df8e0ee965ac9",
+        "sha256_in_prefix": "dd989be7eb935bb1d67bc8033e287e29d19b40e9958f9678b71df8e0ee965ac9",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/gs.py",
+        "path_type": "hardlink",
+        "sha256": "ba6378a30353df6f7cb422a881d77b6831ec08a40b4000274988675f8f0406e5",
+        "sha256_in_prefix": "ba6378a30353df6f7cb422a881d77b6831ec08a40b4000274988675f8f0406e5",
+        "size_in_bytes": 1553
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/implementations/s3.py",
+        "path_type": "hardlink",
+        "sha256": "ba7a26fdbe179152ff5fb57227fb8b0dcb8b19c3bc55caee396559297d2949e5",
+        "sha256_in_prefix": "ba7a26fdbe179152ff5fb57227fb8b0dcb8b19c3bc55caee396559297d2949e5",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/localclient.py",
+        "path_type": "hardlink",
+        "sha256": "73fec0e31927c25613300461cf426d72ae2a39ce12c8821f9a2453d26ca06d28",
+        "sha256_in_prefix": "73fec0e31927c25613300461cf426d72ae2a39ce12c8821f9a2453d26ca06d28",
+        "size_in_bytes": 6252
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/local/localpath.py",
+        "path_type": "hardlink",
+        "sha256": "9836b2471abebb18129def289300789a11eb943eb10fff43ed207497f47b0aed",
+        "sha256_in_prefix": "9836b2471abebb18129def289300789a11eb943eb10fff43ed207497f47b0aed",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/s3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a386804f297d9d5438e8948aa4804b04f9dbca267935c983dadc583c0b884761",
+        "sha256_in_prefix": "a386804f297d9d5438e8948aa4804b04f9dbca267935c983dadc583c0b884761",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/s3/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "09e545de9bd84370868bb4dedbe25f95a8cf12bccb54a6a1f6ddae453d5b89ec",
+        "sha256_in_prefix": "09e545de9bd84370868bb4dedbe25f95a8cf12bccb54a6a1f6ddae453d5b89ec",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/s3/__pycache__/s3client.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e13a1cfcd52876f32517cc6b11b850a623d7197b74d7ba98d688b5f97c1368dc",
+        "sha256_in_prefix": "e13a1cfcd52876f32517cc6b11b850a623d7197b74d7ba98d688b5f97c1368dc",
+        "size_in_bytes": 11823
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/s3/__pycache__/s3path.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cae5c84cb915f7e61b87f37b7894c1a4c9153fd1986ad65ca00e2fcb896cd9d3",
+        "sha256_in_prefix": "cae5c84cb915f7e61b87f37b7894c1a4c9153fd1986ad65ca00e2fcb896cd9d3",
+        "size_in_bytes": 3419
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/s3/s3client.py",
+        "path_type": "hardlink",
+        "sha256": "984a168beb935b287141c37da00cc4731cad7b4fbb7cdec07c088eeb9707d51a",
+        "sha256_in_prefix": "984a168beb935b287141c37da00cc4731cad7b4fbb7cdec07c088eeb9707d51a",
+        "size_in_bytes": 15892
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cloudpathlib/s3/s3path.py",
+        "path_type": "hardlink",
+        "sha256": "9fd1a3b6557784a65d05f440464f032589ed4898fda88cb3a4946c042628ba40",
+        "sha256_in_prefix": "9fd1a3b6557784a65d05f440464f032589ed4898fda88cb3a4946c042628ba40",
+        "size_in_bytes": 3083
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::cloudpathlib==0.16.0=py39h06a4308_1",
+  "sha256": "29c18e8bb1b1efc3596285cd2d129176d2e28a9914d7d4dd1b0b0f0390ea6acb",
+  "size": 69482,
+  "subdir": "linux-64",
+  "timestamp": 1704812519000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/cloudpathlib-0.16.0-py39h06a4308_1.conda",
+  "version": "0.16.0"
+}

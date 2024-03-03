@@ -1,0 +1,3575 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/cuda-cupti-12.1.105-0",
+  "files": [
+    "doc/Cupti/annotated.html",
+    "doc/Cupti/classes.html",
+    "doc/Cupti/doxygen.css",
+    "doc/Cupti/doxygen.png",
+    "doc/Cupti/ftv2blank.png",
+    "doc/Cupti/ftv2doc.png",
+    "doc/Cupti/ftv2folderclosed.png",
+    "doc/Cupti/ftv2folderopen.png",
+    "doc/Cupti/ftv2lastnode.png",
+    "doc/Cupti/ftv2link.png",
+    "doc/Cupti/ftv2mlastnode.png",
+    "doc/Cupti/ftv2mnode.png",
+    "doc/Cupti/ftv2node.png",
+    "doc/Cupti/ftv2plastnode.png",
+    "doc/Cupti/ftv2pnode.png",
+    "doc/Cupti/ftv2vertline.png",
+    "doc/Cupti/functions.html",
+    "doc/Cupti/functions_0x62.html",
+    "doc/Cupti/functions_0x63.html",
+    "doc/Cupti/functions_0x64.html",
+    "doc/Cupti/functions_0x65.html",
+    "doc/Cupti/functions_0x66.html",
+    "doc/Cupti/functions_0x67.html",
+    "doc/Cupti/functions_0x68.html",
+    "doc/Cupti/functions_0x69.html",
+    "doc/Cupti/functions_0x6a.html",
+    "doc/Cupti/functions_0x6b.html",
+    "doc/Cupti/functions_0x6c.html",
+    "doc/Cupti/functions_0x6d.html",
+    "doc/Cupti/functions_0x6e.html",
+    "doc/Cupti/functions_0x6f.html",
+    "doc/Cupti/functions_0x70.html",
+    "doc/Cupti/functions_0x71.html",
+    "doc/Cupti/functions_0x72.html",
+    "doc/Cupti/functions_0x73.html",
+    "doc/Cupti/functions_0x74.html",
+    "doc/Cupti/functions_0x75.html",
+    "doc/Cupti/functions_0x76.html",
+    "doc/Cupti/functions_0x77.html",
+    "doc/Cupti/functions_vars.html",
+    "doc/Cupti/functions_vars_0x62.html",
+    "doc/Cupti/functions_vars_0x63.html",
+    "doc/Cupti/functions_vars_0x64.html",
+    "doc/Cupti/functions_vars_0x65.html",
+    "doc/Cupti/functions_vars_0x66.html",
+    "doc/Cupti/functions_vars_0x67.html",
+    "doc/Cupti/functions_vars_0x68.html",
+    "doc/Cupti/functions_vars_0x69.html",
+    "doc/Cupti/functions_vars_0x6a.html",
+    "doc/Cupti/functions_vars_0x6b.html",
+    "doc/Cupti/functions_vars_0x6c.html",
+    "doc/Cupti/functions_vars_0x6d.html",
+    "doc/Cupti/functions_vars_0x6e.html",
+    "doc/Cupti/functions_vars_0x6f.html",
+    "doc/Cupti/functions_vars_0x70.html",
+    "doc/Cupti/functions_vars_0x71.html",
+    "doc/Cupti/functions_vars_0x72.html",
+    "doc/Cupti/functions_vars_0x73.html",
+    "doc/Cupti/functions_vars_0x74.html",
+    "doc/Cupti/functions_vars_0x75.html",
+    "doc/Cupti/functions_vars_0x76.html",
+    "doc/Cupti/functions_vars_0x77.html",
+    "doc/Cupti/group__CUPTI__ACTIVITY__API.html",
+    "doc/Cupti/group__CUPTI__CALLBACK__API.html",
+    "doc/Cupti/group__CUPTI__CHECKPOINT__API.html",
+    "doc/Cupti/group__CUPTI__EVENT__API.html",
+    "doc/Cupti/group__CUPTI__METRIC__API.html",
+    "doc/Cupti/group__CUPTI__PCSAMPLING__API.html",
+    "doc/Cupti/group__CUPTI__PCSAMPLING__UTILITY.html",
+    "doc/Cupti/group__CUPTI__PROFILER__API.html",
+    "doc/Cupti/group__CUPTI__RESULT__API.html",
+    "doc/Cupti/group__CUPTI__VERSION__API.html",
+    "doc/Cupti/index.html",
+    "doc/Cupti/modules.html",
+    "doc/Cupti/notices-header.html",
+    "doc/Cupti/r_library_support.html",
+    "doc/Cupti/r_main.html",
+    "doc/Cupti/r_overview.html",
+    "doc/Cupti/r_profiler.html",
+    "doc/Cupti/r_profiler_definitions.html",
+    "doc/Cupti/r_samples.html",
+    "doc/Cupti/r_special_configurations.html",
+    "doc/Cupti/release_notes.html",
+    "doc/Cupti/structBufferInfo.html",
+    "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__GetBufferInfoParams.html",
+    "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__GetHeaderDataParams.html",
+    "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__GetPcSampDataParams.html",
+    "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__MergePcSampDataParams.html",
+    "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__PutPcSampDataParams.html",
+    "doc/Cupti/structCUpti__Activity.html",
+    "doc/Cupti/structCUpti__ActivityAPI.html",
+    "doc/Cupti/structCUpti__ActivityAutoBoostState.html",
+    "doc/Cupti/structCUpti__ActivityBranch.html",
+    "doc/Cupti/structCUpti__ActivityBranch2.html",
+    "doc/Cupti/structCUpti__ActivityCdpKernel.html",
+    "doc/Cupti/structCUpti__ActivityContext.html",
+    "doc/Cupti/structCUpti__ActivityCudaEvent.html",
+    "doc/Cupti/structCUpti__ActivityDevice.html",
+    "doc/Cupti/structCUpti__ActivityDevice2.html",
+    "doc/Cupti/structCUpti__ActivityDevice3.html",
+    "doc/Cupti/structCUpti__ActivityDevice4.html",
+    "doc/Cupti/structCUpti__ActivityDeviceAttribute.html",
+    "doc/Cupti/structCUpti__ActivityEnvironment.html",
+    "doc/Cupti/structCUpti__ActivityEvent.html",
+    "doc/Cupti/structCUpti__ActivityEventInstance.html",
+    "doc/Cupti/structCUpti__ActivityExternalCorrelation.html",
+    "doc/Cupti/structCUpti__ActivityFunction.html",
+    "doc/Cupti/structCUpti__ActivityGlobalAccess.html",
+    "doc/Cupti/structCUpti__ActivityGlobalAccess2.html",
+    "doc/Cupti/structCUpti__ActivityGlobalAccess3.html",
+    "doc/Cupti/structCUpti__ActivityGraphTrace.html",
+    "doc/Cupti/structCUpti__ActivityInstantaneousEvent.html",
+    "doc/Cupti/structCUpti__ActivityInstantaneousEventInstance.html",
+    "doc/Cupti/structCUpti__ActivityInstantaneousMetric.html",
+    "doc/Cupti/structCUpti__ActivityInstantaneousMetricInstance.html",
+    "doc/Cupti/structCUpti__ActivityInstructionCorrelation.html",
+    "doc/Cupti/structCUpti__ActivityInstructionExecution.html",
+    "doc/Cupti/structCUpti__ActivityJit.html",
+    "doc/Cupti/structCUpti__ActivityKernel.html",
+    "doc/Cupti/structCUpti__ActivityKernel2.html",
+    "doc/Cupti/structCUpti__ActivityKernel3.html",
+    "doc/Cupti/structCUpti__ActivityKernel4.html",
+    "doc/Cupti/structCUpti__ActivityKernel5.html",
+    "doc/Cupti/structCUpti__ActivityKernel6.html",
+    "doc/Cupti/structCUpti__ActivityKernel7.html",
+    "doc/Cupti/structCUpti__ActivityKernel8.html",
+    "doc/Cupti/structCUpti__ActivityKernel9.html",
+    "doc/Cupti/structCUpti__ActivityMarker.html",
+    "doc/Cupti/structCUpti__ActivityMarker2.html",
+    "doc/Cupti/structCUpti__ActivityMarkerData.html",
+    "doc/Cupti/structCUpti__ActivityMemcpy.html",
+    "doc/Cupti/structCUpti__ActivityMemcpy3.html",
+    "doc/Cupti/structCUpti__ActivityMemcpy4.html",
+    "doc/Cupti/structCUpti__ActivityMemcpy5.html",
+    "doc/Cupti/structCUpti__ActivityMemcpyPtoP.html",
+    "doc/Cupti/structCUpti__ActivityMemcpyPtoP2.html",
+    "doc/Cupti/structCUpti__ActivityMemcpyPtoP3.html",
+    "doc/Cupti/structCUpti__ActivityMemcpyPtoP4.html",
+    "doc/Cupti/structCUpti__ActivityMemory.html",
+    "doc/Cupti/structCUpti__ActivityMemory2.html",
+    "doc/Cupti/structCUpti__ActivityMemory3.html",
+    "doc/Cupti/structCUpti__ActivityMemory3_1_1PACKED__ALIGNMENT.html",
+    "doc/Cupti/structCUpti__ActivityMemoryPool.html",
+    "doc/Cupti/structCUpti__ActivityMemoryPool2.html",
+    "doc/Cupti/structCUpti__ActivityMemset.html",
+    "doc/Cupti/structCUpti__ActivityMemset2.html",
+    "doc/Cupti/structCUpti__ActivityMemset3.html",
+    "doc/Cupti/structCUpti__ActivityMemset4.html",
+    "doc/Cupti/structCUpti__ActivityMetric.html",
+    "doc/Cupti/structCUpti__ActivityMetricInstance.html",
+    "doc/Cupti/structCUpti__ActivityModule.html",
+    "doc/Cupti/structCUpti__ActivityName.html",
+    "doc/Cupti/structCUpti__ActivityNvLink.html",
+    "doc/Cupti/structCUpti__ActivityNvLink2.html",
+    "doc/Cupti/structCUpti__ActivityNvLink3.html",
+    "doc/Cupti/structCUpti__ActivityNvLink4.html",
+    "doc/Cupti/structCUpti__ActivityOpenAcc.html",
+    "doc/Cupti/structCUpti__ActivityOpenAccData.html",
+    "doc/Cupti/structCUpti__ActivityOpenAccLaunch.html",
+    "doc/Cupti/structCUpti__ActivityOpenAccOther.html",
+    "doc/Cupti/structCUpti__ActivityOpenMp.html",
+    "doc/Cupti/structCUpti__ActivityOverhead.html",
+    "doc/Cupti/structCUpti__ActivityPCSampling.html",
+    "doc/Cupti/structCUpti__ActivityPCSampling2.html",
+    "doc/Cupti/structCUpti__ActivityPCSampling3.html",
+    "doc/Cupti/structCUpti__ActivityPCSamplingConfig.html",
+    "doc/Cupti/structCUpti__ActivityPCSamplingRecordInfo.html",
+    "doc/Cupti/structCUpti__ActivityPcie.html",
+    "doc/Cupti/structCUpti__ActivityPreemption.html",
+    "doc/Cupti/structCUpti__ActivitySharedAccess.html",
+    "doc/Cupti/structCUpti__ActivitySourceLocator.html",
+    "doc/Cupti/structCUpti__ActivityStream.html",
+    "doc/Cupti/structCUpti__ActivitySynchronization.html",
+    "doc/Cupti/structCUpti__ActivityUnifiedMemoryCounter.html",
+    "doc/Cupti/structCUpti__ActivityUnifiedMemoryCounter2.html",
+    "doc/Cupti/structCUpti__ActivityUnifiedMemoryCounterConfig.html",
+    "doc/Cupti/structCUpti__CallbackData.html",
+    "doc/Cupti/structCUpti__EventGroupSet.html",
+    "doc/Cupti/structCUpti__EventGroupSets.html",
+    "doc/Cupti/structCUpti__GetCubinCrcParams.html",
+    "doc/Cupti/structCUpti__GetSassToSourceCorrelationParams.html",
+    "doc/Cupti/structCUpti__GraphData.html",
+    "doc/Cupti/structCUpti__ModuleResourceData.html",
+    "doc/Cupti/structCUpti__NvtxData.html",
+    "doc/Cupti/structCUpti__PCSamplingConfigurationInfo.html",
+    "doc/Cupti/structCUpti__PCSamplingConfigurationInfoParams.html",
+    "doc/Cupti/structCUpti__PCSamplingData.html",
+    "doc/Cupti/structCUpti__PCSamplingDisableParams.html",
+    "doc/Cupti/structCUpti__PCSamplingEnableParams.html",
+    "doc/Cupti/structCUpti__PCSamplingGetDataParams.html",
+    "doc/Cupti/structCUpti__PCSamplingGetNumStallReasonsParams.html",
+    "doc/Cupti/structCUpti__PCSamplingGetStallReasonsParams.html",
+    "doc/Cupti/structCUpti__PCSamplingPCData.html",
+    "doc/Cupti/structCUpti__PCSamplingStallReason.html",
+    "doc/Cupti/structCUpti__PCSamplingStartParams.html",
+    "doc/Cupti/structCUpti__PCSamplingStopParams.html",
+    "doc/Cupti/structCUpti__Profiler__BeginPass__Params.html",
+    "doc/Cupti/structCUpti__Profiler__BeginSession__Params.html",
+    "doc/Cupti/structCUpti__Profiler__CounterDataImageOptions.html",
+    "doc/Cupti/structCUpti__Profiler__CounterDataImage__CalculateScratchBufferSize__Params.html",
+    "doc/Cupti/structCUpti__Profiler__CounterDataImage__CalculateSize__Params.html",
+    "doc/Cupti/structCUpti__Profiler__CounterDataImage__InitializeScratchBuffer__Params.html",
+    "doc/Cupti/structCUpti__Profiler__CounterDataImage__Initialize__Params.html",
+    "doc/Cupti/structCUpti__Profiler__DeInitialize__Params.html",
+    "doc/Cupti/structCUpti__Profiler__DeviceSupported__Params.html",
+    "doc/Cupti/structCUpti__Profiler__DisableProfiling__Params.html",
+    "doc/Cupti/structCUpti__Profiler__EnableProfiling__Params.html",
+    "doc/Cupti/structCUpti__Profiler__EndPass__Params.html",
+    "doc/Cupti/structCUpti__Profiler__EndSession__Params.html",
+    "doc/Cupti/structCUpti__Profiler__FlushCounterData__Params.html",
+    "doc/Cupti/structCUpti__Profiler__GetCounterAvailability__Params.html",
+    "doc/Cupti/structCUpti__Profiler__Initialize__Params.html",
+    "doc/Cupti/structCUpti__Profiler__IsPassCollected__Params.html",
+    "doc/Cupti/structCUpti__Profiler__SetConfig__Params.html",
+    "doc/Cupti/structCUpti__Profiler__UnsetConfig__Params.html",
+    "doc/Cupti/structCUpti__ResourceData.html",
+    "doc/Cupti/structCUpti__SynchronizeData.html",
+    "doc/Cupti/structHeader.html",
+    "doc/Cupti/structNV_1_1Cupti_1_1Checkpoint_1_1CUpti__Checkpoint.html",
+    "doc/Cupti/structPcSamplingStallReasons.html",
+    "doc/Cupti/tab_b.gif",
+    "doc/Cupti/tab_l.gif",
+    "doc/Cupti/tab_r.gif",
+    "doc/Cupti/tabs.css",
+    "doc/Cupti/unionCUpti__ActivityObjectKindId.html",
+    "doc/Cupti/unionCUpti__MetricValue.html",
+    "doc/common/formatting/bg-head.png",
+    "doc/common/formatting/bg-horiz.png",
+    "doc/common/formatting/bg-left.png",
+    "doc/common/formatting/bg-right.png",
+    "doc/common/formatting/bg-sidehead-glow.png",
+    "doc/common/formatting/bg-sidehead.png",
+    "doc/common/formatting/bg-vert.png",
+    "doc/common/formatting/common.min.js",
+    "doc/common/formatting/commonltr.css",
+    "doc/common/formatting/cppapiref.css",
+    "doc/common/formatting/cuda-toolkit-documentation.png",
+    "doc/common/formatting/devtools-documentation.png",
+    "doc/common/formatting/devzone.png",
+    "doc/common/formatting/dita.style.css",
+    "doc/common/formatting/html5shiv-printshiv.min.js",
+    "doc/common/formatting/jquery.ba-hashchange.min.js",
+    "doc/common/formatting/jquery.min.js",
+    "doc/common/formatting/jquery.scrollintoview.min.js",
+    "doc/common/formatting/magnify-dropdown.png",
+    "doc/common/formatting/magnify.png",
+    "doc/common/formatting/nvidia.png",
+    "doc/common/formatting/prettify/lang-Splus.js",
+    "doc/common/formatting/prettify/lang-aea.js",
+    "doc/common/formatting/prettify/lang-agc.js",
+    "doc/common/formatting/prettify/lang-apollo.js",
+    "doc/common/formatting/prettify/lang-basic.js",
+    "doc/common/formatting/prettify/lang-cbm.js",
+    "doc/common/formatting/prettify/lang-cl.js",
+    "doc/common/formatting/prettify/lang-clj.js",
+    "doc/common/formatting/prettify/lang-css.js",
+    "doc/common/formatting/prettify/lang-dart.js",
+    "doc/common/formatting/prettify/lang-el.js",
+    "doc/common/formatting/prettify/lang-erl.js",
+    "doc/common/formatting/prettify/lang-erlang.js",
+    "doc/common/formatting/prettify/lang-fs.js",
+    "doc/common/formatting/prettify/lang-go.js",
+    "doc/common/formatting/prettify/lang-hs.js",
+    "doc/common/formatting/prettify/lang-lasso.js",
+    "doc/common/formatting/prettify/lang-lassoscript.js",
+    "doc/common/formatting/prettify/lang-latex.js",
+    "doc/common/formatting/prettify/lang-lgt.js",
+    "doc/common/formatting/prettify/lang-lisp.js",
+    "doc/common/formatting/prettify/lang-ll.js",
+    "doc/common/formatting/prettify/lang-llvm.js",
+    "doc/common/formatting/prettify/lang-logtalk.js",
+    "doc/common/formatting/prettify/lang-ls.js",
+    "doc/common/formatting/prettify/lang-lsp.js",
+    "doc/common/formatting/prettify/lang-lua.js",
+    "doc/common/formatting/prettify/lang-matlab.js",
+    "doc/common/formatting/prettify/lang-ml.js",
+    "doc/common/formatting/prettify/lang-mumps.js",
+    "doc/common/formatting/prettify/lang-n.js",
+    "doc/common/formatting/prettify/lang-nemerle.js",
+    "doc/common/formatting/prettify/lang-pascal.js",
+    "doc/common/formatting/prettify/lang-proto.js",
+    "doc/common/formatting/prettify/lang-r.js",
+    "doc/common/formatting/prettify/lang-rd.js",
+    "doc/common/formatting/prettify/lang-rkt.js",
+    "doc/common/formatting/prettify/lang-rust.js",
+    "doc/common/formatting/prettify/lang-s.js",
+    "doc/common/formatting/prettify/lang-scala.js",
+    "doc/common/formatting/prettify/lang-scm.js",
+    "doc/common/formatting/prettify/lang-sql.js",
+    "doc/common/formatting/prettify/lang-ss.js",
+    "doc/common/formatting/prettify/lang-swift.js",
+    "doc/common/formatting/prettify/lang-tcl.js",
+    "doc/common/formatting/prettify/lang-tex.js",
+    "doc/common/formatting/prettify/lang-vb.js",
+    "doc/common/formatting/prettify/lang-vbs.js",
+    "doc/common/formatting/prettify/lang-vhd.js",
+    "doc/common/formatting/prettify/lang-vhdl.js",
+    "doc/common/formatting/prettify/lang-wiki.js",
+    "doc/common/formatting/prettify/lang-xq.js",
+    "doc/common/formatting/prettify/lang-xquery.js",
+    "doc/common/formatting/prettify/lang-yaml.js",
+    "doc/common/formatting/prettify/lang-yml.js",
+    "doc/common/formatting/prettify/onLoad.png",
+    "doc/common/formatting/prettify/prettify.css",
+    "doc/common/formatting/prettify/prettify.js",
+    "doc/common/formatting/prettify/run_prettify.js",
+    "doc/common/formatting/qwcode.highlight.css",
+    "doc/common/formatting/search-clear.png",
+    "doc/common/formatting/site.css",
+    "doc/common/scripts/google-analytics/google-analytics-tracker.js",
+    "doc/common/scripts/google-analytics/google-analytics-write.js",
+    "doc/common/scripts/tynt/tynt.js",
+    "doc/index.html",
+    "doc/pdf/Cupti.pdf",
+    "doc/search/check.html",
+    "doc/search/files.js",
+    "doc/search/htmlFileInfoList.js",
+    "doc/search/htmlFileList.js",
+    "doc/search/index-1.js",
+    "doc/search/index-2.js",
+    "doc/search/index-3.js",
+    "doc/search/nwSearchFnt.min.js",
+    "doc/search/stemmers/en_stemmer.min.js",
+    "include/Openacc/cupti_openacc.h",
+    "include/Openmp/cupti_openmp.h",
+    "include/Openmp/omp-tools.h",
+    "include/cuda_stdint.h",
+    "include/cupti.h",
+    "include/cupti_activity.h",
+    "include/cupti_callbacks.h",
+    "include/cupti_checkpoint.h",
+    "include/cupti_driver_cbid.h",
+    "include/cupti_events.h",
+    "include/cupti_metrics.h",
+    "include/cupti_nvtx_cbid.h",
+    "include/cupti_pcsampling.h",
+    "include/cupti_pcsampling_util.h",
+    "include/cupti_profiler_target.h",
+    "include/cupti_result.h",
+    "include/cupti_runtime_cbid.h",
+    "include/cupti_target.h",
+    "include/cupti_version.h",
+    "include/generated_cudaGL_meta.h",
+    "include/generated_cudaVDPAU_meta.h",
+    "include/generated_cuda_gl_interop_meta.h",
+    "include/generated_cuda_meta.h",
+    "include/generated_cuda_runtime_api_meta.h",
+    "include/generated_cuda_vdpau_interop_meta.h",
+    "include/generated_cudart_removed_meta.h",
+    "include/generated_nvtx_meta.h",
+    "include/nvperf_common.h",
+    "include/nvperf_cuda_host.h",
+    "include/nvperf_host.h",
+    "include/nvperf_target.h",
+    "lib/libcheckpoint.so",
+    "lib/libcupti.so",
+    "lib/libcupti.so.12",
+    "lib/libcupti.so.2023.1.1",
+    "lib/libnvperf_host.so",
+    "lib/libnvperf_target.so",
+    "lib/libpcsamplingutil.so",
+    "samples/activity_trace_async/Makefile",
+    "samples/activity_trace_async/activity_trace_async.cu",
+    "samples/autorange_profiling/Makefile",
+    "samples/autorange_profiling/auto_range_profiling.cu",
+    "samples/callback_event/Makefile",
+    "samples/callback_event/callback_event.cu",
+    "samples/callback_metric/Makefile",
+    "samples/callback_metric/callback_metric.cu",
+    "samples/callback_profiling/Makefile",
+    "samples/callback_profiling/callback_profiling.cu",
+    "samples/callback_timestamp/Makefile",
+    "samples/callback_timestamp/callback_timestamp.cu",
+    "samples/checkpoint_kernels/Makefile",
+    "samples/checkpoint_kernels/checkpoint_kernels.cu",
+    "samples/common/helper_cupti.h",
+    "samples/common/helper_cupti_activity.h",
+    "samples/concurrent_profiling/Makefile",
+    "samples/concurrent_profiling/concurrent_profiling.cu",
+    "samples/cuda_graphs_trace/Makefile",
+    "samples/cuda_graphs_trace/cuda_graphs_trace.cu",
+    "samples/cuda_memory_trace/Makefile",
+    "samples/cuda_memory_trace/memory_trace.cu",
+    "samples/cupti_correlation/Makefile",
+    "samples/cupti_correlation/cupti_correlation.cu",
+    "samples/cupti_external_correlation/Makefile",
+    "samples/cupti_external_correlation/cupti_external_correlation.cu",
+    "samples/cupti_finalize/Makefile",
+    "samples/cupti_finalize/cupti_finalize.cpp",
+    "samples/cupti_metric_properties/Makefile",
+    "samples/cupti_metric_properties/cupti_metric_properties.cpp",
+    "samples/cupti_nvtx/Makefile",
+    "samples/cupti_nvtx/cupti_nvtx.cu",
+    "samples/cupti_query/Makefile",
+    "samples/cupti_query/cupti_query.cpp",
+    "samples/cupti_trace_injection/Makefile",
+    "samples/cupti_trace_injection/README.txt",
+    "samples/cupti_trace_injection/cupti_trace_injection.cpp",
+    "samples/event_multi_gpu/Makefile",
+    "samples/event_multi_gpu/event_multi_gpu.cu",
+    "samples/event_sampling/Makefile",
+    "samples/event_sampling/event_sampling.cu",
+    "samples/extensions/include/c_util/FileOp.h",
+    "samples/extensions/include/c_util/ScopeExit.h",
+    "samples/extensions/include/profilerhost_util/Eval.h",
+    "samples/extensions/include/profilerhost_util/List.h",
+    "samples/extensions/include/profilerhost_util/Metric.h",
+    "samples/extensions/include/profilerhost_util/Parser.h",
+    "samples/extensions/include/profilerhost_util/Utils.h",
+    "samples/extensions/src/profilerhost_util/Eval.cpp",
+    "samples/extensions/src/profilerhost_util/List.cpp",
+    "samples/extensions/src/profilerhost_util/Makefile",
+    "samples/extensions/src/profilerhost_util/Metric.cpp",
+    "samples/nested_range_profiling/Makefile",
+    "samples/nested_range_profiling/nested_range_profiling.cu",
+    "samples/nvlink_bandwidth/Makefile",
+    "samples/nvlink_bandwidth/nvlink_bandwidth.cu",
+    "samples/openacc_trace/Makefile",
+    "samples/openacc_trace/openacc_app.cpp",
+    "samples/openacc_trace/openacc_trace.cpp",
+    "samples/pc_sampling/Makefile",
+    "samples/pc_sampling/pc_sampling.cu",
+    "samples/pc_sampling_continuous/Makefile",
+    "samples/pc_sampling_continuous/README.txt",
+    "samples/pc_sampling_continuous/libpc_sampling_continuous.pl",
+    "samples/pc_sampling_continuous/pc_sampling_continuous.cpp",
+    "samples/pc_sampling_start_stop/Makefile",
+    "samples/pc_sampling_start_stop/pc_sampling_start_stop.cu",
+    "samples/pc_sampling_utility/Makefile",
+    "samples/pc_sampling_utility/README.txt",
+    "samples/pc_sampling_utility/pc_sampling_utility.cpp",
+    "samples/pc_sampling_utility/pc_sampling_utility_helper.h",
+    "samples/profiling_injection/Makefile",
+    "samples/profiling_injection/README.txt",
+    "samples/profiling_injection/complex_target.cu",
+    "samples/profiling_injection/injection.cpp",
+    "samples/profiling_injection/simple_target.cu",
+    "samples/sass_source_map/Makefile",
+    "samples/sass_source_map/sass_source_map.cu",
+    "samples/unified_memory/Makefile",
+    "samples/unified_memory/unified_memory.cu",
+    "samples/userrange_profiling/Makefile",
+    "samples/userrange_profiling/user_range_profiling.cu"
+  ],
+  "fn": "cuda-cupti-12.1.105-0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/cuda-cupti-12.1.105-0",
+    "type": 1
+  },
+  "md5": "c0bfa9a714fd8099e085c70ab2ebe6ec",
+  "name": "cuda-cupti",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/cuda-cupti-12.1.105-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "doc/Cupti/annotated.html",
+        "path_type": "hardlink",
+        "sha256": "4cc841ef02c204bb63f6451d48b98233023a1c17c27c13a2c7a9ba86b9cef767",
+        "sha256_in_prefix": "4cc841ef02c204bb63f6451d48b98233023a1c17c27c13a2c7a9ba86b9cef767",
+        "size_in_bytes": 2277478
+      },
+      {
+        "_path": "doc/Cupti/classes.html",
+        "path_type": "hardlink",
+        "sha256": "90ee6a69cf7f05079efa882d6f45747a5a617358ced0dd44e19c41b5c4a3d5e3",
+        "sha256_in_prefix": "90ee6a69cf7f05079efa882d6f45747a5a617358ced0dd44e19c41b5c4a3d5e3",
+        "size_in_bytes": 19355
+      },
+      {
+        "_path": "doc/Cupti/doxygen.css",
+        "path_type": "hardlink",
+        "sha256": "104be0a51409d1fc06fd2c69dfe29a3f5710a1128bff5cc443d792939e3cedfd",
+        "sha256_in_prefix": "104be0a51409d1fc06fd2c69dfe29a3f5710a1128bff5cc443d792939e3cedfd",
+        "size_in_bytes": 5701
+      },
+      {
+        "_path": "doc/Cupti/doxygen.png",
+        "path_type": "hardlink",
+        "sha256": "c94b0fff66087999935e12fd492b9a1b2160b44b91841860d13ce0e33d20d8f2",
+        "sha256_in_prefix": "c94b0fff66087999935e12fd492b9a1b2160b44b91841860d13ce0e33d20d8f2",
+        "size_in_bytes": 1281
+      },
+      {
+        "_path": "doc/Cupti/ftv2blank.png",
+        "path_type": "hardlink",
+        "sha256": "fba45dcc498f0e705c1643720555b1c9247f8011667363f68fb94df953a8ae3f",
+        "sha256_in_prefix": "fba45dcc498f0e705c1643720555b1c9247f8011667363f68fb94df953a8ae3f",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "doc/Cupti/ftv2doc.png",
+        "path_type": "hardlink",
+        "sha256": "04c67f2ba2d4341ee90c1793449598cb04bf9507cedfcf91661c8fb1d4d63888",
+        "sha256_in_prefix": "04c67f2ba2d4341ee90c1793449598cb04bf9507cedfcf91661c8fb1d4d63888",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "doc/Cupti/ftv2folderclosed.png",
+        "path_type": "hardlink",
+        "sha256": "ef3c8f419ea067fdac01bd47cef0f283e8903e34172fa10ec7e5a45d3d6817ff",
+        "sha256_in_prefix": "ef3c8f419ea067fdac01bd47cef0f283e8903e34172fa10ec7e5a45d3d6817ff",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "doc/Cupti/ftv2folderopen.png",
+        "path_type": "hardlink",
+        "sha256": "d47ed39698b1ae5821bdf620ade6bfd6397b5dab8fd6dfd539e0188cd3e09592",
+        "sha256_in_prefix": "d47ed39698b1ae5821bdf620ade6bfd6397b5dab8fd6dfd539e0188cd3e09592",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "doc/Cupti/ftv2lastnode.png",
+        "path_type": "hardlink",
+        "sha256": "86e061efafe08ea42649b455ca14163360babe5e6ce1d0bd2dcdf2c54ccaba7c",
+        "sha256_in_prefix": "86e061efafe08ea42649b455ca14163360babe5e6ce1d0bd2dcdf2c54ccaba7c",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "doc/Cupti/ftv2link.png",
+        "path_type": "hardlink",
+        "sha256": "6d7a716c7a24be8e71649a238c5519c3e5b5d0cf8384bb68177e265dca941c38",
+        "sha256_in_prefix": "6d7a716c7a24be8e71649a238c5519c3e5b5d0cf8384bb68177e265dca941c38",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "doc/Cupti/ftv2mlastnode.png",
+        "path_type": "hardlink",
+        "sha256": "f02d0dd7e9633644f03b9e93d864494690508d4f5611e0df95aad99b0ccbc118",
+        "sha256_in_prefix": "f02d0dd7e9633644f03b9e93d864494690508d4f5611e0df95aad99b0ccbc118",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "doc/Cupti/ftv2mnode.png",
+        "path_type": "hardlink",
+        "sha256": "758e96c897604842e2fad6c1a7ee1d0cebf6b5d4c116bbf39bf094201a30c341",
+        "sha256_in_prefix": "758e96c897604842e2fad6c1a7ee1d0cebf6b5d4c116bbf39bf094201a30c341",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "doc/Cupti/ftv2node.png",
+        "path_type": "hardlink",
+        "sha256": "fd26c7ff32e383ce23b9d36097936c73df43de5712f01141054897a4781ac58a",
+        "sha256_in_prefix": "fd26c7ff32e383ce23b9d36097936c73df43de5712f01141054897a4781ac58a",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "doc/Cupti/ftv2plastnode.png",
+        "path_type": "hardlink",
+        "sha256": "d9ca5dbbc01326817c55113f0506fa998fd1907518989423a02bfa444fe44260",
+        "sha256_in_prefix": "d9ca5dbbc01326817c55113f0506fa998fd1907518989423a02bfa444fe44260",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "doc/Cupti/ftv2pnode.png",
+        "path_type": "hardlink",
+        "sha256": "31b0d40b12f1b174d9f123061986f1ce5f7d0d5be4685a82a3907c194b54f9bb",
+        "sha256_in_prefix": "31b0d40b12f1b174d9f123061986f1ce5f7d0d5be4685a82a3907c194b54f9bb",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "doc/Cupti/ftv2vertline.png",
+        "path_type": "hardlink",
+        "sha256": "df1347a845fcab6fff32f148f69ccbe0e8535b2175d28377e0992002eb885f92",
+        "sha256_in_prefix": "df1347a845fcab6fff32f148f69ccbe0e8535b2175d28377e0992002eb885f92",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "doc/Cupti/functions.html",
+        "path_type": "hardlink",
+        "sha256": "e31ffd77a0c25cb9f13bd235367d194ef362d944ae58e1e940cf53daac0d54a0",
+        "sha256_in_prefix": "e31ffd77a0c25cb9f13bd235367d194ef362d944ae58e1e940cf53daac0d54a0",
+        "size_in_bytes": 448436
+      },
+      {
+        "_path": "doc/Cupti/functions_0x62.html",
+        "path_type": "hardlink",
+        "sha256": "ebdee9bfa6a0ab9b8b0a971a1679db710fdc4c01731e8806e8788269d8a8b1ec",
+        "sha256_in_prefix": "ebdee9bfa6a0ab9b8b0a971a1679db710fdc4c01731e8806e8788269d8a8b1ec",
+        "size_in_bytes": 10512
+      },
+      {
+        "_path": "doc/Cupti/functions_0x63.html",
+        "path_type": "hardlink",
+        "sha256": "ca2d329cd90a11ee7304d3c11255f847b7edb720dd21da0ca71428d6eedc957f",
+        "sha256_in_prefix": "ca2d329cd90a11ee7304d3c11255f847b7edb720dd21da0ca71428d6eedc957f",
+        "size_in_bytes": 32359
+      },
+      {
+        "_path": "doc/Cupti/functions_0x64.html",
+        "path_type": "hardlink",
+        "sha256": "d66219b198eb30d5d83aa9055c0bda54cbf8a7617ef286bd70bff5fce16b3310",
+        "sha256_in_prefix": "d66219b198eb30d5d83aa9055c0bda54cbf8a7617ef286bd70bff5fce16b3310",
+        "size_in_bytes": 14291
+      },
+      {
+        "_path": "doc/Cupti/functions_0x65.html",
+        "path_type": "hardlink",
+        "sha256": "90ab95f13367a46b67a1bb65169c4c4e9c394c56b5459e22f15fe6d4f4517a5f",
+        "sha256_in_prefix": "90ab95f13367a46b67a1bb65169c4c4e9c394c56b5459e22f15fe6d4f4517a5f",
+        "size_in_bytes": 12307
+      },
+      {
+        "_path": "doc/Cupti/functions_0x66.html",
+        "path_type": "hardlink",
+        "sha256": "23dc29c91d41e23914504633d535baad55b4b2f5aaedda3c2c948e655ab7f15d",
+        "sha256_in_prefix": "23dc29c91d41e23914504633d535baad55b4b2f5aaedda3c2c948e655ab7f15d",
+        "size_in_bytes": 12802
+      },
+      {
+        "_path": "doc/Cupti/functions_0x67.html",
+        "path_type": "hardlink",
+        "sha256": "d485a69869ab21b5c6083d00fdaf212c4875c225e44801cc5bac6429a945695e",
+        "sha256_in_prefix": "d485a69869ab21b5c6083d00fdaf212c4875c225e44801cc5bac6429a945695e",
+        "size_in_bytes": 12534
+      },
+      {
+        "_path": "doc/Cupti/functions_0x68.html",
+        "path_type": "hardlink",
+        "sha256": "1841fb30e27f1137de73927b429165953c09a0e3d26cddbf52717f939da42aba",
+        "sha256_in_prefix": "1841fb30e27f1137de73927b429165953c09a0e3d26cddbf52717f939da42aba",
+        "size_in_bytes": 3904
+      },
+      {
+        "_path": "doc/Cupti/functions_0x69.html",
+        "path_type": "hardlink",
+        "sha256": "95813876ae0e0e3b95e8d1455d8db0443ab23c105b56141c9f161644228445b5",
+        "sha256_in_prefix": "95813876ae0e0e3b95e8d1455d8db0443ab23c105b56141c9f161644228445b5",
+        "size_in_bytes": 9693
+      },
+      {
+        "_path": "doc/Cupti/functions_0x6a.html",
+        "path_type": "hardlink",
+        "sha256": "f80ade8168d91d65d3d2ada614e9847c7148a249ca9bc14fa13b0e7ad41196f0",
+        "sha256_in_prefix": "f80ade8168d91d65d3d2ada614e9847c7148a249ca9bc14fa13b0e7ad41196f0",
+        "size_in_bytes": 3659
+      },
+      {
+        "_path": "doc/Cupti/functions_0x6b.html",
+        "path_type": "hardlink",
+        "sha256": "b5812b24ef5d371f14e0ed9cf524e505bfddb5855b877c846ab27d942961a059",
+        "sha256_in_prefix": "b5812b24ef5d371f14e0ed9cf524e505bfddb5855b877c846ab27d942961a059",
+        "size_in_bytes": 13663
+      },
+      {
+        "_path": "doc/Cupti/functions_0x6c.html",
+        "path_type": "hardlink",
+        "sha256": "333b82ce1fbad1f992f7b7e891d1cbb35a45d8e9847b6c3956e175155f6db014",
+        "sha256_in_prefix": "333b82ce1fbad1f992f7b7e891d1cbb35a45d8e9847b6c3956e175155f6db014",
+        "size_in_bytes": 8672
+      },
+      {
+        "_path": "doc/Cupti/functions_0x6d.html",
+        "path_type": "hardlink",
+        "sha256": "77d04422dd1c474b245eda50994fe07be0552baf8bdbc0ba2c52471fe3983dd7",
+        "sha256_in_prefix": "77d04422dd1c474b245eda50994fe07be0552baf8bdbc0ba2c52471fe3983dd7",
+        "size_in_bytes": 14280
+      },
+      {
+        "_path": "doc/Cupti/functions_0x6e.html",
+        "path_type": "hardlink",
+        "sha256": "81a6d5103e24a028c53d96578c336f8b4feaeb219ecb3860c0e6cec40609b478",
+        "sha256_in_prefix": "81a6d5103e24a028c53d96578c336f8b4feaeb219ecb3860c0e6cec40609b478",
+        "size_in_bytes": 11518
+      },
+      {
+        "_path": "doc/Cupti/functions_0x6f.html",
+        "path_type": "hardlink",
+        "sha256": "33fbaf14e8220e9fc5bcc46caed9207b8509f7d3b591093525339d40ded97763",
+        "sha256_in_prefix": "33fbaf14e8220e9fc5bcc46caed9207b8509f7d3b591093525339d40ded97763",
+        "size_in_bytes": 5101
+      },
+      {
+        "_path": "doc/Cupti/functions_0x70.html",
+        "path_type": "hardlink",
+        "sha256": "85c25fd78e6633a9b79277d025d362a8c344784cd0579507a94e8618d070e7cb",
+        "sha256_in_prefix": "85c25fd78e6633a9b79277d025d362a8c344784cd0579507a94e8618d070e7cb",
+        "size_in_bytes": 27231
+      },
+      {
+        "_path": "doc/Cupti/functions_0x71.html",
+        "path_type": "hardlink",
+        "sha256": "cc2fbe69cda1fb2bc947f973b83ae3efa1fdc15f494ee71768520affc8f23121",
+        "sha256_in_prefix": "cc2fbe69cda1fb2bc947f973b83ae3efa1fdc15f494ee71768520affc8f23121",
+        "size_in_bytes": 4094
+      },
+      {
+        "_path": "doc/Cupti/functions_0x72.html",
+        "path_type": "hardlink",
+        "sha256": "34681cd902d259d5b3036a4428d1899f79e1c5e3cdd26192810c2786a77d9dce",
+        "sha256_in_prefix": "34681cd902d259d5b3036a4428d1899f79e1c5e3cdd26192810c2786a77d9dce",
+        "size_in_bytes": 10856
+      },
+      {
+        "_path": "doc/Cupti/functions_0x73.html",
+        "path_type": "hardlink",
+        "sha256": "d99477fd2a6efd1dfcca34800183c3e9d61eb13154c4744ab28880345feb6d21",
+        "sha256_in_prefix": "d99477fd2a6efd1dfcca34800183c3e9d61eb13154c4744ab28880345feb6d21",
+        "size_in_bytes": 30796
+      },
+      {
+        "_path": "doc/Cupti/functions_0x74.html",
+        "path_type": "hardlink",
+        "sha256": "0ac327c4873b15e701c1553a4f5127c776ef08662f5a97d658eb2812fcd12f51",
+        "sha256_in_prefix": "0ac327c4873b15e701c1553a4f5127c776ef08662f5a97d658eb2812fcd12f51",
+        "size_in_bytes": 9047
+      },
+      {
+        "_path": "doc/Cupti/functions_0x75.html",
+        "path_type": "hardlink",
+        "sha256": "c8efa7908fcdc5effe7c4552c4e18a57d4ffb78b7cc7c4fd93a7315ebada1133",
+        "sha256_in_prefix": "c8efa7908fcdc5effe7c4552c4e18a57d4ffb78b7cc7c4fd93a7315ebada1133",
+        "size_in_bytes": 4191
+      },
+      {
+        "_path": "doc/Cupti/functions_0x76.html",
+        "path_type": "hardlink",
+        "sha256": "0248ba196edfd856a4e9ffd7bb7b29ee53d6efe0b88e0fb6bf4eb139b581d132",
+        "sha256_in_prefix": "0248ba196edfd856a4e9ffd7bb7b29ee53d6efe0b88e0fb6bf4eb139b581d132",
+        "size_in_bytes": 6237
+      },
+      {
+        "_path": "doc/Cupti/functions_0x77.html",
+        "path_type": "hardlink",
+        "sha256": "fc3289f783faa4da140ede289e6985b31f520f11c3126615236c4d4849d9137a",
+        "sha256_in_prefix": "fc3289f783faa4da140ede289e6985b31f520f11c3126615236c4d4849d9137a",
+        "size_in_bytes": 3603
+      },
+      {
+        "_path": "doc/Cupti/functions_vars.html",
+        "path_type": "hardlink",
+        "sha256": "5550e139e1a1ba324100dc593eda7db862ede5d94dda097e73a6fa911b1b844c",
+        "sha256_in_prefix": "5550e139e1a1ba324100dc593eda7db862ede5d94dda097e73a6fa911b1b844c",
+        "size_in_bytes": 6195
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x62.html",
+        "path_type": "hardlink",
+        "sha256": "4dfb46b65a273baf6418b95de3a418b0fe265a2259d40f26957ea6b1c01e1dac",
+        "sha256_in_prefix": "4dfb46b65a273baf6418b95de3a418b0fe265a2259d40f26957ea6b1c01e1dac",
+        "size_in_bytes": 10528
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x63.html",
+        "path_type": "hardlink",
+        "sha256": "221a9373c0686df6f5e5fd73853ecc179a532ee2770955efd714db0f5fa084ad",
+        "sha256_in_prefix": "221a9373c0686df6f5e5fd73853ecc179a532ee2770955efd714db0f5fa084ad",
+        "size_in_bytes": 32375
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x64.html",
+        "path_type": "hardlink",
+        "sha256": "43dcf12591647f98ba6b528b801047ef7ff44f74703e103a64855a1b40b6c739",
+        "sha256_in_prefix": "43dcf12591647f98ba6b528b801047ef7ff44f74703e103a64855a1b40b6c739",
+        "size_in_bytes": 14307
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x65.html",
+        "path_type": "hardlink",
+        "sha256": "c8406c41679840b7d09c900b7357f484fbee6e8cf8c75afa63d553c19d27a190",
+        "sha256_in_prefix": "c8406c41679840b7d09c900b7357f484fbee6e8cf8c75afa63d553c19d27a190",
+        "size_in_bytes": 12323
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x66.html",
+        "path_type": "hardlink",
+        "sha256": "0db6455f4b60f697a8473e1eda5b073d2109746a6058c739859f07c6f80f8c83",
+        "sha256_in_prefix": "0db6455f4b60f697a8473e1eda5b073d2109746a6058c739859f07c6f80f8c83",
+        "size_in_bytes": 12818
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x67.html",
+        "path_type": "hardlink",
+        "sha256": "c9941eada8b13de64e0264cc219760e2e24743da125e7c285589056ba05de3e8",
+        "sha256_in_prefix": "c9941eada8b13de64e0264cc219760e2e24743da125e7c285589056ba05de3e8",
+        "size_in_bytes": 12550
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x68.html",
+        "path_type": "hardlink",
+        "sha256": "b2cca11963c818d8a75b94210471ad73b805f3e1c46d36aa07e70a2624472ca2",
+        "sha256_in_prefix": "b2cca11963c818d8a75b94210471ad73b805f3e1c46d36aa07e70a2624472ca2",
+        "size_in_bytes": 3920
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x69.html",
+        "path_type": "hardlink",
+        "sha256": "6795b3436b57bc14939c78125cd73d025c21490b21f5b0ddff3fdd9833497389",
+        "sha256_in_prefix": "6795b3436b57bc14939c78125cd73d025c21490b21f5b0ddff3fdd9833497389",
+        "size_in_bytes": 9709
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x6a.html",
+        "path_type": "hardlink",
+        "sha256": "15bea6296f468b936b82a03d093ec9a90eccbbefe21857a17aff69228fa65682",
+        "sha256_in_prefix": "15bea6296f468b936b82a03d093ec9a90eccbbefe21857a17aff69228fa65682",
+        "size_in_bytes": 3675
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x6b.html",
+        "path_type": "hardlink",
+        "sha256": "a8bd6fee118af9320aaf188d6ef63985ae72edc7d2de1e98057bfc9a76870a0c",
+        "sha256_in_prefix": "a8bd6fee118af9320aaf188d6ef63985ae72edc7d2de1e98057bfc9a76870a0c",
+        "size_in_bytes": 13679
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x6c.html",
+        "path_type": "hardlink",
+        "sha256": "64b3d5a8889790da1f287f1ba0fba3a1ab2b0ba09fefaf238e9d35cdd322d2b9",
+        "sha256_in_prefix": "64b3d5a8889790da1f287f1ba0fba3a1ab2b0ba09fefaf238e9d35cdd322d2b9",
+        "size_in_bytes": 8688
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x6d.html",
+        "path_type": "hardlink",
+        "sha256": "343bba6b5fb45f8a4c58086bd09c21f646972f81991cc114d27dbda5952bc494",
+        "sha256_in_prefix": "343bba6b5fb45f8a4c58086bd09c21f646972f81991cc114d27dbda5952bc494",
+        "size_in_bytes": 14296
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x6e.html",
+        "path_type": "hardlink",
+        "sha256": "fc228d653af7b0ba4c873fd527d1a196b49d0bc49976887df31676ab7883d95d",
+        "sha256_in_prefix": "fc228d653af7b0ba4c873fd527d1a196b49d0bc49976887df31676ab7883d95d",
+        "size_in_bytes": 11534
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x6f.html",
+        "path_type": "hardlink",
+        "sha256": "8b0d5f3cf74bbffe76a9a074660fdaf220524019fb3ebd152d80dbe51380ff4c",
+        "sha256_in_prefix": "8b0d5f3cf74bbffe76a9a074660fdaf220524019fb3ebd152d80dbe51380ff4c",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x70.html",
+        "path_type": "hardlink",
+        "sha256": "7b6d9d90a404fc4293db6bcd3c3ff97d35256f9541c4b9ed12707244aa790faa",
+        "sha256_in_prefix": "7b6d9d90a404fc4293db6bcd3c3ff97d35256f9541c4b9ed12707244aa790faa",
+        "size_in_bytes": 27247
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x71.html",
+        "path_type": "hardlink",
+        "sha256": "dd1909d5f3903dcc605a62e8fd64458d4e424c84fe88c22d4f26435279c42c8f",
+        "sha256_in_prefix": "dd1909d5f3903dcc605a62e8fd64458d4e424c84fe88c22d4f26435279c42c8f",
+        "size_in_bytes": 4110
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x72.html",
+        "path_type": "hardlink",
+        "sha256": "fb7f0525ac67a57f994e23b52645bea494c09a52d2c100af9abed1efe47fa9ec",
+        "sha256_in_prefix": "fb7f0525ac67a57f994e23b52645bea494c09a52d2c100af9abed1efe47fa9ec",
+        "size_in_bytes": 10872
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x73.html",
+        "path_type": "hardlink",
+        "sha256": "2a11fad787eccf5eb629219260a58cef6770a9165bd8d47a0c8976105d8aceef",
+        "sha256_in_prefix": "2a11fad787eccf5eb629219260a58cef6770a9165bd8d47a0c8976105d8aceef",
+        "size_in_bytes": 30812
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x74.html",
+        "path_type": "hardlink",
+        "sha256": "554cc2d42f2b5a481280fc3aba6c60ec75d10442fdceaf83d377be876531a26e",
+        "sha256_in_prefix": "554cc2d42f2b5a481280fc3aba6c60ec75d10442fdceaf83d377be876531a26e",
+        "size_in_bytes": 9063
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x75.html",
+        "path_type": "hardlink",
+        "sha256": "88dcef47c4359334926e9300f5bd2737a0a36edcf58841a7fc944f4a3378131c",
+        "sha256_in_prefix": "88dcef47c4359334926e9300f5bd2737a0a36edcf58841a7fc944f4a3378131c",
+        "size_in_bytes": 4207
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x76.html",
+        "path_type": "hardlink",
+        "sha256": "5e7d9c330cf9515f9f7b557c9f53bd98dd86f77bd97cfc4eadf2ee9f0c7d8a38",
+        "sha256_in_prefix": "5e7d9c330cf9515f9f7b557c9f53bd98dd86f77bd97cfc4eadf2ee9f0c7d8a38",
+        "size_in_bytes": 6253
+      },
+      {
+        "_path": "doc/Cupti/functions_vars_0x77.html",
+        "path_type": "hardlink",
+        "sha256": "6c9ddd901509b21baa99d3d6547541bb8b1cdb420c6eb62b3a7c440c8d4c5617",
+        "sha256_in_prefix": "6c9ddd901509b21baa99d3d6547541bb8b1cdb420c6eb62b3a7c440c8d4c5617",
+        "size_in_bytes": 3619
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__ACTIVITY__API.html",
+        "path_type": "hardlink",
+        "sha256": "250c6639a5b39897d522bf90f46e6e168fa00b6dd1887ffcc79e479d2e8dffdb",
+        "sha256_in_prefix": "250c6639a5b39897d522bf90f46e6e168fa00b6dd1887ffcc79e479d2e8dffdb",
+        "size_in_bytes": 390653
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__CALLBACK__API.html",
+        "path_type": "hardlink",
+        "sha256": "3a13c580845a6021eefba3c6f5e9095ea44205964f86389f1e244b4f355e84f9",
+        "sha256_in_prefix": "3a13c580845a6021eefba3c6f5e9095ea44205964f86389f1e244b4f355e84f9",
+        "size_in_bytes": 61262
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__CHECKPOINT__API.html",
+        "path_type": "hardlink",
+        "sha256": "7e56a36ccaf74a5f62cf71e1e3aebe3df35427f50bfe50914e2c5f62832ac9cc",
+        "sha256_in_prefix": "7e56a36ccaf74a5f62cf71e1e3aebe3df35427f50bfe50914e2c5f62832ac9cc",
+        "size_in_bytes": 12806
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__EVENT__API.html",
+        "path_type": "hardlink",
+        "sha256": "379cd63204f2338be87641598eed82557ca5b71d62464df5a281f4f02eaef8c1",
+        "sha256_in_prefix": "379cd63204f2338be87641598eed82557ca5b71d62464df5a281f4f02eaef8c1",
+        "size_in_bytes": 168728
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__METRIC__API.html",
+        "path_type": "hardlink",
+        "sha256": "d0fe96438fb7a5799cf2b6374a5d78ec407200c72266272910a2227772e27919",
+        "sha256_in_prefix": "d0fe96438fb7a5799cf2b6374a5d78ec407200c72266272910a2227772e27919",
+        "size_in_bytes": 81261
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__PCSAMPLING__API.html",
+        "path_type": "hardlink",
+        "sha256": "3c9979bc214c8dfd1fc9c5fef4ad093eba080bd68b3b42014ffc801bfdcf28fd",
+        "sha256_in_prefix": "3c9979bc214c8dfd1fc9c5fef4ad093eba080bd68b3b42014ffc801bfdcf28fd",
+        "size_in_bytes": 56315
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__PCSAMPLING__UTILITY.html",
+        "path_type": "hardlink",
+        "sha256": "e2c480bc0a1509b6880fa4ece1aa5bc8789b7de71e1c1f2a217b6b3d75c15b3a",
+        "sha256_in_prefix": "e2c480bc0a1509b6880fa4ece1aa5bc8789b7de71e1c1f2a217b6b3d75c15b3a",
+        "size_in_bytes": 25548
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__PROFILER__API.html",
+        "path_type": "hardlink",
+        "sha256": "65fac2b7c2b3a7eabbfd5d6515ae416f982d254da8d7670a6837dd3468e4f41d",
+        "sha256_in_prefix": "65fac2b7c2b3a7eabbfd5d6515ae416f982d254da8d7670a6837dd3468e4f41d",
+        "size_in_bytes": 49958
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__RESULT__API.html",
+        "path_type": "hardlink",
+        "sha256": "8a0bc8839a0d9dd76e4b43cf933e30ed1736da5e386468d5f0937d74cacc4f31",
+        "sha256_in_prefix": "8a0bc8839a0d9dd76e4b43cf933e30ed1736da5e386468d5f0937d74cacc4f31",
+        "size_in_bytes": 31706
+      },
+      {
+        "_path": "doc/Cupti/group__CUPTI__VERSION__API.html",
+        "path_type": "hardlink",
+        "sha256": "412cf6aac8d31585d6de34786b8bac56b91fbe3bc82b074a73148676e5656795",
+        "sha256_in_prefix": "412cf6aac8d31585d6de34786b8bac56b91fbe3bc82b074a73148676e5656795",
+        "size_in_bytes": 5073
+      },
+      {
+        "_path": "doc/Cupti/index.html",
+        "path_type": "hardlink",
+        "sha256": "93df5b3c72dbc691cc368b3dbc01cfc06bb845151307b0875f15e535bcfc6e08",
+        "sha256_in_prefix": "93df5b3c72dbc691cc368b3dbc01cfc06bb845151307b0875f15e535bcfc6e08",
+        "size_in_bytes": 103922
+      },
+      {
+        "_path": "doc/Cupti/modules.html",
+        "path_type": "hardlink",
+        "sha256": "5311ec33d03483156cb77446e5071ea4656863f3be3133c5f2f22418e5d7c6e2",
+        "sha256_in_prefix": "5311ec33d03483156cb77446e5071ea4656863f3be3133c5f2f22418e5d7c6e2",
+        "size_in_bytes": 1077906
+      },
+      {
+        "_path": "doc/Cupti/notices-header.html",
+        "path_type": "hardlink",
+        "sha256": "e1615fe43dafc0d02af6d7e51308e7549681fff198cc12dd68aa23fd8e23c6ba",
+        "sha256_in_prefix": "e1615fe43dafc0d02af6d7e51308e7549681fff198cc12dd68aa23fd8e23c6ba",
+        "size_in_bytes": 63199
+      },
+      {
+        "_path": "doc/Cupti/r_library_support.html",
+        "path_type": "hardlink",
+        "sha256": "069093302fa80d75656b9db628e28b0fd3bba8353bada4d94c24412b12d7dae0",
+        "sha256_in_prefix": "069093302fa80d75656b9db628e28b0fd3bba8353bada4d94c24412b12d7dae0",
+        "size_in_bytes": 63669
+      },
+      {
+        "_path": "doc/Cupti/r_main.html",
+        "path_type": "hardlink",
+        "sha256": "06bf16686d368f6d7dc48905d11fbac3ecd324fb411e941c789962aa2c433490",
+        "sha256_in_prefix": "06bf16686d368f6d7dc48905d11fbac3ecd324fb411e941c789962aa2c433490",
+        "size_in_bytes": 840029
+      },
+      {
+        "_path": "doc/Cupti/r_overview.html",
+        "path_type": "hardlink",
+        "sha256": "f416ae43e179f1006e792da4b502a5a8b41a663dbcbc84cc959083ba1e392b7b",
+        "sha256_in_prefix": "f416ae43e179f1006e792da4b502a5a8b41a663dbcbc84cc959083ba1e392b7b",
+        "size_in_bytes": 68007
+      },
+      {
+        "_path": "doc/Cupti/r_profiler.html",
+        "path_type": "hardlink",
+        "sha256": "9d9c56d0bd03c012c2a76d4867ed1bafb4d3c118940cff78e9dd4cc6c9e75d24",
+        "sha256_in_prefix": "9d9c56d0bd03c012c2a76d4867ed1bafb4d3c118940cff78e9dd4cc6c9e75d24",
+        "size_in_bytes": 62624
+      },
+      {
+        "_path": "doc/Cupti/r_profiler_definitions.html",
+        "path_type": "hardlink",
+        "sha256": "a0cee1726e104aff9361f06baee4d858f9b72710692741b0129a670f9e04af8c",
+        "sha256_in_prefix": "a0cee1726e104aff9361f06baee4d858f9b72710692741b0129a670f9e04af8c",
+        "size_in_bytes": 64108
+      },
+      {
+        "_path": "doc/Cupti/r_samples.html",
+        "path_type": "hardlink",
+        "sha256": "b16ff5456fce1b01d2439223e2b534dcdcfd76453a42b535f45a8c159bae87d6",
+        "sha256_in_prefix": "b16ff5456fce1b01d2439223e2b534dcdcfd76453a42b535f45a8c159bae87d6",
+        "size_in_bytes": 74127
+      },
+      {
+        "_path": "doc/Cupti/r_special_configurations.html",
+        "path_type": "hardlink",
+        "sha256": "0c1d487cc50b86a8fac43e3369778caa1c2d8584944810e46df19cc00a2e5d92",
+        "sha256_in_prefix": "0c1d487cc50b86a8fac43e3369778caa1c2d8584944810e46df19cc00a2e5d92",
+        "size_in_bytes": 69077
+      },
+      {
+        "_path": "doc/Cupti/release_notes.html",
+        "path_type": "hardlink",
+        "sha256": "0bc4a3b8683147a9691296160201f8b8e0f0a509347f4bdc8faff84c6f9dd83d",
+        "sha256_in_prefix": "0bc4a3b8683147a9691296160201f8b8e0f0a509347f4bdc8faff84c6f9dd83d",
+        "size_in_bytes": 211263
+      },
+      {
+        "_path": "doc/Cupti/structBufferInfo.html",
+        "path_type": "hardlink",
+        "sha256": "6afac18bfa7562957a6a91742a56a7c2c773f6598d56e4e562dc2c3ea69656da",
+        "sha256_in_prefix": "6afac18bfa7562957a6a91742a56a7c2c773f6598d56e4e562dc2c3ea69656da",
+        "size_in_bytes": 4849
+      },
+      {
+        "_path": "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__GetBufferInfoParams.html",
+        "path_type": "hardlink",
+        "sha256": "fd1529374dacddf930b966aa202f2e0d79b47ede228acc8af5af470f90635972",
+        "sha256_in_prefix": "fd1529374dacddf930b966aa202f2e0d79b47ede228acc8af5af470f90635972",
+        "size_in_bytes": 4910
+      },
+      {
+        "_path": "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__GetHeaderDataParams.html",
+        "path_type": "hardlink",
+        "sha256": "bb9891be061125edb629ef6cd3b3e0b9b701158b1249d92044b4dcc795870c2d",
+        "sha256_in_prefix": "bb9891be061125edb629ef6cd3b3e0b9b701158b1249d92044b4dcc795870c2d",
+        "size_in_bytes": 4969
+      },
+      {
+        "_path": "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__GetPcSampDataParams.html",
+        "path_type": "hardlink",
+        "sha256": "344078e6daf84c55b9c4f9ae6237a2dbf6aef6b69ccdf0b941f5e28663e39263",
+        "sha256_in_prefix": "344078e6daf84c55b9c4f9ae6237a2dbf6aef6b69ccdf0b941f5e28663e39263",
+        "size_in_bytes": 10567
+      },
+      {
+        "_path": "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__MergePcSampDataParams.html",
+        "path_type": "hardlink",
+        "sha256": "10700235abc6449ec1e55db969887799fbc3231a6385c0ccc1538edbb2cacca2",
+        "sha256_in_prefix": "10700235abc6449ec1e55db969887799fbc3231a6385c0ccc1538edbb2cacca2",
+        "size_in_bytes": 7099
+      },
+      {
+        "_path": "doc/Cupti/structCUPTI_1_1PcSamplingUtil_1_1CUptiUtil__PutPcSampDataParams.html",
+        "path_type": "hardlink",
+        "sha256": "90133a2d70443338ae35aef967343a2a01917a2cd667c91959f9626d264a0921",
+        "sha256_in_prefix": "90133a2d70443338ae35aef967343a2a01917a2cd667c91959f9626d264a0921",
+        "size_in_bytes": 9414
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Activity.html",
+        "path_type": "hardlink",
+        "sha256": "95fc0aaca0f928063d59ef2aa1efe18aa347c298ff0f2417795b6b5a3b8c3834",
+        "sha256_in_prefix": "95fc0aaca0f928063d59ef2aa1efe18aa347c298ff0f2417795b6b5a3b8c3834",
+        "size_in_bytes": 3361
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityAPI.html",
+        "path_type": "hardlink",
+        "sha256": "e88aabd23702f01c863b202ae844ea3a2faa05c5a00605ebdadadb4e9c0ca039",
+        "sha256_in_prefix": "e88aabd23702f01c863b202ae844ea3a2faa05c5a00605ebdadadb4e9c0ca039",
+        "size_in_bytes": 9143
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityAutoBoostState.html",
+        "path_type": "hardlink",
+        "sha256": "d561b0c3d1835ab7892f70ccb76f11395d18d8a0d5f6f1027a60c60121201699",
+        "sha256_in_prefix": "d561b0c3d1835ab7892f70ccb76f11395d18d8a0d5f6f1027a60c60121201699",
+        "size_in_bytes": 3709
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityBranch.html",
+        "path_type": "hardlink",
+        "sha256": "36ccc2c4eaf2299e0d11749dd784013ee3ef65d4682028d7ecfc2e98ba6f7c5f",
+        "sha256_in_prefix": "36ccc2c4eaf2299e0d11749dd784013ee3ef65d4682028d7ecfc2e98ba6f7c5f",
+        "size_in_bytes": 7917
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityBranch2.html",
+        "path_type": "hardlink",
+        "sha256": "2d95ecb6f774ed53d12302fc1031a11bee799b1f37c075db91f2f79f23f80e60",
+        "sha256_in_prefix": "2d95ecb6f774ed53d12302fc1031a11bee799b1f37c075db91f2f79f23f80e60",
+        "size_in_bytes": 9304
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityCdpKernel.html",
+        "path_type": "hardlink",
+        "sha256": "c3bf565fa3b1de916c791d43c1001072e657835f17f7a21309714ce7743a9889",
+        "sha256_in_prefix": "c3bf565fa3b1de916c791d43c1001072e657835f17f7a21309714ce7743a9889",
+        "size_in_bytes": 27250
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityContext.html",
+        "path_type": "hardlink",
+        "sha256": "923522f565bdfd947fad0d89cff2bcb400302cfcb357d8e2e10b127388446f4d",
+        "sha256_in_prefix": "923522f565bdfd947fad0d89cff2bcb400302cfcb357d8e2e10b127388446f4d",
+        "size_in_bytes": 6106
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityCudaEvent.html",
+        "path_type": "hardlink",
+        "sha256": "688e1a22f4b8df3b489c9f99dd4341084d0b6c01d0735c484ba68ccc0192eb9e",
+        "sha256_in_prefix": "688e1a22f4b8df3b489c9f99dd4341084d0b6c01d0735c484ba68ccc0192eb9e",
+        "size_in_bytes": 6807
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityDevice.html",
+        "path_type": "hardlink",
+        "sha256": "c0969335c327c7c2e48cf47db070611f744b1e0dca86d43b8d09cd6a905e55b2",
+        "sha256_in_prefix": "c0969335c327c7c2e48cf47db070611f744b1e0dca86d43b8d09cd6a905e55b2",
+        "size_in_bytes": 23881
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityDevice2.html",
+        "path_type": "hardlink",
+        "sha256": "b9a535b5c3a0689534238dd972bb44faeb3eb68a62413e375c8f15b2cd38d3b6",
+        "sha256_in_prefix": "b9a535b5c3a0689534238dd972bb44faeb3eb68a62413e375c8f15b2cd38d3b6",
+        "size_in_bytes": 28141
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityDevice3.html",
+        "path_type": "hardlink",
+        "sha256": "567377629af02fc98a74290554bcb79967dae3549d32ce6a23ed339bc4a6cbb4",
+        "sha256_in_prefix": "567377629af02fc98a74290554bcb79967dae3549d32ce6a23ed339bc4a6cbb4",
+        "size_in_bytes": 29039
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityDevice4.html",
+        "path_type": "hardlink",
+        "sha256": "34a14aedb3adfaa92851c1a021c8ab81f4b5d988e8c4fe82c015a15d2e60ff56",
+        "sha256_in_prefix": "34a14aedb3adfaa92851c1a021c8ab81f4b5d988e8c4fe82c015a15d2e60ff56",
+        "size_in_bytes": 32187
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityDeviceAttribute.html",
+        "path_type": "hardlink",
+        "sha256": "a12ee2a57b69e978884b893c7ba9fa37f43bdaa9ad34b851332e99045a9a520a",
+        "sha256_in_prefix": "a12ee2a57b69e978884b893c7ba9fa37f43bdaa9ad34b851332e99045a9a520a",
+        "size_in_bytes": 7055
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityEnvironment.html",
+        "path_type": "hardlink",
+        "sha256": "09426a8e7e63234b5c2c162f5e44731af37fc8c1d1bfc26d227909d9b2682d95",
+        "sha256_in_prefix": "09426a8e7e63234b5c2c162f5e44731af37fc8c1d1bfc26d227909d9b2682d95",
+        "size_in_bytes": 17996
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityEvent.html",
+        "path_type": "hardlink",
+        "sha256": "8fe67edbe878cf3aa8c904878c08c12fc406274ef64b9c951f7f64faf0624512",
+        "sha256_in_prefix": "8fe67edbe878cf3aa8c904878c08c12fc406274ef64b9c951f7f64faf0624512",
+        "size_in_bytes": 6536
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityEventInstance.html",
+        "path_type": "hardlink",
+        "sha256": "dcd105f320adb9b47d441be4b2564b985dad4a99a915b80d8bb3636178f6f6e3",
+        "sha256_in_prefix": "dcd105f320adb9b47d441be4b2564b985dad4a99a915b80d8bb3636178f6f6e3",
+        "size_in_bytes": 8513
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityExternalCorrelation.html",
+        "path_type": "hardlink",
+        "sha256": "99d9130781c507bd4ad83dc9ddd9032996a35a7700fd1e5392f3dd8d67b6184a",
+        "sha256_in_prefix": "99d9130781c507bd4ad83dc9ddd9032996a35a7700fd1e5392f3dd8d67b6184a",
+        "size_in_bytes": 7090
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityFunction.html",
+        "path_type": "hardlink",
+        "sha256": "e6104d56cb851d7dbbc030c21b1a1408180c6828eadd1388bc417d1f0cb7cfcf",
+        "sha256_in_prefix": "e6104d56cb851d7dbbc030c21b1a1408180c6828eadd1388bc417d1f0cb7cfcf",
+        "size_in_bytes": 6894
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityGlobalAccess.html",
+        "path_type": "hardlink",
+        "sha256": "3e3e72489fb6b961cb2acbdfb5635458344799320db94ac20f58e852e2db8d63",
+        "sha256_in_prefix": "3e3e72489fb6b961cb2acbdfb5635458344799320db94ac20f58e852e2db8d63",
+        "size_in_bytes": 9322
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityGlobalAccess2.html",
+        "path_type": "hardlink",
+        "sha256": "fcfbcee45134dee63a37bcce263a792e8236d9e425c00a191c4103bf237fe3c9",
+        "sha256_in_prefix": "fcfbcee45134dee63a37bcce263a792e8236d9e425c00a191c4103bf237fe3c9",
+        "size_in_bytes": 11889
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityGlobalAccess3.html",
+        "path_type": "hardlink",
+        "sha256": "5da9e153d4312a286dbe91ba813927c5fce610af4324bc5055ea4905ce206e14",
+        "sha256_in_prefix": "5da9e153d4312a286dbe91ba813927c5fce610af4324bc5055ea4905ce206e14",
+        "size_in_bytes": 10846
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityGraphTrace.html",
+        "path_type": "hardlink",
+        "sha256": "c11330cadd5e3ea72f11d71a95419c48548700343118a24b0a3f48e915030d04",
+        "sha256_in_prefix": "c11330cadd5e3ea72f11d71a95419c48548700343118a24b0a3f48e915030d04",
+        "size_in_bytes": 9811
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityInstantaneousEvent.html",
+        "path_type": "hardlink",
+        "sha256": "6f1aaa7a3a34a307feb5c599d3e52c310b5846dda3a5d40cbea3f6f3f48aab5d",
+        "sha256_in_prefix": "6f1aaa7a3a34a307feb5c599d3e52c310b5846dda3a5d40cbea3f6f3f48aab5d",
+        "size_in_bytes": 7403
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityInstantaneousEventInstance.html",
+        "path_type": "hardlink",
+        "sha256": "af9497e5f188042efac946b797df7c25c4c5c5de43cdd1a685b5e7960c0f20b3",
+        "sha256_in_prefix": "af9497e5f188042efac946b797df7c25c4c5c5de43cdd1a685b5e7960c0f20b3",
+        "size_in_bytes": 8651
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityInstantaneousMetric.html",
+        "path_type": "hardlink",
+        "sha256": "bf5f22fd389bc0e96a1f3d81b464953dc15f71d23e0d5691dacc7a6d207f62ea",
+        "sha256_in_prefix": "bf5f22fd389bc0e96a1f3d81b464953dc15f71d23e0d5691dacc7a6d207f62ea",
+        "size_in_bytes": 8591
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityInstantaneousMetricInstance.html",
+        "path_type": "hardlink",
+        "sha256": "4e792aec6751c30ec3ef82866d0be22f28b9c7ced0b66b164bccdc7299fd9048",
+        "sha256_in_prefix": "4e792aec6751c30ec3ef82866d0be22f28b9c7ced0b66b164bccdc7299fd9048",
+        "size_in_bytes": 9875
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityInstructionCorrelation.html",
+        "path_type": "hardlink",
+        "sha256": "47ee08a9490efca0a45af0a10c8db5bdc4bf21482ea36c434eba0dd7a7993f8a",
+        "sha256_in_prefix": "47ee08a9490efca0a45af0a10c8db5bdc4bf21482ea36c434eba0dd7a7993f8a",
+        "size_in_bytes": 7385
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityInstructionExecution.html",
+        "path_type": "hardlink",
+        "sha256": "f9c2d1e3abd213663b0ab892e43177f52727cfd1307644b8d7808126d7434ae8",
+        "sha256_in_prefix": "f9c2d1e3abd213663b0ab892e43177f52727cfd1307644b8d7808126d7434ae8",
+        "size_in_bytes": 11123
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityJit.html",
+        "path_type": "hardlink",
+        "sha256": "6e5fda6faa911293f1a338a51f1e468db743832ab557a1f8f4dd5367784322bc",
+        "sha256_in_prefix": "6e5fda6faa911293f1a338a51f1e468db743832ab557a1f8f4dd5367784322bc",
+        "size_in_bytes": 11668
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel.html",
+        "path_type": "hardlink",
+        "sha256": "01104cfc040ffc1b408245a43b0ae6da397602bf3e5d711f09ac1b367a0d20d6",
+        "sha256_in_prefix": "01104cfc040ffc1b408245a43b0ae6da397602bf3e5d711f09ac1b367a0d20d6",
+        "size_in_bytes": 22272
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel2.html",
+        "path_type": "hardlink",
+        "sha256": "485dff5b895d5d502a72b731dd7cc627971c216fcf198bd4be952527777559ab",
+        "sha256_in_prefix": "485dff5b895d5d502a72b731dd7cc627971c216fcf198bd4be952527777559ab",
+        "size_in_bytes": 23244
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel3.html",
+        "path_type": "hardlink",
+        "sha256": "980af2c09a805bef43a60a28e1c7f6f60e2b2bd5cca45c064a72b8d91fe57cec",
+        "sha256_in_prefix": "980af2c09a805bef43a60a28e1c7f6f60e2b2bd5cca45c064a72b8d91fe57cec",
+        "size_in_bytes": 25873
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel4.html",
+        "path_type": "hardlink",
+        "sha256": "b0050863525eaaf7e9a30c1437de01d52c6f09bcef05f809b0cf19a7b5081b62",
+        "sha256_in_prefix": "b0050863525eaaf7e9a30c1437de01d52c6f09bcef05f809b0cf19a7b5081b62",
+        "size_in_bytes": 33992
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel5.html",
+        "path_type": "hardlink",
+        "sha256": "c112015391bebc7adc8981c02f21a0c38b577310843c0b1a3a1f4a19f17109fb",
+        "sha256_in_prefix": "c112015391bebc7adc8981c02f21a0c38b577310843c0b1a3a1f4a19f17109fb",
+        "size_in_bytes": 36897
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel6.html",
+        "path_type": "hardlink",
+        "sha256": "3115867f994041c935d10930623f40e321a683c2e0d5a5cec04aeff9547d65c6",
+        "sha256_in_prefix": "3115867f994041c935d10930623f40e321a683c2e0d5a5cec04aeff9547d65c6",
+        "size_in_bytes": 37850
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel7.html",
+        "path_type": "hardlink",
+        "sha256": "1ca44a7182efb2fdcdecf58f32c10f814d1337b21f19bd036c62f063a043f34b",
+        "sha256_in_prefix": "1ca44a7182efb2fdcdecf58f32c10f814d1337b21f19bd036c62f063a043f34b",
+        "size_in_bytes": 39458
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel8.html",
+        "path_type": "hardlink",
+        "sha256": "c51a72ffb35643ef1005288eaea90083730d0baf4f56cf843c86afd5996c269f",
+        "sha256_in_prefix": "c51a72ffb35643ef1005288eaea90083730d0baf4f56cf843c86afd5996c269f",
+        "size_in_bytes": 43632
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityKernel9.html",
+        "path_type": "hardlink",
+        "sha256": "2fa558e6934bf08564b12cd86964ae8a83bafd452d82e927b3d1b1cb28fae939",
+        "sha256_in_prefix": "2fa558e6934bf08564b12cd86964ae8a83bafd452d82e927b3d1b1cb28fae939",
+        "size_in_bytes": 45317
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMarker.html",
+        "path_type": "hardlink",
+        "sha256": "ab0210f71bba821274587c1c4d65d5f81e5f6da70f13298cac9115147ce9d3db",
+        "sha256_in_prefix": "ab0210f71bba821274587c1c4d65d5f81e5f6da70f13298cac9115147ce9d3db",
+        "size_in_bytes": 8756
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMarker2.html",
+        "path_type": "hardlink",
+        "sha256": "ddfaedb47a5188e85df7cab81ca617e4dcc09ebbc9da58aef3435514bd4015d6",
+        "sha256_in_prefix": "ddfaedb47a5188e85df7cab81ca617e4dcc09ebbc9da58aef3435514bd4015d6",
+        "size_in_bytes": 10147
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMarkerData.html",
+        "path_type": "hardlink",
+        "sha256": "412a66266db3d8f375f0269f361c2eab89e46611e8de65e004b7dd652dba1221",
+        "sha256_in_prefix": "412a66266db3d8f375f0269f361c2eab89e46611e8de65e004b7dd652dba1221",
+        "size_in_bytes": 8304
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpy.html",
+        "path_type": "hardlink",
+        "sha256": "b0883d3a64eb97e8849b6c5eea4c06d1418d412a336764e4bce8510065d045d7",
+        "sha256_in_prefix": "b0883d3a64eb97e8849b6c5eea4c06d1418d412a336764e4bce8510065d045d7",
+        "size_in_bytes": 14744
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpy3.html",
+        "path_type": "hardlink",
+        "sha256": "1b755756565b9bd0efad9f210a6bf1c3ac729e3afa24ed98cb6bba1330385786",
+        "sha256_in_prefix": "1b755756565b9bd0efad9f210a6bf1c3ac729e3afa24ed98cb6bba1330385786",
+        "size_in_bytes": 15722
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpy4.html",
+        "path_type": "hardlink",
+        "sha256": "4c367e367747f33609207585ce5b6f56fa6cb8878382c54f76f71b1fb31c2da4",
+        "sha256_in_prefix": "4c367e367747f33609207585ce5b6f56fa6cb8878382c54f76f71b1fb31c2da4",
+        "size_in_bytes": 17394
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpy5.html",
+        "path_type": "hardlink",
+        "sha256": "ec90c39978daeb89dd782ec44dbc404491f2484e2d88b11aeb6b17bd136a431f",
+        "sha256_in_prefix": "ec90c39978daeb89dd782ec44dbc404491f2484e2d88b11aeb6b17bd136a431f",
+        "size_in_bytes": 18960
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpyPtoP.html",
+        "path_type": "hardlink",
+        "sha256": "32244d284bfb380ce23b288e78d22b5638864a690077a42281aed51e94f31755",
+        "sha256_in_prefix": "32244d284bfb380ce23b288e78d22b5638864a690077a42281aed51e94f31755",
+        "size_in_bytes": 18380
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpyPtoP2.html",
+        "path_type": "hardlink",
+        "sha256": "36147c8665bdc490c77958d6bd18db7396cdd3a634658d1748a323c69c886f4e",
+        "sha256_in_prefix": "36147c8665bdc490c77958d6bd18db7396cdd3a634658d1748a323c69c886f4e",
+        "size_in_bytes": 19104
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpyPtoP3.html",
+        "path_type": "hardlink",
+        "sha256": "314c3afe7476002e1e76fb562b87e0f5bb65adbe3b8a61c34c7560d5373d546f",
+        "sha256_in_prefix": "314c3afe7476002e1e76fb562b87e0f5bb65adbe3b8a61c34c7560d5373d546f",
+        "size_in_bytes": 20808
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemcpyPtoP4.html",
+        "path_type": "hardlink",
+        "sha256": "9c0fe7b939a5a7777f6c42111819cbf318cce969e67fdc41abc1036ce145b07f",
+        "sha256_in_prefix": "9c0fe7b939a5a7777f6c42111819cbf318cce969e67fdc41abc1036ce145b07f",
+        "size_in_bytes": 21627
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemory.html",
+        "path_type": "hardlink",
+        "sha256": "37209c8dab48299e0d140b44437fad2013bd4f321b42b43b4d82ff3d1657a7e7",
+        "sha256_in_prefix": "37209c8dab48299e0d140b44437fad2013bd4f321b42b43b4d82ff3d1657a7e7",
+        "size_in_bytes": 12671
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemory2.html",
+        "path_type": "hardlink",
+        "sha256": "a0a9e600c5d85fb137209b0c81603b98792d73f9b367b7f551dc2c6ddd14fa16",
+        "sha256_in_prefix": "a0a9e600c5d85fb137209b0c81603b98792d73f9b367b7f551dc2c6ddd14fa16",
+        "size_in_bytes": 20115
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemory3.html",
+        "path_type": "hardlink",
+        "sha256": "67a03ee046f627261ff6967f96cac95845045bd1c7e92d053d05ea32703f88b6",
+        "sha256_in_prefix": "67a03ee046f627261ff6967f96cac95845045bd1c7e92d053d05ea32703f88b6",
+        "size_in_bytes": 16299
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemory3_1_1PACKED__ALIGNMENT.html",
+        "path_type": "hardlink",
+        "sha256": "d785dea0699afeffb9f62fbe7d9aafb109378bc79c35806524336fa43f6ccb16",
+        "sha256_in_prefix": "d785dea0699afeffb9f62fbe7d9aafb109378bc79c35806524336fa43f6ccb16",
+        "size_in_bytes": 7757
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemoryPool.html",
+        "path_type": "hardlink",
+        "sha256": "cc62883679e7093e9cf6f1565e2c090b2a7badb0a086d9d412dc1515bb66c279",
+        "sha256_in_prefix": "cc62883679e7093e9cf6f1565e2c090b2a7badb0a086d9d412dc1515bb66c279",
+        "size_in_bytes": 13510
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemoryPool2.html",
+        "path_type": "hardlink",
+        "sha256": "0b6a2d8caf5f6fdf98053ec46252b303f8a02878c705613aa7564ad482b1a707",
+        "sha256_in_prefix": "0b6a2d8caf5f6fdf98053ec46252b303f8a02878c705613aa7564ad482b1a707",
+        "size_in_bytes": 14575
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemset.html",
+        "path_type": "hardlink",
+        "sha256": "96c31fbbb77933645a7e1357f3a367edc5051b8b20c6bee8f3afd24db64bf28a",
+        "sha256_in_prefix": "96c31fbbb77933645a7e1357f3a367edc5051b8b20c6bee8f3afd24db64bf28a",
+        "size_in_bytes": 12316
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemset2.html",
+        "path_type": "hardlink",
+        "sha256": "749684a4fa83ef2510d21d138849ccd717bfc1598887e641b33de3be646216aa",
+        "sha256_in_prefix": "749684a4fa83ef2510d21d138849ccd717bfc1598887e641b33de3be646216aa",
+        "size_in_bytes": 13290
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemset3.html",
+        "path_type": "hardlink",
+        "sha256": "8186adf64f03b002b3be2994f9b9334d052740d6c56fcbbc4fb1eed5d556398b",
+        "sha256_in_prefix": "8186adf64f03b002b3be2994f9b9334d052740d6c56fcbbc4fb1eed5d556398b",
+        "size_in_bytes": 14966
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMemset4.html",
+        "path_type": "hardlink",
+        "sha256": "4df01fb54830530fea98648f6146ee55a5eb42b15be22e117fa0ed8c14f5b1d8",
+        "sha256_in_prefix": "4df01fb54830530fea98648f6146ee55a5eb42b15be22e117fa0ed8c14f5b1d8",
+        "size_in_bytes": 16541
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMetric.html",
+        "path_type": "hardlink",
+        "sha256": "f2a2ae9a3ff25572f3b645d94841c1d0db6832ddb3f256d61f26d2b327d4b7ca",
+        "sha256_in_prefix": "f2a2ae9a3ff25572f3b645d94841c1d0db6832ddb3f256d61f26d2b327d4b7ca",
+        "size_in_bytes": 7520
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityMetricInstance.html",
+        "path_type": "hardlink",
+        "sha256": "5a0c3d0f6e358353e2fd7101007df3fd6d1c8148b66d9ebd313569d3f115864d",
+        "sha256_in_prefix": "5a0c3d0f6e358353e2fd7101007df3fd6d1c8148b66d9ebd313569d3f115864d",
+        "size_in_bytes": 8720
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityModule.html",
+        "path_type": "hardlink",
+        "sha256": "4d429cb9026180162c5e2002383988132f14408be2062c83c5c7318ee157237f",
+        "sha256_in_prefix": "4d429cb9026180162c5e2002383988132f14408be2062c83c5c7318ee157237f",
+        "size_in_bytes": 6845
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityName.html",
+        "path_type": "hardlink",
+        "sha256": "82cc17b1b812fcab58e5151ae9054b9ede5522c95afba3d0bb09e444ef9ec1ca",
+        "sha256_in_prefix": "82cc17b1b812fcab58e5151ae9054b9ede5522c95afba3d0bb09e444ef9ec1ca",
+        "size_in_bytes": 5535
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityNvLink.html",
+        "path_type": "hardlink",
+        "sha256": "34030bacf76b4ffe8810b8e72e576d114fda92d8dc3fceab1bff64829a53fe0f",
+        "sha256_in_prefix": "34030bacf76b4ffe8810b8e72e576d114fda92d8dc3fceab1bff64829a53fe0f",
+        "size_in_bytes": 14242
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityNvLink2.html",
+        "path_type": "hardlink",
+        "sha256": "97b1194e728242480001bcdaf0432d493eddbad251f989a6982b840e1edac513",
+        "sha256_in_prefix": "97b1194e728242480001bcdaf0432d493eddbad251f989a6982b840e1edac513",
+        "size_in_bytes": 14399
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityNvLink3.html",
+        "path_type": "hardlink",
+        "sha256": "00a8c443d0f24ecd5924a00c186044b5687ca363ae7eccc70d1b87078c12d3c7",
+        "sha256_in_prefix": "00a8c443d0f24ecd5924a00c186044b5687ca363ae7eccc70d1b87078c12d3c7",
+        "size_in_bytes": 15970
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityNvLink4.html",
+        "path_type": "hardlink",
+        "sha256": "43de4c41728819b52cbd24f73d6d4b3ae096fc2b6769e3ebe27f27b1263af636",
+        "sha256_in_prefix": "43de4c41728819b52cbd24f73d6d4b3ae096fc2b6769e3ebe27f27b1263af636",
+        "size_in_bytes": 15798
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityOpenAcc.html",
+        "path_type": "hardlink",
+        "sha256": "d19723d45fa0634476badcf11c8f5d01ac3f1a98a6f79ff924d1764d2a8eadf5",
+        "sha256_in_prefix": "d19723d45fa0634476badcf11c8f5d01ac3f1a98a6f79ff924d1764d2a8eadf5",
+        "size_in_bytes": 21899
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityOpenAccData.html",
+        "path_type": "hardlink",
+        "sha256": "fd6e6e14b1a2354639bb1a990b76ebfb428f019b2f2a911332ed89065a2790b2",
+        "sha256_in_prefix": "fd6e6e14b1a2354639bb1a990b76ebfb428f019b2f2a911332ed89065a2790b2",
+        "size_in_bytes": 14642
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityOpenAccLaunch.html",
+        "path_type": "hardlink",
+        "sha256": "c6da0ca4a5cf3725546999efc49e566cf0c6391053db7b8f421a796e13ebb482",
+        "sha256_in_prefix": "c6da0ca4a5cf3725546999efc49e566cf0c6391053db7b8f421a796e13ebb482",
+        "size_in_bytes": 27672
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityOpenAccOther.html",
+        "path_type": "hardlink",
+        "sha256": "0ba1efc134df4205039456409efd3b0a706a1809346a7fc7bc5ff2fc5ff54604",
+        "sha256_in_prefix": "0ba1efc134df4205039456409efd3b0a706a1809346a7fc7bc5ff2fc5ff54604",
+        "size_in_bytes": 23368
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityOpenMp.html",
+        "path_type": "hardlink",
+        "sha256": "0f3b62bf9ec80dbaa5a8694e7a0e34214d3f2194860aa964c915f5580ecda4e3",
+        "sha256_in_prefix": "0f3b62bf9ec80dbaa5a8694e7a0e34214d3f2194860aa964c915f5580ecda4e3",
+        "size_in_bytes": 8381
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityOverhead.html",
+        "path_type": "hardlink",
+        "sha256": "2f6070fde5046d5056a44606200c23dcd0f2dcf221a4d59c46eae031c05a9f82",
+        "sha256_in_prefix": "2f6070fde5046d5056a44606200c23dcd0f2dcf221a4d59c46eae031c05a9f82",
+        "size_in_bytes": 7702
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityPCSampling.html",
+        "path_type": "hardlink",
+        "sha256": "fe3d112117d0f4093a5dcfdb9c5ff5cd8554061692307ee6acf4fc4fa8c057e4",
+        "sha256_in_prefix": "fe3d112117d0f4093a5dcfdb9c5ff5cd8554061692307ee6acf4fc4fa8c057e4",
+        "size_in_bytes": 9374
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityPCSampling2.html",
+        "path_type": "hardlink",
+        "sha256": "0e5349f3515e7a12d44e35f250b32302dedcf8f1fea6f32abdf1941a0aba0b83",
+        "sha256_in_prefix": "0e5349f3515e7a12d44e35f250b32302dedcf8f1fea6f32abdf1941a0aba0b83",
+        "size_in_bytes": 10462
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityPCSampling3.html",
+        "path_type": "hardlink",
+        "sha256": "8c968d565a09b538f55a95f2c2e75ef116249b358191ca4400ae9446e82b8623",
+        "sha256_in_prefix": "8c968d565a09b538f55a95f2c2e75ef116249b358191ca4400ae9446e82b8623",
+        "size_in_bytes": 10235
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityPCSamplingConfig.html",
+        "path_type": "hardlink",
+        "sha256": "4da2c40a58a4f92a464bbcfdb1c233ffed0cebaa9dadebf1ae4531c2a7316038",
+        "sha256_in_prefix": "4da2c40a58a4f92a464bbcfdb1c233ffed0cebaa9dadebf1ae4531c2a7316038",
+        "size_in_bytes": 5437
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityPCSamplingRecordInfo.html",
+        "path_type": "hardlink",
+        "sha256": "f9d02b1aee43f78a928ca56509e278e9dd3e847e5a90220bf946714ac0100231",
+        "sha256_in_prefix": "f9d02b1aee43f78a928ca56509e278e9dd3e847e5a90220bf946714ac0100231",
+        "size_in_bytes": 6478
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityPcie.html",
+        "path_type": "hardlink",
+        "sha256": "6a2b226e096e7955bd828293fac1e447eaabff34a5266fba459d83c80feeb9d3",
+        "sha256_in_prefix": "6a2b226e096e7955bd828293fac1e447eaabff34a5266fba459d83c80feeb9d3",
+        "size_in_bytes": 16029
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityPreemption.html",
+        "path_type": "hardlink",
+        "sha256": "0b24c13c761a88da61de00dea72ed6dcae19add3aca0ec7bc678f7498409e38b",
+        "sha256_in_prefix": "0b24c13c761a88da61de00dea72ed6dcae19add3aca0ec7bc678f7498409e38b",
+        "size_in_bytes": 8680
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivitySharedAccess.html",
+        "path_type": "hardlink",
+        "sha256": "a44a55f8eb371a7d80dbff24b61fcf183765d8206bc6e05be7d08ea7729e0058",
+        "sha256_in_prefix": "a44a55f8eb371a7d80dbff24b61fcf183765d8206bc6e05be7d08ea7729e0058",
+        "size_in_bytes": 11619
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivitySourceLocator.html",
+        "path_type": "hardlink",
+        "sha256": "0fc2c2439328207200ba1aad01a1ab754df134dacf58c247030f6247743a7919",
+        "sha256_in_prefix": "0fc2c2439328207200ba1aad01a1ab754df134dacf58c247030f6247743a7919",
+        "size_in_bytes": 5255
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityStream.html",
+        "path_type": "hardlink",
+        "sha256": "66c315f743ba878bc747e2620db06f7aa7a9b2c56c51ca81815458e4ff1480d5",
+        "sha256_in_prefix": "66c315f743ba878bc747e2620db06f7aa7a9b2c56c51ca81815458e4ff1480d5",
+        "size_in_bytes": 6920
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivitySynchronization.html",
+        "path_type": "hardlink",
+        "sha256": "486373063e50315b12be28babd286eca2121b908c0f3af05b610b9dc59be8d8d",
+        "sha256_in_prefix": "486373063e50315b12be28babd286eca2121b908c0f3af05b610b9dc59be8d8d",
+        "size_in_bytes": 9660
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityUnifiedMemoryCounter.html",
+        "path_type": "hardlink",
+        "sha256": "19a9e74768eb55fb123154100eb552b4be0c1b96242f0ddee1f34d1f6cffe771",
+        "sha256_in_prefix": "19a9e74768eb55fb123154100eb552b4be0c1b96242f0ddee1f34d1f6cffe771",
+        "size_in_bytes": 9759
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityUnifiedMemoryCounter2.html",
+        "path_type": "hardlink",
+        "sha256": "ae7c993f3a7c875ac3ab1c3342da1139a2d13586182c8bfca6c1169ff8064832",
+        "sha256_in_prefix": "ae7c993f3a7c875ac3ab1c3342da1139a2d13586182c8bfca6c1169ff8064832",
+        "size_in_bytes": 16320
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ActivityUnifiedMemoryCounterConfig.html",
+        "path_type": "hardlink",
+        "sha256": "543c8e2c48d7da7770a7d7126c96eb0bc41635132bc445adb87bb52f64c86472",
+        "sha256_in_prefix": "543c8e2c48d7da7770a7d7126c96eb0bc41635132bc445adb87bb52f64c86472",
+        "size_in_bytes": 6105
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__CallbackData.html",
+        "path_type": "hardlink",
+        "sha256": "63bab5b920d7248f09a1ca1860a406bfb1883edb62371fcfa091540caa17939d",
+        "sha256_in_prefix": "63bab5b920d7248f09a1ca1860a406bfb1883edb62371fcfa091540caa17939d",
+        "size_in_bytes": 12150
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__EventGroupSet.html",
+        "path_type": "hardlink",
+        "sha256": "12f53900b25dd305342004b1cdf193342486f1a10cec9d21ac723e737b4b5afb",
+        "sha256_in_prefix": "12f53900b25dd305342004b1cdf193342486f1a10cec9d21ac723e737b4b5afb",
+        "size_in_bytes": 3862
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__EventGroupSets.html",
+        "path_type": "hardlink",
+        "sha256": "c07549cf1fd6e25d80f4a0c56da8c96e568e3dff043d2ba623e41fdbb9c19e74",
+        "sha256_in_prefix": "c07549cf1fd6e25d80f4a0c56da8c96e568e3dff043d2ba623e41fdbb9c19e74",
+        "size_in_bytes": 3877
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__GetCubinCrcParams.html",
+        "path_type": "hardlink",
+        "sha256": "32eaadbe370c1f9836b9df42d094bb08ecbd8ab5b90d7e2d3187143489457b14",
+        "sha256_in_prefix": "32eaadbe370c1f9836b9df42d094bb08ecbd8ab5b90d7e2d3187143489457b14",
+        "size_in_bytes": 4893
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__GetSassToSourceCorrelationParams.html",
+        "path_type": "hardlink",
+        "sha256": "68f9351103f9bfe4a84377d1ee94c76f58a6e483c4058bc586548b7c3c884cf4",
+        "sha256_in_prefix": "68f9351103f9bfe4a84377d1ee94c76f58a6e483c4058bc586548b7c3c884cf4",
+        "size_in_bytes": 8658
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__GraphData.html",
+        "path_type": "hardlink",
+        "sha256": "e045fa8ed2d76b731ad2c8b7c0e72eefccb941477aec56d296c0b874877afd3d",
+        "sha256_in_prefix": "e045fa8ed2d76b731ad2c8b7c0e72eefccb941477aec56d296c0b874877afd3d",
+        "size_in_bytes": 8324
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ModuleResourceData.html",
+        "path_type": "hardlink",
+        "sha256": "8298ddcdf462948f287fc99832a3d11cfc683b8afa5514c2ae414bb6bc1a5ff4",
+        "sha256_in_prefix": "8298ddcdf462948f287fc99832a3d11cfc683b8afa5514c2ae414bb6bc1a5ff4",
+        "size_in_bytes": 4593
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__NvtxData.html",
+        "path_type": "hardlink",
+        "sha256": "636b987e2a1072f51b57bf4a48538c536c483142e1cce85b4faa599dc1dcdedb",
+        "sha256_in_prefix": "636b987e2a1072f51b57bf4a48538c536c483142e1cce85b4faa599dc1dcdedb",
+        "size_in_bytes": 4821
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingConfigurationInfo.html",
+        "path_type": "hardlink",
+        "sha256": "f0adb97661e80c197a7bfdeadad834c0982156abd857ad9d430b383a34d06367",
+        "sha256_in_prefix": "f0adb97661e80c197a7bfdeadad834c0982156abd857ad9d430b383a34d06367",
+        "size_in_bytes": 13729
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingConfigurationInfoParams.html",
+        "path_type": "hardlink",
+        "sha256": "f9d87a52af20f951340c5f169216f6c7845fb0f8d16130600ccc25a2ba9b36b6",
+        "sha256_in_prefix": "f9d87a52af20f951340c5f169216f6c7845fb0f8d16130600ccc25a2ba9b36b6",
+        "size_in_bytes": 7144
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingData.html",
+        "path_type": "hardlink",
+        "sha256": "5888bf6807f8cbeb3f38dd635a24d7822714dbc8ea128d1116bacfc4f70c37c8",
+        "sha256_in_prefix": "5888bf6807f8cbeb3f38dd635a24d7822714dbc8ea128d1116bacfc4f70c37c8",
+        "size_in_bytes": 11245
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingDisableParams.html",
+        "path_type": "hardlink",
+        "sha256": "84a26997dd4aba097b38b0c3845a1ebf9320009b3d5c8c3b841ee48f61bd2c2b",
+        "sha256_in_prefix": "84a26997dd4aba097b38b0c3845a1ebf9320009b3d5c8c3b841ee48f61bd2c2b",
+        "size_in_bytes": 4182
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingEnableParams.html",
+        "path_type": "hardlink",
+        "sha256": "b019ff9aec3d504e27362408df3b666829b1afb82978ba6cbbe41c0f15e0bff0",
+        "sha256_in_prefix": "b019ff9aec3d504e27362408df3b666829b1afb82978ba6cbbe41c0f15e0bff0",
+        "size_in_bytes": 4165
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingGetDataParams.html",
+        "path_type": "hardlink",
+        "sha256": "52b57ab025e0c288832ae690c5c394b6bf61caf7e0f548cc610625be071e4025",
+        "sha256_in_prefix": "52b57ab025e0c288832ae690c5c394b6bf61caf7e0f548cc610625be071e4025",
+        "size_in_bytes": 5415
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingGetNumStallReasonsParams.html",
+        "path_type": "hardlink",
+        "sha256": "87934ff7f9c7957e3d5c6832681430ae91a8a98c42e39a1d258f3be0f7855e13",
+        "sha256_in_prefix": "87934ff7f9c7957e3d5c6832681430ae91a8a98c42e39a1d258f3be0f7855e13",
+        "size_in_bytes": 5241
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingGetStallReasonsParams.html",
+        "path_type": "hardlink",
+        "sha256": "27d47e071b0f53d3fe658dbb0ea2a8f50222cc02f4db2555bace3bcdd421c568",
+        "sha256_in_prefix": "27d47e071b0f53d3fe658dbb0ea2a8f50222cc02f4db2555bace3bcdd421c568",
+        "size_in_bytes": 6881
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingPCData.html",
+        "path_type": "hardlink",
+        "sha256": "e76d90933c40e9bb99cfaac31b741343aa8eeeba874a24af58d4ba88bc4bd771",
+        "sha256_in_prefix": "e76d90933c40e9bb99cfaac31b741343aa8eeeba874a24af58d4ba88bc4bd771",
+        "size_in_bytes": 8465
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingStallReason.html",
+        "path_type": "hardlink",
+        "sha256": "1d99ed2dfae36f2f640cf96e10e6be2498a96c3bdb0fc0f013f9faa826328cd7",
+        "sha256_in_prefix": "1d99ed2dfae36f2f640cf96e10e6be2498a96c3bdb0fc0f013f9faa826328cd7",
+        "size_in_bytes": 3287
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingStartParams.html",
+        "path_type": "hardlink",
+        "sha256": "7c2e4dd233bcb85e65a4f42214a44ccb6abd67a4960d14a891feec2b60cc9406",
+        "sha256_in_prefix": "7c2e4dd233bcb85e65a4f42214a44ccb6abd67a4960d14a891feec2b60cc9406",
+        "size_in_bytes": 4148
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__PCSamplingStopParams.html",
+        "path_type": "hardlink",
+        "sha256": "9bedbbac004005cec519315a16faa8652ea5a36cc47d795a36ed9d52578c9217",
+        "sha256_in_prefix": "9bedbbac004005cec519315a16faa8652ea5a36cc47d795a36ed9d52578c9217",
+        "size_in_bytes": 4131
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__BeginPass__Params.html",
+        "path_type": "hardlink",
+        "sha256": "2add019042e3f94b29746d39999a3e14b513e481a299049cac1bed81825403d0",
+        "sha256_in_prefix": "2add019042e3f94b29746d39999a3e14b513e481a299049cac1bed81825403d0",
+        "size_in_bytes": 3176
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__BeginSession__Params.html",
+        "path_type": "hardlink",
+        "sha256": "f5e1e86a95c092b905d2146c44e8b642ed8245356a20219c9608b9993bebe2d9",
+        "sha256_in_prefix": "f5e1e86a95c092b905d2146c44e8b642ed8245356a20219c9608b9993bebe2d9",
+        "size_in_bytes": 9164
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__CounterDataImageOptions.html",
+        "path_type": "hardlink",
+        "sha256": "da34eaba9935474c782004924dbf57e7ef21bc6bbaa47edcd7a3b5abd3ac6fe5",
+        "sha256_in_prefix": "da34eaba9935474c782004924dbf57e7ef21bc6bbaa47edcd7a3b5abd3ac6fe5",
+        "size_in_bytes": 6145
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__CounterDataImage__CalculateScratchBufferSize__Params.html",
+        "path_type": "hardlink",
+        "sha256": "b64926dd6298be2e19b1508a71684f889aafb7d415a54936fbedc36cad045562",
+        "sha256_in_prefix": "b64926dd6298be2e19b1508a71684f889aafb7d415a54936fbedc36cad045562",
+        "size_in_bytes": 4812
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__CounterDataImage__CalculateSize__Params.html",
+        "path_type": "hardlink",
+        "sha256": "93ad9001f4ebf0e2ac538caa0874d37bb9dc0002b8048dd43523485fadcc6fb8",
+        "sha256_in_prefix": "93ad9001f4ebf0e2ac538caa0874d37bb9dc0002b8048dd43523485fadcc6fb8",
+        "size_in_bytes": 4763
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__CounterDataImage__InitializeScratchBuffer__Params.html",
+        "path_type": "hardlink",
+        "sha256": "a938cdf2ce78bc6e16b1dd7f4424d46a8f718e8020c9fe90891108891a02ca62",
+        "sha256_in_prefix": "a938cdf2ce78bc6e16b1dd7f4424d46a8f718e8020c9fe90891108891a02ca62",
+        "size_in_bytes": 5484
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__CounterDataImage__Initialize__Params.html",
+        "path_type": "hardlink",
+        "sha256": "036b0faf3930af716aec3e88e7e7c11fa0d36e98c56651b739ab6b3a0941a175",
+        "sha256_in_prefix": "036b0faf3930af716aec3e88e7e7c11fa0d36e98c56651b739ab6b3a0941a175",
+        "size_in_bytes": 5371
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__DeInitialize__Params.html",
+        "path_type": "hardlink",
+        "sha256": "3cbb943d638c287def4df62eefb2bc6bd91d593ac830e1a302ef4b692acc83b4",
+        "sha256_in_prefix": "3cbb943d638c287def4df62eefb2bc6bd91d593ac830e1a302ef4b692acc83b4",
+        "size_in_bytes": 2680
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__DeviceSupported__Params.html",
+        "path_type": "hardlink",
+        "sha256": "61c19292fa77d00e45d71a66b2bb7aafec8c3b5d17d91d6aef932622a4e26551",
+        "sha256_in_prefix": "61c19292fa77d00e45d71a66b2bb7aafec8c3b5d17d91d6aef932622a4e26551",
+        "size_in_bytes": 8374
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__DisableProfiling__Params.html",
+        "path_type": "hardlink",
+        "sha256": "479328abaa9abf0992fa283b42ee14efe0a5ce2995a507a1e29ad249385207a6",
+        "sha256_in_prefix": "479328abaa9abf0992fa283b42ee14efe0a5ce2995a507a1e29ad249385207a6",
+        "size_in_bytes": 3253
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__EnableProfiling__Params.html",
+        "path_type": "hardlink",
+        "sha256": "96f394d38f80499fbeade66c6614a0824d28160a334bf41de81f07b6cc892d08",
+        "sha256_in_prefix": "96f394d38f80499fbeade66c6614a0824d28160a334bf41de81f07b6cc892d08",
+        "size_in_bytes": 3242
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__EndPass__Params.html",
+        "path_type": "hardlink",
+        "sha256": "71503be93f1b659d1edca137ecc5e23d2bb7209dd5d061ff48734188618ba990",
+        "sha256_in_prefix": "71503be93f1b659d1edca137ecc5e23d2bb7209dd5d061ff48734188618ba990",
+        "size_in_bytes": 4817
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__EndSession__Params.html",
+        "path_type": "hardlink",
+        "sha256": "e9ecbc029e1d55146036b29addefe86bf459193fc4934db4d4225b1f334afc00",
+        "sha256_in_prefix": "e9ecbc029e1d55146036b29addefe86bf459193fc4934db4d4225b1f334afc00",
+        "size_in_bytes": 3187
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__FlushCounterData__Params.html",
+        "path_type": "hardlink",
+        "sha256": "21aa203d4b2bf9e0677ec28707bdc75425dccc9d45603e793953bbeeff5d1232",
+        "sha256_in_prefix": "21aa203d4b2bf9e0677ec28707bdc75425dccc9d45603e793953bbeeff5d1232",
+        "size_in_bytes": 4453
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__GetCounterAvailability__Params.html",
+        "path_type": "hardlink",
+        "sha256": "019e1c9d83db7951bdda64453e9ff657aadfa98378f481c57319524a69fe0c0e",
+        "sha256_in_prefix": "019e1c9d83db7951bdda64453e9ff657aadfa98378f481c57319524a69fe0c0e",
+        "size_in_bytes": 5165
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__Initialize__Params.html",
+        "path_type": "hardlink",
+        "sha256": "9ff5150937af263acf80de8b677ed15dad14ebf4b48a63cd2476686e1ac787a9",
+        "sha256_in_prefix": "9ff5150937af263acf80de8b677ed15dad14ebf4b48a63cd2476686e1ac787a9",
+        "size_in_bytes": 2662
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__IsPassCollected__Params.html",
+        "path_type": "hardlink",
+        "sha256": "5cfff1dd478f8f0688497c61c5d9cbe735dcdd5abdc8800393a218e5dd459ad4",
+        "sha256_in_prefix": "5cfff1dd478f8f0688497c61c5d9cbe735dcdd5abdc8800393a218e5dd459ad4",
+        "size_in_bytes": 5593
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__SetConfig__Params.html",
+        "path_type": "hardlink",
+        "sha256": "4349ee35bb7da8baf04c1644821222f71af6a96308524c72d5080e6a7f565909",
+        "sha256_in_prefix": "4349ee35bb7da8baf04c1644821222f71af6a96308524c72d5080e6a7f565909",
+        "size_in_bytes": 6656
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__Profiler__UnsetConfig__Params.html",
+        "path_type": "hardlink",
+        "sha256": "5d3914fbf81018c8d3680e20629d2edd7b183ace6927edd3d841ceb5a07c2ff0",
+        "sha256_in_prefix": "5d3914fbf81018c8d3680e20629d2edd7b183ace6927edd3d841ceb5a07c2ff0",
+        "size_in_bytes": 3198
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__ResourceData.html",
+        "path_type": "hardlink",
+        "sha256": "176054621feda44c0d2a88e0d2ced9d162f3e762932000391f9b24b5e4b62a2c",
+        "sha256_in_prefix": "176054621feda44c0d2a88e0d2ced9d162f3e762932000391f9b24b5e4b62a2c",
+        "size_in_bytes": 4834
+      },
+      {
+        "_path": "doc/Cupti/structCUpti__SynchronizeData.html",
+        "path_type": "hardlink",
+        "sha256": "9ab6801a409c0f8094fe3847a0bc2b63a74be2f122ef4b8063856df48ed17bbc",
+        "sha256_in_prefix": "9ab6801a409c0f8094fe3847a0bc2b63a74be2f122ef4b8063856df48ed17bbc",
+        "size_in_bytes": 3760
+      },
+      {
+        "_path": "doc/Cupti/structHeader.html",
+        "path_type": "hardlink",
+        "sha256": "33aa9a658d48188c2038b29bca135162ad538d4444d64e7ca1ace3969e32f520",
+        "sha256_in_prefix": "33aa9a658d48188c2038b29bca135162ad538d4444d64e7ca1ace3969e32f520",
+        "size_in_bytes": 3093
+      },
+      {
+        "_path": "doc/Cupti/structNV_1_1Cupti_1_1Checkpoint_1_1CUpti__Checkpoint.html",
+        "path_type": "hardlink",
+        "sha256": "6083aea98ab7e4d8f2fe86e74d26a6221b06c91c025b2e0978eaebc9266e2536",
+        "sha256_in_prefix": "6083aea98ab7e4d8f2fe86e74d26a6221b06c91c025b2e0978eaebc9266e2536",
+        "size_in_bytes": 6887
+      },
+      {
+        "_path": "doc/Cupti/structPcSamplingStallReasons.html",
+        "path_type": "hardlink",
+        "sha256": "d2f572b24d03ba84d944696d36ab7bf72f10f6e4dfeb3edf4556fe617b5535ff",
+        "sha256_in_prefix": "d2f572b24d03ba84d944696d36ab7bf72f10f6e4dfeb3edf4556fe617b5535ff",
+        "size_in_bytes": 4088
+      },
+      {
+        "_path": "doc/Cupti/tab_b.gif",
+        "path_type": "hardlink",
+        "sha256": "50eb5bf4441ea3073ec1ca36dd63bc2b1eb736f514c6de2bc648e98f0fe9cecd",
+        "sha256_in_prefix": "50eb5bf4441ea3073ec1ca36dd63bc2b1eb736f514c6de2bc648e98f0fe9cecd",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "doc/Cupti/tab_l.gif",
+        "path_type": "hardlink",
+        "sha256": "d5ecca2b2495aa6b20a860061133a58c00942a408b7828369af4d4b7e08a54d5",
+        "sha256_in_prefix": "d5ecca2b2495aa6b20a860061133a58c00942a408b7828369af4d4b7e08a54d5",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "doc/Cupti/tab_r.gif",
+        "path_type": "hardlink",
+        "sha256": "1876b505a59e66fdc10880a43b6aee462f3ca4dfefcb963b9de9c2d82539a85b",
+        "sha256_in_prefix": "1876b505a59e66fdc10880a43b6aee462f3ca4dfefcb963b9de9c2d82539a85b",
+        "size_in_bytes": 2585
+      },
+      {
+        "_path": "doc/Cupti/tabs.css",
+        "path_type": "hardlink",
+        "sha256": "6b3373db3135a9f7344a699afc786eae372787ed73885e21f470999ce58bac88",
+        "sha256_in_prefix": "6b3373db3135a9f7344a699afc786eae372787ed73885e21f470999ce58bac88",
+        "size_in_bytes": 1838
+      },
+      {
+        "_path": "doc/Cupti/unionCUpti__ActivityObjectKindId.html",
+        "path_type": "hardlink",
+        "sha256": "91869c2260ca5e80959cf3689e66f6e5531780c287e91d65f46bc369e18854a8",
+        "sha256_in_prefix": "91869c2260ca5e80959cf3689e66f6e5531780c287e91d65f46bc369e18854a8",
+        "size_in_bytes": 3862
+      },
+      {
+        "_path": "doc/Cupti/unionCUpti__MetricValue.html",
+        "path_type": "hardlink",
+        "sha256": "874ae02803653db2ba3d997ba9371919c4cd2ebf9e89f8e3b8c5bc6b286bc404",
+        "sha256_in_prefix": "874ae02803653db2ba3d997ba9371919c4cd2ebf9e89f8e3b8c5bc6b286bc404",
+        "size_in_bytes": 1974
+      },
+      {
+        "_path": "doc/common/formatting/bg-head.png",
+        "path_type": "hardlink",
+        "sha256": "d5ea8b20b42df3ca5dccf404fdda5b67b5ee7405e90f1ef288042b412cb4f6f4",
+        "sha256_in_prefix": "d5ea8b20b42df3ca5dccf404fdda5b67b5ee7405e90f1ef288042b412cb4f6f4",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "doc/common/formatting/bg-horiz.png",
+        "path_type": "hardlink",
+        "sha256": "7ed990e671720b1ef4c35d5d4c4e050229ab7e612dbe6f61bfe307d7a46dae4b",
+        "sha256_in_prefix": "7ed990e671720b1ef4c35d5d4c4e050229ab7e612dbe6f61bfe307d7a46dae4b",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "doc/common/formatting/bg-left.png",
+        "path_type": "hardlink",
+        "sha256": "7e8015b70261db70e396106855b71ebd4cec2570c4f364bf24dc1d236f6f7304",
+        "sha256_in_prefix": "7e8015b70261db70e396106855b71ebd4cec2570c4f364bf24dc1d236f6f7304",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "doc/common/formatting/bg-right.png",
+        "path_type": "hardlink",
+        "sha256": "749b5434bd89c09915a98166c2e115263cf4d2641918bfd191407a01a424c47c",
+        "sha256_in_prefix": "749b5434bd89c09915a98166c2e115263cf4d2641918bfd191407a01a424c47c",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "doc/common/formatting/bg-sidehead-glow.png",
+        "path_type": "hardlink",
+        "sha256": "8323ca5e47fa251cb5c3a7d946f8db2f39dd77faee66cac9b0522cbac28337c7",
+        "sha256_in_prefix": "8323ca5e47fa251cb5c3a7d946f8db2f39dd77faee66cac9b0522cbac28337c7",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "doc/common/formatting/bg-sidehead.png",
+        "path_type": "hardlink",
+        "sha256": "3991888eec29c5e9117e6aa1f37bfbc0ccd8d91db0b9f08944498acf1b25c814",
+        "sha256_in_prefix": "3991888eec29c5e9117e6aa1f37bfbc0ccd8d91db0b9f08944498acf1b25c814",
+        "size_in_bytes": 2827
+      },
+      {
+        "_path": "doc/common/formatting/bg-vert.png",
+        "path_type": "hardlink",
+        "sha256": "8c63966094e18042f6018f70fd1dd16e5dff159f5d9581175d08c95566b780a5",
+        "sha256_in_prefix": "8c63966094e18042f6018f70fd1dd16e5dff159f5d9581175d08c95566b780a5",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "doc/common/formatting/common.min.js",
+        "path_type": "hardlink",
+        "sha256": "4d9455011e8b9cc20b2e1251e83008d430aeaf9bc41e863a6dede0cc70ffca5e",
+        "sha256_in_prefix": "4d9455011e8b9cc20b2e1251e83008d430aeaf9bc41e863a6dede0cc70ffca5e",
+        "size_in_bytes": 10628
+      },
+      {
+        "_path": "doc/common/formatting/commonltr.css",
+        "path_type": "hardlink",
+        "sha256": "c42d7b10378a340a0302fa6469b813aeee8b50c9cf3963d42e9c20f36a2988e0",
+        "sha256_in_prefix": "c42d7b10378a340a0302fa6469b813aeee8b50c9cf3963d42e9c20f36a2988e0",
+        "size_in_bytes": 5962
+      },
+      {
+        "_path": "doc/common/formatting/cppapiref.css",
+        "path_type": "hardlink",
+        "sha256": "f75bcb3eaffafd0be97fdf2cf946405dd7fcda57c597917468abdd1cf6dc7f1c",
+        "sha256_in_prefix": "f75bcb3eaffafd0be97fdf2cf946405dd7fcda57c597917468abdd1cf6dc7f1c",
+        "size_in_bytes": 8502
+      },
+      {
+        "_path": "doc/common/formatting/cuda-toolkit-documentation.png",
+        "path_type": "hardlink",
+        "sha256": "82d8bc92cc62f02fbe75fbf41f6315ed061f3c6e3ee26f49dafe077e6d6f1c8c",
+        "sha256_in_prefix": "82d8bc92cc62f02fbe75fbf41f6315ed061f3c6e3ee26f49dafe077e6d6f1c8c",
+        "size_in_bytes": 9129
+      },
+      {
+        "_path": "doc/common/formatting/devtools-documentation.png",
+        "path_type": "hardlink",
+        "sha256": "cc7ec5dff58454e4737bc444cd94bad996750a0161ebe178b589a7fc8d7c201f",
+        "sha256_in_prefix": "cc7ec5dff58454e4737bc444cd94bad996750a0161ebe178b589a7fc8d7c201f",
+        "size_in_bytes": 4359
+      },
+      {
+        "_path": "doc/common/formatting/devzone.png",
+        "path_type": "hardlink",
+        "sha256": "fabd58f2f65a43196f795a2e722f706610b5a03edeefe2967f58ca4de5048830",
+        "sha256_in_prefix": "fabd58f2f65a43196f795a2e722f706610b5a03edeefe2967f58ca4de5048830",
+        "size_in_bytes": 10349
+      },
+      {
+        "_path": "doc/common/formatting/dita.style.css",
+        "path_type": "hardlink",
+        "sha256": "6d7c6d8afc2bae7a8cf65ca7b643c7da8b7b3d6f3558bc61ee8c5fbcf3544d66",
+        "sha256_in_prefix": "6d7c6d8afc2bae7a8cf65ca7b643c7da8b7b3d6f3558bc61ee8c5fbcf3544d66",
+        "size_in_bytes": 32316
+      },
+      {
+        "_path": "doc/common/formatting/html5shiv-printshiv.min.js",
+        "path_type": "hardlink",
+        "sha256": "0cc61909043053428c0282c791d909e815215e755661445660aa91a5ee83c65c",
+        "sha256_in_prefix": "0cc61909043053428c0282c791d909e815215e755661445660aa91a5ee83c65c",
+        "size_in_bytes": 3978
+      },
+      {
+        "_path": "doc/common/formatting/jquery.ba-hashchange.min.js",
+        "path_type": "hardlink",
+        "sha256": "16f9f0eb3d58dbb501f09bc026371ff71fbe988a822d757359c9a389416e514a",
+        "sha256_in_prefix": "16f9f0eb3d58dbb501f09bc026371ff71fbe988a822d757359c9a389416e514a",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "doc/common/formatting/jquery.min.js",
+        "path_type": "hardlink",
+        "sha256": "c12f6098e641aaca96c60215800f18f5671039aecf812217fab3c0d152f6adb4",
+        "sha256_in_prefix": "c12f6098e641aaca96c60215800f18f5671039aecf812217fab3c0d152f6adb4",
+        "size_in_bytes": 92629
+      },
+      {
+        "_path": "doc/common/formatting/jquery.scrollintoview.min.js",
+        "path_type": "hardlink",
+        "sha256": "8ab38c63fd67b2a5efecc34eabaa400f6f007be2a80cdb75bb561deed02c9cff",
+        "sha256_in_prefix": "8ab38c63fd67b2a5efecc34eabaa400f6f007be2a80cdb75bb561deed02c9cff",
+        "size_in_bytes": 3490
+      },
+      {
+        "_path": "doc/common/formatting/magnify-dropdown.png",
+        "path_type": "hardlink",
+        "sha256": "c707d514fb80ece368e68f5a6c70c7ac6b357464be981262cc0911fc76a012df",
+        "sha256_in_prefix": "c707d514fb80ece368e68f5a6c70c7ac6b357464be981262cc0911fc76a012df",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "doc/common/formatting/magnify.png",
+        "path_type": "hardlink",
+        "sha256": "396fcab4919640809426f31de2cba8c226f48f46beab7929b0001db96f519b53",
+        "sha256_in_prefix": "396fcab4919640809426f31de2cba8c226f48f46beab7929b0001db96f519b53",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "doc/common/formatting/nvidia.png",
+        "path_type": "hardlink",
+        "sha256": "7f0030add67b951f07d168464059245cb9dcd01354fb5c6191e6638c1e026cbb",
+        "sha256_in_prefix": "7f0030add67b951f07d168464059245cb9dcd01354fb5c6191e6638c1e026cbb",
+        "size_in_bytes": 4442
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-Splus.js",
+        "path_type": "hardlink",
+        "sha256": "c6b8bb3deb8642bb7e38b35fc1355b934c95d103b8c290cb46ac4dc464811bdc",
+        "sha256_in_prefix": "c6b8bb3deb8642bb7e38b35fc1355b934c95d103b8c290cb46ac4dc464811bdc",
+        "size_in_bytes": 1351
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-aea.js",
+        "path_type": "hardlink",
+        "sha256": "0e1fc6bb436ba34dcca18008141d8e7acb5f4f0ed7279d28b560fbfb84e16e10",
+        "sha256_in_prefix": "0e1fc6bb436ba34dcca18008141d8e7acb5f4f0ed7279d28b560fbfb84e16e10",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-agc.js",
+        "path_type": "hardlink",
+        "sha256": "0e1fc6bb436ba34dcca18008141d8e7acb5f4f0ed7279d28b560fbfb84e16e10",
+        "sha256_in_prefix": "0e1fc6bb436ba34dcca18008141d8e7acb5f4f0ed7279d28b560fbfb84e16e10",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-apollo.js",
+        "path_type": "hardlink",
+        "sha256": "0e1fc6bb436ba34dcca18008141d8e7acb5f4f0ed7279d28b560fbfb84e16e10",
+        "sha256_in_prefix": "0e1fc6bb436ba34dcca18008141d8e7acb5f4f0ed7279d28b560fbfb84e16e10",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-basic.js",
+        "path_type": "hardlink",
+        "sha256": "486eeffbbd136a920bd6e73a0ae14645778a5e548f13518160bc36d7d11eb24d",
+        "sha256_in_prefix": "486eeffbbd136a920bd6e73a0ae14645778a5e548f13518160bc36d7d11eb24d",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-cbm.js",
+        "path_type": "hardlink",
+        "sha256": "486eeffbbd136a920bd6e73a0ae14645778a5e548f13518160bc36d7d11eb24d",
+        "sha256_in_prefix": "486eeffbbd136a920bd6e73a0ae14645778a5e548f13518160bc36d7d11eb24d",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-cl.js",
+        "path_type": "hardlink",
+        "sha256": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "sha256_in_prefix": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-clj.js",
+        "path_type": "hardlink",
+        "sha256": "7760ea4d074e7d50a123e1812e76637fed0263bd05fbd0c017a30ee2d635bfa2",
+        "sha256_in_prefix": "7760ea4d074e7d50a123e1812e76637fed0263bd05fbd0c017a30ee2d635bfa2",
+        "size_in_bytes": 1467
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-css.js",
+        "path_type": "hardlink",
+        "sha256": "44d2b7d5c53e3992df748eae60952e3159731f2f602304e281ed48be3b6f1e63",
+        "sha256_in_prefix": "44d2b7d5c53e3992df748eae60952e3159731f2f602304e281ed48be3b6f1e63",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-dart.js",
+        "path_type": "hardlink",
+        "sha256": "f1bca1ead9348458b5d1da85b1df3e112729aea4797a6079ac0eff4770136870",
+        "sha256_in_prefix": "f1bca1ead9348458b5d1da85b1df3e112729aea4797a6079ac0eff4770136870",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-el.js",
+        "path_type": "hardlink",
+        "sha256": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "sha256_in_prefix": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-erl.js",
+        "path_type": "hardlink",
+        "sha256": "6765d8cf41bbb19edf4d532b60d98648b1a344f7e2e3b1c1880c9c4befd59344",
+        "sha256_in_prefix": "6765d8cf41bbb19edf4d532b60d98648b1a344f7e2e3b1c1880c9c4befd59344",
+        "size_in_bytes": 1190
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-erlang.js",
+        "path_type": "hardlink",
+        "sha256": "6765d8cf41bbb19edf4d532b60d98648b1a344f7e2e3b1c1880c9c4befd59344",
+        "sha256_in_prefix": "6765d8cf41bbb19edf4d532b60d98648b1a344f7e2e3b1c1880c9c4befd59344",
+        "size_in_bytes": 1190
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-fs.js",
+        "path_type": "hardlink",
+        "sha256": "637b7e083e187558fd86cda0e9de8f07ad0901584fb84bd85741d98843bdbbd0",
+        "sha256_in_prefix": "637b7e083e187558fd86cda0e9de8f07ad0901584fb84bd85741d98843bdbbd0",
+        "size_in_bytes": 1693
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-go.js",
+        "path_type": "hardlink",
+        "sha256": "1b0b3e2b060954e70636bc2152e10bf1e6e19a60fefd1a0e1608b0b893581369",
+        "sha256_in_prefix": "1b0b3e2b060954e70636bc2152e10bf1e6e19a60fefd1a0e1608b0b893581369",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-hs.js",
+        "path_type": "hardlink",
+        "sha256": "200cb95599753395848609a6ec0820b36659dd5028feb966fa95372eeadc10d7",
+        "sha256_in_prefix": "200cb95599753395848609a6ec0820b36659dd5028feb966fa95372eeadc10d7",
+        "size_in_bytes": 1199
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-lasso.js",
+        "path_type": "hardlink",
+        "sha256": "92e2000d8ef9f429b4d234a75d72fe25f179dbda18c86c93d7dc2509274b18ce",
+        "sha256_in_prefix": "92e2000d8ef9f429b4d234a75d72fe25f179dbda18c86c93d7dc2509274b18ce",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-lassoscript.js",
+        "path_type": "hardlink",
+        "sha256": "92e2000d8ef9f429b4d234a75d72fe25f179dbda18c86c93d7dc2509274b18ce",
+        "sha256_in_prefix": "92e2000d8ef9f429b4d234a75d72fe25f179dbda18c86c93d7dc2509274b18ce",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-latex.js",
+        "path_type": "hardlink",
+        "sha256": "f1108838519077d803e9878091161b41ce81f411b71a4f2b291bb480a44ac065",
+        "sha256_in_prefix": "f1108838519077d803e9878091161b41ce81f411b71a4f2b291bb480a44ac065",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-lgt.js",
+        "path_type": "hardlink",
+        "sha256": "40577e63e186e6f74d4a240fbee51dda7528b5ac6b1f8abfc73425462d1bacbc",
+        "sha256_in_prefix": "40577e63e186e6f74d4a240fbee51dda7528b5ac6b1f8abfc73425462d1bacbc",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-lisp.js",
+        "path_type": "hardlink",
+        "sha256": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "sha256_in_prefix": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-ll.js",
+        "path_type": "hardlink",
+        "sha256": "97ba1adcdb38a68a9b54a36aebe514c2db5e70b809bae6c78cf885b479347b3f",
+        "sha256_in_prefix": "97ba1adcdb38a68a9b54a36aebe514c2db5e70b809bae6c78cf885b479347b3f",
+        "size_in_bytes": 954
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-llvm.js",
+        "path_type": "hardlink",
+        "sha256": "97ba1adcdb38a68a9b54a36aebe514c2db5e70b809bae6c78cf885b479347b3f",
+        "sha256_in_prefix": "97ba1adcdb38a68a9b54a36aebe514c2db5e70b809bae6c78cf885b479347b3f",
+        "size_in_bytes": 954
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-logtalk.js",
+        "path_type": "hardlink",
+        "sha256": "40577e63e186e6f74d4a240fbee51dda7528b5ac6b1f8abfc73425462d1bacbc",
+        "sha256_in_prefix": "40577e63e186e6f74d4a240fbee51dda7528b5ac6b1f8abfc73425462d1bacbc",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-ls.js",
+        "path_type": "hardlink",
+        "sha256": "92e2000d8ef9f429b4d234a75d72fe25f179dbda18c86c93d7dc2509274b18ce",
+        "sha256_in_prefix": "92e2000d8ef9f429b4d234a75d72fe25f179dbda18c86c93d7dc2509274b18ce",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-lsp.js",
+        "path_type": "hardlink",
+        "sha256": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "sha256_in_prefix": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-lua.js",
+        "path_type": "hardlink",
+        "sha256": "b08ab059793d42668d7eee4634e054b217a1ecacf4377b142c33b2db82c1a16e",
+        "sha256_in_prefix": "b08ab059793d42668d7eee4634e054b217a1ecacf4377b142c33b2db82c1a16e",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-matlab.js",
+        "path_type": "hardlink",
+        "sha256": "d5faafed0eea877dd8f8fc105069d3f5e2e4c24941b1b9745ec6884adf2f4b84",
+        "sha256_in_prefix": "d5faafed0eea877dd8f8fc105069d3f5e2e4c24941b1b9745ec6884adf2f4b84",
+        "size_in_bytes": 21063
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-ml.js",
+        "path_type": "hardlink",
+        "sha256": "637b7e083e187558fd86cda0e9de8f07ad0901584fb84bd85741d98843bdbbd0",
+        "sha256_in_prefix": "637b7e083e187558fd86cda0e9de8f07ad0901584fb84bd85741d98843bdbbd0",
+        "size_in_bytes": 1693
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-mumps.js",
+        "path_type": "hardlink",
+        "sha256": "3fce2c83519293c32c48a1d64aab7d5467ba82404440e3c6538a805517dd39e3",
+        "sha256_in_prefix": "3fce2c83519293c32c48a1d64aab7d5467ba82404440e3c6538a805517dd39e3",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-n.js",
+        "path_type": "hardlink",
+        "sha256": "6f3d5132d29220c6cc07d3874cdbe0847df55eccdd2371a0458664675d01233b",
+        "sha256_in_prefix": "6f3d5132d29220c6cc07d3874cdbe0847df55eccdd2371a0458664675d01233b",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-nemerle.js",
+        "path_type": "hardlink",
+        "sha256": "6f3d5132d29220c6cc07d3874cdbe0847df55eccdd2371a0458664675d01233b",
+        "sha256_in_prefix": "6f3d5132d29220c6cc07d3874cdbe0847df55eccdd2371a0458664675d01233b",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-pascal.js",
+        "path_type": "hardlink",
+        "sha256": "8041a0894caf5a7ab06d456c9f6453284e90a9df02030c7975adbac51c3b2e06",
+        "sha256_in_prefix": "8041a0894caf5a7ab06d456c9f6453284e90a9df02030c7975adbac51c3b2e06",
+        "size_in_bytes": 1314
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-proto.js",
+        "path_type": "hardlink",
+        "sha256": "c6464b40a397866c5ad391932889a98537713f3b23d23067cf1c5dd04bf5354f",
+        "sha256_in_prefix": "c6464b40a397866c5ad391932889a98537713f3b23d23067cf1c5dd04bf5354f",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-r.js",
+        "path_type": "hardlink",
+        "sha256": "c6b8bb3deb8642bb7e38b35fc1355b934c95d103b8c290cb46ac4dc464811bdc",
+        "sha256_in_prefix": "c6b8bb3deb8642bb7e38b35fc1355b934c95d103b8c290cb46ac4dc464811bdc",
+        "size_in_bytes": 1351
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-rd.js",
+        "path_type": "hardlink",
+        "sha256": "513d8f24dcb4cd36ec9e73b50e9e4ed1c72c65a69a7d27f53cea2e02dc0720ce",
+        "sha256_in_prefix": "513d8f24dcb4cd36ec9e73b50e9e4ed1c72c65a69a7d27f53cea2e02dc0720ce",
+        "size_in_bytes": 845
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-rkt.js",
+        "path_type": "hardlink",
+        "sha256": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "sha256_in_prefix": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-rust.js",
+        "path_type": "hardlink",
+        "sha256": "31281755493aa664bba92c47992a7cfc1f24d956368ca8aaeb11c0fbea38e503",
+        "sha256_in_prefix": "31281755493aa664bba92c47992a7cfc1f24d956368ca8aaeb11c0fbea38e503",
+        "size_in_bytes": 2234
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-s.js",
+        "path_type": "hardlink",
+        "sha256": "c6b8bb3deb8642bb7e38b35fc1355b934c95d103b8c290cb46ac4dc464811bdc",
+        "sha256_in_prefix": "c6b8bb3deb8642bb7e38b35fc1355b934c95d103b8c290cb46ac4dc464811bdc",
+        "size_in_bytes": 1351
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-scala.js",
+        "path_type": "hardlink",
+        "sha256": "2721c3e5fc99ddfaf1842d5ef01cbdae09290718b0d3f39275700c36c5336878",
+        "sha256_in_prefix": "2721c3e5fc99ddfaf1842d5ef01cbdae09290718b0d3f39275700c36c5336878",
+        "size_in_bytes": 1536
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-scm.js",
+        "path_type": "hardlink",
+        "sha256": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "sha256_in_prefix": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-sql.js",
+        "path_type": "hardlink",
+        "sha256": "72841f6f73027d8e148f4fc1327bb3c32a106a958485374d9282f6142e762b0c",
+        "sha256_in_prefix": "72841f6f73027d8e148f4fc1327bb3c32a106a958485374d9282f6142e762b0c",
+        "size_in_bytes": 2386
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-ss.js",
+        "path_type": "hardlink",
+        "sha256": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "sha256_in_prefix": "182222ac065896b494518316a8865e08f81f345143de8a8cccb15fa30e9d417e",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-swift.js",
+        "path_type": "hardlink",
+        "sha256": "0c602776c776983c602f71cb917d8535756900bbd06006a813aa881b97aa6341",
+        "sha256_in_prefix": "0c602776c776983c602f71cb917d8535756900bbd06006a813aa881b97aa6341",
+        "size_in_bytes": 2034
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-tcl.js",
+        "path_type": "hardlink",
+        "sha256": "f65f780da49ec5eb5312f8dddb5038d1185d64c24b63db331285ae67004fe87c",
+        "sha256_in_prefix": "f65f780da49ec5eb5312f8dddb5038d1185d64c24b63db331285ae67004fe87c",
+        "size_in_bytes": 1243
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-tex.js",
+        "path_type": "hardlink",
+        "sha256": "f1108838519077d803e9878091161b41ce81f411b71a4f2b291bb480a44ac065",
+        "sha256_in_prefix": "f1108838519077d803e9878091161b41ce81f411b71a4f2b291bb480a44ac065",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-vb.js",
+        "path_type": "hardlink",
+        "sha256": "dbf41cde88a28f389c783bb0921e038093adfc239d66415cf8bc7b05721bd44f",
+        "sha256_in_prefix": "dbf41cde88a28f389c783bb0921e038093adfc239d66415cf8bc7b05721bd44f",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-vbs.js",
+        "path_type": "hardlink",
+        "sha256": "dbf41cde88a28f389c783bb0921e038093adfc239d66415cf8bc7b05721bd44f",
+        "sha256_in_prefix": "dbf41cde88a28f389c783bb0921e038093adfc239d66415cf8bc7b05721bd44f",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-vhd.js",
+        "path_type": "hardlink",
+        "sha256": "a34347f02bbcfe80e4783c09753804e1868f964d93f5d12fdaa4e952d2faefc2",
+        "sha256_in_prefix": "a34347f02bbcfe80e4783c09753804e1868f964d93f5d12fdaa4e952d2faefc2",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-vhdl.js",
+        "path_type": "hardlink",
+        "sha256": "a34347f02bbcfe80e4783c09753804e1868f964d93f5d12fdaa4e952d2faefc2",
+        "sha256_in_prefix": "a34347f02bbcfe80e4783c09753804e1868f964d93f5d12fdaa4e952d2faefc2",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-wiki.js",
+        "path_type": "hardlink",
+        "sha256": "1fa91f6694e32296f8b315f8db8086b2acd8d76672aff916689c5d6d1c31e299",
+        "sha256_in_prefix": "1fa91f6694e32296f8b315f8db8086b2acd8d76672aff916689c5d6d1c31e299",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-xq.js",
+        "path_type": "hardlink",
+        "sha256": "a0e66aea04af4a04fcd598d37ecb94f4c96c1c8cde1392f1927bf24debef86ba",
+        "sha256_in_prefix": "a0e66aea04af4a04fcd598d37ecb94f4c96c1c8cde1392f1927bf24debef86ba",
+        "size_in_bytes": 23851
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-xquery.js",
+        "path_type": "hardlink",
+        "sha256": "a0e66aea04af4a04fcd598d37ecb94f4c96c1c8cde1392f1927bf24debef86ba",
+        "sha256_in_prefix": "a0e66aea04af4a04fcd598d37ecb94f4c96c1c8cde1392f1927bf24debef86ba",
+        "size_in_bytes": 23851
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-yaml.js",
+        "path_type": "hardlink",
+        "sha256": "39baae767c1b03a4c43575bed13c99adefd0ee3835332b9322b2274c35befa09",
+        "sha256_in_prefix": "39baae767c1b03a4c43575bed13c99adefd0ee3835332b9322b2274c35befa09",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "doc/common/formatting/prettify/lang-yml.js",
+        "path_type": "hardlink",
+        "sha256": "39baae767c1b03a4c43575bed13c99adefd0ee3835332b9322b2274c35befa09",
+        "sha256_in_prefix": "39baae767c1b03a4c43575bed13c99adefd0ee3835332b9322b2274c35befa09",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "doc/common/formatting/prettify/onLoad.png",
+        "path_type": "hardlink",
+        "sha256": "859e0d54ce7aae5de46f9ac67a24313fed8bd042baa8cd3135a1395db5aef5c6",
+        "sha256_in_prefix": "859e0d54ce7aae5de46f9ac67a24313fed8bd042baa8cd3135a1395db5aef5c6",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "doc/common/formatting/prettify/prettify.css",
+        "path_type": "hardlink",
+        "sha256": "1d2d628605d9eaa7d4712e414de849855f3511947e23943acf1e7219d12a6e9d",
+        "sha256_in_prefix": "1d2d628605d9eaa7d4712e414de849855f3511947e23943acf1e7219d12a6e9d",
+        "size_in_bytes": 675
+      },
+      {
+        "_path": "doc/common/formatting/prettify/prettify.js",
+        "path_type": "hardlink",
+        "sha256": "997378f63e9f80edfff908ebd90717c1815aec425c1224e406c85a5afd2223e6",
+        "sha256_in_prefix": "997378f63e9f80edfff908ebd90717c1815aec425c1224e406c85a5afd2223e6",
+        "size_in_bytes": 15261
+      },
+      {
+        "_path": "doc/common/formatting/prettify/run_prettify.js",
+        "path_type": "hardlink",
+        "sha256": "8d07447be96b1233f52ed8068fecaa14e505e592cb9c71abc4797f07861e6a94",
+        "sha256_in_prefix": "8d07447be96b1233f52ed8068fecaa14e505e592cb9c71abc4797f07861e6a94",
+        "size_in_bytes": 18037
+      },
+      {
+        "_path": "doc/common/formatting/qwcode.highlight.css",
+        "path_type": "hardlink",
+        "sha256": "371344ff1043a223aa0a679fa35cdb4c14613d859ac4d787e32bc726ddfb49cc",
+        "sha256_in_prefix": "371344ff1043a223aa0a679fa35cdb4c14613d859ac4d787e32bc726ddfb49cc",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "doc/common/formatting/search-clear.png",
+        "path_type": "hardlink",
+        "sha256": "3b9e4abc9fa8aaa24a459d69b63169f4a63a63468493e1d94a9857ae3a5a1c6c",
+        "sha256_in_prefix": "3b9e4abc9fa8aaa24a459d69b63169f4a63a63468493e1d94a9857ae3a5a1c6c",
+        "size_in_bytes": 3638
+      },
+      {
+        "_path": "doc/common/formatting/site.css",
+        "path_type": "hardlink",
+        "sha256": "f3276052224e47f720d52bb0302bece15470750fa70c523b211d9cde0f9bf73f",
+        "sha256_in_prefix": "f3276052224e47f720d52bb0302bece15470750fa70c523b211d9cde0f9bf73f",
+        "size_in_bytes": 12110
+      },
+      {
+        "_path": "doc/common/scripts/google-analytics/google-analytics-tracker.js",
+        "path_type": "hardlink",
+        "sha256": "484a28ac24e2b84a872336060a5935208e188d84d0a196a6b7006f210cf8211a",
+        "sha256_in_prefix": "484a28ac24e2b84a872336060a5935208e188d84d0a196a6b7006f210cf8211a",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "doc/common/scripts/google-analytics/google-analytics-write.js",
+        "path_type": "hardlink",
+        "sha256": "62c4e91f20eb5c4b5714522e71b7e7e537cc00a208a2284cf459db6e1478c3da",
+        "sha256_in_prefix": "62c4e91f20eb5c4b5714522e71b7e7e537cc00a208a2284cf459db6e1478c3da",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "doc/common/scripts/tynt/tynt.js",
+        "path_type": "hardlink",
+        "sha256": "f9bc2ee1555fa413c3cd8a660889a8aac972e9b502df9d9ac4a5e105ea66b2fb",
+        "sha256_in_prefix": "f9bc2ee1555fa413c3cd8a660889a8aac972e9b502df9d9ac4a5e105ea66b2fb",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "d45850dcff0b4f07b5c8e2b29bcd07e55cd3c8d7274e6290568779c24cbc8165",
+        "sha256_in_prefix": "d45850dcff0b4f07b5c8e2b29bcd07e55cd3c8d7274e6290568779c24cbc8165",
+        "size_in_bytes": 3834
+      },
+      {
+        "_path": "doc/pdf/Cupti.pdf",
+        "path_type": "hardlink",
+        "sha256": "cffa2ba8c98acdb6ab5afa973e3a29cc728e38f2ecc81519e0aad5708f43dcd5",
+        "sha256_in_prefix": "cffa2ba8c98acdb6ab5afa973e3a29cc728e38f2ecc81519e0aad5708f43dcd5",
+        "size_in_bytes": 2028509
+      },
+      {
+        "_path": "doc/search/check.html",
+        "path_type": "hardlink",
+        "sha256": "c27e37bc69675e0d4461efe41f6ca6c38c7b3c4f5907a0247403fc570a527016",
+        "sha256_in_prefix": "c27e37bc69675e0d4461efe41f6ca6c38c7b3c4f5907a0247403fc570a527016",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "doc/search/files.js",
+        "path_type": "hardlink",
+        "sha256": "e9709b3549c4f95ba50a4a1ef5994c2f548bb774595a25b81ad117aa0a2edc9c",
+        "sha256_in_prefix": "e9709b3549c4f95ba50a4a1ef5994c2f548bb774595a25b81ad117aa0a2edc9c",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "doc/search/htmlFileInfoList.js",
+        "path_type": "hardlink",
+        "sha256": "47b136fdb96a493a0d354774ff679555b1f40d1a7923e0a6f380ca09dcf533b1",
+        "sha256_in_prefix": "47b136fdb96a493a0d354774ff679555b1f40d1a7923e0a6f380ca09dcf533b1",
+        "size_in_bytes": 14654
+      },
+      {
+        "_path": "doc/search/htmlFileList.js",
+        "path_type": "hardlink",
+        "sha256": "51b7dd058fc1b2e14c5a189fbd398f488c2eec2a0ae60c7e1156ff80fbabba87",
+        "sha256_in_prefix": "51b7dd058fc1b2e14c5a189fbd398f488c2eec2a0ae60c7e1156ff80fbabba87",
+        "size_in_bytes": 11393
+      },
+      {
+        "_path": "doc/search/index-1.js",
+        "path_type": "hardlink",
+        "sha256": "5b99d21d59b602032dccad4338c3301b1b6bdf1f60e0eab49de5e6a589dbe29c",
+        "sha256_in_prefix": "5b99d21d59b602032dccad4338c3301b1b6bdf1f60e0eab49de5e6a589dbe29c",
+        "size_in_bytes": 67439
+      },
+      {
+        "_path": "doc/search/index-2.js",
+        "path_type": "hardlink",
+        "sha256": "41ed27ff28b1b46c6dc55af79ee7f12ddd3a7200f94718cc38318643d82aa61c",
+        "sha256_in_prefix": "41ed27ff28b1b46c6dc55af79ee7f12ddd3a7200f94718cc38318643d82aa61c",
+        "size_in_bytes": 68230
+      },
+      {
+        "_path": "doc/search/index-3.js",
+        "path_type": "hardlink",
+        "sha256": "60d8b5dd0604b2fb15ee0569cd14d46680ee27478127d6175f63c61f39623d6b",
+        "sha256_in_prefix": "60d8b5dd0604b2fb15ee0569cd14d46680ee27478127d6175f63c61f39623d6b",
+        "size_in_bytes": 59334
+      },
+      {
+        "_path": "doc/search/nwSearchFnt.min.js",
+        "path_type": "hardlink",
+        "sha256": "2bb12182ffc3a464234a5092b34687b38a8a828217528bfdeafafb2acc163133",
+        "sha256_in_prefix": "2bb12182ffc3a464234a5092b34687b38a8a828217528bfdeafafb2acc163133",
+        "size_in_bytes": 12021
+      },
+      {
+        "_path": "doc/search/stemmers/en_stemmer.min.js",
+        "path_type": "hardlink",
+        "sha256": "400ffdf6d2244d7b7ff37c073fb94efd8e1c3de07f1afeba418104e81a2dd258",
+        "sha256_in_prefix": "400ffdf6d2244d7b7ff37c073fb94efd8e1c3de07f1afeba418104e81a2dd258",
+        "size_in_bytes": 3505
+      },
+      {
+        "_path": "include/Openacc/cupti_openacc.h",
+        "path_type": "hardlink",
+        "sha256": "67438ce5efe16ddddcc5d5f29f74821ea04141ac0b83840e467966e7b0abdbe3",
+        "sha256_in_prefix": "67438ce5efe16ddddcc5d5f29f74821ea04141ac0b83840e467966e7b0abdbe3",
+        "size_in_bytes": 3513
+      },
+      {
+        "_path": "include/Openmp/cupti_openmp.h",
+        "path_type": "hardlink",
+        "sha256": "13558d99e6ffec76944a605e82d50d7b8215d62ee95de371833225c8a9f5ceb3",
+        "sha256_in_prefix": "13558d99e6ffec76944a605e82d50d7b8215d62ee95de371833225c8a9f5ceb3",
+        "size_in_bytes": 3491
+      },
+      {
+        "_path": "include/Openmp/omp-tools.h",
+        "path_type": "hardlink",
+        "sha256": "026b82ff13c2ed53eedc1f96e0f997b8236e7c56b0858f0f8cd5de3da40500e8",
+        "sha256_in_prefix": "026b82ff13c2ed53eedc1f96e0f997b8236e7c56b0858f0f8cd5de3da40500e8",
+        "size_in_bytes": 37403
+      },
+      {
+        "_path": "include/cuda_stdint.h",
+        "path_type": "hardlink",
+        "sha256": "5db14e93d0ad2632aa93b3e960da9b495b03c40b1533c6af038ad6a4f8b40634",
+        "sha256_in_prefix": "5db14e93d0ad2632aa93b3e960da9b495b03c40b1533c6af038ad6a4f8b40634",
+        "size_in_bytes": 4093
+      },
+      {
+        "_path": "include/cupti.h",
+        "path_type": "hardlink",
+        "sha256": "2645720064c8318cf09bad9d7d5a9ab379cc7082e180ffd6773e9f878fcd103d",
+        "sha256_in_prefix": "2645720064c8318cf09bad9d7d5a9ab379cc7082e180ffd6773e9f878fcd103d",
+        "size_in_bytes": 4697
+      },
+      {
+        "_path": "include/cupti_activity.h",
+        "path_type": "hardlink",
+        "sha256": "a9555acef38965b0cccef6ea812f2799a1cde206b10163b61c0ffc0fbf95a62c",
+        "sha256_in_prefix": "a9555acef38965b0cccef6ea812f2799a1cde206b10163b61c0ffc0fbf95a62c",
+        "size_in_bytes": 311866
+      },
+      {
+        "_path": "include/cupti_callbacks.h",
+        "path_type": "hardlink",
+        "sha256": "f9ae3b0283381e853922e08207f2feea565176b903002e175cb26ea14aa88de6",
+        "sha256_in_prefix": "f9ae3b0283381e853922e08207f2feea565176b903002e175cb26ea14aa88de6",
+        "size_in_bytes": 26587
+      },
+      {
+        "_path": "include/cupti_checkpoint.h",
+        "path_type": "hardlink",
+        "sha256": "ad3cfc2685b1a844815f26565216491a6e31798731e0e24eb49ecb775dd3fdbd",
+        "sha256_in_prefix": "ad3cfc2685b1a844815f26565216491a6e31798731e0e24eb49ecb775dd3fdbd",
+        "size_in_bytes": 5264
+      },
+      {
+        "_path": "include/cupti_driver_cbid.h",
+        "path_type": "hardlink",
+        "sha256": "51cef824394937fdea234e25e20906cd86c1dca8b49742206482d93b4597b55b",
+        "sha256_in_prefix": "51cef824394937fdea234e25e20906cd86c1dca8b49742206482d93b4597b55b",
+        "size_in_bytes": 70346
+      },
+      {
+        "_path": "include/cupti_events.h",
+        "path_type": "hardlink",
+        "sha256": "a0720e292b04e59028b79b592beb1b4b62bdc5c8225c15d36590e43d0ba268dc",
+        "sha256_in_prefix": "a0720e292b04e59028b79b592beb1b4b62bdc5c8225c15d36590e43d0ba268dc",
+        "size_in_bytes": 52639
+      },
+      {
+        "_path": "include/cupti_metrics.h",
+        "path_type": "hardlink",
+        "sha256": "88b00e943adc6c712c20852682ad13a7564e63d3b73addf08f6f9b23c8986d2b",
+        "sha256_in_prefix": "88b00e943adc6c712c20852682ad13a7564e63d3b73addf08f6f9b23c8986d2b",
+        "size_in_bytes": 32148
+      },
+      {
+        "_path": "include/cupti_nvtx_cbid.h",
+        "path_type": "hardlink",
+        "sha256": "fdaccfb51d60e2a8afbd7eea6ef1d1520d111c2585ee210e2721cc37da997bd1",
+        "sha256_in_prefix": "fdaccfb51d60e2a8afbd7eea6ef1d1520d111c2585ee210e2721cc37da997bd1",
+        "size_in_bytes": 5912
+      },
+      {
+        "_path": "include/cupti_pcsampling.h",
+        "path_type": "hardlink",
+        "sha256": "b93fc3b453740727ba003b717ca5d401cf0172b15e7e8b5ff95b53b8a406271d",
+        "sha256_in_prefix": "b93fc3b453740727ba003b717ca5d401cf0172b15e7e8b5ff95b53b8a406271d",
+        "size_in_bytes": 32395
+      },
+      {
+        "_path": "include/cupti_pcsampling_util.h",
+        "path_type": "hardlink",
+        "sha256": "80488c05eb379ada4326a6aec6a52d7ded1cb18e09df5aa9760d82a7c3a7f791",
+        "sha256_in_prefix": "80488c05eb379ada4326a6aec6a52d7ded1cb18e09df5aa9760d82a7c3a7f791",
+        "size_in_bytes": 13060
+      },
+      {
+        "_path": "include/cupti_profiler_target.h",
+        "path_type": "hardlink",
+        "sha256": "2d6345b98ca8b601a108a63b4d2e3cb951b18deb8e02e00d5929c1f327ce7efa",
+        "sha256_in_prefix": "2d6345b98ca8b601a108a63b4d2e3cb951b18deb8e02e00d5929c1f327ce7efa",
+        "size_in_bytes": 31596
+      },
+      {
+        "_path": "include/cupti_result.h",
+        "path_type": "hardlink",
+        "sha256": "b0e059091b91547bdc6c8c83973c8b7a29dae585f02101f6d6b56bdc53e807a3",
+        "sha256_in_prefix": "b0e059091b91547bdc6c8c83973c8b7a29dae585f02101f6d6b56bdc53e807a3",
+        "size_in_bytes": 12026
+      },
+      {
+        "_path": "include/cupti_runtime_cbid.h",
+        "path_type": "hardlink",
+        "sha256": "669a267512bb1619ff3596228aae5bdc0c8d657de0ce7a2df9a5f8764fadb192",
+        "sha256_in_prefix": "669a267512bb1619ff3596228aae5bdc0c8d657de0ce7a2df9a5f8764fadb192",
+        "size_in_bytes": 44182
+      },
+      {
+        "_path": "include/cupti_target.h",
+        "path_type": "hardlink",
+        "sha256": "c78573d54a5bea6f62c6656998668a425743598408dce67ea1c1171b334ad041",
+        "sha256_in_prefix": "c78573d54a5bea6f62c6656998668a425743598408dce67ea1c1171b334ad041",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "include/cupti_version.h",
+        "path_type": "hardlink",
+        "sha256": "ed70c94885a978953c96ba7470eca66bb7575d218ae1b753d46f1a931bbc0ff4",
+        "sha256_in_prefix": "ed70c94885a978953c96ba7470eca66bb7575d218ae1b753d46f1a931bbc0ff4",
+        "size_in_bytes": 4344
+      },
+      {
+        "_path": "include/generated_cudaGL_meta.h",
+        "path_type": "hardlink",
+        "sha256": "75f77642e6917448db4ad38abda40b8b531dfeaae945087c3dfc99ce727c6d66",
+        "sha256_in_prefix": "75f77642e6917448db4ad38abda40b8b531dfeaae945087c3dfc99ce727c6d66",
+        "size_in_bytes": 3115
+      },
+      {
+        "_path": "include/generated_cudaVDPAU_meta.h",
+        "path_type": "hardlink",
+        "sha256": "7c079db28431694de12000290160ce2ac6bd92072e430e2d7727fc9252e6fb79",
+        "sha256_in_prefix": "7c079db28431694de12000290160ce2ac6bd92072e430e2d7727fc9252e6fb79",
+        "size_in_bytes": 1453
+      },
+      {
+        "_path": "include/generated_cuda_gl_interop_meta.h",
+        "path_type": "hardlink",
+        "sha256": "2d73aabd009e8f4b028004f52d428a619e3ae84171378848c1ff682215ce2c5d",
+        "sha256_in_prefix": "2d73aabd009e8f4b028004f52d428a619e3ae84171378848c1ff682215ce2c5d",
+        "size_in_bytes": 2250
+      },
+      {
+        "_path": "include/generated_cuda_meta.h",
+        "path_type": "hardlink",
+        "sha256": "a9986c3312fe09447272a0b6624922a120e20f9a40f2adb618e8ded9b39ebe25",
+        "sha256_in_prefix": "a9986c3312fe09447272a0b6624922a120e20f9a40f2adb618e8ded9b39ebe25",
+        "size_in_bytes": 87152
+      },
+      {
+        "_path": "include/generated_cuda_runtime_api_meta.h",
+        "path_type": "hardlink",
+        "sha256": "6029143113fddd7b4318b107ec3389094ba1751715b0ed6f43017f2bd02e0df2",
+        "sha256_in_prefix": "6029143113fddd7b4318b107ec3389094ba1751715b0ed6f43017f2bd02e0df2",
+        "size_in_bytes": 64332
+      },
+      {
+        "_path": "include/generated_cuda_vdpau_interop_meta.h",
+        "path_type": "hardlink",
+        "sha256": "f0e2ea58ddba6846294d6517b5b1c9bc0e4662156fdf26d854e4d6ef22b7ef3f",
+        "sha256_in_prefix": "f0e2ea58ddba6846294d6517b5b1c9bc0e4662156fdf26d854e4d6ef22b7ef3f",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "include/generated_cudart_removed_meta.h",
+        "path_type": "hardlink",
+        "sha256": "5f72395979a1b6c24d365818edca09e6f838b75d46e45451e97a3b31ba0879c9",
+        "sha256_in_prefix": "5f72395979a1b6c24d365818edca09e6f838b75d46e45451e97a3b31ba0879c9",
+        "size_in_bytes": 5172
+      },
+      {
+        "_path": "include/generated_nvtx_meta.h",
+        "path_type": "hardlink",
+        "sha256": "6076ff443f20dece26f0f267ed9d309f1bd41daae5ec13805f9003afe04bdc72",
+        "sha256_in_prefix": "6076ff443f20dece26f0f267ed9d309f1bd41daae5ec13805f9003afe04bdc72",
+        "size_in_bytes": 7513
+      },
+      {
+        "_path": "include/nvperf_common.h",
+        "path_type": "hardlink",
+        "sha256": "30c66b0ef0ddb46d83492d21d81f0047568fcade9499e5b01fe0dcfd7b31687a",
+        "sha256_in_prefix": "30c66b0ef0ddb46d83492d21d81f0047568fcade9499e5b01fe0dcfd7b31687a",
+        "size_in_bytes": 10422
+      },
+      {
+        "_path": "include/nvperf_cuda_host.h",
+        "path_type": "hardlink",
+        "sha256": "c446a9c70bdd97deae57e3a7f9cf0b63696fc1535f223abeac0823f7f7586eaa",
+        "sha256_in_prefix": "c446a9c70bdd97deae57e3a7f9cf0b63696fc1535f223abeac0823f7f7586eaa",
+        "size_in_bytes": 8299
+      },
+      {
+        "_path": "include/nvperf_host.h",
+        "path_type": "hardlink",
+        "sha256": "de67200046c1f6e6837d685e46a0bc80b95389382073f6ae57c3c4f5d4d2871e",
+        "sha256_in_prefix": "de67200046c1f6e6837d685e46a0bc80b95389382073f6ae57c3c4f5d4d2871e",
+        "size_in_bytes": 66289
+      },
+      {
+        "_path": "include/nvperf_target.h",
+        "path_type": "hardlink",
+        "sha256": "8d5476cc43b62a632d6b40bea931ae4bd57aae157230d9d19ce5384094a23eb7",
+        "sha256_in_prefix": "8d5476cc43b62a632d6b40bea931ae4bd57aae157230d9d19ce5384094a23eb7",
+        "size_in_bytes": 21476
+      },
+      {
+        "_path": "lib/libcheckpoint.so",
+        "path_type": "hardlink",
+        "sha256": "52aac4e3f5e527eccd1a0ff074fd3d910a78e0352ecc208a2028aec3957832a0",
+        "sha256_in_prefix": "52aac4e3f5e527eccd1a0ff074fd3d910a78e0352ecc208a2028aec3957832a0",
+        "size_in_bytes": 1539776
+      },
+      {
+        "_path": "lib/libcupti.so",
+        "path_type": "softlink",
+        "sha256": "01ff193dff9cea1784e8d9a785c2d9473a7362d76d8565495256412afafcc095",
+        "size_in_bytes": 7432112
+      },
+      {
+        "_path": "lib/libcupti.so.12",
+        "path_type": "softlink",
+        "sha256": "01ff193dff9cea1784e8d9a785c2d9473a7362d76d8565495256412afafcc095",
+        "size_in_bytes": 7432112
+      },
+      {
+        "_path": "lib/libcupti.so.2023.1.1",
+        "path_type": "hardlink",
+        "sha256": "01ff193dff9cea1784e8d9a785c2d9473a7362d76d8565495256412afafcc095",
+        "sha256_in_prefix": "01ff193dff9cea1784e8d9a785c2d9473a7362d76d8565495256412afafcc095",
+        "size_in_bytes": 7432112
+      },
+      {
+        "_path": "lib/libnvperf_host.so",
+        "path_type": "hardlink",
+        "sha256": "45888f066fa3f2d823c10d1635eb9cb1a82d54ce95589b5b425d0bdfd23fb18c",
+        "sha256_in_prefix": "45888f066fa3f2d823c10d1635eb9cb1a82d54ce95589b5b425d0bdfd23fb18c",
+        "size_in_bytes": 28662360
+      },
+      {
+        "_path": "lib/libnvperf_target.so",
+        "path_type": "hardlink",
+        "sha256": "67c96a7dabd179533f0961bfe54f2b97b6a8cc5a8c70516b822f75a1ae4148c1",
+        "sha256_in_prefix": "67c96a7dabd179533f0961bfe54f2b97b6a8cc5a8c70516b822f75a1ae4148c1",
+        "size_in_bytes": 5912208
+      },
+      {
+        "_path": "lib/libpcsamplingutil.so",
+        "path_type": "hardlink",
+        "sha256": "fcef310635a5a1ccf17b90450dfe82287461655a3fb5ba1a1caaee5763052624",
+        "sha256_in_prefix": "fcef310635a5a1ccf17b90450dfe82287461655a3fb5ba1a1caaee5763052624",
+        "size_in_bytes": 916320
+      },
+      {
+        "_path": "samples/activity_trace_async/Makefile",
+        "path_type": "hardlink",
+        "sha256": "91c059c3b309d65c2a79cfbcacc761fe9d4d856a6a603e3ab435309cc0339021",
+        "sha256_in_prefix": "91c059c3b309d65c2a79cfbcacc761fe9d4d856a6a603e3ab435309cc0339021",
+        "size_in_bytes": 2940
+      },
+      {
+        "_path": "samples/activity_trace_async/activity_trace_async.cu",
+        "path_type": "hardlink",
+        "sha256": "777a2a74385d79e2dcb3bc6cdd2d1d3bd310dc5ed8ece11b6d69de7af0592cd4",
+        "sha256_in_prefix": "777a2a74385d79e2dcb3bc6cdd2d1d3bd310dc5ed8ece11b6d69de7af0592cd4",
+        "size_in_bytes": 4980
+      },
+      {
+        "_path": "samples/autorange_profiling/Makefile",
+        "path_type": "hardlink",
+        "sha256": "be74fea89bfb175735cf560d4d025042294b0059d82395076b4956db3b30f4c5",
+        "sha256_in_prefix": "be74fea89bfb175735cf560d4d025042294b0059d82395076b4956db3b30f4c5",
+        "size_in_bytes": 3668
+      },
+      {
+        "_path": "samples/autorange_profiling/auto_range_profiling.cu",
+        "path_type": "hardlink",
+        "sha256": "e5f8cccfa157153413b8de796f207e39ea835342423296cb0acfc065597f9d81",
+        "sha256_in_prefix": "e5f8cccfa157153413b8de796f207e39ea835342423296cb0acfc065597f9d81",
+        "size_in_bytes": 17378
+      },
+      {
+        "_path": "samples/callback_event/Makefile",
+        "path_type": "hardlink",
+        "sha256": "e5fc2d82cd8809714649a754edf14b5285a63963ce30efdad345dcfeac6bf0d2",
+        "sha256_in_prefix": "e5fc2d82cd8809714649a754edf14b5285a63963ce30efdad345dcfeac6bf0d2",
+        "size_in_bytes": 2900
+      },
+      {
+        "_path": "samples/callback_event/callback_event.cu",
+        "path_type": "hardlink",
+        "sha256": "3247a32d6a58f7b19e6a13c40194ffd1600678a38eef432f06e7a1a6f953b0b5",
+        "sha256_in_prefix": "3247a32d6a58f7b19e6a13c40194ffd1600678a38eef432f06e7a1a6f953b0b5",
+        "size_in_bytes": 8771
+      },
+      {
+        "_path": "samples/callback_metric/Makefile",
+        "path_type": "hardlink",
+        "sha256": "c5c6ea47e479b15d85754929d0866910ba067db141b4854641587b3bbf727c7c",
+        "sha256_in_prefix": "c5c6ea47e479b15d85754929d0866910ba067db141b4854641587b3bbf727c7c",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "samples/callback_metric/callback_metric.cu",
+        "path_type": "hardlink",
+        "sha256": "8f525add852779c94a383ec55dcdf55235389da4315b5a8944a1a5c51e36aff7",
+        "sha256_in_prefix": "8f525add852779c94a383ec55dcdf55235389da4315b5a8944a1a5c51e36aff7",
+        "size_in_bytes": 16033
+      },
+      {
+        "_path": "samples/callback_profiling/Makefile",
+        "path_type": "hardlink",
+        "sha256": "d434d689b6b127848c2f5d91e36a1aa78e3545c0bf62296cd9aaefa2d13e2310",
+        "sha256_in_prefix": "d434d689b6b127848c2f5d91e36a1aa78e3545c0bf62296cd9aaefa2d13e2310",
+        "size_in_bytes": 3644
+      },
+      {
+        "_path": "samples/callback_profiling/callback_profiling.cu",
+        "path_type": "hardlink",
+        "sha256": "53ea8020487fe4419e20839f197c86a0f1f7c935efb3cfd693b2e926e62ba7d8",
+        "sha256_in_prefix": "53ea8020487fe4419e20839f197c86a0f1f7c935efb3cfd693b2e926e62ba7d8",
+        "size_in_bytes": 19885
+      },
+      {
+        "_path": "samples/callback_timestamp/Makefile",
+        "path_type": "hardlink",
+        "sha256": "0bb2b8a4164c066af7e726e3f92b91db11e83673b9b34fabd1a1dd3ebb5390f9",
+        "sha256_in_prefix": "0bb2b8a4164c066af7e726e3f92b91db11e83673b9b34fabd1a1dd3ebb5390f9",
+        "size_in_bytes": 2950
+      },
+      {
+        "_path": "samples/callback_timestamp/callback_timestamp.cu",
+        "path_type": "hardlink",
+        "sha256": "00655cc1891ab3c91eaef1f8fec3ce0615af3886b40e83a42adf9406059b701c",
+        "sha256_in_prefix": "00655cc1891ab3c91eaef1f8fec3ce0615af3886b40e83a42adf9406059b701c",
+        "size_in_bytes": 9788
+      },
+      {
+        "_path": "samples/checkpoint_kernels/Makefile",
+        "path_type": "hardlink",
+        "sha256": "bd742f4f64c24ba460148e5b5b71c99a1926eb16e49acb520dabaf82ee2d3827",
+        "sha256_in_prefix": "bd742f4f64c24ba460148e5b5b71c99a1926eb16e49acb520dabaf82ee2d3827",
+        "size_in_bytes": 3107
+      },
+      {
+        "_path": "samples/checkpoint_kernels/checkpoint_kernels.cu",
+        "path_type": "hardlink",
+        "sha256": "ed4cd8c71d02cf1f6d24ccf502210e0c15bcca926b91a6b57ead687761017de1",
+        "sha256_in_prefix": "ed4cd8c71d02cf1f6d24ccf502210e0c15bcca926b91a6b57ead687761017de1",
+        "size_in_bytes": 4955
+      },
+      {
+        "_path": "samples/common/helper_cupti.h",
+        "path_type": "hardlink",
+        "sha256": "013d3e29e5f5c6ab363e07ebf665bd1015efb8e6c4ccd5073f5d3f1bbf260357",
+        "sha256_in_prefix": "013d3e29e5f5c6ab363e07ebf665bd1015efb8e6c4ccd5073f5d3f1bbf260357",
+        "size_in_bytes": 7771
+      },
+      {
+        "_path": "samples/common/helper_cupti_activity.h",
+        "path_type": "hardlink",
+        "sha256": "dc22101dd84f67a2e5df1b4483a610e82e7515ed5d4619a34e2649fc8c042759",
+        "sha256_in_prefix": "dc22101dd84f67a2e5df1b4483a610e82e7515ed5d4619a34e2649fc8c042759",
+        "size_in_bytes": 94851
+      },
+      {
+        "_path": "samples/concurrent_profiling/Makefile",
+        "path_type": "hardlink",
+        "sha256": "5b02a89f9d26f7ba22d1b406e5f4330ceb6a6781af9891b45f1e4315e7e08a44",
+        "sha256_in_prefix": "5b02a89f9d26f7ba22d1b406e5f4330ceb6a6781af9891b45f1e4315e7e08a44",
+        "size_in_bytes": 3661
+      },
+      {
+        "_path": "samples/concurrent_profiling/concurrent_profiling.cu",
+        "path_type": "hardlink",
+        "sha256": "350beec46b791e54ab8fda79c7eec3c96e0a3a4440ac99715a5c9309d0a70d55",
+        "sha256_in_prefix": "350beec46b791e54ab8fda79c7eec3c96e0a3a4440ac99715a5c9309d0a70d55",
+        "size_in_bytes": 32391
+      },
+      {
+        "_path": "samples/cuda_graphs_trace/Makefile",
+        "path_type": "hardlink",
+        "sha256": "d38f656b8aab08cebe2a0cca47923fa242f19f1dba401c649a86dd0b04ed88a2",
+        "sha256_in_prefix": "d38f656b8aab08cebe2a0cca47923fa242f19f1dba401c649a86dd0b04ed88a2",
+        "size_in_bytes": 2920
+      },
+      {
+        "_path": "samples/cuda_graphs_trace/cuda_graphs_trace.cu",
+        "path_type": "hardlink",
+        "sha256": "42d262a86f0cbf6fe998bd75c00b83eba1831cd5c917494206699fee609891cb",
+        "sha256_in_prefix": "42d262a86f0cbf6fe998bd75c00b83eba1831cd5c917494206699fee609891cb",
+        "size_in_bytes": 10213
+      },
+      {
+        "_path": "samples/cuda_memory_trace/Makefile",
+        "path_type": "hardlink",
+        "sha256": "7ce59891d201df5c1df3f87ee708c3de3ddfeda146f6390fb66d3b0e589c89a8",
+        "sha256_in_prefix": "7ce59891d201df5c1df3f87ee708c3de3ddfeda146f6390fb66d3b0e589c89a8",
+        "size_in_bytes": 2894
+      },
+      {
+        "_path": "samples/cuda_memory_trace/memory_trace.cu",
+        "path_type": "hardlink",
+        "sha256": "920f9d564d2895ec5ad897a4c844b34fb80db855a3a359e03aa218260178ecba",
+        "sha256_in_prefix": "920f9d564d2895ec5ad897a4c844b34fb80db855a3a359e03aa218260178ecba",
+        "size_in_bytes": 5163
+      },
+      {
+        "_path": "samples/cupti_correlation/Makefile",
+        "path_type": "hardlink",
+        "sha256": "bbb10f0c33cfa73a32ba9625f48d336e90a80aaa3de9335d4f1b1a9cbbe1131f",
+        "sha256_in_prefix": "bbb10f0c33cfa73a32ba9625f48d336e90a80aaa3de9335d4f1b1a9cbbe1131f",
+        "size_in_bytes": 2920
+      },
+      {
+        "_path": "samples/cupti_correlation/cupti_correlation.cu",
+        "path_type": "hardlink",
+        "sha256": "a9144961c41e06ff66e28b06bd5107e80d46a27fa28887df6c202d6536b3c5aa",
+        "sha256_in_prefix": "a9144961c41e06ff66e28b06bd5107e80d46a27fa28887df6c202d6536b3c5aa",
+        "size_in_bytes": 10638
+      },
+      {
+        "_path": "samples/cupti_external_correlation/Makefile",
+        "path_type": "hardlink",
+        "sha256": "5c8ed5b09953ada60001dd81dc010a21d1baf9cc369540af00628263cafb2ec6",
+        "sha256_in_prefix": "5c8ed5b09953ada60001dd81dc010a21d1baf9cc369540af00628263cafb2ec6",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "samples/cupti_external_correlation/cupti_external_correlation.cu",
+        "path_type": "hardlink",
+        "sha256": "5a8fce20483d2e19ab857b66a92c030d314bcae023f404953f530f843d3dc824",
+        "sha256_in_prefix": "5a8fce20483d2e19ab857b66a92c030d314bcae023f404953f530f843d3dc824",
+        "size_in_bytes": 8355
+      },
+      {
+        "_path": "samples/cupti_finalize/Makefile",
+        "path_type": "hardlink",
+        "sha256": "c3ef898785d32287faf6dc300ccc6da16f72d89c726dce79e52080146c2df0a9",
+        "sha256_in_prefix": "c3ef898785d32287faf6dc300ccc6da16f72d89c726dce79e52080146c2df0a9",
+        "size_in_bytes": 2134
+      },
+      {
+        "_path": "samples/cupti_finalize/cupti_finalize.cpp",
+        "path_type": "hardlink",
+        "sha256": "b009afdfaecb8fea8d9db0830068fee9aada1a2e1e5b51650d060e262d873e35",
+        "sha256_in_prefix": "b009afdfaecb8fea8d9db0830068fee9aada1a2e1e5b51650d060e262d873e35",
+        "size_in_bytes": 7485
+      },
+      {
+        "_path": "samples/cupti_metric_properties/Makefile",
+        "path_type": "hardlink",
+        "sha256": "4e09ad83d630d92764c8a89f9ffc72d59c2b5f20c30313b02da0c53192bec638",
+        "sha256_in_prefix": "4e09ad83d630d92764c8a89f9ffc72d59c2b5f20c30313b02da0c53192bec638",
+        "size_in_bytes": 3705
+      },
+      {
+        "_path": "samples/cupti_metric_properties/cupti_metric_properties.cpp",
+        "path_type": "hardlink",
+        "sha256": "72d5c7d3472af35624b26461a299dd06dc395efbe320d1b2cafc5c5206a3e3db",
+        "sha256_in_prefix": "72d5c7d3472af35624b26461a299dd06dc395efbe320d1b2cafc5c5206a3e3db",
+        "size_in_bytes": 19166
+      },
+      {
+        "_path": "samples/cupti_nvtx/Makefile",
+        "path_type": "hardlink",
+        "sha256": "517f4040b7ba6bf7d0e0802aa9396eb5f8fe199d41e3ade7449834d7ed52ffa8",
+        "sha256_in_prefix": "517f4040b7ba6bf7d0e0802aa9396eb5f8fe199d41e3ade7449834d7ed52ffa8",
+        "size_in_bytes": 3054
+      },
+      {
+        "_path": "samples/cupti_nvtx/cupti_nvtx.cu",
+        "path_type": "hardlink",
+        "sha256": "69fe48db8921a1f693b1979e2950019dd84ee7b08ede796714129ab5cb4b5eff",
+        "sha256_in_prefix": "69fe48db8921a1f693b1979e2950019dd84ee7b08ede796714129ab5cb4b5eff",
+        "size_in_bytes": 8506
+      },
+      {
+        "_path": "samples/cupti_query/Makefile",
+        "path_type": "hardlink",
+        "sha256": "fe059fd9f5e5d327816fb5722527db235dafca6760d4c387471bcef4c3a391c6",
+        "sha256_in_prefix": "fe059fd9f5e5d327816fb5722527db235dafca6760d4c387471bcef4c3a391c6",
+        "size_in_bytes": 2657
+      },
+      {
+        "_path": "samples/cupti_query/cupti_query.cpp",
+        "path_type": "hardlink",
+        "sha256": "a42266e1294bf7483e7fbc2dc257e1f975e1b9ea600acca333d927632ce4cd6c",
+        "sha256_in_prefix": "a42266e1294bf7483e7fbc2dc257e1f975e1b9ea600acca333d927632ce4cd6c",
+        "size_in_bytes": 15692
+      },
+      {
+        "_path": "samples/cupti_trace_injection/Makefile",
+        "path_type": "hardlink",
+        "sha256": "ce718b65fd902772db120563bb9ae258470d4c56ce894c718705cd947ac45cce",
+        "sha256_in_prefix": "ce718b65fd902772db120563bb9ae258470d4c56ce894c718705cd947ac45cce",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "samples/cupti_trace_injection/README.txt",
+        "path_type": "hardlink",
+        "sha256": "92901411b670aa79b79971821b8d66c9eaa1a41b504e1a80c0fcb2e66b7b195b",
+        "sha256_in_prefix": "92901411b670aa79b79971821b8d66c9eaa1a41b504e1a80c0fcb2e66b7b195b",
+        "size_in_bytes": 1391
+      },
+      {
+        "_path": "samples/cupti_trace_injection/cupti_trace_injection.cpp",
+        "path_type": "hardlink",
+        "sha256": "98bbe8571da16569fc78343cf693de67c854f62eb93fc1af63f6c4704f0f5687",
+        "sha256_in_prefix": "98bbe8571da16569fc78343cf693de67c854f62eb93fc1af63f6c4704f0f5687",
+        "size_in_bytes": 11978
+      },
+      {
+        "_path": "samples/event_multi_gpu/Makefile",
+        "path_type": "hardlink",
+        "sha256": "d7cc9e59661a9ba87efbbbb2129fda11575544c16c9cd8ee41335afe4febb5a4",
+        "sha256_in_prefix": "d7cc9e59661a9ba87efbbbb2129fda11575544c16c9cd8ee41335afe4febb5a4",
+        "size_in_bytes": 2689
+      },
+      {
+        "_path": "samples/event_multi_gpu/event_multi_gpu.cu",
+        "path_type": "hardlink",
+        "sha256": "df1611095f4508e22593bcabd491d43f5962101a7b873563c4a1adc84daf8d61",
+        "sha256_in_prefix": "df1611095f4508e22593bcabd491d43f5962101a7b873563c4a1adc84daf8d61",
+        "size_in_bytes": 5106
+      },
+      {
+        "_path": "samples/event_sampling/Makefile",
+        "path_type": "hardlink",
+        "sha256": "53ff664c37f3523ec5b1ccf213da303054cc70848df25bff3e2ea0f97c3fc120",
+        "sha256_in_prefix": "53ff664c37f3523ec5b1ccf213da303054cc70848df25bff3e2ea0f97c3fc120",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "samples/event_sampling/event_sampling.cu",
+        "path_type": "hardlink",
+        "sha256": "a9146ec3d1627a3af0552fb1528155b8452fbb78bb8c1ee5b6ed423cdf9ecf38",
+        "sha256_in_prefix": "a9146ec3d1627a3af0552fb1528155b8452fbb78bb8c1ee5b6ed423cdf9ecf38",
+        "size_in_bytes": 9057
+      },
+      {
+        "_path": "samples/extensions/include/c_util/FileOp.h",
+        "path_type": "hardlink",
+        "sha256": "36e84df5f7fdd31085e79794aaecb0630533334b4ca54afee5d62da05eed22f1",
+        "sha256_in_prefix": "36e84df5f7fdd31085e79794aaecb0630533334b4ca54afee5d62da05eed22f1",
+        "size_in_bytes": 1169
+      },
+      {
+        "_path": "samples/extensions/include/c_util/ScopeExit.h",
+        "path_type": "hardlink",
+        "sha256": "2b9d7ea675ac4393a597c85afd802fcfaec8df52113a2f9ba00417762de7b672",
+        "sha256_in_prefix": "2b9d7ea675ac4393a597c85afd802fcfaec8df52113a2f9ba00417762de7b672",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "samples/extensions/include/profilerhost_util/Eval.h",
+        "path_type": "hardlink",
+        "sha256": "bff03e2c8159828867b7c56106c3a81377ade657a9e68de335b9fb6ad8fdf8db",
+        "sha256_in_prefix": "bff03e2c8159828867b7c56106c3a81377ade657a9e68de335b9fb6ad8fdf8db",
+        "size_in_bytes": 2102
+      },
+      {
+        "_path": "samples/extensions/include/profilerhost_util/List.h",
+        "path_type": "hardlink",
+        "sha256": "fb4193c30ddbf42ad800c7919b96f6955d773316401b1f782e1e2539c48cc930",
+        "sha256_in_prefix": "fb4193c30ddbf42ad800c7919b96f6955d773316401b1f782e1e2539c48cc930",
+        "size_in_bytes": 1651
+      },
+      {
+        "_path": "samples/extensions/include/profilerhost_util/Metric.h",
+        "path_type": "hardlink",
+        "sha256": "89a2432afff0ef5710a165d43acffc0d405724d0f65d2f85ce700188059f8bd6",
+        "sha256_in_prefix": "89a2432afff0ef5710a165d43acffc0d405724d0f65d2f85ce700188059f8bd6",
+        "size_in_bytes": 1831
+      },
+      {
+        "_path": "samples/extensions/include/profilerhost_util/Parser.h",
+        "path_type": "hardlink",
+        "sha256": "0826a68734ad3aa235425b56c4a9c5a1adbab5c12a929fcab5c1f893926fb4dd",
+        "sha256_in_prefix": "0826a68734ad3aa235425b56c4a9c5a1adbab5c12a929fcab5c1f893926fb4dd",
+        "size_in_bytes": 1892
+      },
+      {
+        "_path": "samples/extensions/include/profilerhost_util/Utils.h",
+        "path_type": "hardlink",
+        "sha256": "7b323a4b66d606163bad20acf76db3e3cf27bb85b8792e0d66a52a3bd8a10829",
+        "sha256_in_prefix": "7b323a4b66d606163bad20acf76db3e3cf27bb85b8792e0d66a52a3bd8a10829",
+        "size_in_bytes": 4505
+      },
+      {
+        "_path": "samples/extensions/src/profilerhost_util/Eval.cpp",
+        "path_type": "hardlink",
+        "sha256": "fa2f313d7372e976d937aae232c0694bce70c61a0a240d420dccd4282f3c5084",
+        "sha256_in_prefix": "fa2f313d7372e976d937aae232c0694bce70c61a0a240d420dccd4282f3c5084",
+        "size_in_bytes": 15292
+      },
+      {
+        "_path": "samples/extensions/src/profilerhost_util/List.cpp",
+        "path_type": "hardlink",
+        "sha256": "1a0aaa00e4aa11d7d6a920ad18984dd66e435d101b92e2ea9b4f40f1e87f7127",
+        "sha256_in_prefix": "1a0aaa00e4aa11d7d6a920ad18984dd66e435d101b92e2ea9b4f40f1e87f7127",
+        "size_in_bytes": 9669
+      },
+      {
+        "_path": "samples/extensions/src/profilerhost_util/Makefile",
+        "path_type": "hardlink",
+        "sha256": "9867f9027474d169c899006b56926760fa15b444001f0d6374f8883f0c2b6353",
+        "sha256_in_prefix": "9867f9027474d169c899006b56926760fa15b444001f0d6374f8883f0c2b6353",
+        "size_in_bytes": 3132
+      },
+      {
+        "_path": "samples/extensions/src/profilerhost_util/Metric.cpp",
+        "path_type": "hardlink",
+        "sha256": "83c0ae33baae0096f2e295cf190eb44a7153d246f3b62c1cba5508133083a9cf",
+        "sha256_in_prefix": "83c0ae33baae0096f2e295cf190eb44a7153d246f3b62c1cba5508133083a9cf",
+        "size_in_bytes": 12239
+      },
+      {
+        "_path": "samples/nested_range_profiling/Makefile",
+        "path_type": "hardlink",
+        "sha256": "6dd9ffd598c011055f86d7d09444b3b31858103545ab2ce89a132627fe34ca7f",
+        "sha256_in_prefix": "6dd9ffd598c011055f86d7d09444b3b31858103545ab2ce89a132627fe34ca7f",
+        "size_in_bytes": 3685
+      },
+      {
+        "_path": "samples/nested_range_profiling/nested_range_profiling.cu",
+        "path_type": "hardlink",
+        "sha256": "611f5f0d93d68d9dca2a9543876a167ea6a1fc9922368041ba914a4658cb863b",
+        "sha256_in_prefix": "611f5f0d93d68d9dca2a9543876a167ea6a1fc9922368041ba914a4658cb863b",
+        "size_in_bytes": 19457
+      },
+      {
+        "_path": "samples/nvlink_bandwidth/Makefile",
+        "path_type": "hardlink",
+        "sha256": "888e0df9eb4b6f55025f8dda13eb0b93bd94f793525b66726b5ab4730d235569",
+        "sha256_in_prefix": "888e0df9eb4b6f55025f8dda13eb0b93bd94f793525b66726b5ab4730d235569",
+        "size_in_bytes": 2912
+      },
+      {
+        "_path": "samples/nvlink_bandwidth/nvlink_bandwidth.cu",
+        "path_type": "hardlink",
+        "sha256": "caa9e4a8c2b88696e76ea23a8884921cde851560134c4d69564a2410ec984542",
+        "sha256_in_prefix": "caa9e4a8c2b88696e76ea23a8884921cde851560134c4d69564a2410ec984542",
+        "size_in_bytes": 16766
+      },
+      {
+        "_path": "samples/openacc_trace/Makefile",
+        "path_type": "hardlink",
+        "sha256": "8f8518d0de248b37c225850d6acabfebac6bc633d89a279e51f19e02c18a0b1e",
+        "sha256_in_prefix": "8f8518d0de248b37c225850d6acabfebac6bc633d89a279e51f19e02c18a0b1e",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "samples/openacc_trace/openacc_app.cpp",
+        "path_type": "hardlink",
+        "sha256": "ecae6021a29f2efad34d6c3844e02f6afaf8dcdf2bb2989af426e2fa907ff63c",
+        "sha256_in_prefix": "ecae6021a29f2efad34d6c3844e02f6afaf8dcdf2bb2989af426e2fa907ff63c",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "samples/openacc_trace/openacc_trace.cpp",
+        "path_type": "hardlink",
+        "sha256": "06a77c23015adabff103b585adafd8e5378ad5d03044be0c6a19611794b1e30a",
+        "sha256_in_prefix": "06a77c23015adabff103b585adafd8e5378ad5d03044be0c6a19611794b1e30a",
+        "size_in_bytes": 2703
+      },
+      {
+        "_path": "samples/pc_sampling/Makefile",
+        "path_type": "hardlink",
+        "sha256": "08e6944c5d8a69e2448fa423a928f911c1ad90922653753b7d99e5bba05ec80c",
+        "sha256_in_prefix": "08e6944c5d8a69e2448fa423a928f911c1ad90922653753b7d99e5bba05ec80c",
+        "size_in_bytes": 2115
+      },
+      {
+        "_path": "samples/pc_sampling/pc_sampling.cu",
+        "path_type": "hardlink",
+        "sha256": "2af570eeeaaf4aa5cfea1008b79f373378032a58c894d465e2c4f62bf2262d61",
+        "sha256_in_prefix": "2af570eeeaaf4aa5cfea1008b79f373378032a58c894d465e2c4f62bf2262d61",
+        "size_in_bytes": 4180
+      },
+      {
+        "_path": "samples/pc_sampling_continuous/Makefile",
+        "path_type": "hardlink",
+        "sha256": "9640008112afdeb4f9c9af5acf500dd38644c0a2885c9bf5c0d6d9f198567333",
+        "sha256_in_prefix": "9640008112afdeb4f9c9af5acf500dd38644c0a2885c9bf5c0d6d9f198567333",
+        "size_in_bytes": 1971
+      },
+      {
+        "_path": "samples/pc_sampling_continuous/README.txt",
+        "path_type": "hardlink",
+        "sha256": "94d4f9048632c3f0d060594d5e14354531c080010eba39458dcf8e44098f36d2",
+        "sha256_in_prefix": "94d4f9048632c3f0d060594d5e14354531c080010eba39458dcf8e44098f36d2",
+        "size_in_bytes": 1547
+      },
+      {
+        "_path": "samples/pc_sampling_continuous/libpc_sampling_continuous.pl",
+        "path_type": "hardlink",
+        "sha256": "8099fbe707e05ffa72649cfe44a1c052a48cebff07d09fe29ac3bb02a98fbf37",
+        "sha256_in_prefix": "8099fbe707e05ffa72649cfe44a1c052a48cebff07d09fe29ac3bb02a98fbf37",
+        "size_in_bytes": 8795
+      },
+      {
+        "_path": "samples/pc_sampling_continuous/pc_sampling_continuous.cpp",
+        "path_type": "hardlink",
+        "sha256": "e1e61965b1f7a25462c0b56c6f57a034461c6e5fd52a1ed11d0dc4f1f245c380",
+        "sha256_in_prefix": "e1e61965b1f7a25462c0b56c6f57a034461c6e5fd52a1ed11d0dc4f1f245c380",
+        "size_in_bytes": 44606
+      },
+      {
+        "_path": "samples/pc_sampling_start_stop/Makefile",
+        "path_type": "hardlink",
+        "sha256": "979d502b8000a0540993dde11f66270e729ea1f19148b0f71b8dc3ad395bbf6d",
+        "sha256_in_prefix": "979d502b8000a0540993dde11f66270e729ea1f19148b0f71b8dc3ad395bbf6d",
+        "size_in_bytes": 2177
+      },
+      {
+        "_path": "samples/pc_sampling_start_stop/pc_sampling_start_stop.cu",
+        "path_type": "hardlink",
+        "sha256": "80174a643597eddd167e1e32f7be616873489810815332bd2915672170d61cee",
+        "sha256_in_prefix": "80174a643597eddd167e1e32f7be616873489810815332bd2915672170d61cee",
+        "size_in_bytes": 17161
+      },
+      {
+        "_path": "samples/pc_sampling_utility/Makefile",
+        "path_type": "hardlink",
+        "sha256": "eae1b4544923f14c8858264569dcd0534fd1a30f41891ef77f517ffd6b1f418f",
+        "sha256_in_prefix": "eae1b4544923f14c8858264569dcd0534fd1a30f41891ef77f517ffd6b1f418f",
+        "size_in_bytes": 1842
+      },
+      {
+        "_path": "samples/pc_sampling_utility/README.txt",
+        "path_type": "hardlink",
+        "sha256": "f33a646990487647368459d1692923d81f02ca8c0ca2ea895d4eb333c9f4fec9",
+        "sha256_in_prefix": "f33a646990487647368459d1692923d81f02ca8c0ca2ea895d4eb333c9f4fec9",
+        "size_in_bytes": 983
+      },
+      {
+        "_path": "samples/pc_sampling_utility/pc_sampling_utility.cpp",
+        "path_type": "hardlink",
+        "sha256": "f7c0d5234b7c29cd7f3e15c30fdfa147311e785502202e4b817e1bf4104bca4d",
+        "sha256_in_prefix": "f7c0d5234b7c29cd7f3e15c30fdfa147311e785502202e4b817e1bf4104bca4d",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "samples/pc_sampling_utility/pc_sampling_utility_helper.h",
+        "path_type": "hardlink",
+        "sha256": "27e4c28ee1010a6a22cd35ff2c6c103f6c0d83c9dcadba76e17950c5cb67a451",
+        "sha256_in_prefix": "27e4c28ee1010a6a22cd35ff2c6c103f6c0d83c9dcadba76e17950c5cb67a451",
+        "size_in_bytes": 26192
+      },
+      {
+        "_path": "samples/profiling_injection/Makefile",
+        "path_type": "hardlink",
+        "sha256": "e5ab02376e006c1495861fa425875d78ed24b634dcdbfdfdbacb64f3bc369293",
+        "sha256_in_prefix": "e5ab02376e006c1495861fa425875d78ed24b634dcdbfdfdbacb64f3bc369293",
+        "size_in_bytes": 3675
+      },
+      {
+        "_path": "samples/profiling_injection/README.txt",
+        "path_type": "hardlink",
+        "sha256": "7a0271d4082ab886707e0547415a7997081cd0787aa36e06d44481aec94822b1",
+        "sha256_in_prefix": "7a0271d4082ab886707e0547415a7997081cd0787aa36e06d44481aec94822b1",
+        "size_in_bytes": 2864
+      },
+      {
+        "_path": "samples/profiling_injection/complex_target.cu",
+        "path_type": "hardlink",
+        "sha256": "d1c46834391fe29e1b42ba6712494bcd6693d2e47d460b847fe2c03d894ac80d",
+        "sha256_in_prefix": "d1c46834391fe29e1b42ba6712494bcd6693d2e47d460b847fe2c03d894ac80d",
+        "size_in_bytes": 9784
+      },
+      {
+        "_path": "samples/profiling_injection/injection.cpp",
+        "path_type": "hardlink",
+        "sha256": "a9a7fcb4abe9a44272e2e1be7eb5d8b915e7dae28674e0752971bb1bd081d554",
+        "sha256_in_prefix": "a9a7fcb4abe9a44272e2e1be7eb5d8b915e7dae28674e0752971bb1bd081d554",
+        "size_in_bytes": 19791
+      },
+      {
+        "_path": "samples/profiling_injection/simple_target.cu",
+        "path_type": "hardlink",
+        "sha256": "000a3ca5b48556b4184aa771cab8e0423dc9e0a53b29d591a7ace0be44737646",
+        "sha256_in_prefix": "000a3ca5b48556b4184aa771cab8e0423dc9e0a53b29d591a7ace0be44737646",
+        "size_in_bytes": 2115
+      },
+      {
+        "_path": "samples/sass_source_map/Makefile",
+        "path_type": "hardlink",
+        "sha256": "c5a199f36b6e9108394c9e287ab127ddf61408a93414052bc43875a06af0e973",
+        "sha256_in_prefix": "c5a199f36b6e9108394c9e287ab127ddf61408a93414052bc43875a06af0e973",
+        "size_in_bytes": 2896
+      },
+      {
+        "_path": "samples/sass_source_map/sass_source_map.cu",
+        "path_type": "hardlink",
+        "sha256": "8d3c8dd2a263bb94b157ff9e5e0bae992c156b69772e1f203f5e5f9dc47fa187",
+        "sha256_in_prefix": "8d3c8dd2a263bb94b157ff9e5e0bae992c156b69772e1f203f5e5f9dc47fa187",
+        "size_in_bytes": 5065
+      },
+      {
+        "_path": "samples/unified_memory/Makefile",
+        "path_type": "hardlink",
+        "sha256": "ad93e5f31de390243c9118e76b2ead8ee1143655f8fa12aa9b423f43cd0318a7",
+        "sha256_in_prefix": "ad93e5f31de390243c9118e76b2ead8ee1143655f8fa12aa9b423f43cd0318a7",
+        "size_in_bytes": 3004
+      },
+      {
+        "_path": "samples/unified_memory/unified_memory.cu",
+        "path_type": "hardlink",
+        "sha256": "0978c46dea341715883c92f82934b1790603191b2abb0a631ff9e74029ef73b5",
+        "sha256_in_prefix": "0978c46dea341715883c92f82934b1790603191b2abb0a631ff9e74029ef73b5",
+        "size_in_bytes": 4162
+      },
+      {
+        "_path": "samples/userrange_profiling/Makefile",
+        "path_type": "hardlink",
+        "sha256": "3260bb29e8839cd30b99774f133f7efa697332f1e1f5e9fb7ef9f028a5bc338c",
+        "sha256_in_prefix": "3260bb29e8839cd30b99774f133f7efa697332f1e1f5e9fb7ef9f028a5bc338c",
+        "size_in_bytes": 3666
+      },
+      {
+        "_path": "samples/userrange_profiling/user_range_profiling.cu",
+        "path_type": "hardlink",
+        "sha256": "c8e8e474c44ed57d75f4659ef36d7b9390bc8061d934d5a614a4b574615f5d29",
+        "sha256_in_prefix": "c8e8e474c44ed57d75f4659ef36d7b9390bc8061d934d5a614a4b574615f5d29",
+        "size_in_bytes": 17272
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "nvidia/linux-64::cuda-cupti==12.1.105=0",
+  "sha256": "b7d23bb1cf1f8e47c097ecbdb7fae8edc845a6b0d26a222ca1559bdae41ce8ad",
+  "size": 16124565,
+  "subdir": "linux-64",
+  "timestamp": 1680572515000,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/cuda-cupti-12.1.105-0.tar.bz2",
+  "version": "12.1.105"
+}

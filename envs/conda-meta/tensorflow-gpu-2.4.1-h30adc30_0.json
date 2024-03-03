@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "h30adc30_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "_tflow_select ==2.1.0 gpu",
+    "tensorflow 2.4.1"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/tensorflow-gpu-2.4.1-h30adc30_0",
+  "files": [],
+  "fn": "tensorflow-gpu-2.4.1-h30adc30_0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/tensorflow-gpu-2.4.1-h30adc30_0",
+    "type": 1
+  },
+  "md5": "4e634deed31f00a266d230188803fc0b",
+  "name": "tensorflow-gpu",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/tensorflow-gpu-2.4.1-h30adc30_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::tensorflow-gpu==2.4.1=h30adc30_0",
+  "sha256": "6bad5455f4617f9e1e3499ed06180fe3de6990a50b369053e32a19cf67009839",
+  "size": 2316,
+  "subdir": "linux-64",
+  "timestamp": 1614595013000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/tensorflow-gpu-2.4.1-h30adc30_0.tar.bz2",
+  "version": "2.4.1"
+}

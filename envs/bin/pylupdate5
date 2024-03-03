@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/james/code/course22/envs/bin/python -m PyQt5.pylupdate_main ${1+"$@"}

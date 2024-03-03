@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "typing_extensions 4.9.0 py39h06a4308_1"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/typing-extensions-4.9.0-py39h06a4308_1",
+  "files": [],
+  "fn": "typing-extensions-4.9.0-py39h06a4308_1.conda",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/typing-extensions-4.9.0-py39h06a4308_1",
+    "type": 1
+  },
+  "md5": "f591ab5b6ff65a4997de502f2515013d",
+  "name": "typing-extensions",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/typing-extensions-4.9.0-py39h06a4308_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::typing-extensions==4.9.0=py39h06a4308_1",
+  "sha256": "89a7404f4bd6fe677eb8d5bd8317773584169cbbd3508e49ad5196eb20ea34d6",
+  "size": 8997,
+  "subdir": "linux-64",
+  "timestamp": 1705599430000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/typing-extensions-4.9.0-py39h06a4308_1.conda",
+  "version": "4.9.0"
+}

@@ -1,0 +1,144 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six >=1.6.1,<2.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/astunparse-1.6.3-py_0",
+  "files": [
+    "lib/python3.9/site-packages/astunparse-1.6.3.dist-info/AUTHORS.rst",
+    "lib/python3.9/site-packages/astunparse-1.6.3.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/astunparse-1.6.3.dist-info/LICENSE",
+    "lib/python3.9/site-packages/astunparse-1.6.3.dist-info/METADATA",
+    "lib/python3.9/site-packages/astunparse-1.6.3.dist-info/RECORD",
+    "lib/python3.9/site-packages/astunparse-1.6.3.dist-info/WHEEL",
+    "lib/python3.9/site-packages/astunparse-1.6.3.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/astunparse/__init__.py",
+    "lib/python3.9/site-packages/astunparse/__main__.py",
+    "lib/python3.9/site-packages/astunparse/printer.py",
+    "lib/python3.9/site-packages/astunparse/unparser.py",
+    "lib/python3.9/site-packages/astunparse/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/astunparse/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/astunparse/__pycache__/printer.cpython-39.pyc",
+    "lib/python3.9/site-packages/astunparse/__pycache__/unparser.cpython-39.pyc"
+  ],
+  "fn": "astunparse-1.6.3-py_0.tar.bz2",
+  "license": "BSD-3-Clause AND PSF-2.0",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/astunparse-1.6.3-py_0",
+    "type": 1
+  },
+  "md5": "ccbf3a1406a1db9c42dcad71268bf6e0",
+  "name": "astunparse",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/astunparse-1.6.3-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/astunparse-1.6.3.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "fd5c56e8981ba3b42ed6ef33dcedee4b4fc0a02c2e6a000fa07c2c7394f0c55c",
+        "sha256_in_prefix": "fd5c56e8981ba3b42ed6ef33dcedee4b4fc0a02c2e6a000fa07c2c7394f0c55c",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "site-packages/astunparse-1.6.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/astunparse-1.6.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "92fc0e4f4fa9460558eedf3412b988d433a2dcbb3a9c45402a145a4fab8a6ac6",
+        "sha256_in_prefix": "92fc0e4f4fa9460558eedf3412b988d433a2dcbb3a9c45402a145a4fab8a6ac6",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "site-packages/astunparse-1.6.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "bd0e7ffe603dbef8e7444209eb54a8941acf096e763ae81d2c249c8d5b0bfc47",
+        "sha256_in_prefix": "bd0e7ffe603dbef8e7444209eb54a8941acf096e763ae81d2c249c8d5b0bfc47",
+        "size_in_bytes": 4391
+      },
+      {
+        "_path": "site-packages/astunparse-1.6.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d18d33f109105f1b2a073ed629a1ceef4d97a46b5f8742c671791ff749209f8c",
+        "sha256_in_prefix": "d18d33f109105f1b2a073ed629a1ceef4d97a46b5f8742c671791ff749209f8c",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "site-packages/astunparse-1.6.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/astunparse-1.6.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0fdedc02931a3adc1927a284b2eec66a45792aded8a5c4642f4743d35d1fb48a",
+        "sha256_in_prefix": "0fdedc02931a3adc1927a284b2eec66a45792aded8a5c4642f4743d35d1fb48a",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/astunparse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "562d4d8bd25e6725fb9145fb60482f6a3d52ea4cba472532f2a2ff08e375520c",
+        "sha256_in_prefix": "562d4d8bd25e6725fb9145fb60482f6a3d52ea4cba472532f2a2ff08e375520c",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "site-packages/astunparse/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "39e6628ff15709d1a2949d46e47ec7d028443ae0c952a63f84508b7bc199a5cf",
+        "sha256_in_prefix": "39e6628ff15709d1a2949d46e47ec7d028443ae0c952a63f84508b7bc199a5cf",
+        "size_in_bytes": 1222
+      },
+      {
+        "_path": "site-packages/astunparse/printer.py",
+        "path_type": "hardlink",
+        "sha256": "f0ad3db1bc6d22db87f6a13b8e98597cde2fb9db27dcaa485acb2e75e0405c6a",
+        "sha256_in_prefix": "f0ad3db1bc6d22db87f6a13b8e98597cde2fb9db27dcaa485acb2e75e0405c6a",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "site-packages/astunparse/unparser.py",
+        "path_type": "hardlink",
+        "sha256": "46723ede0a146f737bd8a2031c3462140a4e2597c8700b50e6f108518ee30793",
+        "sha256_in_prefix": "46723ede0a146f737bd8a2031c3462140a4e2597c8700b50e6f108518ee30793",
+        "size_in_bytes": 27426
+      },
+      {
+        "_path": "lib/python3.9/site-packages/astunparse/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/astunparse/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/astunparse/__pycache__/printer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/astunparse/__pycache__/unparser.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "anaconda/noarch::astunparse==1.6.3=py_0",
+  "sha256": "ec789985c21bb166390cb69798f2233895bc06afef3b706bf5dde7c3f9daceb9",
+  "size": 17457,
+  "subdir": "noarch",
+  "timestamp": 1589913528000,
+  "url": "https://conda.anaconda.org/anaconda/noarch/astunparse-1.6.3-py_0.tar.bz2",
+  "version": "1.6.3"
+}

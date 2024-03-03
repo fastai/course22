@@ -1,0 +1,491 @@
+{
+  "arch": "x86_64",
+  "build": "hdb19cb5_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [
+    "gmock 1.14.0"
+  ],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/gtest-1.14.0-hdb19cb5_0",
+  "files": [
+    "include/gmock/gmock-actions.h",
+    "include/gmock/gmock-cardinalities.h",
+    "include/gmock/gmock-function-mocker.h",
+    "include/gmock/gmock-matchers.h",
+    "include/gmock/gmock-more-actions.h",
+    "include/gmock/gmock-more-matchers.h",
+    "include/gmock/gmock-nice-strict.h",
+    "include/gmock/gmock-spec-builders.h",
+    "include/gmock/gmock.h",
+    "include/gmock/internal/custom/README.md",
+    "include/gmock/internal/custom/gmock-generated-actions.h",
+    "include/gmock/internal/custom/gmock-matchers.h",
+    "include/gmock/internal/custom/gmock-port.h",
+    "include/gmock/internal/gmock-internal-utils.h",
+    "include/gmock/internal/gmock-port.h",
+    "include/gmock/internal/gmock-pp.h",
+    "include/gtest/gtest-assertion-result.h",
+    "include/gtest/gtest-death-test.h",
+    "include/gtest/gtest-matchers.h",
+    "include/gtest/gtest-message.h",
+    "include/gtest/gtest-param-test.h",
+    "include/gtest/gtest-printers.h",
+    "include/gtest/gtest-spi.h",
+    "include/gtest/gtest-test-part.h",
+    "include/gtest/gtest-typed-test.h",
+    "include/gtest/gtest.h",
+    "include/gtest/gtest_pred_impl.h",
+    "include/gtest/gtest_prod.h",
+    "include/gtest/internal/custom/README.md",
+    "include/gtest/internal/custom/gtest-port.h",
+    "include/gtest/internal/custom/gtest-printers.h",
+    "include/gtest/internal/custom/gtest.h",
+    "include/gtest/internal/gtest-death-test-internal.h",
+    "include/gtest/internal/gtest-filepath.h",
+    "include/gtest/internal/gtest-internal.h",
+    "include/gtest/internal/gtest-param-util.h",
+    "include/gtest/internal/gtest-port-arch.h",
+    "include/gtest/internal/gtest-port.h",
+    "include/gtest/internal/gtest-string.h",
+    "include/gtest/internal/gtest-type-util.h",
+    "lib/cmake/GTest/GTestConfig.cmake",
+    "lib/cmake/GTest/GTestConfigVersion.cmake",
+    "lib/cmake/GTest/GTestTargets-release.cmake",
+    "lib/cmake/GTest/GTestTargets.cmake",
+    "lib/libgmock.so",
+    "lib/libgmock.so.1.14.0",
+    "lib/libgmock_main.so",
+    "lib/libgmock_main.so.1.14.0",
+    "lib/libgtest.so",
+    "lib/libgtest.so.1.14.0",
+    "lib/libgtest_main.so",
+    "lib/libgtest_main.so.1.14.0",
+    "lib/pkgconfig/gmock.pc",
+    "lib/pkgconfig/gmock_main.pc",
+    "lib/pkgconfig/gtest.pc",
+    "lib/pkgconfig/gtest_main.pc"
+  ],
+  "fn": "gtest-1.14.0-hdb19cb5_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/gtest-1.14.0-hdb19cb5_0",
+    "type": 1
+  },
+  "md5": "e99291db7bfa89d9763a4f0bdb6a2bec",
+  "name": "gtest",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/gtest-1.14.0-hdb19cb5_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/gmock/gmock-actions.h",
+        "path_type": "hardlink",
+        "sha256": "ba67150de5d135f1523787df5c43b56882c8505d80058d8e1ed975dbe380317b",
+        "sha256_in_prefix": "ba67150de5d135f1523787df5c43b56882c8505d80058d8e1ed975dbe380317b",
+        "size_in_bytes": 87946
+      },
+      {
+        "_path": "include/gmock/gmock-cardinalities.h",
+        "path_type": "hardlink",
+        "sha256": "a565787f3e15f81e1873d1ff9d97888ab1e37466165258cfffd6d4bafc086214",
+        "sha256_in_prefix": "a565787f3e15f81e1873d1ff9d97888ab1e37466165258cfffd6d4bafc086214",
+        "size_in_bytes": 6118
+      },
+      {
+        "_path": "include/gmock/gmock-function-mocker.h",
+        "path_type": "hardlink",
+        "sha256": "84a14b251a9257f24553e150075232668b7ff9b52076bda397e8b4035fce3036",
+        "sha256_in_prefix": "84a14b251a9257f24553e150075232668b7ff9b52076bda397e8b4035fce3036",
+        "size_in_bytes": 25756
+      },
+      {
+        "_path": "include/gmock/gmock-matchers.h",
+        "path_type": "hardlink",
+        "sha256": "25d165842439b11a6cdeebc18427964fffde97c69270708f33eb4c1774b3c4e4",
+        "sha256_in_prefix": "25d165842439b11a6cdeebc18427964fffde97c69270708f33eb4c1774b3c4e4",
+        "size_in_bytes": 210247
+      },
+      {
+        "_path": "include/gmock/gmock-more-actions.h",
+        "path_type": "hardlink",
+        "sha256": "38ce5dd7d723f088bd07e08fe64cb251d69a1347d7627bf9650ecac41aff1969",
+        "sha256_in_prefix": "38ce5dd7d723f088bd07e08fe64cb251d69a1347d7627bf9650ecac41aff1969",
+        "size_in_bytes": 38344
+      },
+      {
+        "_path": "include/gmock/gmock-more-matchers.h",
+        "path_type": "hardlink",
+        "sha256": "b5dfa602f4f05a92000fffe06236cbbadb20bda8e1a4e55b1cddf27ba586232f",
+        "sha256_in_prefix": "b5dfa602f4f05a92000fffe06236cbbadb20bda8e1a4e55b1cddf27ba586232f",
+        "size_in_bytes": 4499
+      },
+      {
+        "_path": "include/gmock/gmock-nice-strict.h",
+        "path_type": "hardlink",
+        "sha256": "75324d2f796da7d611fb5d1da610c905f53e74247b02982ca63f5dcb91f4c33c",
+        "sha256_in_prefix": "75324d2f796da7d611fb5d1da610c905f53e74247b02982ca63f5dcb91f4c33c",
+        "size_in_bytes": 10858
+      },
+      {
+        "_path": "include/gmock/gmock-spec-builders.h",
+        "path_type": "hardlink",
+        "sha256": "443dc5c5db218483514abcdbdb61c6d40cec81645d3d842fe23a1e7d6eeb8d8d",
+        "sha256_in_prefix": "443dc5c5db218483514abcdbdb61c6d40cec81645d3d842fe23a1e7d6eeb8d8d",
+        "size_in_bytes": 82067
+      },
+      {
+        "_path": "include/gmock/gmock.h",
+        "path_type": "hardlink",
+        "sha256": "a4cce830e85ce888f41b098e1b32fda744b21adc97f7abb1eea2e072a261fbdf",
+        "sha256_in_prefix": "a4cce830e85ce888f41b098e1b32fda744b21adc97f7abb1eea2e072a261fbdf",
+        "size_in_bytes": 3723
+      },
+      {
+        "_path": "include/gmock/internal/custom/README.md",
+        "path_type": "hardlink",
+        "sha256": "1ecdc0c1b9a6b4ce7a9411dfb50c3b8aced2aa03d42e67ee0377a7a201d5ff64",
+        "sha256_in_prefix": "1ecdc0c1b9a6b4ce7a9411dfb50c3b8aced2aa03d42e67ee0377a7a201d5ff64",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "include/gmock/internal/custom/gmock-generated-actions.h",
+        "path_type": "hardlink",
+        "sha256": "8efd16064b3e19d98726a15f8bc40daa593576e4a190b2e8b95a6fee7242c36f",
+        "sha256_in_prefix": "8efd16064b3e19d98726a15f8bc40daa593576e4a190b2e8b95a6fee7242c36f",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "include/gmock/internal/custom/gmock-matchers.h",
+        "path_type": "hardlink",
+        "sha256": "b6d245e95f0649a85aa7e29457f437da4c2f1fbadb0402cfc40f680159de510f",
+        "sha256_in_prefix": "b6d245e95f0649a85aa7e29457f437da4c2f1fbadb0402cfc40f680159de510f",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "include/gmock/internal/custom/gmock-port.h",
+        "path_type": "hardlink",
+        "sha256": "ee2cc87202e75759cfd98a5d657c69ee864e492a2c63584586938da81ab84995",
+        "sha256_in_prefix": "ee2cc87202e75759cfd98a5d657c69ee864e492a2c63584586938da81ab84995",
+        "size_in_bytes": 1953
+      },
+      {
+        "_path": "include/gmock/internal/gmock-internal-utils.h",
+        "path_type": "hardlink",
+        "sha256": "01ff320294320a50e834268aeaee161c15d6a9a92a0143033e3ccd494209765e",
+        "sha256_in_prefix": "01ff320294320a50e834268aeaee161c15d6a9a92a0143033e3ccd494209765e",
+        "size_in_bytes": 19372
+      },
+      {
+        "_path": "include/gmock/internal/gmock-port.h",
+        "path_type": "hardlink",
+        "sha256": "36c98608b21019c3ef995a6be05d620c7f8e7ee593347f123a166aa0a375e9cf",
+        "sha256_in_prefix": "36c98608b21019c3ef995a6be05d620c7f8e7ee593347f123a166aa0a375e9cf",
+        "size_in_bytes": 6070
+      },
+      {
+        "_path": "include/gmock/internal/gmock-pp.h",
+        "path_type": "hardlink",
+        "sha256": "5fcdad1707b172f8000d9f419f41d44318558600b00916785516eae49843bb4f",
+        "sha256_in_prefix": "5fcdad1707b172f8000d9f419f41d44318558600b00916785516eae49843bb4f",
+        "size_in_bytes": 13491
+      },
+      {
+        "_path": "include/gtest/gtest-assertion-result.h",
+        "path_type": "hardlink",
+        "sha256": "d6562e22c316e831bfbc2cde3b158f06380a22e7e1c6c1e180689abee5c5b972",
+        "sha256_in_prefix": "d6562e22c316e831bfbc2cde3b158f06380a22e7e1c6c1e180689abee5c5b972",
+        "size_in_bytes": 8503
+      },
+      {
+        "_path": "include/gtest/gtest-death-test.h",
+        "path_type": "hardlink",
+        "sha256": "8decbb86ebbfa142fd78a83cfbeb4c5e73e98179058ce70fcc279935c497429a",
+        "sha256_in_prefix": "8decbb86ebbfa142fd78a83cfbeb4c5e73e98179058ce70fcc279935c497429a",
+        "size_in_bytes": 14910
+      },
+      {
+        "_path": "include/gtest/gtest-matchers.h",
+        "path_type": "hardlink",
+        "sha256": "d637dd188944433c62d96a062f9b1adab851574c537d7021270c7a52a2759a90",
+        "sha256_in_prefix": "d637dd188944433c62d96a062f9b1adab851574c537d7021270c7a52a2759a90",
+        "size_in_bytes": 33067
+      },
+      {
+        "_path": "include/gtest/gtest-message.h",
+        "path_type": "hardlink",
+        "sha256": "f1c7bd4e0c02240e884deed25a2e0bfd04e5e0c3fd778a3b126cbb64531f65a7",
+        "sha256_in_prefix": "f1c7bd4e0c02240e884deed25a2e0bfd04e5e0c3fd778a3b126cbb64531f65a7",
+        "size_in_bytes": 9203
+      },
+      {
+        "_path": "include/gtest/gtest-param-test.h",
+        "path_type": "hardlink",
+        "sha256": "1adb46e17e47fc2f40dc5b8e9acec4f01efa389a19bbea25d32aea28b94e32e6",
+        "sha256_in_prefix": "1adb46e17e47fc2f40dc5b8e9acec4f01efa389a19bbea25d32aea28b94e32e6",
+        "size_in_bytes": 24008
+      },
+      {
+        "_path": "include/gtest/gtest-printers.h",
+        "path_type": "hardlink",
+        "sha256": "f3396ea55d577ee04f15a2b14b14b76edb8a84d385c831defd88cff8535bc273",
+        "sha256_in_prefix": "f3396ea55d577ee04f15a2b14b14b76edb8a84d385c831defd88cff8535bc273",
+        "size_in_bytes": 40511
+      },
+      {
+        "_path": "include/gtest/gtest-spi.h",
+        "path_type": "hardlink",
+        "sha256": "fc0bbebaeb211b81a2ec3df388e5e5f25a7c22e90186839854d2e5b26ce226e6",
+        "sha256_in_prefix": "fc0bbebaeb211b81a2ec3df388e5e5f25a7c22e90186839854d2e5b26ce226e6",
+        "size_in_bytes": 12843
+      },
+      {
+        "_path": "include/gtest/gtest-test-part.h",
+        "path_type": "hardlink",
+        "sha256": "2279b9bfd08aff7c0f764a2716bde0d3a61dc12573687a2cff91256b17681bf0",
+        "sha256_in_prefix": "2279b9bfd08aff7c0f764a2716bde0d3a61dc12573687a2cff91256b17681bf0",
+        "size_in_bytes": 7164
+      },
+      {
+        "_path": "include/gtest/gtest-typed-test.h",
+        "path_type": "hardlink",
+        "sha256": "d56313830bf30d6271d7c1f8ca57dc52d95a10b97e4ace6efa0f085ae519303a",
+        "sha256_in_prefix": "d56313830bf30d6271d7c1f8ca57dc52d95a10b97e4ace6efa0f085ae519303a",
+        "size_in_bytes": 15889
+      },
+      {
+        "_path": "include/gtest/gtest.h",
+        "path_type": "hardlink",
+        "sha256": "93da03ddf6d5b9bdf40ae4ded9939067c9ed0b6de93f787f7e8d187609b6b02d",
+        "sha256_in_prefix": "93da03ddf6d5b9bdf40ae4ded9939067c9ed0b6de93f787f7e8d187609b6b02d",
+        "size_in_bytes": 91459
+      },
+      {
+        "_path": "include/gtest/gtest_pred_impl.h",
+        "path_type": "hardlink",
+        "sha256": "85e850e735a42ebb5f9a01a018708c1c0b9b7d83c94b14b7d5d29512c00b6ffd",
+        "sha256_in_prefix": "85e850e735a42ebb5f9a01a018708c1c0b9b7d83c94b14b7d5d29512c00b6ffd",
+        "size_in_bytes": 12783
+      },
+      {
+        "_path": "include/gtest/gtest_prod.h",
+        "path_type": "hardlink",
+        "sha256": "3c6301ef533db8686e474dd5a0de4d98a31cbb630e2273f712472d1be25aa261",
+        "sha256_in_prefix": "3c6301ef533db8686e474dd5a0de4d98a31cbb630e2273f712472d1be25aa261",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "include/gtest/internal/custom/README.md",
+        "path_type": "hardlink",
+        "sha256": "608ec5ac574a6e64e4fc2f4bce2cfc7ff753a04d6822d6ff96e43fff51c6ccc1",
+        "sha256_in_prefix": "608ec5ac574a6e64e4fc2f4bce2cfc7ff753a04d6822d6ff96e43fff51c6ccc1",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "include/gtest/internal/custom/gtest-port.h",
+        "path_type": "hardlink",
+        "sha256": "5e06747c9e8b86e9d841fabd61c2f045b2bb1133716f127be4a963ced1c44e01",
+        "sha256_in_prefix": "5e06747c9e8b86e9d841fabd61c2f045b2bb1133716f127be4a963ced1c44e01",
+        "size_in_bytes": 1873
+      },
+      {
+        "_path": "include/gtest/internal/custom/gtest-printers.h",
+        "path_type": "hardlink",
+        "sha256": "b95afda2426e8c4f09c11d3296d522fb336b248c0da7e078388db4bb072c2166",
+        "sha256_in_prefix": "b95afda2426e8c4f09c11d3296d522fb336b248c0da7e078388db4bb072c2166",
+        "size_in_bytes": 2094
+      },
+      {
+        "_path": "include/gtest/internal/custom/gtest.h",
+        "path_type": "hardlink",
+        "sha256": "21d20a1c64ea38c20c4b12337c261a1a18989d2a30710a83dfb5cd9a3bb3c55e",
+        "sha256_in_prefix": "21d20a1c64ea38c20c4b12337c261a1a18989d2a30710a83dfb5cd9a3bb3c55e",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "include/gtest/internal/gtest-death-test-internal.h",
+        "path_type": "hardlink",
+        "sha256": "a70d1174ef668639c7af21764442f8e487b0fc70c237a70f90e3161a8e8262d6",
+        "sha256_in_prefix": "a70d1174ef668639c7af21764442f8e487b0fc70c237a70f90e3161a8e8262d6",
+        "size_in_bytes": 13929
+      },
+      {
+        "_path": "include/gtest/internal/gtest-filepath.h",
+        "path_type": "hardlink",
+        "sha256": "544ce95d2e1e4b7ae17ee170f482aaa09e17d0056999c4ce7e7a6097c3a755cf",
+        "sha256_in_prefix": "544ce95d2e1e4b7ae17ee170f482aaa09e17d0056999c4ce7e7a6097c3a755cf",
+        "size_in_bytes": 10339
+      },
+      {
+        "_path": "include/gtest/internal/gtest-internal.h",
+        "path_type": "hardlink",
+        "sha256": "a33806c8e6ca5eb6f839b8e015bdf8eae848641035f9499834f9d402b823d5fe",
+        "sha256_in_prefix": "a33806c8e6ca5eb6f839b8e015bdf8eae848641035f9499834f9d402b823d5fe",
+        "size_in_bytes": 63416
+      },
+      {
+        "_path": "include/gtest/internal/gtest-param-util.h",
+        "path_type": "hardlink",
+        "sha256": "effa1b3e6a3554aae8fc82fbe88c1c3215f723bb3e2e444bf424f688c476a030",
+        "sha256_in_prefix": "effa1b3e6a3554aae8fc82fbe88c1c3215f723bb3e2e444bf424f688c476a030",
+        "size_in_bytes": 38172
+      },
+      {
+        "_path": "include/gtest/internal/gtest-port-arch.h",
+        "path_type": "hardlink",
+        "sha256": "37f6d5c70322ee5f4f84fafcb4e8e2f4bbf08a5afc64a6636cf6a9f45d442198",
+        "sha256_in_prefix": "37f6d5c70322ee5f4f84fafcb4e8e2f4bbf08a5afc64a6636cf6a9f45d442198",
+        "size_in_bytes": 4305
+      },
+      {
+        "_path": "include/gtest/internal/gtest-port.h",
+        "path_type": "hardlink",
+        "sha256": "c22ef5c860dabc3e74225f3a54c2d7224375ad2dd2af619d3f8cbe7e917fc754",
+        "sha256_in_prefix": "c22ef5c860dabc3e74225f3a54c2d7224375ad2dd2af619d3f8cbe7e917fc754",
+        "size_in_bytes": 90033
+      },
+      {
+        "_path": "include/gtest/internal/gtest-string.h",
+        "path_type": "hardlink",
+        "sha256": "0cc08c746bceb2b101c61ffbc905c598eb62fee3c262c4585c21b10d8a3e6508",
+        "sha256_in_prefix": "0cc08c746bceb2b101c61ffbc905c598eb62fee3c262c4585c21b10d8a3e6508",
+        "size_in_bytes": 7323
+      },
+      {
+        "_path": "include/gtest/internal/gtest-type-util.h",
+        "path_type": "hardlink",
+        "sha256": "c1cf53463579025a7b25466e9680a778d74beff52d8a64b6e83fcb6dd99e4bb7",
+        "sha256_in_prefix": "c1cf53463579025a7b25466e9680a778d74beff52d8a64b6e83fcb6dd99e4bb7",
+        "size_in_bytes": 7349
+      },
+      {
+        "_path": "lib/cmake/GTest/GTestConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "e4c893b3e99e6309deb1d155c4bafd3faa7c8be343b08a0c7065f7eed0c5506c",
+        "sha256_in_prefix": "e4c893b3e99e6309deb1d155c4bafd3faa7c8be343b08a0c7065f7eed0c5506c",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/cmake/GTest/GTestConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "e0aa721bf8a281b5c8b2b755ac510f36145e006b8f819fb3b5b4837a9cdc3e6e",
+        "sha256_in_prefix": "e0aa721bf8a281b5c8b2b755ac510f36145e006b8f819fb3b5b4837a9cdc3e6e",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/cmake/GTest/GTestTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "ddf8584d3661812695d67cd813bb4ca58f4cd4881793386d155b67801524a1ca",
+        "sha256_in_prefix": "ddf8584d3661812695d67cd813bb4ca58f4cd4881793386d155b67801524a1ca",
+        "size_in_bytes": 2322
+      },
+      {
+        "_path": "lib/cmake/GTest/GTestTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "68497f5857f48dc77045427807468954d951aa5f9b748c3299f8609315d09d2c",
+        "sha256_in_prefix": "68497f5857f48dc77045427807468954d951aa5f9b748c3299f8609315d09d2c",
+        "size_in_bytes": 5598
+      },
+      {
+        "_path": "lib/libgmock.so",
+        "path_type": "softlink",
+        "sha256": "3b4c5339e2a82fb6d9814cf65138b397f5dde7aa39d677b3063d4938629e90ef",
+        "size_in_bytes": 156064
+      },
+      {
+        "_path": "lib/libgmock.so.1.14.0",
+        "path_type": "hardlink",
+        "sha256": "3b4c5339e2a82fb6d9814cf65138b397f5dde7aa39d677b3063d4938629e90ef",
+        "sha256_in_prefix": "3b4c5339e2a82fb6d9814cf65138b397f5dde7aa39d677b3063d4938629e90ef",
+        "size_in_bytes": 156064
+      },
+      {
+        "_path": "lib/libgmock_main.so",
+        "path_type": "softlink",
+        "sha256": "f9eab713b2cad9a0185cdb4324ec47fc1446f0985b51240cf4cc4ed6929f6405",
+        "size_in_bytes": 15928
+      },
+      {
+        "_path": "lib/libgmock_main.so.1.14.0",
+        "path_type": "hardlink",
+        "sha256": "f9eab713b2cad9a0185cdb4324ec47fc1446f0985b51240cf4cc4ed6929f6405",
+        "sha256_in_prefix": "f9eab713b2cad9a0185cdb4324ec47fc1446f0985b51240cf4cc4ed6929f6405",
+        "size_in_bytes": 15928
+      },
+      {
+        "_path": "lib/libgtest.so",
+        "path_type": "softlink",
+        "sha256": "dd473c805c65b4235fe86a5e504b9ba6148962ccef9f60d355b524489bf5834a",
+        "size_in_bytes": 638480
+      },
+      {
+        "_path": "lib/libgtest.so.1.14.0",
+        "path_type": "hardlink",
+        "sha256": "dd473c805c65b4235fe86a5e504b9ba6148962ccef9f60d355b524489bf5834a",
+        "sha256_in_prefix": "dd473c805c65b4235fe86a5e504b9ba6148962ccef9f60d355b524489bf5834a",
+        "size_in_bytes": 638480
+      },
+      {
+        "_path": "lib/libgtest_main.so",
+        "path_type": "softlink",
+        "sha256": "83adec44a47587d16e4fb93ea6455e59b5109b4ae24cba5e9cbe699af047036a",
+        "size_in_bytes": 15808
+      },
+      {
+        "_path": "lib/libgtest_main.so.1.14.0",
+        "path_type": "hardlink",
+        "sha256": "83adec44a47587d16e4fb93ea6455e59b5109b4ae24cba5e9cbe699af047036a",
+        "sha256_in_prefix": "83adec44a47587d16e4fb93ea6455e59b5109b4ae24cba5e9cbe699af047036a",
+        "size_in_bytes": 15808
+      },
+      {
+        "_path": "lib/pkgconfig/gmock.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/gtest-split_1692633510640/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "c730d267a803e2485612e23932d2b51f73de991aad0555433b691d7918a95aa0",
+        "sha256_in_prefix": "072ba8a8f7ce1f988722eb819ba92bd4c9c625d6cb4ef8355a202fb25e19e081",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "lib/pkgconfig/gmock_main.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/gtest-split_1692633510640/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "90828465da1d247eda52b8886bfe2ffd3bcaef86833bce728d4e0b924576eb01",
+        "sha256_in_prefix": "824988cc06a1908c42d4646e580ac0876be9a452f9ff57e7a95b9168bf28f597",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "lib/pkgconfig/gtest.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/gtest-split_1692633510640/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "55ae9b572dda5bb3e10ba18770d8d8d901b5d7dd23f9cc3171ef86fcc7dfc7ee",
+        "sha256_in_prefix": "873734ed4803bba0f81146273e5bafa0b4ff0362c7afaadb4684a649dfd98833",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "lib/pkgconfig/gtest_main.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/gtest-split_1692633510640/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "70ae5937b18e5f877aa6b38312da511050addf3679de60f3648c252f060293d0",
+        "sha256_in_prefix": "e9c5bdf1c30775468317a42777d256ae1240299edfecf858c392577ea5935595",
+        "size_in_bytes": 777
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::gtest==1.14.0=hdb19cb5_0",
+  "sha256": "84c7de5ce26cee56307f0b6cd0af396a69721d3677cf2dbb8922f9074df63b1e",
+  "size": 433596,
+  "subdir": "linux-64",
+  "timestamp": 1692633569000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/gtest-1.14.0-hdb19cb5_0.tar.bz2",
+  "version": "1.14.0"
+}

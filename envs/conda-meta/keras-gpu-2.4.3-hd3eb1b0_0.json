@@ -1,0 +1,35 @@
+{
+  "build": "hd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "keras-base 2.4.3.*",
+    "tensorflow-gpu"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/keras-gpu-2.4.3-hd3eb1b0_0",
+  "files": [],
+  "fn": "keras-gpu-2.4.3-hd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/keras-gpu-2.4.3-hd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "57d275e11d0560081a1154ec165bf9bf",
+  "name": "keras-gpu",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/keras-gpu-2.4.3-hd3eb1b0_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "anaconda/noarch::keras-gpu==2.4.3=hd3eb1b0_0",
+  "sha256": "14f4d50d20883f3149d45667f03f46414b692f4ea59ec022be958c416bbc18b3",
+  "size": 5380,
+  "subdir": "noarch",
+  "timestamp": 1629805573000,
+  "url": "https://conda.anaconda.org/anaconda/noarch/keras-gpu-2.4.3-hd3eb1b0_0.tar.bz2",
+  "version": "2.4.3"
+}

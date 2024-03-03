@@ -1,0 +1,395 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/fastai/noarch",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "pip",
+    "python"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/fastcore-1.5.29-py_0",
+  "files": [
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/LICENSE",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/METADATA",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/RECORD",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/WHEEL",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/fastcore-1.5.29.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/fastcore/__init__.py",
+    "lib/python3.9/site-packages/fastcore/_modidx.py",
+    "lib/python3.9/site-packages/fastcore/_nbdev.py",
+    "lib/python3.9/site-packages/fastcore/all.py",
+    "lib/python3.9/site-packages/fastcore/basics.py",
+    "lib/python3.9/site-packages/fastcore/dispatch.py",
+    "lib/python3.9/site-packages/fastcore/docments.py",
+    "lib/python3.9/site-packages/fastcore/docscrape.py",
+    "lib/python3.9/site-packages/fastcore/foundation.py",
+    "lib/python3.9/site-packages/fastcore/imports.py",
+    "lib/python3.9/site-packages/fastcore/meta.py",
+    "lib/python3.9/site-packages/fastcore/nb_imports.py",
+    "lib/python3.9/site-packages/fastcore/net.py",
+    "lib/python3.9/site-packages/fastcore/parallel.py",
+    "lib/python3.9/site-packages/fastcore/script.py",
+    "lib/python3.9/site-packages/fastcore/shutil.py",
+    "lib/python3.9/site-packages/fastcore/style.py",
+    "lib/python3.9/site-packages/fastcore/test.py",
+    "lib/python3.9/site-packages/fastcore/transform.py",
+    "lib/python3.9/site-packages/fastcore/utils.py",
+    "lib/python3.9/site-packages/fastcore/xdg.py",
+    "lib/python3.9/site-packages/fastcore/xtras.py",
+    "lib/python3.9/site-packages/fastcore/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/_modidx.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/_nbdev.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/all.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/basics.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/dispatch.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/docments.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/docscrape.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/foundation.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/meta.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/nb_imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/net.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/parallel.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/script.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/shutil.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/style.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/test.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/transform.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/xdg.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastcore/__pycache__/xtras.cpython-39.pyc"
+  ],
+  "fn": "fastcore-1.5.29-py_0.tar.bz2",
+  "license": "Apache Software",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/fastcore-1.5.29-py_0",
+    "type": 1
+  },
+  "md5": "57fb1aa015844a9fcbf5587fd6441e43",
+  "name": "fastcore",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/fastcore-1.5.29-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1d227aad9ea2f3437d11b1f3bb6f8d03f069283f871f2b7affad2889e6baddc6",
+        "sha256_in_prefix": "1d227aad9ea2f3437d11b1f3bb6f8d03f069283f871f2b7affad2889e6baddc6",
+        "size_in_bytes": 3505
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6f420d3b8229b16b0b51dea51b7106ed0a59f75962d69537dd9ef60adee0ad62",
+        "sha256_in_prefix": "6f420d3b8229b16b0b51dea51b7106ed0a59f75962d69537dd9ef60adee0ad62",
+        "size_in_bytes": 3476
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6616c260475d00a175025d4fe39d3dd8d0efff1cfbd05cc4ca623d0e5a72492e",
+        "sha256_in_prefix": "6616c260475d00a175025d4fe39d3dd8d0efff1cfbd05cc4ca623d0e5a72492e",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "2a47c6d5b8c162ef2a4163ee1dbb68606a6d3db3f4eb154e279af6c15d34ceb4",
+        "sha256_in_prefix": "2a47c6d5b8c162ef2a4163ee1dbb68606a6d3db3f4eb154e279af6c15d34ceb4",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/fastcore-1.5.29.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fdf29fa4c935dd9b4970509ef19df445a359d41e7903a9e346cf5915f80301f2",
+        "sha256_in_prefix": "fdf29fa4c935dd9b4970509ef19df445a359d41e7903a9e346cf5915f80301f2",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/fastcore/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "942e31d66612eb67d777f246c6f9af9dfe6a199aabdef38179695a606d820b6a",
+        "sha256_in_prefix": "942e31d66612eb67d777f246c6f9af9dfe6a199aabdef38179695a606d820b6a",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/fastcore/_modidx.py",
+        "path_type": "hardlink",
+        "sha256": "5cff5d8e0af5b5361f9f4fe9bbf61790bc4c8cb16b0ffbf903380799da269b86",
+        "sha256_in_prefix": "5cff5d8e0af5b5361f9f4fe9bbf61790bc4c8cb16b0ffbf903380799da269b86",
+        "size_in_bytes": 69056
+      },
+      {
+        "_path": "site-packages/fastcore/_nbdev.py",
+        "path_type": "hardlink",
+        "sha256": "4755004ea51ba1e7f19fe6fa50801379d010a9856fe7744e3001eafeb7ad5e59",
+        "sha256_in_prefix": "4755004ea51ba1e7f19fe6fa50801379d010a9856fe7744e3001eafeb7ad5e59",
+        "size_in_bytes": 12257
+      },
+      {
+        "_path": "site-packages/fastcore/all.py",
+        "path_type": "hardlink",
+        "sha256": "d1ecbbae48b1ab363d3a59149b580489fb96519dc3776f426a57b0f558101ab0",
+        "sha256_in_prefix": "d1ecbbae48b1ab363d3a59149b580489fb96519dc3776f426a57b0f558101ab0",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "site-packages/fastcore/basics.py",
+        "path_type": "hardlink",
+        "sha256": "404e3857e430dea73eec59c233451bb49b123d6cda7b9a6885ac254068bfcb98",
+        "sha256_in_prefix": "404e3857e430dea73eec59c233451bb49b123d6cda7b9a6885ac254068bfcb98",
+        "size_in_bytes": 39711
+      },
+      {
+        "_path": "site-packages/fastcore/dispatch.py",
+        "path_type": "hardlink",
+        "sha256": "d0f9ea2405c9b55b762a815374b81ee9fdac9af37b9de0e84863ecb20d9d9438",
+        "sha256_in_prefix": "d0f9ea2405c9b55b762a815374b81ee9fdac9af37b9de0e84863ecb20d9d9438",
+        "size_in_bytes": 7916
+      },
+      {
+        "_path": "site-packages/fastcore/docments.py",
+        "path_type": "hardlink",
+        "sha256": "9ee21e753c38e11a7e550d75b6c883cc12507908a5e1753b73cf077ec9ded626",
+        "sha256_in_prefix": "9ee21e753c38e11a7e550d75b6c883cc12507908a5e1753b73cf077ec9ded626",
+        "size_in_bytes": 6298
+      },
+      {
+        "_path": "site-packages/fastcore/docscrape.py",
+        "path_type": "hardlink",
+        "sha256": "d22b7543629d7eabffda751f3f59f5731c75823d52a7948b57219cacc7ae823d",
+        "sha256_in_prefix": "d22b7543629d7eabffda751f3f59f5731c75823d52a7948b57219cacc7ae823d",
+        "size_in_bytes": 8687
+      },
+      {
+        "_path": "site-packages/fastcore/foundation.py",
+        "path_type": "hardlink",
+        "sha256": "dda14277267e988e8e952ba238c7bc3a3c6f2ee239a00138c4897632b0fe11e5",
+        "sha256_in_prefix": "dda14277267e988e8e952ba238c7bc3a3c6f2ee239a00138c4897632b0fe11e5",
+        "size_in_bytes": 13159
+      },
+      {
+        "_path": "site-packages/fastcore/imports.py",
+        "path_type": "hardlink",
+        "sha256": "6207cffed7a64374e62ebbed95a16de28a1d266a2ea39ddb71ec1d2fbd733ba3",
+        "sha256_in_prefix": "6207cffed7a64374e62ebbed95a16de28a1d266a2ea39ddb71ec1d2fbd733ba3",
+        "size_in_bytes": 3839
+      },
+      {
+        "_path": "site-packages/fastcore/meta.py",
+        "path_type": "hardlink",
+        "sha256": "9e42d8dcb06e4a11d352b71a714a6a869820b923ceed82d6c0b3f6ee9337e250",
+        "sha256_in_prefix": "9e42d8dcb06e4a11d352b71a714a6a869820b923ceed82d6c0b3f6ee9337e250",
+        "size_in_bytes": 6436
+      },
+      {
+        "_path": "site-packages/fastcore/nb_imports.py",
+        "path_type": "hardlink",
+        "sha256": "e14d8283f1e41fa0adffaf1f0345211a85dbf7d4f55c6288a4596a4c20a14026",
+        "sha256_in_prefix": "e14d8283f1e41fa0adffaf1f0345211a85dbf7d4f55c6288a4596a4c20a14026",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "site-packages/fastcore/net.py",
+        "path_type": "hardlink",
+        "sha256": "cb45172d1012478747d5938f7e1e55deee5ebf1fef97b53af2ca6463f77833d3",
+        "sha256_in_prefix": "cb45172d1012478747d5938f7e1e55deee5ebf1fef97b53af2ca6463f77833d3",
+        "size_in_bytes": 12187
+      },
+      {
+        "_path": "site-packages/fastcore/parallel.py",
+        "path_type": "hardlink",
+        "sha256": "0d6210c0d71ad18d867234cd040c43cb7a10b1076df8a05d2864f46f0472f31c",
+        "sha256_in_prefix": "0d6210c0d71ad18d867234cd040c43cb7a10b1076df8a05d2864f46f0472f31c",
+        "size_in_bytes": 6111
+      },
+      {
+        "_path": "site-packages/fastcore/script.py",
+        "path_type": "hardlink",
+        "sha256": "26604fb1f4d6d484a66a5d5a738be1d35bd16ea42b6cc3b6f9da49e26b8c3e8c",
+        "sha256_in_prefix": "26604fb1f4d6d484a66a5d5a738be1d35bd16ea42b6cc3b6f9da49e26b8c3e8c",
+        "size_in_bytes": 5106
+      },
+      {
+        "_path": "site-packages/fastcore/shutil.py",
+        "path_type": "hardlink",
+        "sha256": "a5d4fa1d835674d03417b2901b724a7dfde039194092db67f4874802350df6d0",
+        "sha256_in_prefix": "a5d4fa1d835674d03417b2901b724a7dfde039194092db67f4874802350df6d0",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "site-packages/fastcore/style.py",
+        "path_type": "hardlink",
+        "sha256": "c3149851ef2da0966539f596089b650cec905bd55cb23979da392bf92485fb6f",
+        "sha256_in_prefix": "c3149851ef2da0966539f596089b650cec905bd55cb23979da392bf92485fb6f",
+        "size_in_bytes": 2951
+      },
+      {
+        "_path": "site-packages/fastcore/test.py",
+        "path_type": "hardlink",
+        "sha256": "c6b1f7c8ecf183499f3ecb66a12cce4a084874ab5578358d4c64ab812326510d",
+        "sha256_in_prefix": "c6b1f7c8ecf183499f3ecb66a12cce4a084874ab5578358d4c64ab812326510d",
+        "size_in_bytes": 3917
+      },
+      {
+        "_path": "site-packages/fastcore/transform.py",
+        "path_type": "hardlink",
+        "sha256": "481461a43a6e23c1d631fa4ad3a4a55d9a2c42d98221b015d11b6efb141254fc",
+        "sha256_in_prefix": "481461a43a6e23c1d631fa4ad3a4a55d9a2c42d98221b015d11b6efb141254fc",
+        "size_in_bytes": 9737
+      },
+      {
+        "_path": "site-packages/fastcore/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d09e3744d859932b854bb5e8a89c6d83351269b1a135126b299b39aec5258936",
+        "sha256_in_prefix": "d09e3744d859932b854bb5e8a89c6d83351269b1a135126b299b39aec5258936",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/fastcore/xdg.py",
+        "path_type": "hardlink",
+        "sha256": "82600835f48c252e71a1068d49c6e5c0976ca063c33ab2d51d234443b7bfb1c2",
+        "sha256_in_prefix": "82600835f48c252e71a1068d49c6e5c0976ca063c33ab2d51d234443b7bfb1c2",
+        "size_in_bytes": 1938
+      },
+      {
+        "_path": "site-packages/fastcore/xtras.py",
+        "path_type": "hardlink",
+        "sha256": "4b43ebf0e9b14b32cf889a12908fdf60ea7c304b0c8def46be55d3143a1d0d81",
+        "sha256_in_prefix": "4b43ebf0e9b14b32cf889a12908fdf60ea7c304b0c8def46be55d3143a1d0d81",
+        "size_in_bytes": 21611
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/_modidx.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/_nbdev.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/all.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/basics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/dispatch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/docments.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/docscrape.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/foundation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/imports.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/meta.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/nb_imports.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/net.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/parallel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/script.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/shutil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/style.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/transform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/xdg.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastcore/__pycache__/xtras.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "fastai/noarch::fastcore==1.5.29=py_0",
+  "size": 61866,
+  "subdir": "noarch",
+  "timestamp": 1680035021000,
+  "url": "https://conda.anaconda.org/fastai/noarch/fastcore-1.5.29-py_0.tar.bz2",
+  "version": "1.5.29"
+}

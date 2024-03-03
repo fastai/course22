@@ -1,0 +1,1120 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [
+    "keras 2.4.3"
+  ],
+  "depends": [
+    "h5py",
+    "numpy >=1.9.1",
+    "python >=3.6",
+    "pyyaml",
+    "scipy >=0.14",
+    "tensorflow >=2.2"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/keras-base-2.4.3-pyhd3eb1b0_0",
+  "files": [
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/LICENSE",
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/METADATA",
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/RECORD",
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/WHEEL",
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/Keras-2.4.3.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/docs/__init__.py",
+    "lib/python3.9/site-packages/docs/autogen.py",
+    "lib/python3.9/site-packages/docs/structure.py",
+    "lib/python3.9/site-packages/keras/__init__.py",
+    "lib/python3.9/site-packages/keras/activations.py",
+    "lib/python3.9/site-packages/keras/applications/__init__.py",
+    "lib/python3.9/site-packages/keras/applications/densenet.py",
+    "lib/python3.9/site-packages/keras/applications/imagenet_utils.py",
+    "lib/python3.9/site-packages/keras/applications/inception_resnet_v2.py",
+    "lib/python3.9/site-packages/keras/applications/inception_v3.py",
+    "lib/python3.9/site-packages/keras/applications/mobilenet.py",
+    "lib/python3.9/site-packages/keras/applications/mobilenet_v2.py",
+    "lib/python3.9/site-packages/keras/applications/nasnet.py",
+    "lib/python3.9/site-packages/keras/applications/resnet.py",
+    "lib/python3.9/site-packages/keras/applications/resnet50.py",
+    "lib/python3.9/site-packages/keras/applications/resnet_v2.py",
+    "lib/python3.9/site-packages/keras/applications/vgg16.py",
+    "lib/python3.9/site-packages/keras/applications/vgg19.py",
+    "lib/python3.9/site-packages/keras/applications/xception.py",
+    "lib/python3.9/site-packages/keras/backend.py",
+    "lib/python3.9/site-packages/keras/callbacks.py",
+    "lib/python3.9/site-packages/keras/constraints.py",
+    "lib/python3.9/site-packages/keras/datasets/__init__.py",
+    "lib/python3.9/site-packages/keras/datasets/boston_housing.py",
+    "lib/python3.9/site-packages/keras/datasets/cifar10.py",
+    "lib/python3.9/site-packages/keras/datasets/cifar100.py",
+    "lib/python3.9/site-packages/keras/datasets/fashion_mnist.py",
+    "lib/python3.9/site-packages/keras/datasets/imdb.py",
+    "lib/python3.9/site-packages/keras/datasets/mnist.py",
+    "lib/python3.9/site-packages/keras/datasets/reuters.py",
+    "lib/python3.9/site-packages/keras/engine/__init__.py",
+    "lib/python3.9/site-packages/keras/engine/base_layer.py",
+    "lib/python3.9/site-packages/keras/engine/input_layer.py",
+    "lib/python3.9/site-packages/keras/engine/network.py",
+    "lib/python3.9/site-packages/keras/engine/saving.py",
+    "lib/python3.9/site-packages/keras/engine/sequential.py",
+    "lib/python3.9/site-packages/keras/engine/topology.py",
+    "lib/python3.9/site-packages/keras/engine/training.py",
+    "lib/python3.9/site-packages/keras/initializers.py",
+    "lib/python3.9/site-packages/keras/layers/__init__.py",
+    "lib/python3.9/site-packages/keras/layers/advanced_activations.py",
+    "lib/python3.9/site-packages/keras/layers/convolutional.py",
+    "lib/python3.9/site-packages/keras/layers/convolutional_recurrent.py",
+    "lib/python3.9/site-packages/keras/layers/core.py",
+    "lib/python3.9/site-packages/keras/layers/cudnn_recurrent.py",
+    "lib/python3.9/site-packages/keras/layers/embeddings.py",
+    "lib/python3.9/site-packages/keras/layers/experimental/__init__.py",
+    "lib/python3.9/site-packages/keras/layers/experimental/preprocessing/__init__.py",
+    "lib/python3.9/site-packages/keras/layers/local.py",
+    "lib/python3.9/site-packages/keras/layers/merge.py",
+    "lib/python3.9/site-packages/keras/layers/noise.py",
+    "lib/python3.9/site-packages/keras/layers/normalization.py",
+    "lib/python3.9/site-packages/keras/layers/pooling.py",
+    "lib/python3.9/site-packages/keras/layers/recurrent.py",
+    "lib/python3.9/site-packages/keras/layers/wrappers.py",
+    "lib/python3.9/site-packages/keras/losses.py",
+    "lib/python3.9/site-packages/keras/metrics.py",
+    "lib/python3.9/site-packages/keras/models.py",
+    "lib/python3.9/site-packages/keras/objectives.py",
+    "lib/python3.9/site-packages/keras/optimizers/__init__.py",
+    "lib/python3.9/site-packages/keras/optimizers/schedules/__init__.py",
+    "lib/python3.9/site-packages/keras/preprocessing/__init__.py",
+    "lib/python3.9/site-packages/keras/preprocessing/image.py",
+    "lib/python3.9/site-packages/keras/preprocessing/sequence.py",
+    "lib/python3.9/site-packages/keras/preprocessing/text.py",
+    "lib/python3.9/site-packages/keras/regularizers.py",
+    "lib/python3.9/site-packages/keras/utils/__init__.py",
+    "lib/python3.9/site-packages/keras/utils/conv_utils.py",
+    "lib/python3.9/site-packages/keras/utils/data_utils.py",
+    "lib/python3.9/site-packages/keras/utils/generic_utils.py",
+    "lib/python3.9/site-packages/keras/utils/io_utils.py",
+    "lib/python3.9/site-packages/keras/utils/layer_utils.py",
+    "lib/python3.9/site-packages/keras/utils/multi_gpu_utils.py",
+    "lib/python3.9/site-packages/keras/utils/np_utils.py",
+    "lib/python3.9/site-packages/keras/utils/test_utils.py",
+    "lib/python3.9/site-packages/keras/utils/vis_utils.py",
+    "lib/python3.9/site-packages/keras/wrappers/__init__.py",
+    "lib/python3.9/site-packages/keras/wrappers/scikit_learn.py",
+    "lib/python3.9/site-packages/docs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/docs/__pycache__/autogen.cpython-39.pyc",
+    "lib/python3.9/site-packages/docs/__pycache__/structure.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/activations.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/densenet.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/imagenet_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/inception_resnet_v2.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/inception_v3.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/mobilenet.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/mobilenet_v2.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/nasnet.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/resnet.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/resnet50.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/resnet_v2.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/vgg16.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/vgg19.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/applications/__pycache__/xception.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/backend.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/callbacks.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/constraints.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/boston_housing.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/cifar10.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/cifar100.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/fashion_mnist.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/imdb.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/mnist.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/datasets/__pycache__/reuters.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/base_layer.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/input_layer.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/network.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/saving.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/sequential.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/topology.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/engine/__pycache__/training.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/initializers.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/advanced_activations.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/convolutional.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/convolutional_recurrent.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/cudnn_recurrent.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/embeddings.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/experimental/preprocessing/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/local.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/noise.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/normalization.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/pooling.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/recurrent.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/layers/__pycache__/wrappers.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/losses.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/metrics.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/models.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/objectives.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/optimizers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/optimizers/schedules/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/preprocessing/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/preprocessing/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/preprocessing/__pycache__/sequence.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/preprocessing/__pycache__/text.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/__pycache__/regularizers.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/conv_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/data_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/generic_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/io_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/layer_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/multi_gpu_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/np_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/utils/__pycache__/vis_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/wrappers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/keras/wrappers/__pycache__/scikit_learn.cpython-39.pyc"
+  ],
+  "fn": "keras-base-2.4.3-pyhd3eb1b0_0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/keras-base-2.4.3-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "ec787f2a5d864075ff3e5d76f80e3fd0",
+  "name": "keras-base",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/keras-base-2.4.3-pyhd3eb1b0_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e05da4c6896bf2ce37ec554dd75f3aec2acf7695e851b0e78a02e3d9336f4ded",
+        "sha256_in_prefix": "e05da4c6896bf2ce37ec554dd75f3aec2acf7695e851b0e78a02e3d9336f4ded",
+        "size_in_bytes": 1616
+      },
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7d2567f00dfa45142edcfe806d477f92ce24b9242b3e530d3ef186cb0356a4ce",
+        "sha256_in_prefix": "7d2567f00dfa45142edcfe806d477f92ce24b9242b3e530d3ef186cb0356a4ce",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "427188ce4a8367bccd301fd2391652f01e34ce1ecb1309512827066b9309e496",
+        "sha256_in_prefix": "427188ce4a8367bccd301fd2391652f01e34ce1ecb1309512827066b9309e496",
+        "size_in_bytes": 11334
+      },
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0cea09cee66120b618532a7f229c7d5d54cdac0c3f3ff511f34ef909355a1dd1",
+        "sha256_in_prefix": "0cea09cee66120b618532a7f229c7d5d54cdac0c3f3ff511f34ef909355a1dd1",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "site-packages/Keras-2.4.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "00589e4202f0ea0b411c6c01f7509f5bf24c89c830f3561d08b88ee9d36e9097",
+        "sha256_in_prefix": "00589e4202f0ea0b411c6c01f7509f5bf24c89c830f3561d08b88ee9d36e9097",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/docs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/docs/autogen.py",
+        "path_type": "hardlink",
+        "sha256": "9a07c25562559d2b3e712201363292f93b8c1f4d251bb0a5935bc6e7a4e9b2d6",
+        "sha256_in_prefix": "9a07c25562559d2b3e712201363292f93b8c1f4d251bb0a5935bc6e7a4e9b2d6",
+        "size_in_bytes": 17185
+      },
+      {
+        "_path": "site-packages/docs/structure.py",
+        "path_type": "hardlink",
+        "sha256": "0d839fb6636e3a9c6483897a1f42467e3e3378e35fae9ce1016f65a61b5334f9",
+        "sha256_in_prefix": "0d839fb6636e3a9c6483897a1f42467e3e3378e35fae9ce1016f65a61b5334f9",
+        "size_in_bytes": 9391
+      },
+      {
+        "_path": "site-packages/keras/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7b322172de9742f5bf913fe9c75d04ace917cd70c8cf633e6e73b74346275f1c",
+        "sha256_in_prefix": "7b322172de9742f5bf913fe9c75d04ace917cd70c8cf633e6e73b74346275f1c",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "site-packages/keras/activations.py",
+        "path_type": "hardlink",
+        "sha256": "6087ab127800e2a33e484f142fe663337f21bcba5b7483367a909893a8ec521b",
+        "sha256_in_prefix": "6087ab127800e2a33e484f142fe663337f21bcba5b7483367a909893a8ec521b",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "site-packages/keras/applications/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9a2a59a8c0f2cab1b799d24c898d03dcd704844a2fdfa03f5eeb4b479b648622",
+        "sha256_in_prefix": "9a2a59a8c0f2cab1b799d24c898d03dcd704844a2fdfa03f5eeb4b479b648622",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "site-packages/keras/applications/densenet.py",
+        "path_type": "hardlink",
+        "sha256": "a5d20c78f963043f56236aedd79197d01a9dfd476cc1b1a42cd18d41de0238f2",
+        "sha256_in_prefix": "a5d20c78f963043f56236aedd79197d01a9dfd476cc1b1a42cd18d41de0238f2",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "site-packages/keras/applications/imagenet_utils.py",
+        "path_type": "hardlink",
+        "sha256": "826ec92c43f46a35c52e4c555ce03648db979a92b30afc8472565a4d42e7451b",
+        "sha256_in_prefix": "826ec92c43f46a35c52e4c555ce03648db979a92b30afc8472565a4d42e7451b",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/keras/applications/inception_resnet_v2.py",
+        "path_type": "hardlink",
+        "sha256": "cd987eb2c74788a6280cb006b28c4c8898544280987a5e0393f10e8c5595348a",
+        "sha256_in_prefix": "cd987eb2c74788a6280cb006b28c4c8898544280987a5e0393f10e8c5595348a",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/keras/applications/inception_v3.py",
+        "path_type": "hardlink",
+        "sha256": "e9537280d05e0bae4fe96d432acff825ae9b7f957f0ed3151706b146d65c2c4c",
+        "sha256_in_prefix": "e9537280d05e0bae4fe96d432acff825ae9b7f957f0ed3151706b146d65c2c4c",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "site-packages/keras/applications/mobilenet.py",
+        "path_type": "hardlink",
+        "sha256": "dbe0d11020526ebc54d4e9798c83126e499e5404a89577ad4ffae983bbb8d375",
+        "sha256_in_prefix": "dbe0d11020526ebc54d4e9798c83126e499e5404a89577ad4ffae983bbb8d375",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/keras/applications/mobilenet_v2.py",
+        "path_type": "hardlink",
+        "sha256": "9ac3a6ecadaa8636be4891f05f34ae1c59c96d765a30a2e5d2cf73b5c9df1e2a",
+        "sha256_in_prefix": "9ac3a6ecadaa8636be4891f05f34ae1c59c96d765a30a2e5d2cf73b5c9df1e2a",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "site-packages/keras/applications/nasnet.py",
+        "path_type": "hardlink",
+        "sha256": "e702ba6ffb014ae88eb996682986994371db48b320ca30dab631480718da9e36",
+        "sha256_in_prefix": "e702ba6ffb014ae88eb996682986994371db48b320ca30dab631480718da9e36",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "site-packages/keras/applications/resnet.py",
+        "path_type": "hardlink",
+        "sha256": "88acb3d2ffdf93b31cfa01e5a87e604b4287b47f15efbfd53d694bed820b0597",
+        "sha256_in_prefix": "88acb3d2ffdf93b31cfa01e5a87e604b4287b47f15efbfd53d694bed820b0597",
+        "size_in_bytes": 310
+      },
+      {
+        "_path": "site-packages/keras/applications/resnet50.py",
+        "path_type": "hardlink",
+        "sha256": "bb0092b1173b102a0345c6ffc09ce6616da902e8d35d07ed61ebd7515f8334c5",
+        "sha256_in_prefix": "bb0092b1173b102a0345c6ffc09ce6616da902e8d35d07ed61ebd7515f8334c5",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/keras/applications/resnet_v2.py",
+        "path_type": "hardlink",
+        "sha256": "d8663193ab8d839227d18ad646ce229441bcf1b8eeed1d3abfdbe94042e0c77e",
+        "sha256_in_prefix": "d8663193ab8d839227d18ad646ce229441bcf1b8eeed1d3abfdbe94042e0c77e",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "site-packages/keras/applications/vgg16.py",
+        "path_type": "hardlink",
+        "sha256": "03a9fb774027a640e8828419b6089be8c841780d3c16550121e5d547157a63ab",
+        "sha256_in_prefix": "03a9fb774027a640e8828419b6089be8c841780d3c16550121e5d547157a63ab",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "site-packages/keras/applications/vgg19.py",
+        "path_type": "hardlink",
+        "sha256": "03949c66b73ef7a871aa33eaaa82c42e1008b6caf02f1930ad69829f9f02004c",
+        "sha256_in_prefix": "03949c66b73ef7a871aa33eaaa82c42e1008b6caf02f1930ad69829f9f02004c",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "site-packages/keras/applications/xception.py",
+        "path_type": "hardlink",
+        "sha256": "cd952c8c7d26e1d81b42a251ef69d2abc685521d29f34f0238b223eb711b0324",
+        "sha256_in_prefix": "cd952c8c7d26e1d81b42a251ef69d2abc685521d29f34f0238b223eb711b0324",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "site-packages/keras/backend.py",
+        "path_type": "hardlink",
+        "sha256": "2c036cd7ca783cb44782047f8f8e6d1110e9bbad843bb162ea757b7b20d57379",
+        "sha256_in_prefix": "2c036cd7ca783cb44782047f8f8e6d1110e9bbad843bb162ea757b7b20d57379",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/keras/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "4f38d7aef1db0aef6890fa1bd74b1439d8e68e34734cfc72cb55f45bc0f1f273",
+        "sha256_in_prefix": "4f38d7aef1db0aef6890fa1bd74b1439d8e68e34734cfc72cb55f45bc0f1f273",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/keras/constraints.py",
+        "path_type": "hardlink",
+        "sha256": "43b120cbfa5ddd32f87e346204a4ee57a8c5fa2a00e96725c06c4ee0605adf94",
+        "sha256_in_prefix": "43b120cbfa5ddd32f87e346204a4ee57a8c5fa2a00e96725c06c4ee0605adf94",
+        "size_in_bytes": 758
+      },
+      {
+        "_path": "site-packages/keras/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d4a258895226e2b0bc9b701b70b3a8144cb86c7c6993a34f2fe23934bd358b8f",
+        "sha256_in_prefix": "d4a258895226e2b0bc9b701b70b3a8144cb86c7c6993a34f2fe23934bd358b8f",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "site-packages/keras/datasets/boston_housing.py",
+        "path_type": "hardlink",
+        "sha256": "6ac1cc5128edb98c5c8b2cf14450ea5d1bfe9f228f67efc3615024ee32ffe44c",
+        "sha256_in_prefix": "6ac1cc5128edb98c5c8b2cf14450ea5d1bfe9f228f67efc3615024ee32ffe44c",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/keras/datasets/cifar10.py",
+        "path_type": "hardlink",
+        "sha256": "f43adedaf92a9ecd7d4dbe667564f747f2eefaa8ddd5d6cc21d7c765e3277a9a",
+        "sha256_in_prefix": "f43adedaf92a9ecd7d4dbe667564f747f2eefaa8ddd5d6cc21d7c765e3277a9a",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/keras/datasets/cifar100.py",
+        "path_type": "hardlink",
+        "sha256": "176eea7e2720178052db302a27037f8d195029e6da88f3ce14b63daef2f1c6b7",
+        "sha256_in_prefix": "176eea7e2720178052db302a27037f8d195029e6da88f3ce14b63daef2f1c6b7",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/keras/datasets/fashion_mnist.py",
+        "path_type": "hardlink",
+        "sha256": "79e60e1ee3346191ab9b4415b9055b74187f48e2cfe83806a60d306a1d9e8d02",
+        "sha256_in_prefix": "79e60e1ee3346191ab9b4415b9055b74187f48e2cfe83806a60d306a1d9e8d02",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/keras/datasets/imdb.py",
+        "path_type": "hardlink",
+        "sha256": "eacdbc35ca0d36a34bb7fa0c6fd395a82a1dca24d63327db6df160f20c9b6571",
+        "sha256_in_prefix": "eacdbc35ca0d36a34bb7fa0c6fd395a82a1dca24d63327db6df160f20c9b6571",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/keras/datasets/mnist.py",
+        "path_type": "hardlink",
+        "sha256": "961206f311b7277402e6df14fdddc28ddf526822de41d8d38050a80e5651235f",
+        "sha256_in_prefix": "961206f311b7277402e6df14fdddc28ddf526822de41d8d38050a80e5651235f",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/keras/datasets/reuters.py",
+        "path_type": "hardlink",
+        "sha256": "3163fb18c420f66523aef45f1facf1b19743139656a015c2a2daa901d7423217",
+        "sha256_in_prefix": "3163fb18c420f66523aef45f1facf1b19743139656a015c2a2daa901d7423217",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/keras/engine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "232f4dbb4d1ddf283402729f783085a999b0d9d9f462ab49456539dbc98aa489",
+        "sha256_in_prefix": "232f4dbb4d1ddf283402729f783085a999b0d9d9f462ab49456539dbc98aa489",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "site-packages/keras/engine/base_layer.py",
+        "path_type": "hardlink",
+        "sha256": "93df4916e0f7c38344be8c502095636de4dea4a25c54f9972394b371f801b5ec",
+        "sha256_in_prefix": "93df4916e0f7c38344be8c502095636de4dea4a25c54f9972394b371f801b5ec",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "site-packages/keras/engine/input_layer.py",
+        "path_type": "hardlink",
+        "sha256": "33a0fcb0d80b4beb1f229c12341b97d57c9232d2dc38124315e72971ae3fe092",
+        "sha256_in_prefix": "33a0fcb0d80b4beb1f229c12341b97d57c9232d2dc38124315e72971ae3fe092",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/keras/engine/network.py",
+        "path_type": "hardlink",
+        "sha256": "b27855e2f141e8c2aba4c7f9a83b6e84555f84676aaa250d960f7d899aea61a2",
+        "sha256_in_prefix": "b27855e2f141e8c2aba4c7f9a83b6e84555f84676aaa250d960f7d899aea61a2",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/keras/engine/saving.py",
+        "path_type": "hardlink",
+        "sha256": "28c9e870b1ac419a331478784d3585fd2c23e2157e8d40a5b2c1cbe098d0dd61",
+        "sha256_in_prefix": "28c9e870b1ac419a331478784d3585fd2c23e2157e8d40a5b2c1cbe098d0dd61",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "site-packages/keras/engine/sequential.py",
+        "path_type": "hardlink",
+        "sha256": "aed61443d6158b1c1d4a6ce01fe3ea529cf29d8357025e87a57c4c39d2a10b11",
+        "sha256_in_prefix": "aed61443d6158b1c1d4a6ce01fe3ea529cf29d8357025e87a57c4c39d2a10b11",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/keras/engine/topology.py",
+        "path_type": "hardlink",
+        "sha256": "179ce5adb32cc3d5d8613957d978b11a618d7ec9afcd01ed556146f75d505d30",
+        "sha256_in_prefix": "179ce5adb32cc3d5d8613957d978b11a618d7ec9afcd01ed556146f75d505d30",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/keras/engine/training.py",
+        "path_type": "hardlink",
+        "sha256": "2da1c806af8925d14316c31af52d4cb85a628fd7eb3b1f28229c8eb16dd69c13",
+        "sha256_in_prefix": "2da1c806af8925d14316c31af52d4cb85a628fd7eb3b1f28229c8eb16dd69c13",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/keras/initializers.py",
+        "path_type": "hardlink",
+        "sha256": "418ac04bcf8130972d9149034a9dcbe4e9b6a9d25824f182d4bdd8ea45c5125b",
+        "sha256_in_prefix": "418ac04bcf8130972d9149034a9dcbe4e9b6a9d25824f182d4bdd8ea45c5125b",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/keras/layers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1cde29fd6fd5bd8bb602ed7711bbeb84e41f108b8556b1fd4c37164bed5a1260",
+        "sha256_in_prefix": "1cde29fd6fd5bd8bb602ed7711bbeb84e41f108b8556b1fd4c37164bed5a1260",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "site-packages/keras/layers/advanced_activations.py",
+        "path_type": "hardlink",
+        "sha256": "2bdf764aba67a6bae4955189ebfc9a97cbde2e1b94f66d7b89ec627346798f4f",
+        "sha256_in_prefix": "2bdf764aba67a6bae4955189ebfc9a97cbde2e1b94f66d7b89ec627346798f4f",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "site-packages/keras/layers/convolutional.py",
+        "path_type": "hardlink",
+        "sha256": "5edf28245b3f21a9deef013b6f6da74e1d9cf2b51f00beace3a574e8fa42002a",
+        "sha256_in_prefix": "5edf28245b3f21a9deef013b6f6da74e1d9cf2b51f00beace3a574e8fa42002a",
+        "size_in_bytes": 1415
+      },
+      {
+        "_path": "site-packages/keras/layers/convolutional_recurrent.py",
+        "path_type": "hardlink",
+        "sha256": "bfa0f04847ada61a6caa21a96137605aa4b8c966995ce490c17ae754a0d74599",
+        "sha256_in_prefix": "bfa0f04847ada61a6caa21a96137605aa4b8c966995ce490c17ae754a0d74599",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "site-packages/keras/layers/core.py",
+        "path_type": "hardlink",
+        "sha256": "a28a79e9cc35381c2bb9b2469f7ed9e3e9c3510b4943f3cb6a62783469c9c987",
+        "sha256_in_prefix": "a28a79e9cc35381c2bb9b2469f7ed9e3e9c3510b4943f3cb6a62783469c9c987",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "site-packages/keras/layers/cudnn_recurrent.py",
+        "path_type": "hardlink",
+        "sha256": "212a6ae5b62a6af4d6753d1d4ce80129e657e955dd00b9abc5b1deafd3178b83",
+        "sha256_in_prefix": "212a6ae5b62a6af4d6753d1d4ce80129e657e955dd00b9abc5b1deafd3178b83",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/keras/layers/embeddings.py",
+        "path_type": "hardlink",
+        "sha256": "c7f8884da523dfbce8ce0cb1cf48a6393404d46fd615b0c554ffccec3e04013e",
+        "sha256_in_prefix": "c7f8884da523dfbce8ce0cb1cf48a6393404d46fd615b0c554ffccec3e04013e",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/keras/layers/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "53125ac293c98c763f094ffd60a751b7e8fe9de2a37dfa3d5a420cbd7c05bc2c",
+        "sha256_in_prefix": "53125ac293c98c763f094ffd60a751b7e8fe9de2a37dfa3d5a420cbd7c05bc2c",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/keras/layers/experimental/preprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2225d02eeff0162718108491f3186a7f7e2c7f94244a3ee3b8bc9e236243877c",
+        "sha256_in_prefix": "2225d02eeff0162718108491f3186a7f7e2c7f94244a3ee3b8bc9e236243877c",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/keras/layers/local.py",
+        "path_type": "hardlink",
+        "sha256": "961df2914d11df23d7f1c02cd5690cfba39263c0306dc67de976a1f764eeacbb",
+        "sha256_in_prefix": "961df2914d11df23d7f1c02cd5690cfba39263c0306dc67de976a1f764eeacbb",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "site-packages/keras/layers/merge.py",
+        "path_type": "hardlink",
+        "sha256": "f2fc901f5e4571fa1d1ea9728c2bca0cdc47e04bec9d3723450c4d3e744e44a3",
+        "sha256_in_prefix": "f2fc901f5e4571fa1d1ea9728c2bca0cdc47e04bec9d3723450c4d3e744e44a3",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "site-packages/keras/layers/noise.py",
+        "path_type": "hardlink",
+        "sha256": "41c5b11885dfa3c17bf96e2af0fad31437ad3f0896cc79943d8ab93fc0300f43",
+        "sha256_in_prefix": "41c5b11885dfa3c17bf96e2af0fad31437ad3f0896cc79943d8ab93fc0300f43",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "site-packages/keras/layers/normalization.py",
+        "path_type": "hardlink",
+        "sha256": "d9d85bb83d6b691458a1004cf52051f3b44a83e6ee3de5c2e97f6b7ec48ad56e",
+        "sha256_in_prefix": "d9d85bb83d6b691458a1004cf52051f3b44a83e6ee3de5c2e97f6b7ec48ad56e",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/keras/layers/pooling.py",
+        "path_type": "hardlink",
+        "sha256": "f6916f5b913ad88f0171e3565293da2b87b22d02560b816fac922ca1c025d6ea",
+        "sha256_in_prefix": "f6916f5b913ad88f0171e3565293da2b87b22d02560b816fac922ca1c025d6ea",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "site-packages/keras/layers/recurrent.py",
+        "path_type": "hardlink",
+        "sha256": "151d42ef81404a0bcadda8a844766b9937457b512da593463cc356e43879dd76",
+        "sha256_in_prefix": "151d42ef81404a0bcadda8a844766b9937457b512da593463cc356e43879dd76",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "site-packages/keras/layers/wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "e089fc1c5f1ceb2a8bc02fb2d5744f38fb7c077dae69d859241ac884cc08ee5e",
+        "sha256_in_prefix": "e089fc1c5f1ceb2a8bc02fb2d5744f38fb7c077dae69d859241ac884cc08ee5e",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "site-packages/keras/losses.py",
+        "path_type": "hardlink",
+        "sha256": "c094f4a907dc7c68ebe83c5a5d263a692eb06d300dfec2216fdd53dd42303157",
+        "sha256_in_prefix": "c094f4a907dc7c68ebe83c5a5d263a692eb06d300dfec2216fdd53dd42303157",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/keras/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "5b60a4b97ada420169099f30eb066ad381be41467aa91a04a3e75c14207c1ad1",
+        "sha256_in_prefix": "5b60a4b97ada420169099f30eb066ad381be41467aa91a04a3e75c14207c1ad1",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/keras/models.py",
+        "path_type": "hardlink",
+        "sha256": "28d2d907355af6a493de0faa03aee74f64fb3c7a8c9f30c3024798fa84cc91be",
+        "sha256_in_prefix": "28d2d907355af6a493de0faa03aee74f64fb3c7a8c9f30c3024798fa84cc91be",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "site-packages/keras/objectives.py",
+        "path_type": "hardlink",
+        "sha256": "724e08c3f700a3a01b2ab38f04b04b1674a2566202be101b9bd031f854f204f3",
+        "sha256_in_prefix": "724e08c3f700a3a01b2ab38f04b04b1674a2566202be101b9bd031f854f204f3",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "site-packages/keras/optimizers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "50e9a084403b056d57a6be7a5881ea2c613b4a3da82e785d4b0a0be747d45fb0",
+        "sha256_in_prefix": "50e9a084403b056d57a6be7a5881ea2c613b4a3da82e785d4b0a0be747d45fb0",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/keras/optimizers/schedules/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "77d7f39fb9c48a69379dac952be1f43f6693673e02e12f60116a6cd01e44bbf6",
+        "sha256_in_prefix": "77d7f39fb9c48a69379dac952be1f43f6693673e02e12f60116a6cd01e44bbf6",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/keras/preprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e91ae2a591d72c41aea0784d2c9a903f1c502e16ea25b8eb83f22b42d263596e",
+        "sha256_in_prefix": "e91ae2a591d72c41aea0784d2c9a903f1c502e16ea25b8eb83f22b42d263596e",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/keras/preprocessing/image.py",
+        "path_type": "hardlink",
+        "sha256": "6b525add08450cc2acab26f3de61815c153f8772ad2136900acbc1bffba1d674",
+        "sha256_in_prefix": "6b525add08450cc2acab26f3de61815c153f8772ad2136900acbc1bffba1d674",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/keras/preprocessing/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "5791a0922fe1125e56eee2906de1c1f6d595952131f1bd7b4553f73987a4229b",
+        "sha256_in_prefix": "5791a0922fe1125e56eee2906de1c1f6d595952131f1bd7b4553f73987a4229b",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/keras/preprocessing/text.py",
+        "path_type": "hardlink",
+        "sha256": "76bd0ccb25141bd375e3010202d8238ac55b80b40b67bf5681d3c830d4dfef89",
+        "sha256_in_prefix": "76bd0ccb25141bd375e3010202d8238ac55b80b40b67bf5681d3c830d4dfef89",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/keras/regularizers.py",
+        "path_type": "hardlink",
+        "sha256": "00e41f883cfe86f14724793dbc6de49327e3c3001be7b8ce80c5e636502c3599",
+        "sha256_in_prefix": "00e41f883cfe86f14724793dbc6de49327e3c3001be7b8ce80c5e636502c3599",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "site-packages/keras/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4720fff4f389353ca26e5337eff60d29a11250acb75f53b07eafe55e23ce2d6d",
+        "sha256_in_prefix": "4720fff4f389353ca26e5337eff60d29a11250acb75f53b07eafe55e23ce2d6d",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "site-packages/keras/utils/conv_utils.py",
+        "path_type": "hardlink",
+        "sha256": "226d6a4da1a0987422c128cbe6f68c7c5b0c61e516b022052c531ee2fe3f9626",
+        "sha256_in_prefix": "226d6a4da1a0987422c128cbe6f68c7c5b0c61e516b022052c531ee2fe3f9626",
+        "size_in_bytes": 5906
+      },
+      {
+        "_path": "site-packages/keras/utils/data_utils.py",
+        "path_type": "hardlink",
+        "sha256": "b38c53dee2e791635b22769c14950159d3a19cbbcbbe8eb3b48827de99ccad16",
+        "sha256_in_prefix": "b38c53dee2e791635b22769c14950159d3a19cbbcbbe8eb3b48827de99ccad16",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "site-packages/keras/utils/generic_utils.py",
+        "path_type": "hardlink",
+        "sha256": "4b30107c1cacf0b560f0de8050987fd10bb45245c23e10fb8c4b62170c253670",
+        "sha256_in_prefix": "4b30107c1cacf0b560f0de8050987fd10bb45245c23e10fb8c4b62170c253670",
+        "size_in_bytes": 6809
+      },
+      {
+        "_path": "site-packages/keras/utils/io_utils.py",
+        "path_type": "hardlink",
+        "sha256": "18571f33288e652417509ae8c6c7718d062ad89f416b5a900d51bdde8b675cd2",
+        "sha256_in_prefix": "18571f33288e652417509ae8c6c7718d062ad89f416b5a900d51bdde8b675cd2",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/keras/utils/layer_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d9388ff7b82d5e1cb1893f8dfd8e8d0cccee05a9c522fd225d8db6808da48da6",
+        "sha256_in_prefix": "d9388ff7b82d5e1cb1893f8dfd8e8d0cccee05a9c522fd225d8db6808da48da6",
+        "size_in_bytes": 3280
+      },
+      {
+        "_path": "site-packages/keras/utils/multi_gpu_utils.py",
+        "path_type": "hardlink",
+        "sha256": "22efff161f5f96d62d8bc0f0320876991b370c0276310d58a8d1c41c43792620",
+        "sha256_in_prefix": "22efff161f5f96d62d8bc0f0320876991b370c0276310d58a8d1c41c43792620",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/keras/utils/np_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0b5143176ddb075f11f9864633588cc277e814a1a37fc5074de8c9e496d2c3c1",
+        "sha256_in_prefix": "0b5143176ddb075f11f9864633588cc277e814a1a37fc5074de8c9e496d2c3c1",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "site-packages/keras/utils/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "ad616fe76252d5795ae576453ad94b4d15c7c2ca846d06fe4f3e9c9bf6bf5008",
+        "sha256_in_prefix": "ad616fe76252d5795ae576453ad94b4d15c7c2ca846d06fe4f3e9c9bf6bf5008",
+        "size_in_bytes": 4239
+      },
+      {
+        "_path": "site-packages/keras/utils/vis_utils.py",
+        "path_type": "hardlink",
+        "sha256": "5c4ef782194113171261fa0bf5e9a42d59bce1bddb998d88b81baecdd8981d02",
+        "sha256_in_prefix": "5c4ef782194113171261fa0bf5e9a42d59bce1bddb998d88b81baecdd8981d02",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "site-packages/keras/wrappers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "df72fcf6740c5e11e68b1942e68078a1d88fee77ea1913aa9c6b878608755dd4",
+        "sha256_in_prefix": "df72fcf6740c5e11e68b1942e68078a1d88fee77ea1913aa9c6b878608755dd4",
+        "size_in_bytes": 28
+      },
+      {
+        "_path": "site-packages/keras/wrappers/scikit_learn.py",
+        "path_type": "hardlink",
+        "sha256": "3159c445a6d04c28ac76ea5e7815b46e3543526f52fc2f229c9840e681f135e8",
+        "sha256_in_prefix": "3159c445a6d04c28ac76ea5e7815b46e3543526f52fc2f229c9840e681f135e8",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/__pycache__/autogen.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/__pycache__/structure.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/activations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/densenet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/imagenet_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/inception_resnet_v2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/inception_v3.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/mobilenet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/mobilenet_v2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/nasnet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/resnet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/resnet50.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/resnet_v2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/vgg16.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/vgg19.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/applications/__pycache__/xception.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/backend.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/callbacks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/constraints.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/boston_housing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/cifar10.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/cifar100.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/fashion_mnist.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/imdb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/mnist.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/datasets/__pycache__/reuters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/base_layer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/input_layer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/network.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/saving.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/sequential.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/topology.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/engine/__pycache__/training.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/initializers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/advanced_activations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/convolutional.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/convolutional_recurrent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/cudnn_recurrent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/embeddings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/experimental/preprocessing/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/local.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/merge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/noise.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/normalization.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/pooling.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/recurrent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/layers/__pycache__/wrappers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/losses.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/metrics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/objectives.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/optimizers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/optimizers/schedules/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/preprocessing/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/preprocessing/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/preprocessing/__pycache__/sequence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/preprocessing/__pycache__/text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/__pycache__/regularizers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/conv_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/data_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/generic_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/io_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/layer_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/multi_gpu_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/np_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/utils/__pycache__/vis_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/wrappers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/keras/wrappers/__pycache__/scikit_learn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "anaconda/noarch::keras-base==2.4.3=pyhd3eb1b0_0",
+  "sha256": "ea3505c959c2dd3cc24967bb4af11eed9193f5a695289751c8e21431864a7ba5",
+  "size": 30431,
+  "subdir": "noarch",
+  "timestamp": 1630579960000,
+  "url": "https://conda.anaconda.org/anaconda/noarch/keras-base-2.4.3-pyhd3eb1b0_0.tar.bz2",
+  "version": "2.4.3"
+}

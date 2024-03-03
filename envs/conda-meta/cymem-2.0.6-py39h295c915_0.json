@@ -1,0 +1,182 @@
+{
+  "arch": "x86_64",
+  "build": "py39h295c915_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/cymem-2.0.6-py39h295c915_0",
+  "files": [
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/LICENSE",
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/METADATA",
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/RECORD",
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/WHEEL",
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/cymem-2.0.6.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/cymem/__init__.pxd",
+    "lib/python3.9/site-packages/cymem/__init__.py",
+    "lib/python3.9/site-packages/cymem/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cymem/__pycache__/about.cpython-39.pyc",
+    "lib/python3.9/site-packages/cymem/about.py",
+    "lib/python3.9/site-packages/cymem/cymem.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/cymem/cymem.pxd",
+    "lib/python3.9/site-packages/cymem/cymem.pyx",
+    "lib/python3.9/site-packages/cymem/tests/__pycache__/test_import.cpython-39.pyc",
+    "lib/python3.9/site-packages/cymem/tests/test_import.py"
+  ],
+  "fn": "cymem-2.0.6-py39h295c915_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/cymem-2.0.6-py39h295c915_0",
+    "type": 1
+  },
+  "md5": "7d1564e8f553a0a2919765ff2aa0ea32",
+  "name": "cymem",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/cymem-2.0.6-py39h295c915_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c65d4abc7ac8d6ff98e8498cba0ecb16ff326075bb40304f200b4b9f0972c4c7",
+        "sha256_in_prefix": "c65d4abc7ac8d6ff98e8498cba0ecb16ff326075bb40304f200b4b9f0972c4c7",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b0b1bcc25675bdd6f4a3d7300ca70d89f7367aa916c96b951291dc89605174dc",
+        "sha256_in_prefix": "b0b1bcc25675bdd6f4a3d7300ca70d89f7367aa916c96b951291dc89605174dc",
+        "size_in_bytes": 8323
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4599e1d2db3b93efb5da747f912d3980330b8fb69b355d3ee9eda965e43ec118",
+        "sha256_in_prefix": "4599e1d2db3b93efb5da747f912d3980330b8fb69b355d3ee9eda965e43ec118",
+        "size_in_bytes": 1333
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "fd3cea8db975b7fda98fd81f64fbc6d69a72bda3b2a3151ad39de77e1e34ac4f",
+        "sha256_in_prefix": "fd3cea8db975b7fda98fd81f64fbc6d69a72bda3b2a3151ad39de77e1e34ac4f",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3582bee8f1433b56e72515f1aba8f15330b7c5a5a4a26974b8dab5f595b723d5",
+        "sha256_in_prefix": "3582bee8f1433b56e72515f1aba8f15330b7c5a5a4a26974b8dab5f595b723d5",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem-2.0.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7426300855938ff344ed9f7316bacaa80716b940ad839db329123897f5abafb4",
+        "sha256_in_prefix": "7426300855938ff344ed9f7316bacaa80716b940ad839db329123897f5abafb4",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4993e273282ba34735ae1dd063e88ddb5668ae662b4817a29b54760d279a387e",
+        "sha256_in_prefix": "4993e273282ba34735ae1dd063e88ddb5668ae662b4817a29b54760d279a387e",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fda68ef7f492212482c2a9a05f0b1efac8de7535ecdfc7ff30453261e65d0d7d",
+        "sha256_in_prefix": "fda68ef7f492212482c2a9a05f0b1efac8de7535ecdfc7ff30453261e65d0d7d",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/__pycache__/about.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d30150659da9a83e76c1d7c9398c99ef3b9e362b5f1b86d62141b9d48a952400",
+        "sha256_in_prefix": "d30150659da9a83e76c1d7c9398c99ef3b9e362b5f1b86d62141b9d48a952400",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/about.py",
+        "path_type": "hardlink",
+        "sha256": "00ff382543615893fbdb74564a10cd62a10fee25491465967bf78d2449f80faf",
+        "sha256_in_prefix": "00ff382543615893fbdb74564a10cd62a10fee25491465967bf78d2449f80faf",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/cymem.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "842bc97440d1f22bf8037aa0d583790db52b5c3394cbcf7501641daee8993727",
+        "sha256_in_prefix": "842bc97440d1f22bf8037aa0d583790db52b5c3394cbcf7501641daee8993727",
+        "size_in_bytes": 91848
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/cymem.pxd",
+        "path_type": "hardlink",
+        "sha256": "ddae95c96910f9de867a550e18db5d4c0020da4b162a35bd99432ee54cd1db37",
+        "sha256_in_prefix": "ddae95c96910f9de867a550e18db5d4c0020da4b162a35bd99432ee54cd1db37",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/cymem.pyx",
+        "path_type": "hardlink",
+        "sha256": "c5cfdcb50dfdffa284531c748e34d66da788f51f37ef9cf2a37033a1f9fcd91b",
+        "sha256_in_prefix": "c5cfdcb50dfdffa284531c748e34d66da788f51f37ef9cf2a37033a1f9fcd91b",
+        "size_in_bytes": 5592
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/tests/__pycache__/test_import.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8901e39d45891ada1eabb34dac026e9405da6f987a51f340a1721adff1a209ba",
+        "sha256_in_prefix": "8901e39d45891ada1eabb34dac026e9405da6f987a51f340a1721adff1a209ba",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cymem/tests/test_import.py",
+        "path_type": "hardlink",
+        "sha256": "40fe15845b3ad7c2de889bc14847d987775e1136d6c6ece2af59847cbf9f395d",
+        "sha256_in_prefix": "40fe15845b3ad7c2de889bc14847d987775e1136d6c6ece2af59847cbf9f395d",
+        "size_in_bytes": 263
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::cymem==2.0.6=py39h295c915_0",
+  "sha256": "122e8430ddb60c3f50c88c29af78290434d1ff88182c790e517ea6023fbf7e19",
+  "size": 41000,
+  "subdir": "linux-64",
+  "timestamp": 1651237417000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/cymem-2.0.6-py39h295c915_0.conda",
+  "version": "2.0.6"
+}

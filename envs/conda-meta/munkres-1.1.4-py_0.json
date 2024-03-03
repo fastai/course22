@@ -1,0 +1,81 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/munkres-1.1.4-py_0",
+  "files": [
+    "lib/python3.9/site-packages/munkres-1.1.4-py3.6.egg-info/PKG-INFO",
+    "lib/python3.9/site-packages/munkres-1.1.4-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.9/site-packages/munkres-1.1.4-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.9/site-packages/munkres-1.1.4-py3.6.egg-info/top_level.txt",
+    "lib/python3.9/site-packages/munkres.py",
+    "lib/python3.9/site-packages/__pycache__/munkres.cpython-39.pyc"
+  ],
+  "fn": "munkres-1.1.4-py_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/munkres-1.1.4-py_0",
+    "type": 1
+  },
+  "md5": "148362ba07f92abab76999a680c80084",
+  "name": "munkres",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/munkres-1.1.4-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/munkres-1.1.4-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "25270212b89cca28405e312b2585326b19933adf16ac4206335fc7b9702b78b4",
+        "sha256_in_prefix": "25270212b89cca28405e312b2585326b19933adf16ac4206335fc7b9702b78b4",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "site-packages/munkres-1.1.4-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "1ba6a775bcb481361521f94dc86d763454c3c4e3c3544b841c14646038cab975",
+        "sha256_in_prefix": "1ba6a775bcb481361521f94dc86d763454c3c4e3c3544b841c14646038cab975",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/munkres-1.1.4-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/munkres-1.1.4-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9c8de01fc32b5e0ba5eab8ebcfb9b1da1b6a92a8edb3e09c2f7710c029bc98de",
+        "sha256_in_prefix": "9c8de01fc32b5e0ba5eab8ebcfb9b1da1b6a92a8edb3e09c2f7710c029bc98de",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/munkres.py",
+        "path_type": "hardlink",
+        "sha256": "5653f10006d833bbe29f298bd673bf5b32a4eef0b179df5ae28f97a2d21ca551",
+        "sha256_in_prefix": "5653f10006d833bbe29f298bd673bf5b32a4eef0b179df5ae28f97a2d21ca551",
+        "size_in_bytes": 19406
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/munkres.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::munkres==1.1.4=py_0",
+  "sha256": "f3f473a60a6766a7f64447c0c7e49d0640db7f995255951e3477b5d21d144dc7",
+  "size": 13573,
+  "subdir": "noarch",
+  "timestamp": 1600445183000,
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/munkres-1.1.4-py_0.conda",
+  "version": "1.1.4"
+}

@@ -1,0 +1,125 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "traitlets >=5.3"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/comm-0.1.2-py39h06a4308_0",
+  "files": [
+    "lib/python3.9/site-packages/comm-0.1.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/comm-0.1.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/comm-0.1.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/comm-0.1.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/comm-0.1.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/comm-0.1.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/comm-0.1.2.dist-info/licenses/LICENSE",
+    "lib/python3.9/site-packages/comm/__init__.py",
+    "lib/python3.9/site-packages/comm/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/comm/__pycache__/base_comm.cpython-39.pyc",
+    "lib/python3.9/site-packages/comm/base_comm.py"
+  ],
+  "fn": "comm-0.1.2-py39h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/comm-0.1.2-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "e0750c886f348ab2917ad5075b5de92c",
+  "name": "comm",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/comm-0.1.2-py39h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/comm-0.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm-0.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d04f6c3a7630cc9d8be7e9ebd92b20181eb54c1248fbc81fba128b9a7c230a9e",
+        "sha256_in_prefix": "d04f6c3a7630cc9d8be7e9ebd92b20181eb54c1248fbc81fba128b9a7c230a9e",
+        "size_in_bytes": 3921
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm-0.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "16ecb07bbc16dadad7d8a84e39db96615959cce804ed783dd353c5484f2d583d",
+        "sha256_in_prefix": "16ecb07bbc16dadad7d8a84e39db96615959cce804ed783dd353c5484f2d583d",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm-0.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm-0.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "dc34a64b2604d520c444edbeac8dea51b315a2f06cefefa081cee6b9b39e9ac7",
+        "sha256_in_prefix": "dc34a64b2604d520c444edbeac8dea51b315a2f06cefefa081cee6b9b39e9ac7",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm-0.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "520264d95f67e929a4ec66960549b7c528c5cdbe2b1de713bd628aca7e80e467",
+        "sha256_in_prefix": "520264d95f67e929a4ec66960549b7c528c5cdbe2b1de713bd628aca7e80e467",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm-0.1.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "97a7e0a142b7c1dcd26461b20fc13980988b4449b7446ed776928826fd2ca9c4",
+        "sha256_in_prefix": "97a7e0a142b7c1dcd26461b20fc13980988b4449b7446ed776928826fd2ca9c4",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ae7dbef5aafc178aca622c4ab217ff6ef0dec3c7bd454669123892d4b7fe3cfa",
+        "sha256_in_prefix": "ae7dbef5aafc178aca622c4ab217ff6ef0dec3c7bd454669123892d4b7fe3cfa",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c10ac0f7e9d4a68bc47ac65f7685980cfea11c4bc2e3516964af76a52911d591",
+        "sha256_in_prefix": "c10ac0f7e9d4a68bc47ac65f7685980cfea11c4bc2e3516964af76a52911d591",
+        "size_in_bytes": 1199
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm/__pycache__/base_comm.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f3f6950c83573ef70ad76d733ba5fbc1a87df3f733ba69d8a1270e606c3e675",
+        "sha256_in_prefix": "9f3f6950c83573ef70ad76d733ba5fbc1a87df3f733ba69d8a1270e606c3e675",
+        "size_in_bytes": 7502
+      },
+      {
+        "_path": "lib/python3.9/site-packages/comm/base_comm.py",
+        "path_type": "hardlink",
+        "sha256": "5c7fecdab364a6e5a3e1ec55d5d5e70f3c362a67f0afdbe7f867c3189f648ac3",
+        "sha256_in_prefix": "5c7fecdab364a6e5a3e1ec55d5d5e70f3c362a67f0afdbe7f867c3189f648ac3",
+        "size_in_bytes": 8449
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::comm==0.1.2=py39h06a4308_0",
+  "sha256": "8d33af93eb2e4bae07fae15df71b0a6589c298c22ef5ff2675ae2c718bd9ac68",
+  "size": 13393,
+  "subdir": "linux-64",
+  "timestamp": 1671231205000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/comm-0.1.2-py39h06a4308_0.conda",
+  "version": "0.1.2"
+}

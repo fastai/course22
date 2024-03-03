@@ -1,0 +1,1133 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/fastai/noarch",
+  "constrains": [],
+  "depends": [
+    "fastcore >=1.5.29,<1.6",
+    "fastdownload >=0.0.5,<2",
+    "fastprogress >=0.2.4",
+    "matplotlib",
+    "packaging",
+    "pandas",
+    "pillow >=9.0.0",
+    "python >=3.8",
+    "pytorch >=1.10,<2.3",
+    "pyyaml",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "spacy <4",
+    "torchvision >=0.11"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/fastai-2.7.14-py_0",
+  "files": [
+    "bin/configure_accelerate",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/LICENSE",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/METADATA",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/RECORD",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/WHEEL",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/fastai-2.7.14.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/fastai/__init__.py",
+    "lib/python3.9/site-packages/fastai/_modidx.py",
+    "lib/python3.9/site-packages/fastai/_nbdev.py",
+    "lib/python3.9/site-packages/fastai/_pytorch_doc.py",
+    "lib/python3.9/site-packages/fastai/basics.py",
+    "lib/python3.9/site-packages/fastai/callback/__init__.py",
+    "lib/python3.9/site-packages/fastai/callback/all.py",
+    "lib/python3.9/site-packages/fastai/callback/azureml.py",
+    "lib/python3.9/site-packages/fastai/callback/captum.py",
+    "lib/python3.9/site-packages/fastai/callback/channelslast.py",
+    "lib/python3.9/site-packages/fastai/callback/comet.py",
+    "lib/python3.9/site-packages/fastai/callback/core.py",
+    "lib/python3.9/site-packages/fastai/callback/data.py",
+    "lib/python3.9/site-packages/fastai/callback/fp16.py",
+    "lib/python3.9/site-packages/fastai/callback/hook.py",
+    "lib/python3.9/site-packages/fastai/callback/mixup.py",
+    "lib/python3.9/site-packages/fastai/callback/preds.py",
+    "lib/python3.9/site-packages/fastai/callback/progress.py",
+    "lib/python3.9/site-packages/fastai/callback/rnn.py",
+    "lib/python3.9/site-packages/fastai/callback/schedule.py",
+    "lib/python3.9/site-packages/fastai/callback/tensorboard.py",
+    "lib/python3.9/site-packages/fastai/callback/tracker.py",
+    "lib/python3.9/site-packages/fastai/callback/training.py",
+    "lib/python3.9/site-packages/fastai/callback/wandb.py",
+    "lib/python3.9/site-packages/fastai/collab.py",
+    "lib/python3.9/site-packages/fastai/data/__init__.py",
+    "lib/python3.9/site-packages/fastai/data/all.py",
+    "lib/python3.9/site-packages/fastai/data/block.py",
+    "lib/python3.9/site-packages/fastai/data/core.py",
+    "lib/python3.9/site-packages/fastai/data/download_checks.py",
+    "lib/python3.9/site-packages/fastai/data/external.py",
+    "lib/python3.9/site-packages/fastai/data/load.py",
+    "lib/python3.9/site-packages/fastai/data/transforms.py",
+    "lib/python3.9/site-packages/fastai/distributed.py",
+    "lib/python3.9/site-packages/fastai/fp16_utils.py",
+    "lib/python3.9/site-packages/fastai/imports.py",
+    "lib/python3.9/site-packages/fastai/interpret.py",
+    "lib/python3.9/site-packages/fastai/layers.py",
+    "lib/python3.9/site-packages/fastai/learner.py",
+    "lib/python3.9/site-packages/fastai/losses.py",
+    "lib/python3.9/site-packages/fastai/medical/__init__.py",
+    "lib/python3.9/site-packages/fastai/medical/imaging.py",
+    "lib/python3.9/site-packages/fastai/medical/text.py",
+    "lib/python3.9/site-packages/fastai/metrics.py",
+    "lib/python3.9/site-packages/fastai/optimizer.py",
+    "lib/python3.9/site-packages/fastai/tabular/__init__.py",
+    "lib/python3.9/site-packages/fastai/tabular/all.py",
+    "lib/python3.9/site-packages/fastai/tabular/core.py",
+    "lib/python3.9/site-packages/fastai/tabular/data.py",
+    "lib/python3.9/site-packages/fastai/tabular/learner.py",
+    "lib/python3.9/site-packages/fastai/tabular/model.py",
+    "lib/python3.9/site-packages/fastai/test_utils.py",
+    "lib/python3.9/site-packages/fastai/text/__init__.py",
+    "lib/python3.9/site-packages/fastai/text/all.py",
+    "lib/python3.9/site-packages/fastai/text/core.py",
+    "lib/python3.9/site-packages/fastai/text/data.py",
+    "lib/python3.9/site-packages/fastai/text/learner.py",
+    "lib/python3.9/site-packages/fastai/text/models/__init__.py",
+    "lib/python3.9/site-packages/fastai/text/models/awdlstm.py",
+    "lib/python3.9/site-packages/fastai/text/models/core.py",
+    "lib/python3.9/site-packages/fastai/torch_basics.py",
+    "lib/python3.9/site-packages/fastai/torch_core.py",
+    "lib/python3.9/site-packages/fastai/torch_imports.py",
+    "lib/python3.9/site-packages/fastai/vision/__init__.py",
+    "lib/python3.9/site-packages/fastai/vision/all.py",
+    "lib/python3.9/site-packages/fastai/vision/augment.py",
+    "lib/python3.9/site-packages/fastai/vision/core.py",
+    "lib/python3.9/site-packages/fastai/vision/data.py",
+    "lib/python3.9/site-packages/fastai/vision/gan.py",
+    "lib/python3.9/site-packages/fastai/vision/learner.py",
+    "lib/python3.9/site-packages/fastai/vision/models/__init__.py",
+    "lib/python3.9/site-packages/fastai/vision/models/all.py",
+    "lib/python3.9/site-packages/fastai/vision/models/tvm.py",
+    "lib/python3.9/site-packages/fastai/vision/models/unet.py",
+    "lib/python3.9/site-packages/fastai/vision/models/xresnet.py",
+    "lib/python3.9/site-packages/fastai/vision/utils.py",
+    "lib/python3.9/site-packages/fastai/vision/widgets.py",
+    "lib/python3.9/site-packages/fastai/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/_modidx.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/_nbdev.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/_pytorch_doc.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/basics.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/all.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/azureml.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/captum.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/channelslast.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/comet.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/data.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/fp16.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/hook.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/mixup.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/preds.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/progress.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/rnn.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/schedule.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/tensorboard.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/tracker.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/training.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/callback/__pycache__/wandb.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/collab.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/all.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/block.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/download_checks.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/external.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/load.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/data/__pycache__/transforms.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/distributed.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/fp16_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/interpret.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/layers.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/learner.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/losses.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/medical/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/medical/__pycache__/imaging.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/medical/__pycache__/text.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/metrics.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/optimizer.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/tabular/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/tabular/__pycache__/all.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/tabular/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/tabular/__pycache__/data.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/tabular/__pycache__/learner.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/tabular/__pycache__/model.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/__pycache__/all.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/__pycache__/data.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/__pycache__/learner.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/models/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/models/__pycache__/awdlstm.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/text/models/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/torch_basics.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/torch_core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/__pycache__/torch_imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/all.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/augment.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/data.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/gan.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/learner.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/models/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/models/__pycache__/all.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/models/__pycache__/tvm.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/models/__pycache__/unet.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/models/__pycache__/xresnet.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastai/vision/__pycache__/widgets.cpython-39.pyc"
+  ],
+  "fn": "fastai-2.7.14-py_0.tar.bz2",
+  "license": "Apache Software",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/fastai-2.7.14-py_0",
+    "type": 1
+  },
+  "md5": "5a25b1a97f5a0ea206275280bc408592",
+  "name": "fastai",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/fastai-2.7.14-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/configure_accelerate",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/jhoward/miniconda3/conda-bld/fastai_1706747658786/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "8716eae96977d1254b44b30be8fab3e21c4a71438c9c05acb8af76e72a4df374",
+        "sha256_in_prefix": "5c1a2abe48e33b989e054981c8c4fa40d37b7a94336172d3fac29c8173288814",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ebf69795fc0d1e4214eb5f641bedffff8e6f9129bb12bb7669504dd2f61703e1",
+        "sha256_in_prefix": "ebf69795fc0d1e4214eb5f641bedffff8e6f9129bb12bb7669504dd2f61703e1",
+        "size_in_bytes": 9102
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0849662b585b7f364faae6248a075bf94dcd9502b331e818cb2d177438763d27",
+        "sha256_in_prefix": "0849662b585b7f364faae6248a075bf94dcd9502b331e818cb2d177438763d27",
+        "size_in_bytes": 11040
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "cdeaad4e0653b7f9533028571ca86f15c11687232b7abc43e253f91f1f3232fc",
+        "sha256_in_prefix": "cdeaad4e0653b7f9533028571ca86f15c11687232b7abc43e253f91f1f3232fc",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "25f4ec848c7d51e7d92f664648dcf8ef42c3434b10375c54c1cdd6f0bf04b4de",
+        "sha256_in_prefix": "25f4ec848c7d51e7d92f664648dcf8ef42c3434b10375c54c1cdd6f0bf04b4de",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/fastai-2.7.14.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5e8d395486d5a04f9f33f1e0a038ce4f4506b2f0e680a97f72f84588a46f11ec",
+        "sha256_in_prefix": "5e8d395486d5a04f9f33f1e0a038ce4f4506b2f0e680a97f72f84588a46f11ec",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/fastai/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9a9c351f1b02275a57693187919783dc1b0c3c156295bbc2c612c5402c3d7c65",
+        "sha256_in_prefix": "9a9c351f1b02275a57693187919783dc1b0c3c156295bbc2c612c5402c3d7c65",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "site-packages/fastai/_modidx.py",
+        "path_type": "hardlink",
+        "sha256": "b7ca93788de2f351469e4c7b1b9ad61744d49cc565e63b9822213e0e87b5fea0",
+        "sha256_in_prefix": "b7ca93788de2f351469e4c7b1b9ad61744d49cc565e63b9822213e0e87b5fea0",
+        "size_in_bytes": 337131
+      },
+      {
+        "_path": "site-packages/fastai/_nbdev.py",
+        "path_type": "hardlink",
+        "sha256": "15dd80d7a088f212c3a3bca7cac6e32e17c8925ec620d70bad4f68d7007b2a18",
+        "sha256_in_prefix": "15dd80d7a088f212c3a3bca7cac6e32e17c8925ec620d70bad4f68d7007b2a18",
+        "size_in_bytes": 44456
+      },
+      {
+        "_path": "site-packages/fastai/_pytorch_doc.py",
+        "path_type": "hardlink",
+        "sha256": "0097dc77d54858f21380a48403bfe331fb99fc0121e2e4bbca78b98a0b0765ab",
+        "sha256_in_prefix": "0097dc77d54858f21380a48403bfe331fb99fc0121e2e4bbca78b98a0b0765ab",
+        "size_in_bytes": 1573
+      },
+      {
+        "_path": "site-packages/fastai/basics.py",
+        "path_type": "hardlink",
+        "sha256": "ffbd0eb0eb80ba53bfaf4e30a8fd6eeb291309bdd2dcf5006926dcb4c2ad901e",
+        "sha256_in_prefix": "ffbd0eb0eb80ba53bfaf4e30a8fd6eeb291309bdd2dcf5006926dcb4c2ad901e",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "site-packages/fastai/callback/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/fastai/callback/all.py",
+        "path_type": "hardlink",
+        "sha256": "dcf5378711a3e1de6e2997be4f099370608699e306f1aa93309c39ce5c360368",
+        "sha256_in_prefix": "dcf5378711a3e1de6e2997be4f099370608699e306f1aa93309c39ce5c360368",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "site-packages/fastai/callback/azureml.py",
+        "path_type": "hardlink",
+        "sha256": "3fb53fd316b52a4bb0a48653020a9ed7af7765bf10bdef9b896e90bbeae259aa",
+        "sha256_in_prefix": "3fb53fd316b52a4bb0a48653020a9ed7af7765bf10bdef9b896e90bbeae259aa",
+        "size_in_bytes": 2694
+      },
+      {
+        "_path": "site-packages/fastai/callback/captum.py",
+        "path_type": "hardlink",
+        "sha256": "513618de0a572c96e387835be5db8845e9f3f7337adfb7d9aed409a82a0a6faf",
+        "sha256_in_prefix": "513618de0a572c96e387835be5db8845e9f3f7337adfb7d9aed409a82a0a6faf",
+        "size_in_bytes": 5807
+      },
+      {
+        "_path": "site-packages/fastai/callback/channelslast.py",
+        "path_type": "hardlink",
+        "sha256": "4b963f0b60c61abe7420eb29fb96c628e5fc556ccbe9d246c2683bc1488909fb",
+        "sha256_in_prefix": "4b963f0b60c61abe7420eb29fb96c628e5fc556ccbe9d246c2683bc1488909fb",
+        "size_in_bytes": 1743
+      },
+      {
+        "_path": "site-packages/fastai/callback/comet.py",
+        "path_type": "hardlink",
+        "sha256": "6fcc2be15b17452d1f122dd62aa64de2f48f6e5ea3fbdb10c97d75a4581e853b",
+        "sha256_in_prefix": "6fcc2be15b17452d1f122dd62aa64de2f48f6e5ea3fbdb10c97d75a4581e853b",
+        "size_in_bytes": 3333
+      },
+      {
+        "_path": "site-packages/fastai/callback/core.py",
+        "path_type": "hardlink",
+        "sha256": "5b34b171ac57af1b0a29a0dbc7d422070c5c2e4c88b85705d177de2d7e11bd32",
+        "sha256_in_prefix": "5b34b171ac57af1b0a29a0dbc7d422070c5c2e4c88b85705d177de2d7e11bd32",
+        "size_in_bytes": 9371
+      },
+      {
+        "_path": "site-packages/fastai/callback/data.py",
+        "path_type": "hardlink",
+        "sha256": "4ab924480fc000820bd9450b18bd6bc5b4deddf89e28b4fef9ebad8c74ff955b",
+        "sha256_in_prefix": "4ab924480fc000820bd9450b18bd6bc5b4deddf89e28b4fef9ebad8c74ff955b",
+        "size_in_bytes": 3118
+      },
+      {
+        "_path": "site-packages/fastai/callback/fp16.py",
+        "path_type": "hardlink",
+        "sha256": "1ce3d10331163f332134705f8b1463426981f3e86ec71b1692a1a1151840e565",
+        "sha256_in_prefix": "1ce3d10331163f332134705f8b1463426981f3e86ec71b1692a1a1151840e565",
+        "size_in_bytes": 11274
+      },
+      {
+        "_path": "site-packages/fastai/callback/hook.py",
+        "path_type": "hardlink",
+        "sha256": "0df54d780434f140f30833f155d8b37e74c95ffb49be47c838b4e21321737ddc",
+        "sha256_in_prefix": "0df54d780434f140f30833f155d8b37e74c95ffb49be47c838b4e21321737ddc",
+        "size_in_bytes": 11381
+      },
+      {
+        "_path": "site-packages/fastai/callback/mixup.py",
+        "path_type": "hardlink",
+        "sha256": "69a86d4c1119984856753e5332ffaa718a868eed44c7bdfa3a6bc52316f637a8",
+        "sha256_in_prefix": "69a86d4c1119984856753e5332ffaa718a868eed44c7bdfa3a6bc52316f637a8",
+        "size_in_bytes": 4949
+      },
+      {
+        "_path": "site-packages/fastai/callback/preds.py",
+        "path_type": "hardlink",
+        "sha256": "9300766426830803eef11500b01bf1c58bedf250e9970a520e3b9ad1f7cb472a",
+        "sha256_in_prefix": "9300766426830803eef11500b01bf1c58bedf250e9970a520e3b9ad1f7cb472a",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "site-packages/fastai/callback/progress.py",
+        "path_type": "hardlink",
+        "sha256": "55328cdcdc0d3b35262188ab52f0526ec7c0c7d1903ba68ea1ef5fc58a93c5d4",
+        "sha256_in_prefix": "55328cdcdc0d3b35262188ab52f0526ec7c0c7d1903ba68ea1ef5fc58a93c5d4",
+        "size_in_bytes": 5143
+      },
+      {
+        "_path": "site-packages/fastai/callback/rnn.py",
+        "path_type": "hardlink",
+        "sha256": "6f08cc0e84c3e05c8e6d24242f0280991ea49d613f6a35361b8b5e9e37652028",
+        "sha256_in_prefix": "6f08cc0e84c3e05c8e6d24242f0280991ea49d613f6a35361b8b5e9e37652028",
+        "size_in_bytes": 1828
+      },
+      {
+        "_path": "site-packages/fastai/callback/schedule.py",
+        "path_type": "hardlink",
+        "sha256": "2a1f0dc064bfd0e0c96188d4ad67aa6df538ec524d435e7aae0f1c85301f4d02",
+        "sha256_in_prefix": "2a1f0dc064bfd0e0c96188d4ad67aa6df538ec524d435e7aae0f1c85301f4d02",
+        "size_in_bytes": 14367
+      },
+      {
+        "_path": "site-packages/fastai/callback/tensorboard.py",
+        "path_type": "hardlink",
+        "sha256": "0f250207efa042452a2d721d0a0b6ee11ed91745b5ed8119384ec5569aa92321",
+        "sha256_in_prefix": "0f250207efa042452a2d721d0a0b6ee11ed91745b5ed8119384ec5569aa92321",
+        "size_in_bytes": 7323
+      },
+      {
+        "_path": "site-packages/fastai/callback/tracker.py",
+        "path_type": "hardlink",
+        "sha256": "60ee97c5ca0e12a63e621a49039e0d6abaefb9a71034a47b56cb3d05f823f99b",
+        "sha256_in_prefix": "60ee97c5ca0e12a63e621a49039e0d6abaefb9a71034a47b56cb3d05f823f99b",
+        "size_in_bytes": 7720
+      },
+      {
+        "_path": "site-packages/fastai/callback/training.py",
+        "path_type": "hardlink",
+        "sha256": "e9e13e2cddae07cf33f710ea08113b630bab89eb0b5e08887bc48648fe6e04e8",
+        "sha256_in_prefix": "e9e13e2cddae07cf33f710ea08113b630bab89eb0b5e08887bc48648fe6e04e8",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "site-packages/fastai/callback/wandb.py",
+        "path_type": "hardlink",
+        "sha256": "0c9d331fd241dc695de48cdd991de7b1a1278b6e336fa83a67068b09a49bc640",
+        "sha256_in_prefix": "0c9d331fd241dc695de48cdd991de7b1a1278b6e336fa83a67068b09a49bc640",
+        "size_in_bytes": 14965
+      },
+      {
+        "_path": "site-packages/fastai/collab.py",
+        "path_type": "hardlink",
+        "sha256": "9fafd0f7b44ce048aa94d606f5fe1a8d57311ec51c47f300dbed4fdc8bf88cb0",
+        "sha256_in_prefix": "9fafd0f7b44ce048aa94d606f5fe1a8d57311ec51c47f300dbed4fdc8bf88cb0",
+        "size_in_bytes": 5199
+      },
+      {
+        "_path": "site-packages/fastai/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/fastai/data/all.py",
+        "path_type": "hardlink",
+        "sha256": "e9b34ee3dad8b3d4be0e71f5f6c645ce38353b31de813c652ec1a33395cb3df6",
+        "sha256_in_prefix": "e9b34ee3dad8b3d4be0e71f5f6c645ce38353b31de813c652ec1a33395cb3df6",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/fastai/data/block.py",
+        "path_type": "hardlink",
+        "sha256": "424211196494db3e05ac9bd59eb72866b8a4659e5dd95c70450d39272731537e",
+        "sha256_in_prefix": "424211196494db3e05ac9bd59eb72866b8a4659e5dd95c70450d39272731537e",
+        "size_in_bytes": 11106
+      },
+      {
+        "_path": "site-packages/fastai/data/core.py",
+        "path_type": "hardlink",
+        "sha256": "b80d26cc9f007f23ee9b0520b6ef5c21f5faa08e6960d1b9806de1338b9f9511",
+        "sha256_in_prefix": "b80d26cc9f007f23ee9b0520b6ef5c21f5faa08e6960d1b9806de1338b9f9511",
+        "size_in_bytes": 24092
+      },
+      {
+        "_path": "site-packages/fastai/data/download_checks.py",
+        "path_type": "hardlink",
+        "sha256": "a9d3160862ef3d4a88953282a55fecb7bcade785bb56ca72ed90839908e321ce",
+        "sha256_in_prefix": "a9d3160862ef3d4a88953282a55fecb7bcade785bb56ca72ed90839908e321ce",
+        "size_in_bytes": 9436
+      },
+      {
+        "_path": "site-packages/fastai/data/external.py",
+        "path_type": "hardlink",
+        "sha256": "58eed146a414a59ace63a1b39f87ffe14ee58b826947488dee6db18f94202c88",
+        "sha256_in_prefix": "58eed146a414a59ace63a1b39f87ffe14ee58b826947488dee6db18f94202c88",
+        "size_in_bytes": 6020
+      },
+      {
+        "_path": "site-packages/fastai/data/load.py",
+        "path_type": "hardlink",
+        "sha256": "2738866907d814344a4007eb50811f0906c05103ed9205fc0b85d93178cdfdbb",
+        "sha256_in_prefix": "2738866907d814344a4007eb50811f0906c05103ed9205fc0b85d93178cdfdbb",
+        "size_in_bytes": 11644
+      },
+      {
+        "_path": "site-packages/fastai/data/transforms.py",
+        "path_type": "hardlink",
+        "sha256": "7603dc83c400d71c9dd198a6ab5a58f7b1df5e451ae7712f17be4b7c042b141d",
+        "sha256_in_prefix": "7603dc83c400d71c9dd198a6ab5a58f7b1df5e451ae7712f17be4b7c042b141d",
+        "size_in_bytes": 16920
+      },
+      {
+        "_path": "site-packages/fastai/distributed.py",
+        "path_type": "hardlink",
+        "sha256": "1f04b96c8ff6e17ef8a4b79eac0a6604aa5862f4ab0e1d642e6c16c0c9c21203",
+        "sha256_in_prefix": "1f04b96c8ff6e17ef8a4b79eac0a6604aa5862f4ab0e1d642e6c16c0c9c21203",
+        "size_in_bytes": 9863
+      },
+      {
+        "_path": "site-packages/fastai/fp16_utils.py",
+        "path_type": "hardlink",
+        "sha256": "e79ad9e093c5a83e082ae63417167f7d415f022bf3408c369e74534ebfd8dfd7",
+        "sha256_in_prefix": "e79ad9e093c5a83e082ae63417167f7d415f022bf3408c369e74534ebfd8dfd7",
+        "size_in_bytes": 6957
+      },
+      {
+        "_path": "site-packages/fastai/imports.py",
+        "path_type": "hardlink",
+        "sha256": "750b27b44d47fc8933fac07c68dfff830d796d993065bd5536877347d096dbc6",
+        "sha256_in_prefix": "750b27b44d47fc8933fac07c68dfff830d796d993065bd5536877347d096dbc6",
+        "size_in_bytes": 3500
+      },
+      {
+        "_path": "site-packages/fastai/interpret.py",
+        "path_type": "hardlink",
+        "sha256": "38f9a9fc30cfa873cf429857b3990c9d1ebd8452c12ed1e2a873175ece49c241",
+        "sha256_in_prefix": "38f9a9fc30cfa873cf429857b3990c9d1ebd8452c12ed1e2a873175ece49c241",
+        "size_in_bytes": 7769
+      },
+      {
+        "_path": "site-packages/fastai/layers.py",
+        "path_type": "hardlink",
+        "sha256": "997bc05b582522bd121cf5697cb48448079badf29df92b8bbb65e3afc382d1b5",
+        "sha256_in_prefix": "997bc05b582522bd121cf5697cb48448079badf29df92b8bbb65e3afc382d1b5",
+        "size_in_bytes": 27301
+      },
+      {
+        "_path": "site-packages/fastai/learner.py",
+        "path_type": "hardlink",
+        "sha256": "4b905664e7b064eee9e6ba490fe5f760fc3dbd2c7af9a6502813c4c8333137ae",
+        "sha256_in_prefix": "4b905664e7b064eee9e6ba490fe5f760fc3dbd2c7af9a6502813c4c8333137ae",
+        "size_in_bytes": 29916
+      },
+      {
+        "_path": "site-packages/fastai/losses.py",
+        "path_type": "hardlink",
+        "sha256": "09db30e4ba99c565f7423e7d45e87b3841e7aa73dc41a7623ce45c1aba86765a",
+        "sha256_in_prefix": "09db30e4ba99c565f7423e7d45e87b3841e7aa73dc41a7623ce45c1aba86765a",
+        "size_in_bytes": 11450
+      },
+      {
+        "_path": "site-packages/fastai/medical/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fastai/medical/imaging.py",
+        "path_type": "hardlink",
+        "sha256": "57c550d6f4c465a5240df945360e2bf9db0158dd1051df998abc53e15b3e27ac",
+        "sha256_in_prefix": "57c550d6f4c465a5240df945360e2bf9db0158dd1051df998abc53e15b3e27ac",
+        "size_in_bytes": 15588
+      },
+      {
+        "_path": "site-packages/fastai/medical/text.py",
+        "path_type": "hardlink",
+        "sha256": "a9e726a3bc74af6edf3e3aacca1dd887a998cc664ce4bd8210a6502219f3c18d",
+        "sha256_in_prefix": "a9e726a3bc74af6edf3e3aacca1dd887a998cc664ce4bd8210a6502219f3c18d",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "site-packages/fastai/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "afc1e22fbb63a93766f027f3cef6ebaab562370a2e457df09e737a8f38913981",
+        "sha256_in_prefix": "afc1e22fbb63a93766f027f3cef6ebaab562370a2e457df09e737a8f38913981",
+        "size_in_bytes": 23125
+      },
+      {
+        "_path": "site-packages/fastai/optimizer.py",
+        "path_type": "hardlink",
+        "sha256": "36298e15a6bd293f5cec100d4573e718e3c5c48abf86984483b4dfbc624ddef8",
+        "sha256_in_prefix": "36298e15a6bd293f5cec100d4573e718e3c5c48abf86984483b4dfbc624ddef8",
+        "size_in_bytes": 21200
+      },
+      {
+        "_path": "site-packages/fastai/tabular/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fastai/tabular/all.py",
+        "path_type": "hardlink",
+        "sha256": "eb7f7129bc248cecd0c98f5f70f5ba76d8875adb57ac3c15438125cdf1648cbc",
+        "sha256_in_prefix": "eb7f7129bc248cecd0c98f5f70f5ba76d8875adb57ac3c15438125cdf1648cbc",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "site-packages/fastai/tabular/core.py",
+        "path_type": "hardlink",
+        "sha256": "c1d5c357d9bd377caa9b7ebbee91032a0c61b647b45ba7ab14f202fe0134a1e0",
+        "sha256_in_prefix": "c1d5c357d9bd377caa9b7ebbee91032a0c61b647b45ba7ab14f202fe0134a1e0",
+        "size_in_bytes": 17004
+      },
+      {
+        "_path": "site-packages/fastai/tabular/data.py",
+        "path_type": "hardlink",
+        "sha256": "8a336be32f5b48179c9a66fab1228c4d028ffb0972c7d929a32e9aeec6a47bda",
+        "sha256_in_prefix": "8a336be32f5b48179c9a66fab1228c4d028ffb0972c7d929a32e9aeec6a47bda",
+        "size_in_bytes": 2768
+      },
+      {
+        "_path": "site-packages/fastai/tabular/learner.py",
+        "path_type": "hardlink",
+        "sha256": "b0eeeb71b4ebd4e32fc03446f8eae9a8e8711cb5bbf954aba09b961cee64bfad",
+        "sha256_in_prefix": "b0eeeb71b4ebd4e32fc03446f8eae9a8e8711cb5bbf954aba09b961cee64bfad",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "site-packages/fastai/tabular/model.py",
+        "path_type": "hardlink",
+        "sha256": "42ec6dcc3e13831ff5af8e39e8cca0d7a1b573c6db1017349bf4cfb643d62bbd",
+        "sha256_in_prefix": "42ec6dcc3e13831ff5af8e39e8cca0d7a1b573c6db1017349bf4cfb643d62bbd",
+        "size_in_bytes": 3750
+      },
+      {
+        "_path": "site-packages/fastai/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a3a2376e5b467cef36b86b3604be5998210b68cb180b092a03e10c3172b21477",
+        "sha256_in_prefix": "a3a2376e5b467cef36b86b3604be5998210b68cb180b092a03e10c3172b21477",
+        "size_in_bytes": 6033
+      },
+      {
+        "_path": "site-packages/fastai/text/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/fastai/text/all.py",
+        "path_type": "hardlink",
+        "sha256": "c18c91aab4c3c03f9c633b5ce0cfd371f434f95916f15c6154880e6a999265bc",
+        "sha256_in_prefix": "c18c91aab4c3c03f9c633b5ce0cfd371f434f95916f15c6154880e6a999265bc",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/fastai/text/core.py",
+        "path_type": "hardlink",
+        "sha256": "132c094d26639e65e0deb751c2702515632296ba991dd2e51e5159bedc811d79",
+        "sha256_in_prefix": "132c094d26639e65e0deb751c2702515632296ba991dd2e51e5159bedc811d79",
+        "size_in_bytes": 17525
+      },
+      {
+        "_path": "site-packages/fastai/text/data.py",
+        "path_type": "hardlink",
+        "sha256": "658a2500ea25b67b189a40079670960f128bb88633fce728a563a91291d090dd",
+        "sha256_in_prefix": "658a2500ea25b67b189a40079670960f128bb88633fce728a563a91291d090dd",
+        "size_in_bytes": 14582
+      },
+      {
+        "_path": "site-packages/fastai/text/learner.py",
+        "path_type": "hardlink",
+        "sha256": "43f7b44ce74102152116c911536e39eb9ee8de74c52bd7e83eb48f06debf0d06",
+        "sha256_in_prefix": "43f7b44ce74102152116c911536e39eb9ee8de74c52bd7e83eb48f06debf0d06",
+        "size_in_bytes": 13866
+      },
+      {
+        "_path": "site-packages/fastai/text/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f3b56fd8de5a6743620fb96d68249f6d51b0c817a581a48bd889617cdf23ab72",
+        "sha256_in_prefix": "f3b56fd8de5a6743620fb96d68249f6d51b0c817a581a48bd889617cdf23ab72",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/fastai/text/models/awdlstm.py",
+        "path_type": "hardlink",
+        "sha256": "bff173e312bc6dee7e5773edf1d0e6471273689d0524f7bf1e5c10ce2980308e",
+        "sha256_in_prefix": "bff173e312bc6dee7e5773edf1d0e6471273689d0524f7bf1e5c10ce2980308e",
+        "size_in_bytes": 8529
+      },
+      {
+        "_path": "site-packages/fastai/text/models/core.py",
+        "path_type": "hardlink",
+        "sha256": "5f57b2ceb7d0699f8fd63066a6aeb7004b9a224bb79130e79524f434dd3c6caa",
+        "sha256_in_prefix": "5f57b2ceb7d0699f8fd63066a6aeb7004b9a224bb79130e79524f434dd3c6caa",
+        "size_in_bytes": 8308
+      },
+      {
+        "_path": "site-packages/fastai/torch_basics.py",
+        "path_type": "hardlink",
+        "sha256": "6835429b2681a82b82c8523b4eb7dcfad97f4b90ed7d6402ec6b2fdbcd171993",
+        "sha256_in_prefix": "6835429b2681a82b82c8523b4eb7dcfad97f4b90ed7d6402ec6b2fdbcd171993",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "site-packages/fastai/torch_core.py",
+        "path_type": "hardlink",
+        "sha256": "1df337d4aae88e17fc4e5ae96e97f2b909cde90510aba6d1c8ff69eb740669ed",
+        "sha256_in_prefix": "1df337d4aae88e17fc4e5ae96e97f2b909cde90510aba6d1c8ff69eb740669ed",
+        "size_in_bytes": 36543
+      },
+      {
+        "_path": "site-packages/fastai/torch_imports.py",
+        "path_type": "hardlink",
+        "sha256": "83bc2fa4a68d3f479bb6df19609fe61d546fb272ad340c2b9b4cdbcf1d340ed1",
+        "sha256_in_prefix": "83bc2fa4a68d3f479bb6df19609fe61d546fb272ad340c2b9b4cdbcf1d340ed1",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "site-packages/fastai/vision/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/fastai/vision/all.py",
+        "path_type": "hardlink",
+        "sha256": "6f16c57f1bd05115df0c4b9ade1b93c5623645688b998142e3e4d63f4b05fb90",
+        "sha256_in_prefix": "6f16c57f1bd05115df0c4b9ade1b93c5623645688b998142e3e4d63f4b05fb90",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "site-packages/fastai/vision/augment.py",
+        "path_type": "hardlink",
+        "sha256": "521914a4059fc441badb73b5253ac496fd42b6cbe6c13fe6677d68a0e16e654b",
+        "sha256_in_prefix": "521914a4059fc441badb73b5253ac496fd42b6cbe6c13fe6677d68a0e16e654b",
+        "size_in_bytes": 56986
+      },
+      {
+        "_path": "site-packages/fastai/vision/core.py",
+        "path_type": "hardlink",
+        "sha256": "150441f8b826256c4416b8b8b20981698962c6857cc4aa242492870750678290",
+        "sha256_in_prefix": "150441f8b826256c4416b8b8b20981698962c6857cc4aa242492870750678290",
+        "size_in_bytes": 11701
+      },
+      {
+        "_path": "site-packages/fastai/vision/data.py",
+        "path_type": "hardlink",
+        "sha256": "8e4451786a25f0b51459774efd02c560bad0b2f5ec0a3f4b67d12bc2af50f69c",
+        "sha256_in_prefix": "8e4451786a25f0b51459774efd02c560bad0b2f5ec0a3f4b67d12bc2af50f69c",
+        "size_in_bytes": 11758
+      },
+      {
+        "_path": "site-packages/fastai/vision/gan.py",
+        "path_type": "hardlink",
+        "sha256": "4aff66e79cd54f243dfcba12269ffa4e4e706609ef3015e3949b17c876844743",
+        "sha256_in_prefix": "4aff66e79cd54f243dfcba12269ffa4e4e706609ef3015e3949b17c876844743",
+        "size_in_bytes": 19560
+      },
+      {
+        "_path": "site-packages/fastai/vision/learner.py",
+        "path_type": "hardlink",
+        "sha256": "eef5c321135ecd7ff33d057f06f75a7b4c945be0a366ac5e2750676b1fbaa6bb",
+        "sha256_in_prefix": "eef5c321135ecd7ff33d057f06f75a7b4c945be0a366ac5e2750676b1fbaa6bb",
+        "size_in_bytes": 19898
+      },
+      {
+        "_path": "site-packages/fastai/vision/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a9ffbb74c1bf14f2937827a4b3ea900cba2858ae9f0e8b5bad3d27f79ff1906a",
+        "sha256_in_prefix": "a9ffbb74c1bf14f2937827a4b3ea900cba2858ae9f0e8b5bad3d27f79ff1906a",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "site-packages/fastai/vision/models/all.py",
+        "path_type": "hardlink",
+        "sha256": "53ea21010110f8b28b76cc477c2ac90b3b2544f8d1af34f817979489833c5f43",
+        "sha256_in_prefix": "53ea21010110f8b28b76cc477c2ac90b3b2544f8d1af34f817979489833c5f43",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/fastai/vision/models/tvm.py",
+        "path_type": "hardlink",
+        "sha256": "e40a9fdef6e1581957b13bfad162b40e1f3686735076727f046f1ba7f748caf6",
+        "sha256_in_prefix": "e40a9fdef6e1581957b13bfad162b40e1f3686735076727f046f1ba7f748caf6",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "site-packages/fastai/vision/models/unet.py",
+        "path_type": "hardlink",
+        "sha256": "914d9d48f7eac38d509c52a4cc63573e6c055c3b04a83f9ee8f068d3d1596dec",
+        "sha256_in_prefix": "914d9d48f7eac38d509c52a4cc63573e6c055c3b04a83f9ee8f068d3d1596dec",
+        "size_in_bytes": 4724
+      },
+      {
+        "_path": "site-packages/fastai/vision/models/xresnet.py",
+        "path_type": "hardlink",
+        "sha256": "ad517cbbec8dfdae2e5872fdc193ca5805c48858e29e4a99b2b5df9e4d324f83",
+        "sha256_in_prefix": "ad517cbbec8dfdae2e5872fdc193ca5805c48858e29e4a99b2b5df9e4d324f83",
+        "size_in_bytes": 7766
+      },
+      {
+        "_path": "site-packages/fastai/vision/utils.py",
+        "path_type": "hardlink",
+        "sha256": "6393c5a91604f0adbbc6db35a6a94860d501faa98df92cd7a8ff698f1241a1a2",
+        "sha256_in_prefix": "6393c5a91604f0adbbc6db35a6a94860d501faa98df92cd7a8ff698f1241a1a2",
+        "size_in_bytes": 4333
+      },
+      {
+        "_path": "site-packages/fastai/vision/widgets.py",
+        "path_type": "hardlink",
+        "sha256": "a585f834c68387de666ad3682855791fcbed50e24747ef88d6c3dadf4c2f3fef",
+        "sha256_in_prefix": "a585f834c68387de666ad3682855791fcbed50e24747ef88d6c3dadf4c2f3fef",
+        "size_in_bytes": 5186
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/_modidx.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/_nbdev.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/_pytorch_doc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/basics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/all.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/azureml.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/captum.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/channelslast.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/comet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/fp16.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/hook.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/mixup.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/preds.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/progress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/rnn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/schedule.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/tensorboard.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/tracker.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/training.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/callback/__pycache__/wandb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/collab.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/all.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/block.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/download_checks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/external.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/load.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/data/__pycache__/transforms.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/distributed.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/fp16_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/imports.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/interpret.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/layers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/learner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/losses.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/medical/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/medical/__pycache__/imaging.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/medical/__pycache__/text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/metrics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/optimizer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/tabular/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/tabular/__pycache__/all.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/tabular/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/tabular/__pycache__/data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/tabular/__pycache__/learner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/tabular/__pycache__/model.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/__pycache__/all.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/__pycache__/data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/__pycache__/learner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/models/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/models/__pycache__/awdlstm.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/text/models/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/torch_basics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/torch_core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/__pycache__/torch_imports.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/all.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/augment.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/gan.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/learner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/models/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/models/__pycache__/all.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/models/__pycache__/tvm.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/models/__pycache__/unet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/models/__pycache__/xresnet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastai/vision/__pycache__/widgets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "fastai/noarch::fastai==2.7.14=py_0",
+  "sha256": "33622e8149927ed1dabe937d9c38b120e98ce16c136649d288940421fa86a279",
+  "size": 185287,
+  "subdir": "noarch",
+  "timestamp": 1706747682000,
+  "url": "https://conda.anaconda.org/fastai/noarch/fastai-2.7.14-py_0.tar.bz2",
+  "version": "2.7.14"
+}
