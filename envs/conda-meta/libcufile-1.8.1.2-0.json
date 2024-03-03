@@ -1,0 +1,71 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libcufile-1.8.1.2-0",
+  "files": [
+    "etc/cufile.json",
+    "lib/libcufile.so.0",
+    "lib/libcufile.so.1.8.1",
+    "lib/libcufile_rdma.so.1",
+    "lib/libcufile_rdma.so.1.8.1"
+  ],
+  "fn": "libcufile-1.8.1.2-0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libcufile-1.8.1.2-0",
+    "type": 1
+  },
+  "md5": "9216c3ab5eb551bb7c2c4f604b4e7614",
+  "name": "libcufile",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libcufile-1.8.1.2-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/cufile.json",
+        "path_type": "hardlink",
+        "sha256": "d4bb89b0a400437aaf0ee2bd8e1d5dac4968e63f85c5ee00a499508b780906df",
+        "sha256_in_prefix": "d4bb89b0a400437aaf0ee2bd8e1d5dac4968e63f85c5ee00a499508b780906df",
+        "size_in_bytes": 10756
+      },
+      {
+        "_path": "lib/libcufile.so.0",
+        "path_type": "softlink",
+        "sha256": "529842bd346870beae34ecf43097f3c7ffe0128bb570a2fbd94d0faf8aee4083",
+        "size_in_bytes": 3041281
+      },
+      {
+        "_path": "lib/libcufile.so.1.8.1",
+        "path_type": "hardlink",
+        "sha256": "529842bd346870beae34ecf43097f3c7ffe0128bb570a2fbd94d0faf8aee4083",
+        "sha256_in_prefix": "529842bd346870beae34ecf43097f3c7ffe0128bb570a2fbd94d0faf8aee4083",
+        "size_in_bytes": 3041281
+      },
+      {
+        "_path": "lib/libcufile_rdma.so.1",
+        "path_type": "softlink",
+        "sha256": "cc20a6e10f82c55a053bf2379cb6fe1c0d54ad630cb7105e3fb48833b5959337",
+        "size_in_bytes": 47657
+      },
+      {
+        "_path": "lib/libcufile_rdma.so.1.8.1",
+        "path_type": "hardlink",
+        "sha256": "cc20a6e10f82c55a053bf2379cb6fe1c0d54ad630cb7105e3fb48833b5959337",
+        "sha256_in_prefix": "cc20a6e10f82c55a053bf2379cb6fe1c0d54ad630cb7105e3fb48833b5959337",
+        "size_in_bytes": 47657
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "nvidia/linux-64::libcufile==1.8.1.2=0",
+  "sha256": "f399e21e2d8a286d74354c0df94635f259cfb6649031a8f48a5654f97387014f",
+  "size": 1056957,
+  "subdir": "linux-64",
+  "timestamp": 1698278222000,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcufile-1.8.1.2-0.tar.bz2",
+  "version": "1.8.1.2"
+}

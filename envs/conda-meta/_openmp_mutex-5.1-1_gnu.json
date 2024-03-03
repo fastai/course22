@@ -1,0 +1,45 @@
+{
+  "arch": "x86_64",
+  "build": "1_gnu",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [
+    "openmp_impl 9999"
+  ],
+  "depends": [
+    "_libgcc_mutex 0.1 main",
+    "libgomp >=7.5.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu",
+  "files": [
+    "lib/libgomp.so.1"
+  ],
+  "fn": "_openmp_mutex-5.1-1_gnu.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu",
+    "type": 1
+  },
+  "md5": "613805add1c05b538ff06d217252feb7",
+  "name": "_openmp_mutex",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgomp.so.1",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::_openmp_mutex==5.1=1_gnu",
+  "sha256": "9e1391519971e7ce527b3f268900d079bedf0eff3fb70cdb4844cd0f64dfe086",
+  "size": 20810,
+  "subdir": "linux-64",
+  "timestamp": 1652859733000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/_openmp_mutex-5.1-1_gnu.tar.bz2",
+  "version": "5.1"
+}

@@ -1,0 +1,427 @@
+{
+  "arch": "x86_64",
+  "build": "he1e5248_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ca-certificates",
+    "gmp >=6.1.2",
+    "libgcc-ng >=7.3.0",
+    "libidn2 >=2,<3.0a0",
+    "libstdcxx-ng >=7.3.0",
+    "libtasn1 >=4.16.0,<5.0a0",
+    "libunistring >=0,<1.0a0",
+    "nettle >=3.7.2,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/gnutls-3.6.15-he1e5248_0",
+  "files": [
+    "bin/certtool",
+    "bin/gnutls-cli",
+    "bin/gnutls-cli-debug",
+    "bin/gnutls-serv",
+    "bin/ocsptool",
+    "bin/psktool",
+    "bin/srptool",
+    "include/gnutls/abstract.h",
+    "include/gnutls/compat.h",
+    "include/gnutls/crypto.h",
+    "include/gnutls/dtls.h",
+    "include/gnutls/gnutls.h",
+    "include/gnutls/gnutlsxx.h",
+    "include/gnutls/ocsp.h",
+    "include/gnutls/openpgp.h",
+    "include/gnutls/pkcs11.h",
+    "include/gnutls/pkcs12.h",
+    "include/gnutls/pkcs7.h",
+    "include/gnutls/self-test.h",
+    "include/gnutls/socket.h",
+    "include/gnutls/system-keys.h",
+    "include/gnutls/tpm.h",
+    "include/gnutls/urls.h",
+    "include/gnutls/x509-ext.h",
+    "include/gnutls/x509.h",
+    "lib/libgnutls.so",
+    "lib/libgnutls.so.30",
+    "lib/libgnutls.so.30.28.1",
+    "lib/libgnutlsxx.so",
+    "lib/libgnutlsxx.so.28",
+    "lib/libgnutlsxx.so.28.1.0",
+    "lib/pkgconfig/gnutls.pc",
+    "share/locale/cs/LC_MESSAGES/gnutls.mo",
+    "share/locale/de/LC_MESSAGES/gnutls.mo",
+    "share/locale/eo/LC_MESSAGES/gnutls.mo",
+    "share/locale/es/LC_MESSAGES/gnutls.mo",
+    "share/locale/fi/LC_MESSAGES/gnutls.mo",
+    "share/locale/fr/LC_MESSAGES/gnutls.mo",
+    "share/locale/it/LC_MESSAGES/gnutls.mo",
+    "share/locale/ms/LC_MESSAGES/gnutls.mo",
+    "share/locale/nl/LC_MESSAGES/gnutls.mo",
+    "share/locale/pl/LC_MESSAGES/gnutls.mo",
+    "share/locale/pt_BR/LC_MESSAGES/gnutls.mo",
+    "share/locale/sr/LC_MESSAGES/gnutls.mo",
+    "share/locale/sv/LC_MESSAGES/gnutls.mo",
+    "share/locale/uk/LC_MESSAGES/gnutls.mo",
+    "share/locale/vi/LC_MESSAGES/gnutls.mo",
+    "share/locale/zh_CN/LC_MESSAGES/gnutls.mo"
+  ],
+  "fn": "gnutls-3.6.15-he1e5248_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/gnutls-3.6.15-he1e5248_0",
+    "type": 1
+  },
+  "md5": "de368b69defbce286b7cec43efbd4187",
+  "name": "gnutls",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/gnutls-3.6.15-he1e5248_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/certtool",
+        "path_type": "hardlink",
+        "sha256": "0d0ff72a6ee27ed5b143b279f5a372257b35b1a258ecdeeb0962fb43c3ea40c2",
+        "sha256_in_prefix": "0d0ff72a6ee27ed5b143b279f5a372257b35b1a258ecdeeb0962fb43c3ea40c2",
+        "size_in_bytes": 329640
+      },
+      {
+        "_path": "bin/gnutls-cli",
+        "path_type": "hardlink",
+        "sha256": "d02dc4a35c3df13588e761cb2bb6b93d9e0f20d078c4ea778995a9185a09578a",
+        "sha256_in_prefix": "d02dc4a35c3df13588e761cb2bb6b93d9e0f20d078c4ea778995a9185a09578a",
+        "size_in_bytes": 237688
+      },
+      {
+        "_path": "bin/gnutls-cli-debug",
+        "path_type": "hardlink",
+        "sha256": "fca1eabb0e6132483ffa3fddda1272852126973664513ef32fc7d5e87b160b76",
+        "sha256_in_prefix": "fca1eabb0e6132483ffa3fddda1272852126973664513ef32fc7d5e87b160b76",
+        "size_in_bytes": 192288
+      },
+      {
+        "_path": "bin/gnutls-serv",
+        "path_type": "hardlink",
+        "sha256": "65c0d6cf4183da178ea25b6e6ecedca75932d5a0c382b15f5e5a4aa732b4c012",
+        "sha256_in_prefix": "65c0d6cf4183da178ea25b6e6ecedca75932d5a0c382b15f5e5a4aa732b4c012",
+        "size_in_bytes": 193768
+      },
+      {
+        "_path": "bin/ocsptool",
+        "path_type": "hardlink",
+        "sha256": "37c6849f28dddd2e2660af5c0b615ab50141442030c9c14722523576dd98ef0c",
+        "sha256_in_prefix": "37c6849f28dddd2e2660af5c0b615ab50141442030c9c14722523576dd98ef0c",
+        "size_in_bytes": 148360
+      },
+      {
+        "_path": "bin/psktool",
+        "path_type": "hardlink",
+        "sha256": "32cebf004e6d21f8a611f94e13422de2a5904d9501d3ea91d1d3d97e84d63803",
+        "sha256_in_prefix": "32cebf004e6d21f8a611f94e13422de2a5904d9501d3ea91d1d3d97e84d63803",
+        "size_in_bytes": 111736
+      },
+      {
+        "_path": "bin/srptool",
+        "path_type": "hardlink",
+        "sha256": "63d44820e2d1d74b10fad7636672db1a1921101d840dfe448ec212a4d488157f",
+        "sha256_in_prefix": "63d44820e2d1d74b10fad7636672db1a1921101d840dfe448ec212a4d488157f",
+        "size_in_bytes": 117424
+      },
+      {
+        "_path": "include/gnutls/abstract.h",
+        "path_type": "hardlink",
+        "sha256": "76b73ba1d42a692a34822e122b623e41e8be5f231060e2d260e4307093eaf632",
+        "sha256_in_prefix": "76b73ba1d42a692a34822e122b623e41e8be5f231060e2d260e4307093eaf632",
+        "size_in_bytes": 26552
+      },
+      {
+        "_path": "include/gnutls/compat.h",
+        "path_type": "hardlink",
+        "sha256": "393c0f0491cfac06a1b3c0be312dff31b0a0d13de20d2ff043370fcfdb0e4f43",
+        "sha256_in_prefix": "393c0f0491cfac06a1b3c0be312dff31b0a0d13de20d2ff043370fcfdb0e4f43",
+        "size_in_bytes": 9466
+      },
+      {
+        "_path": "include/gnutls/crypto.h",
+        "path_type": "hardlink",
+        "sha256": "c3249365812dcffe41336ad973a275f921e884ff6f04ca05aad81ef74d78440c",
+        "sha256_in_prefix": "c3249365812dcffe41336ad973a275f921e884ff6f04ca05aad81ef74d78440c",
+        "size_in_bytes": 11404
+      },
+      {
+        "_path": "include/gnutls/dtls.h",
+        "path_type": "hardlink",
+        "sha256": "6dbd58c791ff073ec387d54c3fe5d8df767547ac9de4116a83ef24d764d43b86",
+        "sha256_in_prefix": "6dbd58c791ff073ec387d54c3fe5d8df767547ac9de4116a83ef24d764d43b86",
+        "size_in_bytes": 2795
+      },
+      {
+        "_path": "include/gnutls/gnutls.h",
+        "path_type": "hardlink",
+        "sha256": "0f6906b291fd5da325c78d362007f4fd6a6cf8707c22189db0d4551e5c1b43df",
+        "sha256_in_prefix": "0f6906b291fd5da325c78d362007f4fd6a6cf8707c22189db0d4551e5c1b43df",
+        "size_in_bytes": 136225
+      },
+      {
+        "_path": "include/gnutls/gnutlsxx.h",
+        "path_type": "hardlink",
+        "sha256": "0bfaa841a4f75f5eb12f78744ecd43d9a0f75dd10669d09fa3380952564f6c10",
+        "sha256_in_prefix": "0bfaa841a4f75f5eb12f78744ecd43d9a0f75dd10669d09fa3380952564f6c10",
+        "size_in_bytes": 12361
+      },
+      {
+        "_path": "include/gnutls/ocsp.h",
+        "path_type": "hardlink",
+        "sha256": "b132abc65fbcc7d0456d252fd51cef0ab43548f46c4f1f8ac67f0cd1747e64ab",
+        "sha256_in_prefix": "b132abc65fbcc7d0456d252fd51cef0ab43548f46c4f1f8ac67f0cd1747e64ab",
+        "size_in_bytes": 10397
+      },
+      {
+        "_path": "include/gnutls/openpgp.h",
+        "path_type": "hardlink",
+        "sha256": "c54f5e3e75e0318a1ee0487551e27a2f5ba251c22cc24c6286cce1ad3449ba6a",
+        "sha256_in_prefix": "c54f5e3e75e0318a1ee0487551e27a2f5ba251c22cc24c6286cce1ad3449ba6a",
+        "size_in_bytes": 15020
+      },
+      {
+        "_path": "include/gnutls/pkcs11.h",
+        "path_type": "hardlink",
+        "sha256": "e674fcc66dd15ce4e7cfa678e28c64c2a2b8ceae6e23e8ba517927c9d779230e",
+        "sha256_in_prefix": "e674fcc66dd15ce4e7cfa678e28c64c2a2b8ceae6e23e8ba517927c9d779230e",
+        "size_in_bytes": 20799
+      },
+      {
+        "_path": "include/gnutls/pkcs12.h",
+        "path_type": "hardlink",
+        "sha256": "ea3dc720c96359c4d9953e142bea67514eddfd15c79dd5fdc1ccfdb822904296",
+        "sha256_in_prefix": "ea3dc720c96359c4d9953e142bea67514eddfd15c79dd5fdc1ccfdb822904296",
+        "size_in_bytes": 5264
+      },
+      {
+        "_path": "include/gnutls/pkcs7.h",
+        "path_type": "hardlink",
+        "sha256": "019f101b5699ceaae5cd1f1b74e6e9cbade7bd6828d67b9a9aa9db1ebb6de2fa",
+        "sha256_in_prefix": "019f101b5699ceaae5cd1f1b74e6e9cbade7bd6828d67b9a9aa9db1ebb6de2fa",
+        "size_in_bytes": 5522
+      },
+      {
+        "_path": "include/gnutls/self-test.h",
+        "path_type": "hardlink",
+        "sha256": "43c727c2ce85fdd599fec5b4945ceb208905ca2c89851e3d6c0f9653a468e804",
+        "sha256_in_prefix": "43c727c2ce85fdd599fec5b4945ceb208905ca2c89851e3d6c0f9653a468e804",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "include/gnutls/socket.h",
+        "path_type": "hardlink",
+        "sha256": "170d3a51dca15f272dd4217e417b801dda9ef45f02be4d6d8067bbc507086ccc",
+        "sha256_in_prefix": "170d3a51dca15f272dd4217e417b801dda9ef45f02be4d6d8067bbc507086ccc",
+        "size_in_bytes": 1454
+      },
+      {
+        "_path": "include/gnutls/system-keys.h",
+        "path_type": "hardlink",
+        "sha256": "6a97fb76196be05ae2a629d9a640025eca6b2a988e7bad1748f7743bfd4219be",
+        "sha256_in_prefix": "6a97fb76196be05ae2a629d9a640025eca6b2a988e7bad1748f7743bfd4219be",
+        "size_in_bytes": 1892
+      },
+      {
+        "_path": "include/gnutls/tpm.h",
+        "path_type": "hardlink",
+        "sha256": "66ff500b44b3f4e1c1a88f4c6823ba998cd31de8e54203ae09c2d9d71947c60a",
+        "sha256_in_prefix": "66ff500b44b3f4e1c1a88f4c6823ba998cd31de8e54203ae09c2d9d71947c60a",
+        "size_in_bytes": 2308
+      },
+      {
+        "_path": "include/gnutls/urls.h",
+        "path_type": "hardlink",
+        "sha256": "62ede974120630b4635aceb15ba85887ff39c4ffcc0af77f82cd542ce8737bbc",
+        "sha256_in_prefix": "62ede974120630b4635aceb15ba85887ff39c4ffcc0af77f82cd542ce8737bbc",
+        "size_in_bytes": 2485
+      },
+      {
+        "_path": "include/gnutls/x509-ext.h",
+        "path_type": "hardlink",
+        "sha256": "79cd64d808ae4c7412b5bf0ce1d97e6eac0f5fd84fe66df31076a1b1ea4e84f1",
+        "sha256_in_prefix": "79cd64d808ae4c7412b5bf0ce1d97e6eac0f5fd84fe66df31076a1b1ea4e84f1",
+        "size_in_bytes": 7844
+      },
+      {
+        "_path": "include/gnutls/x509.h",
+        "path_type": "hardlink",
+        "sha256": "8f072c87008524a8161c6b15764aa5b2a29f6c0d1d5930519b6e23484fda47e6",
+        "sha256_in_prefix": "8f072c87008524a8161c6b15764aa5b2a29f6c0d1d5930519b6e23484fda47e6",
+        "size_in_bytes": 63522
+      },
+      {
+        "_path": "lib/libgnutls.so",
+        "path_type": "softlink",
+        "sha256": "9fdb1e775900aec8b6fd5674f21ea3fa179ed76da870f3c1bcc231c1483f106a",
+        "size_in_bytes": 1802376
+      },
+      {
+        "_path": "lib/libgnutls.so.30",
+        "path_type": "softlink",
+        "sha256": "9fdb1e775900aec8b6fd5674f21ea3fa179ed76da870f3c1bcc231c1483f106a",
+        "size_in_bytes": 1802376
+      },
+      {
+        "_path": "lib/libgnutls.so.30.28.1",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/gnutls_1617814030043/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "9fdb1e775900aec8b6fd5674f21ea3fa179ed76da870f3c1bcc231c1483f106a",
+        "sha256_in_prefix": "510caa323eb98702eb880a1ea5798699f34342ed2d1dc0019b708a4bf96ebba5",
+        "size_in_bytes": 1802376
+      },
+      {
+        "_path": "lib/libgnutlsxx.so",
+        "path_type": "softlink",
+        "sha256": "71758988ceb94644d9c411287a94299a0de3bd8c64a0ef7b8b0f6bf928033262",
+        "size_in_bytes": 94528
+      },
+      {
+        "_path": "lib/libgnutlsxx.so.28",
+        "path_type": "softlink",
+        "sha256": "71758988ceb94644d9c411287a94299a0de3bd8c64a0ef7b8b0f6bf928033262",
+        "size_in_bytes": 94528
+      },
+      {
+        "_path": "lib/libgnutlsxx.so.28.1.0",
+        "path_type": "hardlink",
+        "sha256": "71758988ceb94644d9c411287a94299a0de3bd8c64a0ef7b8b0f6bf928033262",
+        "sha256_in_prefix": "71758988ceb94644d9c411287a94299a0de3bd8c64a0ef7b8b0f6bf928033262",
+        "size_in_bytes": 94528
+      },
+      {
+        "_path": "lib/pkgconfig/gnutls.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/gnutls_1617814030043/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "0db7df15462af50256816531365fc6acc17c28c0440fd8d3cdea472ce0a0e359",
+        "sha256_in_prefix": "cdec8923a410202daf6b64b62ed0e6ce422bc52e678228b6a94605bf87a2eebb",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "share/locale/cs/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "37c15a824305507e996034e34d2635f2f3954d4943a435409f2ef03f4cf75100",
+        "sha256_in_prefix": "37c15a824305507e996034e34d2635f2f3954d4943a435409f2ef03f4cf75100",
+        "size_in_bytes": 34151
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "89c3e29c52d2fba93bfac0c236f49bdd45af047600e02396a61f67013f3ffb1f",
+        "sha256_in_prefix": "89c3e29c52d2fba93bfac0c236f49bdd45af047600e02396a61f67013f3ffb1f",
+        "size_in_bytes": 24988
+      },
+      {
+        "_path": "share/locale/eo/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "a79cd9989ef0894fb7d199a139b2a57d2aa15f87c680576b272c15d35d23c454",
+        "sha256_in_prefix": "a79cd9989ef0894fb7d199a139b2a57d2aa15f87c680576b272c15d35d23c454",
+        "size_in_bytes": 33110
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "eba65543228293f8786bef039d9127f1783238ff76c2b8a8ba3a6f1e25f1372e",
+        "sha256_in_prefix": "eba65543228293f8786bef039d9127f1783238ff76c2b8a8ba3a6f1e25f1372e",
+        "size_in_bytes": 24527
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "86f679ccf3daeabacbd95937adf81d1dbc15de35b38cbb2e618b599780777284",
+        "sha256_in_prefix": "86f679ccf3daeabacbd95937adf81d1dbc15de35b38cbb2e618b599780777284",
+        "size_in_bytes": 24153
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "061005aff55b0baf38aa5ae80d60a09d22eb66f6e902f261c8a2f39b9694ed8e",
+        "sha256_in_prefix": "061005aff55b0baf38aa5ae80d60a09d22eb66f6e902f261c8a2f39b9694ed8e",
+        "size_in_bytes": 35159
+      },
+      {
+        "_path": "share/locale/it/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "29773feccfee4e3a156a0bdad708f9ea4c2c4fae2f36cf4ccfdd6807bdebbed3",
+        "sha256_in_prefix": "29773feccfee4e3a156a0bdad708f9ea4c2c4fae2f36cf4ccfdd6807bdebbed3",
+        "size_in_bytes": 34940
+      },
+      {
+        "_path": "share/locale/ms/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "e8a3ee0bf82f289d7a25789e368dd1699120ccf32385f41ecb66bd92d52ca324",
+        "sha256_in_prefix": "e8a3ee0bf82f289d7a25789e368dd1699120ccf32385f41ecb66bd92d52ca324",
+        "size_in_bytes": 16866
+      },
+      {
+        "_path": "share/locale/nl/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "dee62b664e287a1424d2dc1a68962c8b9bd7c21eccb5b298cee4fb084f01f776",
+        "sha256_in_prefix": "dee62b664e287a1424d2dc1a68962c8b9bd7c21eccb5b298cee4fb084f01f776",
+        "size_in_bytes": 24388
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "a33a828ccdd60d01abe07e4c4004e4ba8a4924c23cd1fe68a55f050ea6c69dfc",
+        "sha256_in_prefix": "a33a828ccdd60d01abe07e4c4004e4ba8a4924c23cd1fe68a55f050ea6c69dfc",
+        "size_in_bytes": 34025
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "a5caaa4e080d6917e1c7e3efa63d73289af6eb49dbfcc4a91742a787ca9aa4fc",
+        "sha256_in_prefix": "a5caaa4e080d6917e1c7e3efa63d73289af6eb49dbfcc4a91742a787ca9aa4fc",
+        "size_in_bytes": 34575
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "cb3a3f572ef893b549e5d5cdc9e2fdaa40904cc1c266ebdf253b83beeaa0d074",
+        "sha256_in_prefix": "cb3a3f572ef893b549e5d5cdc9e2fdaa40904cc1c266ebdf253b83beeaa0d074",
+        "size_in_bytes": 41709
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "3a0d2a30eaf5792d84412a1d1726034b540220f89aaf693eb950827cb1f3f5f9",
+        "sha256_in_prefix": "3a0d2a30eaf5792d84412a1d1726034b540220f89aaf693eb950827cb1f3f5f9",
+        "size_in_bytes": 23808
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "c54cd58f5f1de7610e5897dcd8999f5c74e3cdf1d2595ad96df4541a7ad52521",
+        "sha256_in_prefix": "c54cd58f5f1de7610e5897dcd8999f5c74e3cdf1d2595ad96df4541a7ad52521",
+        "size_in_bytes": 43946
+      },
+      {
+        "_path": "share/locale/vi/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "702177015ff3bef3abe54d8c8fac9ac559d61ee8f92cb1fd7dc191c41dc57e90",
+        "sha256_in_prefix": "702177015ff3bef3abe54d8c8fac9ac559d61ee8f92cb1fd7dc191c41dc57e90",
+        "size_in_bytes": 26073
+      },
+      {
+        "_path": "share/locale/zh_CN/LC_MESSAGES/gnutls.mo",
+        "path_type": "hardlink",
+        "sha256": "b19488ca0e3469cab1f6d7dce52a84f149e60f7ba41cb80cb1b2dc93ba4a12c5",
+        "sha256_in_prefix": "b19488ca0e3469cab1f6d7dce52a84f149e60f7ba41cb80cb1b2dc93ba4a12c5",
+        "size_in_bytes": 22411
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::gnutls==3.6.15=he1e5248_0",
+  "sha256": "b83d15a44abf3bb8bd4b9052b7287456975d0d650da99428fa4506675c98a28f",
+  "size": 1054747,
+  "subdir": "linux-64",
+  "timestamp": 1617814418000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/gnutls-3.6.15-he1e5248_0.conda",
+  "version": "3.6.15"
+}

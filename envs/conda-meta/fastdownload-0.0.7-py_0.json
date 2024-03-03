@@ -1,0 +1,168 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/fastai/noarch",
+  "constrains": [],
+  "depends": [
+    "fastcore >=1.3.26",
+    "fastprogress",
+    "packaging",
+    "pip",
+    "python"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/fastdownload-0.0.7-py_0",
+  "files": [
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/LICENSE",
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/METADATA",
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/RECORD",
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/WHEEL",
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/fastdownload-0.0.7.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/fastdownload/__init__.py",
+    "lib/python3.9/site-packages/fastdownload/_nbdev.py",
+    "lib/python3.9/site-packages/fastdownload/core.py",
+    "lib/python3.9/site-packages/fastdownload/download_checks.py",
+    "lib/python3.9/site-packages/fastdownload/urls.py",
+    "lib/python3.9/site-packages/fastdownload/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastdownload/__pycache__/_nbdev.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastdownload/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastdownload/__pycache__/download_checks.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastdownload/__pycache__/urls.cpython-39.pyc"
+  ],
+  "fn": "fastdownload-0.0.7-py_0.tar.bz2",
+  "license": "Apache Software",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/fastdownload-0.0.7-py_0",
+    "type": 1
+  },
+  "md5": "48a2066573a56555d9c3941497acf550",
+  "name": "fastdownload",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/fastdownload-0.0.7-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c564059d1119744a0787120ede97ee5888b78b207b89b47fdf82178fb1867fa4",
+        "sha256_in_prefix": "c564059d1119744a0787120ede97ee5888b78b207b89b47fdf82178fb1867fa4",
+        "size_in_bytes": 5518
+      },
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f78bf983d92e1664259da7a54bfc25d5d0f95cf8904db474caed38ea3ca05a9f",
+        "sha256_in_prefix": "f78bf983d92e1664259da7a54bfc25d5d0f95cf8904db474caed38ea3ca05a9f",
+        "size_in_bytes": 1364
+      },
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "025d8c107e30fb311baf97bf4db906ee73d87f118fe4c83688e40b477e15eecf",
+        "sha256_in_prefix": "025d8c107e30fb311baf97bf4db906ee73d87f118fe4c83688e40b477e15eecf",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/fastdownload-0.0.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2036aff1725bd812535bfaa6db8ddd9edca587017e630700e250cae54d3697c7",
+        "sha256_in_prefix": "2036aff1725bd812535bfaa6db8ddd9edca587017e630700e250cae54d3697c7",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/fastdownload/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4006b8ea648118195b6542fe4f9bdf0a79ad22e7fa730a35093f6a78a61395ea",
+        "sha256_in_prefix": "4006b8ea648118195b6542fe4f9bdf0a79ad22e7fa730a35093f6a78a61395ea",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/fastdownload/_nbdev.py",
+        "path_type": "hardlink",
+        "sha256": "a29b192a87fc33243c946d0a05dfe3f4803fc25e394a4328e69cce513133c87f",
+        "sha256_in_prefix": "a29b192a87fc33243c946d0a05dfe3f4803fc25e394a4328e69cce513133c87f",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "site-packages/fastdownload/core.py",
+        "path_type": "hardlink",
+        "sha256": "f671975dbadbaafc8620a10b36f9e4b691d98b810a638a1e2a160e9a12b21db4",
+        "sha256_in_prefix": "f671975dbadbaafc8620a10b36f9e4b691d98b810a638a1e2a160e9a12b21db4",
+        "size_in_bytes": 4848
+      },
+      {
+        "_path": "site-packages/fastdownload/download_checks.py",
+        "path_type": "hardlink",
+        "sha256": "d4cd4241b877c40a87ab34be59561c51b7129be7a76a8baa4d5b0852f5f3e7a0",
+        "sha256_in_prefix": "d4cd4241b877c40a87ab34be59561c51b7129be7a76a8baa4d5b0852f5f3e7a0",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "site-packages/fastdownload/urls.py",
+        "path_type": "hardlink",
+        "sha256": "c8a5b50ed3c495758ec2591b4039a0464a9eaeb49c81ccca19dd19bbd4f37387",
+        "sha256_in_prefix": "c8a5b50ed3c495758ec2591b4039a0464a9eaeb49c81ccca19dd19bbd4f37387",
+        "size_in_bytes": 8536
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastdownload/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastdownload/__pycache__/_nbdev.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastdownload/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastdownload/__pycache__/download_checks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastdownload/__pycache__/urls.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "fastai/noarch::fastdownload==0.0.7=py_0",
+  "size": 17719,
+  "subdir": "noarch",
+  "timestamp": 1657219193000,
+  "url": "https://conda.anaconda.org/fastai/noarch/fastdownload-0.0.7-py_0.tar.bz2",
+  "version": "0.0.7"
+}

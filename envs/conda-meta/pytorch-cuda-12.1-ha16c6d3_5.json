@@ -1,0 +1,45 @@
+{
+  "arch": "x86_64",
+  "build": "ha16c6d3_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/pytorch/linux-64",
+  "constrains": [],
+  "depends": [
+    "cuda-cudart >=12.1,<12.2",
+    "cuda-cupti >=12.1,<12.2",
+    "cuda-libraries >=12.1,<12.2",
+    "cuda-nvrtc >=12.1,<12.2",
+    "cuda-nvtx >=12.1,<12.2",
+    "cuda-runtime >=12.1,<12.2",
+    "libcublas >=12.1.0.26,<12.1.3.1",
+    "libcufft >=11.0.2.4,<11.0.2.54",
+    "libcusolver >=11.4.4.55,<11.4.5.107",
+    "libcusparse >=12.0.2.55,<12.1.0.106",
+    "libnpp >=12.0.2.50,<12.1.0.40",
+    "libnvjitlink >=12.1.105,<12.2.0",
+    "libnvjpeg >=12.1.0.39,<12.2.0.2"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/pytorch-cuda-12.1-ha16c6d3_5",
+  "files": [],
+  "fn": "pytorch-cuda-12.1-ha16c6d3_5.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/pytorch-cuda-12.1-ha16c6d3_5",
+    "type": 1
+  },
+  "md5": "ffc0937cf6ba3ffb299b0c256accc53f",
+  "name": "pytorch-cuda",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/pytorch-cuda-12.1-ha16c6d3_5.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "pytorch/linux-64::pytorch-cuda==12.1=ha16c6d3_5",
+  "sha256": "912c544df4e7abd8510e572bc50cd11c6fa880273858a057fc451563f04d3cf6",
+  "size": 3564,
+  "subdir": "linux-64",
+  "timestamp": 1682528087000,
+  "url": "https://conda.anaconda.org/pytorch/linux-64/pytorch-cuda-12.1-ha16c6d3_5.tar.bz2",
+  "version": "12.1"
+}

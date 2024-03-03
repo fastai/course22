@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "build": "py39h5f9d8c6_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "mkl >=2023.1.0,<2024.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "mkl_fft",
+    "mkl_random",
+    "numpy-base 1.26.0 py39hb5e798b_0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/numpy-1.26.0-py39h5f9d8c6_0",
+  "files": [],
+  "fn": "numpy-1.26.0-py39h5f9d8c6_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/numpy-1.26.0-py39h5f9d8c6_0",
+    "type": 1
+  },
+  "md5": "0c454790ce9011e27e597f8b1ce5e769",
+  "name": "numpy",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/numpy-1.26.0-py39h5f9d8c6_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::numpy==1.26.0=py39h5f9d8c6_0",
+  "sha256": "de22d445f66249c5bf5fbef2f4bba81baa0eb13e5050036da9ffacd46b3ee1ea",
+  "size": 9526,
+  "subdir": "linux-64",
+  "timestamp": 1695832867000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/numpy-1.26.0-py39h5f9d8c6_0.tar.bz2",
+  "version": "1.26.0"
+}

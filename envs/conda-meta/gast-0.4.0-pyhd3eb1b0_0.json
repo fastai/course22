@@ -1,0 +1,165 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/gast-0.4.0-pyhd3eb1b0_0",
+  "files": [
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/gast-0.4.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/gast/__init__.py",
+    "lib/python3.9/site-packages/gast/ast2.py",
+    "lib/python3.9/site-packages/gast/ast3.py",
+    "lib/python3.9/site-packages/gast/astn.py",
+    "lib/python3.9/site-packages/gast/gast.py",
+    "lib/python3.9/site-packages/gast/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gast/__pycache__/ast2.cpython-39.pyc",
+    "lib/python3.9/site-packages/gast/__pycache__/ast3.cpython-39.pyc",
+    "lib/python3.9/site-packages/gast/__pycache__/astn.cpython-39.pyc",
+    "lib/python3.9/site-packages/gast/__pycache__/gast.cpython-39.pyc"
+  ],
+  "fn": "gast-0.4.0-pyhd3eb1b0_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/gast-0.4.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "10a82aba1ec39fab9d158f349dc5233b",
+  "name": "gast",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/gast-0.4.0-pyhd3eb1b0_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6a04bbabd9b48bea6bf7c0bd3f3a062e1476b3c403a746448fd69b0d902e148f",
+        "sha256_in_prefix": "6a04bbabd9b48bea6bf7c0bd3f3a062e1476b3c403a746448fd69b0d902e148f",
+        "size_in_bytes": 1490
+      },
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "23af14a35b79b2728ed485099d0c06e25204c1c1cb380fb04ff6f84a51c53e3f",
+        "sha256_in_prefix": "23af14a35b79b2728ed485099d0c06e25204c1c1cb380fb04ff6f84a51c53e3f",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d0e27f346aa02f903340a5cf94458441e7fb8081588e2818ac0ab127e7c8a2c7",
+        "sha256_in_prefix": "d0e27f346aa02f903340a5cf94458441e7fb8081588e2818ac0ab127e7c8a2c7",
+        "size_in_bytes": 1195
+      },
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "07977f6f909f1ea35edc9a1a013bf34902762bfc4a3f39741f018cc095771e3c",
+        "sha256_in_prefix": "07977f6f909f1ea35edc9a1a013bf34902762bfc4a3f39741f018cc095771e3c",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/gast-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3996390ef0cd01fd7bf92301475a573d5ee227222947eeac14080e7c573f573f",
+        "sha256_in_prefix": "3996390ef0cd01fd7bf92301475a573d5ee227222947eeac14080e7c573f573f",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gast/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "829715cb50a6f6513093c7de13db3129221538f77586eba4222dba0565053b2b",
+        "sha256_in_prefix": "829715cb50a6f6513093c7de13db3129221538f77586eba4222dba0565053b2b",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/gast/ast2.py",
+        "path_type": "hardlink",
+        "sha256": "9d6d491f33f788e3127725d21ed310273b1d7f1847b1c4a05ce2b0b17bf38e2e",
+        "sha256_in_prefix": "9d6d491f33f788e3127725d21ed310273b1d7f1847b1c4a05ce2b0b17bf38e2e",
+        "size_in_bytes": 12391
+      },
+      {
+        "_path": "site-packages/gast/ast3.py",
+        "path_type": "hardlink",
+        "sha256": "5afa3a6c88394151df6266b32e5cca598446644af87f7f1d29e4a6c5bf966733",
+        "sha256_in_prefix": "5afa3a6c88394151df6266b32e5cca598446644af87f7f1d29e4a6c5bf966733",
+        "size_in_bytes": 14323
+      },
+      {
+        "_path": "site-packages/gast/astn.py",
+        "path_type": "hardlink",
+        "sha256": "38508a28f5c682fafe77b8accd231f684200d58635c0e7fcc388ff6ac0ceef3f",
+        "sha256_in_prefix": "38508a28f5c682fafe77b8accd231f684200d58635c0e7fcc388ff6ac0ceef3f",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "site-packages/gast/gast.py",
+        "path_type": "hardlink",
+        "sha256": "30ccf35befd92453b72d6881aa2e06b58d52bb2fdcc688df6a4e8b9c3234775d",
+        "sha256_in_prefix": "30ccf35befd92453b72d6881aa2e06b58d52bb2fdcc688df6a4e8b9c3234775d",
+        "size_in_bytes": 15133
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gast/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gast/__pycache__/ast2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gast/__pycache__/ast3.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gast/__pycache__/astn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gast/__pycache__/gast.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "anaconda/noarch::gast==0.4.0=pyhd3eb1b0_0",
+  "sha256": "1d68d1f43a64e5498c2c88992d607a7735119a07a6c53fc19021fda5ba307c9c",
+  "size": 12520,
+  "subdir": "noarch",
+  "timestamp": 1628588912000,
+  "url": "https://conda.anaconda.org/anaconda/noarch/gast-0.4.0-pyhd3eb1b0_0.tar.bz2",
+  "version": "0.4.0"
+}

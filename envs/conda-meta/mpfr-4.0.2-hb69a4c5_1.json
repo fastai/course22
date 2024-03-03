@@ -1,0 +1,204 @@
+{
+  "arch": "x86_64",
+  "build": "hb69a4c5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/mpfr-4.0.2-hb69a4c5_1",
+  "files": [
+    "include/mpf2mpfr.h",
+    "include/mpfr.h",
+    "lib/libmpfr.a",
+    "lib/libmpfr.so",
+    "lib/libmpfr.so.6",
+    "lib/libmpfr.so.6.0.2",
+    "lib/pkgconfig/mpfr.pc",
+    "share/doc/mpfr/AUTHORS",
+    "share/doc/mpfr/BUGS",
+    "share/doc/mpfr/COPYING",
+    "share/doc/mpfr/COPYING.LESSER",
+    "share/doc/mpfr/FAQ.html",
+    "share/doc/mpfr/NEWS",
+    "share/doc/mpfr/TODO",
+    "share/doc/mpfr/examples/ReadMe",
+    "share/doc/mpfr/examples/can_round.c",
+    "share/doc/mpfr/examples/divworst.c",
+    "share/doc/mpfr/examples/rndo-add.c",
+    "share/doc/mpfr/examples/sample.c",
+    "share/doc/mpfr/examples/version.c",
+    "share/info/mpfr.info"
+  ],
+  "fn": "mpfr-4.0.2-hb69a4c5_1.conda",
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/mpfr-4.0.2-hb69a4c5_1",
+    "type": 1
+  },
+  "md5": "9000a148d49baa5a3b3428397889d37d",
+  "name": "mpfr",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/mpfr-4.0.2-hb69a4c5_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/mpf2mpfr.h",
+        "path_type": "hardlink",
+        "sha256": "161c253d409a124660696453c218720587a1eb56d890747661e9b1c9496cc81c",
+        "sha256_in_prefix": "161c253d409a124660696453c218720587a1eb56d890747661e9b1c9496cc81c",
+        "size_in_bytes": 6645
+      },
+      {
+        "_path": "include/mpfr.h",
+        "path_type": "hardlink",
+        "sha256": "f4b7b5fc1978a21d9fa9c4a81c96e240e2f6f3ee6d903f626d50304921967f23",
+        "sha256_in_prefix": "f4b7b5fc1978a21d9fa9c4a81c96e240e2f6f3ee6d903f626d50304921967f23",
+        "size_in_bytes": 51562
+      },
+      {
+        "_path": "lib/libmpfr.a",
+        "path_type": "hardlink",
+        "sha256": "646f2066915940aa0fda444d30051f11557a3d6292c61343da3583ad77948875",
+        "sha256_in_prefix": "646f2066915940aa0fda444d30051f11557a3d6292c61343da3583ad77948875",
+        "size_in_bytes": 1237962
+      },
+      {
+        "_path": "lib/libmpfr.so",
+        "path_type": "softlink",
+        "sha256": "600b9e90262e068ab2d392bb02245f4d3cf8b0ab8305c1712f9bf6343584c103",
+        "size_in_bytes": 633552
+      },
+      {
+        "_path": "lib/libmpfr.so.6",
+        "path_type": "softlink",
+        "sha256": "600b9e90262e068ab2d392bb02245f4d3cf8b0ab8305c1712f9bf6343584c103",
+        "size_in_bytes": 633552
+      },
+      {
+        "_path": "lib/libmpfr.so.6.0.2",
+        "path_type": "hardlink",
+        "sha256": "600b9e90262e068ab2d392bb02245f4d3cf8b0ab8305c1712f9bf6343584c103",
+        "sha256_in_prefix": "600b9e90262e068ab2d392bb02245f4d3cf8b0ab8305c1712f9bf6343584c103",
+        "size_in_bytes": 633552
+      },
+      {
+        "_path": "lib/pkgconfig/mpfr.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "44b281d0d1f698c5d49afee8f1e425af651841eb28c9a61a950a559ff39417d4",
+        "sha256_in_prefix": "23ae11f8a139871377f1b63f5555fb53ba489bf1e23dee7044863f9913a0a737",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "share/doc/mpfr/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "ee023f6b9259bae9d9890aa6813c6466c2f48aaed3a4f30763c20c86463a27d2",
+        "sha256_in_prefix": "ee023f6b9259bae9d9890aa6813c6466c2f48aaed3a4f30763c20c86463a27d2",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "share/doc/mpfr/BUGS",
+        "path_type": "hardlink",
+        "sha256": "570412c0768dfcae7a26611628ba4166c91c2950831a3558b1be149068d4ffba",
+        "sha256_in_prefix": "570412c0768dfcae7a26611628ba4166c91c2950831a3558b1be149068d4ffba",
+        "size_in_bytes": 3335
+      },
+      {
+        "_path": "share/doc/mpfr/COPYING",
+        "path_type": "hardlink",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "sha256_in_prefix": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "size_in_bytes": 35149
+      },
+      {
+        "_path": "share/doc/mpfr/COPYING.LESSER",
+        "path_type": "hardlink",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+        "sha256_in_prefix": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+        "size_in_bytes": 7652
+      },
+      {
+        "_path": "share/doc/mpfr/FAQ.html",
+        "path_type": "hardlink",
+        "sha256": "4dbef652f46722190cae5d7ea89016dd837ba5773bfb2bcb76905b0614d1c440",
+        "sha256_in_prefix": "4dbef652f46722190cae5d7ea89016dd837ba5773bfb2bcb76905b0614d1c440",
+        "size_in_bytes": 18224
+      },
+      {
+        "_path": "share/doc/mpfr/NEWS",
+        "path_type": "hardlink",
+        "sha256": "21d4f5721a8a1742c6c5067960f003381bd8374b82b27d1da184b19a4ced1634",
+        "sha256_in_prefix": "21d4f5721a8a1742c6c5067960f003381bd8374b82b27d1da184b19a4ced1634",
+        "size_in_bytes": 23488
+      },
+      {
+        "_path": "share/doc/mpfr/TODO",
+        "path_type": "hardlink",
+        "sha256": "c871cc0cce069361c44b56373a0270a738a65da8b90dc6d085a01de7fe11e578",
+        "sha256_in_prefix": "c871cc0cce069361c44b56373a0270a738a65da8b90dc6d085a01de7fe11e578",
+        "size_in_bytes": 35414
+      },
+      {
+        "_path": "share/doc/mpfr/examples/ReadMe",
+        "path_type": "hardlink",
+        "sha256": "4b503f2cd881013af415ae498ab1ac88a2c4cb5ed766fa6f5e227113145c53d0",
+        "sha256_in_prefix": "4b503f2cd881013af415ae498ab1ac88a2c4cb5ed766fa6f5e227113145c53d0",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "share/doc/mpfr/examples/can_round.c",
+        "path_type": "hardlink",
+        "sha256": "cca232978b63de5fc00f72a2cf35a3a30ecbb4028c2fa7bbcf8c81aa80f64c32",
+        "sha256_in_prefix": "cca232978b63de5fc00f72a2cf35a3a30ecbb4028c2fa7bbcf8c81aa80f64c32",
+        "size_in_bytes": 2079
+      },
+      {
+        "_path": "share/doc/mpfr/examples/divworst.c",
+        "path_type": "hardlink",
+        "sha256": "30481a8bd630433049ccf9c3aa4e11d5d5f4e0aac6f0896a19a30f4369c44474",
+        "sha256_in_prefix": "30481a8bd630433049ccf9c3aa4e11d5d5f4e0aac6f0896a19a30f4369c44474",
+        "size_in_bytes": 3022
+      },
+      {
+        "_path": "share/doc/mpfr/examples/rndo-add.c",
+        "path_type": "hardlink",
+        "sha256": "85df4707e3dcd2211ef36debaa424ae4df713cf66c72fcd14901fe63c5e3a2f4",
+        "sha256_in_prefix": "85df4707e3dcd2211ef36debaa424ae4df713cf66c72fcd14901fe63c5e3a2f4",
+        "size_in_bytes": 2643
+      },
+      {
+        "_path": "share/doc/mpfr/examples/sample.c",
+        "path_type": "hardlink",
+        "sha256": "921170949766b052725442974c7aed2b8a93ed90bc0151d1776edffe4b0f4f32",
+        "sha256_in_prefix": "921170949766b052725442974c7aed2b8a93ed90bc0151d1776edffe4b0f4f32",
+        "size_in_bytes": 1659
+      },
+      {
+        "_path": "share/doc/mpfr/examples/version.c",
+        "path_type": "hardlink",
+        "sha256": "5970e0f92b95cfc09ed6c3b751cc2a02f3743ad357a99f196eef8ef794e63e43",
+        "sha256_in_prefix": "5970e0f92b95cfc09ed6c3b751cc2a02f3743ad357a99f196eef8ef794e63e43",
+        "size_in_bytes": 7106
+      },
+      {
+        "_path": "share/info/mpfr.info",
+        "path_type": "hardlink",
+        "sha256": "0944888a94dab9e4eed42e481f4909ba837250dfebaab080c7831e95f375ad47",
+        "sha256_in_prefix": "0944888a94dab9e4eed42e481f4909ba837250dfebaab080c7831e95f375ad47",
+        "size_in_bytes": 261029
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::mpfr==4.0.2=hb69a4c5_1",
+  "sha256": "eaa635e5db2ccff32d0fc43dce1492bc235075c843dc86522578f2f098c92a08",
+  "size": 498414,
+  "subdir": "linux-64",
+  "timestamp": 1593116348000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/mpfr-4.0.2-hb69a4c5_1.conda",
+  "version": "4.0.2"
+}

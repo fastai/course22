@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <title>Check configuration</title>
+      <script src="./files.js" type="text/javascript" charset="utf-8"></script>
+   </head>
+   <body>
+      <noscript>          
+         You must have JavaScript enable in order to continue!         
+      </noscript>
+      <script type="text/javascript">
+         <!--
+          var path=location.pathname;		  
+          var base=location.protocol+"//"+location.host+path.substring(0,path.lastIndexOf("/"));
+          
+          var http = new XMLHttpRequest();
+          var foundAll=true;
+          
+          for (var i=0; i<files.length; i++){
+		  var fileTocheck=base+files[i];
+            http.open('HEAD', fileTocheck, false);
+            http.send();
+            if (http.status==404){
+            document.write("file["+i+"]: "+fileTocheck+" is not acccesible !  <br/>");
+            foundAll=false;
+            }else{
+            document.write("file["+i+"] : "+http.status+" : "+fileTocheck+"  <br/>");
+            }
+            }
+            if (foundAll){
+            document.write("Everything OK!");
+            }else{
+            document.write("Not all files are accesible!");
+            }
+           -->
+      </script>
+   </body>
+</html>

@@ -1,0 +1,425 @@
+/******************************************************************************
+ * Copyright 1986-2011 by mental images GmbH, Fasanenstr. 81, D-10623 Berlin,
+ * Germany. All rights reserved.
+ ******************************************************************************/
+tbody.cppapiref { color: #231f20; font-size: 11px; line-height: 1.7em; }
+
+caption { font-weight: bold }
+
+A.el { text-decoration: none; font-weight: bold     }
+A.elRef { font-weight: bold ; text-decoration: none; }
+A.code:link { text-decoration: none; font-weight: normal;}
+A.code:visited { text-decoration: none; font-weight: normal;}
+A.codeRef:link { font-weight: normal; text-decoration: none; }
+code { padding: 0 0.1em; }
+A.codeRef:visited { font-weight: normal; text-decoration: none; }
+DL.el { margin-left: -1cm  }
+
+SPAN.keyword       { color: #008000 }
+SPAN.keywordtype   { color: #604020 }
+SPAN.keywordflow   { color: #e08000 }
+SPAN.comment       { color: #007698 }
+SPAN.preprocessor  { color: #806020 }
+SPAN.stringliteral { color: #002080 }
+SPAN.charliteral   { color: #008080 }
+
+.dirtab { padding: 4px;
+          border-collapse: collapse;
+          border: 1px solid #84b0c7;
+}
+TH.dirtab { background: #e8eef2;
+            font-weight: bold;
+}
+HR { height: 1px; border: none; border-top: 1px solid black; }
+.miFooter    { color: #717073; font-size: 0.9em; font-style: normal; text-decoration: none; text-align: left; height: 600px; }
+H2.miCopyright       { text-align: left; line-height: 2em; }
+DIV.miCopyright      {   }
+SUP.miCopyrightTM    { font-size: 0.7em !important; }
+SUP.miCopyright     { font-size: 0.9em; padding-left: 0.2em; }
+
+th.cppapiref {
+  color: #5f604b;
+  text-align: left;
+}
+
+th.cppapiref, td.cppapiref {
+  border: 0px;
+  vertical-align: top;
+}
+
+table.spec td.cppapiref {
+  vertical-align: top;
+}
+table.cppapiref { border-top: 1px solid #d8d9da; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; }
+table.spec td.pos {
+  text-align: center;
+}
+
+table.spec td.tp,
+span.tp { font-family: monospace, fixed, courier; font-style: italic; text-align: center; }
+
+table.spec table.bits {
+  margin:0px;
+  border:0px;
+}
+
+th.cppapiref, table.spec table.bits td.cppapiref {
+  border-bottom: 1px solid #ddd;
+}
+
+table.spec table.bits {
+  margin: 0px;
+}
+
+table.spec table.bits th.cppapiref,
+table.spec table.bits td.cppapiref {
+  margin: 0px;
+  padding: 0px;
+}
+
+table.spec th.cppapiref {
+  
+}
+
+table.spec table.bits th.cppapiref {
+  color: #000;
+  text-align: left;
+}
+
+div.comment {
+  font-style: italic;
+  color: #777;
+}
+
+dd table.cppapiref em {
+  font-family: monospace, fixed, courier;
+  font-style: normal;
+}
+
+table.extends {
+  border-style: none;
+  border-spacing: 0 0;
+  vertical-align: top;
+  margin:  0px 0px;
+  padding: 0px;
+  padding-top: 8pt;
+  border:  0px;
+}
+
+table.extends tr.cppapiref {
+  vertical-align: top;
+}
+
+table.extends td.cppapiref, table.extends th.cppapiref {
+  padding: 0pt;
+  padding-right: 16pt;
+  padding-bottom: 8pt;
+}
+
+table.extends th.cppapiref {
+  color: #717073;
+  border:  0;
+}
+
+table.extends ul {
+  padding-left: 16pt;
+  margin-left: 0pt;
+}
+
+/* Style for detailed member documentation */
+.memtemplate {
+  color: #606060;
+  font-weight: normal;
+}
+.memnav {
+  /*background-color: #e8eef2;*/
+  text-align: center;
+  margin: 2px;
+  margin-right: 15px;
+  padding: 2px;
+}
+.memitem {
+  padding: 1px;
+  /*background-color: #eef3f5;*/
+}
+.memname {
+  white-space: nowrap;
+  font-weight: bold;
+}
+.memdoc{ padding-left: 20px; }
+.memproto {
+  /*background-color: #eef3f5;*/
+  background-color: #efeff0; border-top: 1px solid #d8dcde; border-bottom: 1px solid #eef3f5; padding: 3px; }
+.paramkey {
+  text-align: right;
+}
+.paramtype {
+  white-space: nowrap;
+}
+.paramname {
+  /*color: #eef3f5;*/
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.figure_caption {
+  width: 70%;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+/* End Styling for detailed member documentation */
+
+
+/* for the tree view: ftvtree is new in doxygen 1.5.4 */
+.ftvtree { margin:0.5em; }
+.directory { font-weight: bold; }
+.directory h3 { margin: 1em 0 0; }
+.directory > h3 { margin-top: 0; }
+.directory p { margin: 0px; white-space: nowrap; }
+.directory div { display: none; margin: 0px; }
+.directory img { vertical-align: -30%; }
+ul li p { margin:0 }
+ul li p + p { margin-top:0.8em }
+hr { color: #a1a1a4; background-color: #a1a1a4; height: 1px; border-width: 0; }
+DIV.directory h3 { position: relative; height: 0.3em; visibility: hidden; float: none; clear: none; }
+.super { 
+    font-size: .9em;
+    margin: 0 0 0 2px;
+    position: relative;
+    top: -2px;
+    vertical-align: top;
+    }
+.memproto .memname { border-width: 0; }
+.memproto .memtemplate { padding-left: 3px; }
+.contents { font-size: 12px; line-height: 1.4em; }
+.contents H2 A.anchor { color: #000; text-decoration: none; }
+.contents A { color: #00467f; text-decoration: none; }
+.contents A:hover { text-decoration: underline; }
+.contents A:visited { color: #007698; }
+.navigation { position: relative; width: 100%; float: left; }
+/*
+#content {
+    padding-left:20px;
+    width:550px;
+    }*/
+    
+/* Everything below this has been added by Nicolas */
+
+/* Style for definition lists used in the definition part */    
+dl.members {
+    border-spacing: 0px;
+    padding: 0px;
+    border-style:none;
+    /*background-color:#FAFAFA;*/
+    font-size:11px;
+}
+
+/* Each dt in a dl.members  is split into two divs, top-left and top-right, to simulate a table*/
+div.top-left {
+    float:left;
+    width:113px;
+    text-align:right;
+    vertical-align:middle;
+    margin:4px;
+}
+
+/*div.top-left p.template
+{
+    text-align:left;
+    width:100%;
+    margin: -14pt 0;
+    padding: 8pt 0;
+}*/
+
+p.template
+{
+    margin:0;
+    color:#606060;
+}
+
+span.template
+{
+/*    font-weight: lighter;
+    font-size: smaller;*/
+    margin:0;
+    color:#606060;
+    display: block;
+}
+
+span.member_type, span.member_long_type
+{
+    text-align: right;
+    padding-right:10px;
+}
+
+span.member_long_type
+{
+    overflow:visible;
+    white-space:nowrap;
+}
+
+span.member_name, span.member_name_long_type
+{
+    text-align:left;
+    white-space:nowrap;
+}
+
+dl.members { display:table; border-collapse:collapse; }
+dl.members dt,
+dl.members dd { display:table-row }
+dl.members span.member_type,
+dl.members span.member_long_type,
+dl.members span.member_name_long_type { display:table-cell; width:auto; white-space:nowrap; padding:0; float:none }
+dl.members dt { font-family:monospace }
+
+dl.members dd.shortdesc span { display:table-cell; color:#666; padding-bottom:0.6em; }
+
+/* Div contained in dl.members dd */
+div.bottom {
+    border:1px none #E0E0E0;
+    margin:4px;
+}   
+
+div.description {
+    border-style: solid none none;
+    border-width:1px;
+    padding-top:10px;
+    }
+
+/* The following elements are used in definition lists part of the description div */ 
+dt.description {
+    text-align:left;
+    background-color: #efeff0;
+    border-top: 1px solid #d8dcde; 
+    border-bottom: 1px solid #eef3f5; 
+    padding: 3px; 
+}
+
+dd.description div.section p
+{
+    margin-left:0px;
+}
+
+dd.description {
+    
+    margin-left:20px;
+    margin-bottom: 20px;
+}    
+
+.keyword {
+    margin-left:0px;
+}
+
+span.keyword 
+{    color:#000000;
+}
+
+div.signature {
+  font-weight:bold;
+  
+}
+
+div.signature .membername {
+  font-weight: bold;
+}
+
+div.signature .param-name {
+  font-style: italic;
+}
+
+div.parameterlist > dl > dt {
+  font-style: italic;
+}
+
+div.relinfo
+{
+    left:-100px;
+}
+
+div.description h2
+{
+    margin-bottom:1em;
+}
+
+.sectiontitle
+{
+    font-size:8pt;
+    margin-bottom:1pt;
+}
+
+/* Display list as a table: http://www.maxdesign.com.au/presentation/definition/dl-table-display.htm 
+*/
+dl.table-display-params, dl.enumerator
+{
+    width: 470px;
+    /*margin: 5px 20pt 5px;
+    padding: 5px;*/
+    overflow: hidden;
+}
+
+.table-display-params dd, .enumerator dd
+{
+    left:0;
+    margin-left:50px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.classifier_name
+{
+    margin-left:0px;
+}
+
+p.return
+{    
+    margin-top:5px;
+}
+
+tt.code
+{
+    border:none;
+}
+
+p.apiDesc_subtitle
+{
+    margin-bottom:5px;
+}
+
+#content>span, .classifier_name
+{
+margin-left:40px;
+}
+
+.doxy_graph
+{
+    margin-left:20px;
+    padding-left:20px;
+}
+
+.enum-member-name
+{
+    display:block;
+    padding-left:10px;   
+}
+
+.enum-member-name-def
+{
+    display:block;
+    text-align:left;
+    background-color: #efeff0;
+    border-top: 1px solid #d8dcde; 
+    border-bottom: 1px solid #eef3f5; 
+    padding: 3px; 
+}
+
+p.return-value
+{
+    padding-left:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+

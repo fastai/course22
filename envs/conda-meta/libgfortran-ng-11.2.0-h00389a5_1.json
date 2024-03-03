@@ -1,0 +1,33 @@
+{
+  "arch": "x86_64",
+  "build": "h00389a5_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran5 11.2.0.*"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libgfortran-ng-11.2.0-h00389a5_1",
+  "files": [],
+  "fn": "libgfortran-ng-11.2.0-h00389a5_1.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libgfortran-ng-11.2.0-h00389a5_1",
+    "type": 1
+  },
+  "md5": "27082517590f3b9fbffecc68513b461b",
+  "name": "libgfortran-ng",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libgfortran-ng-11.2.0-h00389a5_1.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::libgfortran-ng==11.2.0=h00389a5_1",
+  "sha256": "2a24dd54fee86551eb2b03b6ef78433d0cbab3915ed538ecee28af123394137b",
+  "size": 19860,
+  "subdir": "linux-64",
+  "timestamp": 1654090819000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/libgfortran-ng-11.2.0-h00389a5_1.tar.bz2",
+  "version": "11.2.0"
+}

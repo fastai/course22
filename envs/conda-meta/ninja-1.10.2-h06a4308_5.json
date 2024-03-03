@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "build": "h06a4308_5",
+  "build_number": 5,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ninja-base 1.10.2 hd09550d_5",
+    "python"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/ninja-1.10.2-h06a4308_5",
+  "files": [],
+  "fn": "ninja-1.10.2-h06a4308_5.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/ninja-1.10.2-h06a4308_5",
+    "type": 1
+  },
+  "md5": "6fc219bbc4c8dbb9060b5b7fe31ae83d",
+  "name": "ninja",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/ninja-1.10.2-h06a4308_5.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::ninja==1.10.2=h06a4308_5",
+  "sha256": "e1b20ab99288abb48493a75af7ddd8e5360c78167150b09eb6bf923f22e2e2d1",
+  "size": 7831,
+  "subdir": "linux-64",
+  "timestamp": 1651243066000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/ninja-1.10.2-h06a4308_5.conda",
+  "version": "1.10.2"
+}

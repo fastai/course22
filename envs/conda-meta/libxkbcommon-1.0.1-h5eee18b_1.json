@@ -1,0 +1,292 @@
+{
+  "arch": "x86_64",
+  "build": "h5eee18b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libxcb >=1.15,<2.0a0",
+    "libxml2 >=2.10.3,<2.11.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libxkbcommon-1.0.1-h5eee18b_1",
+  "files": [
+    "bin/xkbcli",
+    "include/xkbcommon/xkbcommon-compat.h",
+    "include/xkbcommon/xkbcommon-compose.h",
+    "include/xkbcommon/xkbcommon-keysyms.h",
+    "include/xkbcommon/xkbcommon-names.h",
+    "include/xkbcommon/xkbcommon-x11.h",
+    "include/xkbcommon/xkbcommon.h",
+    "include/xkbcommon/xkbregistry.h",
+    "lib/libxkbcommon-x11.so",
+    "lib/libxkbcommon-x11.so.0",
+    "lib/libxkbcommon-x11.so.0.0.0",
+    "lib/libxkbcommon.so",
+    "lib/libxkbcommon.so.0",
+    "lib/libxkbcommon.so.0.0.0",
+    "lib/libxkbregistry.so",
+    "lib/libxkbregistry.so.0",
+    "lib/libxkbregistry.so.0.0.0",
+    "lib/pkgconfig/xkbcommon-x11.pc",
+    "lib/pkgconfig/xkbcommon.pc",
+    "lib/pkgconfig/xkbregistry.pc",
+    "libexec/xkbcommon/xkbcli-compile-keymap",
+    "libexec/xkbcommon/xkbcli-how-to-type",
+    "libexec/xkbcommon/xkbcli-interactive-evdev",
+    "libexec/xkbcommon/xkbcli-interactive-x11",
+    "libexec/xkbcommon/xkbcli-list",
+    "share/man/man1/xkbcli-compile-keymap.1",
+    "share/man/man1/xkbcli-how-to-type.1",
+    "share/man/man1/xkbcli-interactive-evdev.1",
+    "share/man/man1/xkbcli-interactive-x11.1",
+    "share/man/man1/xkbcli-list.1",
+    "share/man/man1/xkbcli.1"
+  ],
+  "fn": "libxkbcommon-1.0.1-h5eee18b_1.conda",
+  "license": "MIT/X11 Derivative",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libxkbcommon-1.0.1-h5eee18b_1",
+    "type": 1
+  },
+  "md5": "888b2e8f1bbf21017c503826e2d24b50",
+  "name": "libxkbcommon",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libxkbcommon-1.0.1-h5eee18b_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/xkbcli",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libxkbcommon_1679578264835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "676b5a95f92913c00fc6aa65ea4c93ac6eac13f0326dff9307ee16a8a3c8a39f",
+        "sha256_in_prefix": "d49813af0e10b52d1d4c5ad7cb9bf5ecf1b74aebfcf0cf4a028d9390a4fa7a82",
+        "size_in_bytes": 32760
+      },
+      {
+        "_path": "include/xkbcommon/xkbcommon-compat.h",
+        "path_type": "hardlink",
+        "sha256": "0b4daef35b0fdc6713d6f4645b7182c08176c6d9a436b0e11eecdaceb4e83ea2",
+        "sha256_in_prefix": "0b4daef35b0fdc6713d6f4645b7182c08176c6d9a436b0e11eecdaceb4e83ea2",
+        "size_in_bytes": 4295
+      },
+      {
+        "_path": "include/xkbcommon/xkbcommon-compose.h",
+        "path_type": "hardlink",
+        "sha256": "aaab91f99eb78dc98db19601cc625b61987e04159e17eb7a16b5bdaad4ad92a1",
+        "sha256_in_prefix": "aaab91f99eb78dc98db19601cc625b61987e04159e17eb7a16b5bdaad4ad92a1",
+        "size_in_bytes": 16612
+      },
+      {
+        "_path": "include/xkbcommon/xkbcommon-keysyms.h",
+        "path_type": "hardlink",
+        "sha256": "73e30b9e43af5e3157975dfe012d5d94385d8e391b8c449aad25a063c281f526",
+        "sha256_in_prefix": "73e30b9e43af5e3157975dfe012d5d94385d8e391b8c449aad25a063c281f526",
+        "size_in_bytes": 212623
+      },
+      {
+        "_path": "include/xkbcommon/xkbcommon-names.h",
+        "path_type": "hardlink",
+        "sha256": "7de3669465312b5b00d0b70490aabfb3557726b8ed152fd21db06df64516a578",
+        "sha256_in_prefix": "7de3669465312b5b00d0b70490aabfb3557726b8ed152fd21db06df64516a578",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "include/xkbcommon/xkbcommon-x11.h",
+        "path_type": "hardlink",
+        "sha256": "093c12b468c5919975a20a9dc3c9226579b631d620d6bc13ea5165ab19dcbf95",
+        "sha256_in_prefix": "093c12b468c5919975a20a9dc3c9226579b631d620d6bc13ea5165ab19dcbf95",
+        "size_in_bytes": 9191
+      },
+      {
+        "_path": "include/xkbcommon/xkbcommon.h",
+        "path_type": "hardlink",
+        "sha256": "4adb23da4dca894d5feb0cfac82c8785f735774fdccc39585c1464b0cf1eead4",
+        "sha256_in_prefix": "4adb23da4dca894d5feb0cfac82c8785f735774fdccc39585c1464b0cf1eead4",
+        "size_in_bytes": 65717
+      },
+      {
+        "_path": "include/xkbcommon/xkbregistry.h",
+        "path_type": "hardlink",
+        "sha256": "632cc1ebde39904db3aab613ca6a820634dbed19cc3b205540429059da96a7ad",
+        "sha256_in_prefix": "632cc1ebde39904db3aab613ca6a820634dbed19cc3b205540429059da96a7ad",
+        "size_in_bytes": 24096
+      },
+      {
+        "_path": "lib/libxkbcommon-x11.so",
+        "path_type": "softlink",
+        "sha256": "0c27b4bb784040781822979b5f386d404e2c10e00c346b521c30bc4a25c5a7cf",
+        "size_in_bytes": 135296
+      },
+      {
+        "_path": "lib/libxkbcommon-x11.so.0",
+        "path_type": "softlink",
+        "sha256": "0c27b4bb784040781822979b5f386d404e2c10e00c346b521c30bc4a25c5a7cf",
+        "size_in_bytes": 135296
+      },
+      {
+        "_path": "lib/libxkbcommon-x11.so.0.0.0",
+        "path_type": "hardlink",
+        "sha256": "0c27b4bb784040781822979b5f386d404e2c10e00c346b521c30bc4a25c5a7cf",
+        "sha256_in_prefix": "0c27b4bb784040781822979b5f386d404e2c10e00c346b521c30bc4a25c5a7cf",
+        "size_in_bytes": 135296
+      },
+      {
+        "_path": "lib/libxkbcommon.so",
+        "path_type": "softlink",
+        "sha256": "c013f92c322484438f4894087e3b9ce5dc2a69be2cc189b9ab6e4cd4e011b21b",
+        "size_in_bytes": 888648
+      },
+      {
+        "_path": "lib/libxkbcommon.so.0",
+        "path_type": "softlink",
+        "sha256": "c013f92c322484438f4894087e3b9ce5dc2a69be2cc189b9ab6e4cd4e011b21b",
+        "size_in_bytes": 888648
+      },
+      {
+        "_path": "lib/libxkbcommon.so.0.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libxkbcommon_1679578264835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "c013f92c322484438f4894087e3b9ce5dc2a69be2cc189b9ab6e4cd4e011b21b",
+        "sha256_in_prefix": "adac9c989b907c97546b62e173e401ff28d45e84f1ca8bd4eb95ce5debe24c31",
+        "size_in_bytes": 888648
+      },
+      {
+        "_path": "lib/libxkbregistry.so",
+        "path_type": "softlink",
+        "sha256": "28cf6b6ea78263a5d57c5fe00e3ce3f79b4cd429dffb766cc38c93431c7b700d",
+        "size_in_bytes": 107040
+      },
+      {
+        "_path": "lib/libxkbregistry.so.0",
+        "path_type": "softlink",
+        "sha256": "28cf6b6ea78263a5d57c5fe00e3ce3f79b4cd429dffb766cc38c93431c7b700d",
+        "size_in_bytes": 107040
+      },
+      {
+        "_path": "lib/libxkbregistry.so.0.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libxkbcommon_1679578264835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "28cf6b6ea78263a5d57c5fe00e3ce3f79b4cd429dffb766cc38c93431c7b700d",
+        "sha256_in_prefix": "586f90031766d64f25df5c8e72169d70b4bd5bbeb08b1fb988e07317504d8e58",
+        "size_in_bytes": 107040
+      },
+      {
+        "_path": "lib/pkgconfig/xkbcommon-x11.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libxkbcommon_1679578264835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "5da2926d895f6042c9a9fe2734a09519e03911a1aca26e8fda31722e5926b1e6",
+        "sha256_in_prefix": "d4847888fc1dca5800f68409bce9a66bddf60d295bf8266c101a2f2c61965e92",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "lib/pkgconfig/xkbcommon.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libxkbcommon_1679578264835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "af2b6d45d1de954675e59900fb4b85615273a0741f5207446abb764061245a37",
+        "sha256_in_prefix": "77d2beda8c04e06b3e92e6b631bf3b0b8c57b2f5c9e0b1e0d656879c87fbdae7",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "lib/pkgconfig/xkbregistry.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libxkbcommon_1679578264835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "d20a5c36f6f70efd8eac1929d58db325f672e79dc8c031ac63d500a42f1735bd",
+        "sha256_in_prefix": "5df9562b50f8bef5e8f10e0e771a489f22cff81a37468738ce7c967f4af171b7",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "libexec/xkbcommon/xkbcli-compile-keymap",
+        "path_type": "hardlink",
+        "sha256": "61d37afe5364e6ccb06fab2e47675281b69b39312da6c4994e6cefcfb8251f98",
+        "sha256_in_prefix": "61d37afe5364e6ccb06fab2e47675281b69b39312da6c4994e6cefcfb8251f98",
+        "size_in_bytes": 30544
+      },
+      {
+        "_path": "libexec/xkbcommon/xkbcli-how-to-type",
+        "path_type": "hardlink",
+        "sha256": "03a1153d9d187b5008d156fd8385e9c29bd207f9e47e67de799aedce0962588b",
+        "sha256_in_prefix": "03a1153d9d187b5008d156fd8385e9c29bd207f9e47e67de799aedce0962588b",
+        "size_in_bytes": 28744
+      },
+      {
+        "_path": "libexec/xkbcommon/xkbcli-interactive-evdev",
+        "path_type": "hardlink",
+        "sha256": "4cbdbabbdb9f95cac9890a4af5ebd88be669ef887cade21176327455ff4a7444",
+        "sha256_in_prefix": "4cbdbabbdb9f95cac9890a4af5ebd88be669ef887cade21176327455ff4a7444",
+        "size_in_bytes": 67640
+      },
+      {
+        "_path": "libexec/xkbcommon/xkbcli-interactive-x11",
+        "path_type": "hardlink",
+        "sha256": "7954b405a0552bdbd516917d0292a7b2591d3de1c9544161842f451619a4675e",
+        "sha256_in_prefix": "7954b405a0552bdbd516917d0292a7b2591d3de1c9544161842f451619a4675e",
+        "size_in_bytes": 56712
+      },
+      {
+        "_path": "libexec/xkbcommon/xkbcli-list",
+        "path_type": "hardlink",
+        "sha256": "b878f85a5447630b23fc90a8f0cea3b8033b60f78f97ef1f4061aced1f90c97c",
+        "sha256_in_prefix": "b878f85a5447630b23fc90a8f0cea3b8033b60f78f97ef1f4061aced1f90c97c",
+        "size_in_bytes": 33904
+      },
+      {
+        "_path": "share/man/man1/xkbcli-compile-keymap.1",
+        "path_type": "hardlink",
+        "sha256": "6c701b3eccf33000a41d367336b0206d35eee708364e9e5c46663d3768bbb53f",
+        "sha256_in_prefix": "6c701b3eccf33000a41d367336b0206d35eee708364e9e5c46663d3768bbb53f",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "share/man/man1/xkbcli-how-to-type.1",
+        "path_type": "hardlink",
+        "sha256": "5c29d764d32f87d3a956bc5b0eea6bed6a9f8e6f0a9789ea8008ea274abb6e11",
+        "sha256_in_prefix": "5c29d764d32f87d3a956bc5b0eea6bed6a9f8e6f0a9789ea8008ea274abb6e11",
+        "size_in_bytes": 669
+      },
+      {
+        "_path": "share/man/man1/xkbcli-interactive-evdev.1",
+        "path_type": "hardlink",
+        "sha256": "872728f884430b05b1d5fe4d5e8ffa149713e4ddd0b01924f193b24c52fd0766",
+        "sha256_in_prefix": "872728f884430b05b1d5fe4d5e8ffa149713e4ddd0b01924f193b24c52fd0766",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "share/man/man1/xkbcli-interactive-x11.1",
+        "path_type": "hardlink",
+        "sha256": "523a60ce345a2067574ee3468e2f2b6dde2de7a52c65ea6a46fa05d026e4ab19",
+        "sha256_in_prefix": "523a60ce345a2067574ee3468e2f2b6dde2de7a52c65ea6a46fa05d026e4ab19",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "share/man/man1/xkbcli-list.1",
+        "path_type": "hardlink",
+        "sha256": "76d8cfa23b447026886feb72eba613a033e7cfced650faf52cbc63e4cfdf6781",
+        "sha256_in_prefix": "76d8cfa23b447026886feb72eba613a033e7cfced650faf52cbc63e4cfdf6781",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "share/man/man1/xkbcli.1",
+        "path_type": "hardlink",
+        "sha256": "a94907ef5e7f692ee244aa6d1f6a35433789290e677ab1412bc571575a07b984",
+        "sha256_in_prefix": "a94907ef5e7f692ee244aa6d1f6a35433789290e677ab1412bc571575a07b984",
+        "size_in_bytes": 1237
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::libxkbcommon==1.0.1=h5eee18b_1",
+  "sha256": "d0ad34ddd1a6d391ec291ae7a126646b2f5794cdca4bd00cc6e2afc4233fb27e",
+  "size": 604308,
+  "subdir": "linux-64",
+  "timestamp": 1679578328000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libxkbcommon-1.0.1-h5eee18b_1.conda",
+  "version": "1.0.1"
+}

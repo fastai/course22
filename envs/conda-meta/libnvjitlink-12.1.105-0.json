@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libnvjitlink-12.1.105-0",
+  "files": [
+    "lib/libnvJitLink.so.12",
+    "lib/libnvJitLink.so.12.1.105"
+  ],
+  "fn": "libnvjitlink-12.1.105-0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libnvjitlink-12.1.105-0",
+    "type": 1
+  },
+  "md5": "0155acf6f5117613ba17c65d9be4f2f1",
+  "name": "libnvjitlink",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libnvjitlink-12.1.105-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libnvJitLink.so.12",
+        "path_type": "softlink",
+        "sha256": "c02aa7c49e0595bbb67d3ec99a251d14fdfd4d8a3ae7056fcb46cd2ffe4c6152",
+        "size_in_bytes": 48511432
+      },
+      {
+        "_path": "lib/libnvJitLink.so.12.1.105",
+        "path_type": "hardlink",
+        "sha256": "c02aa7c49e0595bbb67d3ec99a251d14fdfd4d8a3ae7056fcb46cd2ffe4c6152",
+        "sha256_in_prefix": "c02aa7c49e0595bbb67d3ec99a251d14fdfd4d8a3ae7056fcb46cd2ffe4c6152",
+        "size_in_bytes": 48511432
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "nvidia/linux-64::libnvjitlink==12.1.105=0",
+  "sha256": "d9c56634049b45e5e1c1fb9b1c451378c6853490112d38f3325309575807ad15",
+  "size": 17767798,
+  "subdir": "linux-64",
+  "timestamp": 1680582102000,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libnvjitlink-12.1.105-0.tar.bz2",
+  "version": "12.1.105"
+}

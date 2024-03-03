@@ -1,0 +1,213 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "cryptography >=38.0.0,<42,!=40.0.0,!=40.0.1",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/pyopenssl-23.2.0-py39h06a4308_0",
+  "files": [
+    "lib/python3.9/site-packages/OpenSSL/SSL.py",
+    "lib/python3.9/site-packages/OpenSSL/__init__.py",
+    "lib/python3.9/site-packages/OpenSSL/__pycache__/SSL.cpython-39.pyc",
+    "lib/python3.9/site-packages/OpenSSL/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/OpenSSL/__pycache__/_util.cpython-39.pyc",
+    "lib/python3.9/site-packages/OpenSSL/__pycache__/crypto.cpython-39.pyc",
+    "lib/python3.9/site-packages/OpenSSL/__pycache__/debug.cpython-39.pyc",
+    "lib/python3.9/site-packages/OpenSSL/__pycache__/rand.cpython-39.pyc",
+    "lib/python3.9/site-packages/OpenSSL/__pycache__/version.cpython-39.pyc",
+    "lib/python3.9/site-packages/OpenSSL/_util.py",
+    "lib/python3.9/site-packages/OpenSSL/crypto.py",
+    "lib/python3.9/site-packages/OpenSSL/debug.py",
+    "lib/python3.9/site-packages/OpenSSL/rand.py",
+    "lib/python3.9/site-packages/OpenSSL/version.py",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/top_level.txt"
+  ],
+  "fn": "pyopenssl-23.2.0-py39h06a4308_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/pyopenssl-23.2.0-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "1f09617aecd6f3c2f2e20692c0759f34",
+  "name": "pyopenssl",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/pyopenssl-23.2.0-py39h06a4308_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/SSL.py",
+        "path_type": "hardlink",
+        "sha256": "a292be26cd241eed4c5be339225321bfd428aeda4be19c75f0e6431b445553ba",
+        "sha256_in_prefix": "a292be26cd241eed4c5be339225321bfd428aeda4be19c75f0e6431b445553ba",
+        "size_in_bytes": 101432
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "81797683f98b6ba4f043dc62daa1117b2e5194a73826c87448fb7321501b25c9",
+        "sha256_in_prefix": "81797683f98b6ba4f043dc62daa1117b2e5194a73826c87448fb7321501b25c9",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__pycache__/SSL.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "932626749059fbdaae7b7ee4bdfaab122811f34be032767b192cfc39cd4b6aef",
+        "sha256_in_prefix": "932626749059fbdaae7b7ee4bdfaab122811f34be032767b192cfc39cd4b6aef",
+        "size_in_bytes": 87203
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6e6b47c8d22bc359ca3d824559ab0029b4c916137a9e2dee1569d9b02319e78",
+        "sha256_in_prefix": "a6e6b47c8d22bc359ca3d824559ab0029b4c916137a9e2dee1569d9b02319e78",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__pycache__/_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bffb4d49639d66f6cea12cbf9aa9b6d274d7d3f3a28069183fb2acfdd8b70b6e",
+        "sha256_in_prefix": "bffb4d49639d66f6cea12cbf9aa9b6d274d7d3f3a28069183fb2acfdd8b70b6e",
+        "size_in_bytes": 3654
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__pycache__/crypto.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "98c7f4d61a8e736132ed9d0cf20baa5d11175ecaa6b58923924d7f493e2b722d",
+        "sha256_in_prefix": "98c7f4d61a8e736132ed9d0cf20baa5d11175ecaa6b58923924d7f493e2b722d",
+        "size_in_bytes": 97231
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__pycache__/debug.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c40da6a8cf136410423eda9fa5569b258ee12b435278a2d820996ce5e3e1ffe8",
+        "sha256_in_prefix": "c40da6a8cf136410423eda9fa5569b258ee12b435278a2d820996ce5e3e1ffe8",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__pycache__/rand.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c8262fadea377ea9c6fd7fb4fc934434385dbdc44f42486449e1193a10fb9bd",
+        "sha256_in_prefix": "7c8262fadea377ea9c6fd7fb4fc934434385dbdc44f42486449e1193a10fb9bd",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/__pycache__/version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2ddfa47f323e15c880fb9b5a3d635d9bb3d4d7a637d8e5f3602ff0fc8e0851f",
+        "sha256_in_prefix": "b2ddfa47f323e15c880fb9b5a3d635d9bb3d4d7a637d8e5f3602ff0fc8e0851f",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/_util.py",
+        "path_type": "hardlink",
+        "sha256": "7a8f0d4e6b3217d343deba9707a889e5d6bb05154b881f0f235125f3082242bd",
+        "sha256_in_prefix": "7a8f0d4e6b3217d343deba9707a889e5d6bb05154b881f0f235125f3082242bd",
+        "size_in_bytes": 3539
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/crypto.py",
+        "path_type": "hardlink",
+        "sha256": "2eb5ce6fe1431e3bb78c213a7b0ccc31b794e2d9ed91ee99676ff8066e4073b1",
+        "sha256_in_prefix": "2eb5ce6fe1431e3bb78c213a7b0ccc31b794e2d9ed91ee99676ff8066e4073b1",
+        "size_in_bytes": 109453
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/debug.py",
+        "path_type": "hardlink",
+        "sha256": "a1a4a4d625b3cd32cc00ebb1fa0ef2c1156e3b776b3a46b3ad20022d02ea259e",
+        "sha256_in_prefix": "a1a4a4d625b3cd32cc00ebb1fa0ef2c1156e3b776b3a46b3ad20022d02ea259e",
+        "size_in_bytes": 1049
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/rand.py",
+        "path_type": "hardlink",
+        "sha256": "6aba85654770e58c88e33ed33414c98bf7727afcf1ea4acbc81eb32dbc23ad52",
+        "sha256_in_prefix": "6aba85654770e58c88e33ed33414c98bf7727afcf1ea4acbc81eb32dbc23ad52",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "lib/python3.9/site-packages/OpenSSL/version.py",
+        "path_type": "hardlink",
+        "sha256": "dd1d376c6d9298890e2fc900dc2bac321e2583464b83f2ed2db6d0a3173f7c5b",
+        "sha256_in_prefix": "dd1d376c6d9298890e2fc900dc2bac321e2583464b83f2ed2db6d0a3173f7c5b",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "854e7a19aefee33b713c3bce6286785d8af2aa2afab23e5a368b1ab8bf4e41ef",
+        "sha256_in_prefix": "854e7a19aefee33b713c3bce6286785d8af2aa2afab23e5a368b1ab8bf4e41ef",
+        "size_in_bytes": 10759
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dc89409b2ca7f734758df0d0b5c9bad02bf057230cf5556a05314b58cf6f8459",
+        "sha256_in_prefix": "dc89409b2ca7f734758df0d0b5c9bad02bf057230cf5556a05314b58cf6f8459",
+        "size_in_bytes": 1521
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "345835c50ccc99d697a706d6967d3d58bae8f700a8d108978247cc09aec809f2",
+        "sha256_in_prefix": "345835c50ccc99d697a706d6967d3d58bae8f700a8d108978247cc09aec809f2",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyOpenSSL-23.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "34dc56a92f2128d261d9c5176b545938c5fad9525fc9df14468d53b189d1fcc5",
+        "sha256_in_prefix": "34dc56a92f2128d261d9c5176b545938c5fad9525fc9df14468d53b189d1fcc5",
+        "size_in_bytes": 8
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::pyopenssl==23.2.0=py39h06a4308_0",
+  "sha256": "95e66848dbe3f8177db8f07be183add3ba73b7e2e3c93d302028862b233a46b3",
+  "size": 94434,
+  "subdir": "linux-64",
+  "timestamp": 1690223520000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/pyopenssl-23.2.0-py39h06a4308_0.tar.bz2",
+  "version": "23.2.0"
+}

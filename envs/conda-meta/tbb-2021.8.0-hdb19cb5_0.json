@@ -1,0 +1,82 @@
+{
+  "arch": "x86_64",
+  "build": "hdb19cb5_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/tbb-2021.8.0-hdb19cb5_0",
+  "files": [
+    "lib/libtbb.so.12",
+    "lib/libtbb.so.12.8",
+    "lib/libtbbmalloc.so.2",
+    "lib/libtbbmalloc.so.2.8",
+    "lib/libtbbmalloc_proxy.so.2",
+    "lib/libtbbmalloc_proxy.so.2.8"
+  ],
+  "fn": "tbb-2021.8.0-hdb19cb5_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/tbb-2021.8.0-hdb19cb5_0",
+    "type": 1
+  },
+  "md5": "041a3caf09dc9ce8fc6c10925c4fe050",
+  "name": "tbb",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/tbb-2021.8.0-hdb19cb5_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libtbb.so.12",
+        "path_type": "softlink",
+        "sha256": "f82bf809ccbf8389c4d5fba222c2bf0bd8c7540618cdbb45d1a883ae42295d09",
+        "size_in_bytes": 3537600
+      },
+      {
+        "_path": "lib/libtbb.so.12.8",
+        "path_type": "hardlink",
+        "sha256": "f82bf809ccbf8389c4d5fba222c2bf0bd8c7540618cdbb45d1a883ae42295d09",
+        "sha256_in_prefix": "f82bf809ccbf8389c4d5fba222c2bf0bd8c7540618cdbb45d1a883ae42295d09",
+        "size_in_bytes": 3537600
+      },
+      {
+        "_path": "lib/libtbbmalloc.so.2",
+        "path_type": "softlink",
+        "sha256": "ecb064469fde8686bd0d222fba57a7184fd84efe4874fe39e7b6553f30944ae3",
+        "size_in_bytes": 1075832
+      },
+      {
+        "_path": "lib/libtbbmalloc.so.2.8",
+        "path_type": "hardlink",
+        "sha256": "ecb064469fde8686bd0d222fba57a7184fd84efe4874fe39e7b6553f30944ae3",
+        "sha256_in_prefix": "ecb064469fde8686bd0d222fba57a7184fd84efe4874fe39e7b6553f30944ae3",
+        "size_in_bytes": 1075832
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.so.2",
+        "path_type": "softlink",
+        "sha256": "49fd901c12df130f4a5b1fca6425e1340ca498308ecd757b0e3ddc0e9fe7cc44",
+        "size_in_bytes": 90728
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.so.2.8",
+        "path_type": "hardlink",
+        "sha256": "49fd901c12df130f4a5b1fca6425e1340ca498308ecd757b0e3ddc0e9fe7cc44",
+        "sha256_in_prefix": "49fd901c12df130f4a5b1fca6425e1340ca498308ecd757b0e3ddc0e9fe7cc44",
+        "size_in_bytes": 90728
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::tbb==2021.8.0=hdb19cb5_0",
+  "sha256": "fad05a7c749760b7d18d897a41fa4a00d83d137cdb90a76ddde4ee0b7e07d3ea",
+  "size": 1888016,
+  "subdir": "linux-64",
+  "timestamp": 1680167274000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/tbb-2021.8.0-hdb19cb5_0.tar.bz2",
+  "version": "2021.8.0"
+}

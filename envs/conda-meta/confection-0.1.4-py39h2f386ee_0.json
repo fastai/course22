@@ -1,0 +1,230 @@
+{
+  "arch": "x86_64",
+  "build": "py39h2f386ee_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "pydantic >=1.7.4,!=1.8,!=1.8.1,<3.0.0",
+    "python >=3.9,<3.10.0a0",
+    "srsly >=2.4.0,<3.0.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/confection-0.1.4-py39h2f386ee_0",
+  "files": [
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/LICENSE",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/confection-0.1.4.dist-info/zip-safe",
+    "lib/python3.9/site-packages/confection/__init__.py",
+    "lib/python3.9/site-packages/confection/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/confection/__pycache__/util.cpython-39.pyc",
+    "lib/python3.9/site-packages/confection/py.typed",
+    "lib/python3.9/site-packages/confection/tests/__init__.py",
+    "lib/python3.9/site-packages/confection/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/confection/tests/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/confection/tests/__pycache__/test_config.cpython-39.pyc",
+    "lib/python3.9/site-packages/confection/tests/__pycache__/test_frozen_structures.cpython-39.pyc",
+    "lib/python3.9/site-packages/confection/tests/__pycache__/util.cpython-39.pyc",
+    "lib/python3.9/site-packages/confection/tests/conftest.py",
+    "lib/python3.9/site-packages/confection/tests/test_config.py",
+    "lib/python3.9/site-packages/confection/tests/test_frozen_structures.py",
+    "lib/python3.9/site-packages/confection/tests/util.py",
+    "lib/python3.9/site-packages/confection/util.py"
+  ],
+  "fn": "confection-0.1.4-py39h2f386ee_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/confection-0.1.4-py39h2f386ee_0",
+    "type": 1
+  },
+  "md5": "375e03468735eae0ab2aa919681ceb23",
+  "name": "confection",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/confection-0.1.4-py39h2f386ee_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f7f74ea82f9a10d7ce2ba05dd7e460c8c2bb42a6cc7d9ae71ab35661b5f71c9b",
+        "sha256_in_prefix": "f7f74ea82f9a10d7ce2ba05dd7e460c8c2bb42a6cc7d9ae71ab35661b5f71c9b",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0429dde0347fa5117bea75fe74ee7b3d171cf69f804c56215cc12cc0ed04b90f",
+        "sha256_in_prefix": "0429dde0347fa5117bea75fe74ee7b3d171cf69f804c56215cc12cc0ed04b90f",
+        "size_in_bytes": 19546
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "de147b91c9c59176ad3178f59d62626208231c3248b84531abc13f480ebed3a8",
+        "sha256_in_prefix": "de147b91c9c59176ad3178f59d62626208231c3248b84531abc13f480ebed3a8",
+        "size_in_bytes": 1837
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "dcf80d17cff0c1f76f6aa890155e8a39637a67a03b50f08058e0e24dcc4e6494",
+        "sha256_in_prefix": "dcf80d17cff0c1f76f6aa890155e8a39637a67a03b50f08058e0e24dcc4e6494",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "216d0c8253e5baa5673f6e9b0f6c7b6036ae04d12069f722ca394a77bb367733",
+        "sha256_in_prefix": "216d0c8253e5baa5673f6e9b0f6c7b6036ae04d12069f722ca394a77bb367733",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection-0.1.4.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4857949bf2c2130a4909783fae28bafca64e67456b3b40abbd7144364ad77e1a",
+        "sha256_in_prefix": "4857949bf2c2130a4909783fae28bafca64e67456b3b40abbd7144364ad77e1a",
+        "size_in_bytes": 46864
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d498f327ee35d85172207fd63b46ede8659fb0cc72fbf7384019a0bcbbf3ea6",
+        "sha256_in_prefix": "7d498f327ee35d85172207fd63b46ede8659fb0cc72fbf7384019a0bcbbf3ea6",
+        "size_in_bytes": 31932
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/__pycache__/util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb9ab0d0f0fe837a7e85132fb1fa8de43014dd641da7c287043577ad6a2dd7b7",
+        "sha256_in_prefix": "eb9ab0d0f0fe837a7e85132fb1fa8de43014dd641da7c287043577ad6a2dd7b7",
+        "size_in_bytes": 6091
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c1689eafef3fe3cc20e7ee524a7dfec0911d19f9adafe668da636b6f99749ac",
+        "sha256_in_prefix": "0c1689eafef3fe3cc20e7ee524a7dfec0911d19f9adafe668da636b6f99749ac",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e2a93a5e67709893d924d7762484fe44e7f77acef97febcad0c7f8ca089b6eb",
+        "sha256_in_prefix": "0e2a93a5e67709893d924d7762484fe44e7f77acef97febcad0c7f8ca089b6eb",
+        "size_in_bytes": 807
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/__pycache__/test_config.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c87d2c16a6bebd67cb0f85589fd5ec205b554452f702f210ad3e68c52f4072e",
+        "sha256_in_prefix": "3c87d2c16a6bebd67cb0f85589fd5ec205b554452f702f210ad3e68c52f4072e",
+        "size_in_bytes": 48279
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/__pycache__/test_frozen_structures.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4fc7e7c617c65055eec5af9514ee0e0455594e8d424388be7fb1b6457540341",
+        "sha256_in_prefix": "b4fc7e7c617c65055eec5af9514ee0e0455594e8d424388be7fb1b6457540341",
+        "size_in_bytes": 2366
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/__pycache__/util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "82a122ec86b303cc7939164823428fc4920282ef6851aed54070665f094440c1",
+        "sha256_in_prefix": "82a122ec86b303cc7939164823428fc4920282ef6851aed54070665f094440c1",
+        "size_in_bytes": 4303
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "d3a4089816c6c44ee902fdf1f0931e84937dc6f183f18f67ef532161020c3766",
+        "sha256_in_prefix": "d3a4089816c6c44ee902fdf1f0931e84937dc6f183f18f67ef532161020c3766",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "7f7a6dd6cb69c705b5e15271d4e492e19da1604fdd072a8797e32da80964d0f0",
+        "sha256_in_prefix": "7f7a6dd6cb69c705b5e15271d4e492e19da1604fdd072a8797e32da80964d0f0",
+        "size_in_bytes": 53862
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/test_frozen_structures.py",
+        "path_type": "hardlink",
+        "sha256": "389caa93ec58e21bbcc83ac06d7f1c4a9bc0f4594ba65e3d1884a1d5c990d9c6",
+        "sha256_in_prefix": "389caa93ec58e21bbcc83ac06d7f1c4a9bc0f4594ba65e3d1884a1d5c990d9c6",
+        "size_in_bytes": 1713
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/tests/util.py",
+        "path_type": "hardlink",
+        "sha256": "092521f703a6e4e3007636c33f8bc34f418e747193f118180aaf02521c7548b9",
+        "sha256_in_prefix": "092521f703a6e4e3007636c33f8bc34f418e747193f118180aaf02521c7548b9",
+        "size_in_bytes": 3686
+      },
+      {
+        "_path": "lib/python3.9/site-packages/confection/util.py",
+        "path_type": "hardlink",
+        "sha256": "d22a211d074380577c79ce7b9a18f8d7303bc2284abd33dc5ca2efec9a0a2dba",
+        "sha256_in_prefix": "d22a211d074380577c79ce7b9a18f8d7303bc2284abd33dc5ca2efec9a0a2dba",
+        "size_in_bytes": 4300
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::confection==0.1.4=py39h2f386ee_0",
+  "sha256": "2887d244955cfa6ffd4294e67f8c7eaff3ce3f7eb9201fb4fa4e6592141a8f23",
+  "size": 69415,
+  "subdir": "linux-64",
+  "timestamp": 1703694854000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/confection-0.1.4-py39h2f386ee_0.conda",
+  "version": "0.1.4"
+}

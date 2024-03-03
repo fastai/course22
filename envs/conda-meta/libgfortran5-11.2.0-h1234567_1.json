@@ -1,0 +1,73 @@
+{
+  "arch": "x86_64",
+  "build": "h1234567_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [
+    "libgfortran-ng 11.2.0 *_1"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libgfortran5-11.2.0-h1234567_1",
+  "files": [
+    "lib/libgfortran.so",
+    "lib/libgfortran.so.5",
+    "lib/libgfortran.so.5.0.0",
+    "lib/libgfortran.so.5.0.0T",
+    "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "fn": "libgfortran5-11.2.0-h1234567_1.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libgfortran5-11.2.0-h1234567_1",
+    "type": 1
+  },
+  "md5": "0202c3c8ae4735cac6c7f3d1e1685964",
+  "name": "libgfortran5",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libgfortran5-11.2.0-h1234567_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgfortran.so",
+        "path_type": "softlink",
+        "sha256": "f0bb91a27da6049095bfb8c371365bf755809b24d1892ee8ef18c5e35750d30b",
+        "size_in_bytes": 9106320
+      },
+      {
+        "_path": "lib/libgfortran.so.5",
+        "path_type": "softlink",
+        "sha256": "f0bb91a27da6049095bfb8c371365bf755809b24d1892ee8ef18c5e35750d30b",
+        "size_in_bytes": 9106320
+      },
+      {
+        "_path": "lib/libgfortran.so.5.0.0",
+        "path_type": "hardlink",
+        "sha256": "f0bb91a27da6049095bfb8c371365bf755809b24d1892ee8ef18c5e35750d30b",
+        "sha256_in_prefix": "f0bb91a27da6049095bfb8c371365bf755809b24d1892ee8ef18c5e35750d30b",
+        "size_in_bytes": 9106320
+      },
+      {
+        "_path": "lib/libgfortran.so.5.0.0T",
+        "path_type": "hardlink",
+        "sha256": "b283242fb0b741f69da660c6d426e72ca647ec8b3918e703de143c472db3d250",
+        "sha256_in_prefix": "b283242fb0b741f69da660c6d426e72ca647ec8b3918e703de143c472db3d250",
+        "size_in_bytes": 9106320
+      },
+      {
+        "_path": "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::libgfortran5==11.2.0=h1234567_1",
+  "sha256": "b170f2d1dc4c33c525261b2b61f9efffb6eb3dbb0a3e9966dd4c5ed0b33069f2",
+  "size": 5228750,
+  "subdir": "linux-64",
+  "timestamp": 1654090762000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/libgfortran5-11.2.0-h1234567_1.tar.bz2",
+  "version": "11.2.0"
+}

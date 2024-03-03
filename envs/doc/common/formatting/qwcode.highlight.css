@@ -1,0 +1,66 @@
+/* qwcode.highlight plugin css */
+	
+pre {
+		
+ 	white-space: pre-wrap;       /* css-3 */
+ 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ 	white-space: -pre-wrap;      /* Opera 4-6 */
+ 	white-space: -o-pre-wrap;    /* Opera 7 */
+ 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	
+}
+	
+	
+.xslthl-keyword {
+/*	font-weight: bold; */
+/*	color: #7f0055; */
+	color: blue;
+}
+	
+.xslthl-string {
+	color: blue;
+}		
+
+.xslthl-multiline-comment {
+	color: #3f7f5f;
+}
+
+.xslthl-comment {
+	color: #3f7f5f;
+}
+	
+.xslthl-doccomment {
+	color: #3f5fbf;	
+}	
+
+.xslthl-doctype {
+	color: #3f5fbf;	
+}	
+
+.xslthl-directive {
+	color: maroon;	
+}	
+
+.xslthl-annotation {
+	color: gray;	
+}
+
+/* default XML styles */
+.xslthl-tag {
+	color: teal;	
+}
+
+.xslthl-attribute {
+	color: #7f0055;	
+}
+
+.xslthl-value {
+	color: blue;	
+}
+
+.xslthl-xslt {
+	color: red;	
+}
+
+	
+	

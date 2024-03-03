@@ -1,0 +1,31 @@
+{
+  "build": "cuda",
+  "build_number": 100,
+  "channel": "https://conda.anaconda.org/pytorch/noarch",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/pytorch-mutex-1.0-cuda",
+  "files": [],
+  "fn": "pytorch-mutex-1.0-cuda.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/pytorch-mutex-1.0-cuda",
+    "type": 1
+  },
+  "md5": "a948316e36fb5b11223b3fcfa93f8358",
+  "name": "pytorch-mutex",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/pytorch-mutex-1.0-cuda.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pytorch/noarch::pytorch-mutex==1.0=cuda",
+  "sha256": "c16316183f51b74ca5eee4dcb8631052f328c0bbf244176734a0b7d390b81ee3",
+  "size": 2906,
+  "subdir": "noarch",
+  "timestamp": 1628062930000,
+  "url": "https://conda.anaconda.org/pytorch/noarch/pytorch-mutex-1.0-cuda.tar.bz2",
+  "version": "1.0"
+}

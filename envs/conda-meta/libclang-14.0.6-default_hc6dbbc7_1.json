@@ -1,0 +1,47 @@
+{
+  "arch": "x86_64",
+  "build": "default_hc6dbbc7_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libclang13 14.0.6 default_he11475f_1",
+    "libgcc-ng >=11.2.0",
+    "libllvm14 >=14.0.6,<14.1.0a0",
+    "libstdcxx-ng >=11.2.0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libclang-14.0.6-default_hc6dbbc7_1",
+  "files": [
+    "lib/libclang.so"
+  ],
+  "fn": "libclang-14.0.6-default_hc6dbbc7_1.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libclang-14.0.6-default_hc6dbbc7_1",
+    "type": 1
+  },
+  "md5": "8f12583c4027b2861cff470f6b8837c4",
+  "name": "libclang",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libclang-14.0.6-default_hc6dbbc7_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libclang.so",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::libclang==14.0.6=default_hc6dbbc7_1",
+  "sha256": "b0c313c723da06f405e7d053c7064f9403614a7fed6987b25ceeef976166dc03",
+  "size": 140638,
+  "subdir": "linux-64",
+  "timestamp": 1681222907000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libclang-14.0.6-default_hc6dbbc7_1.conda",
+  "version": "14.0.6"
+}

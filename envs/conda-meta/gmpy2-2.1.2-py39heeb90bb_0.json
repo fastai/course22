@@ -1,0 +1,160 @@
+{
+  "arch": "x86_64",
+  "build": "py39heeb90bb_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "libgcc-ng >=7.5.0",
+    "mpc",
+    "mpfr >=4.0.2,<5.0a0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/gmpy2-2.1.2-py39heeb90bb_0",
+  "files": [
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/COPYING",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/COPYING.LESSER",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/gmpy2/__init__.pxd",
+    "lib/python3.9/site-packages/gmpy2/__init__.py",
+    "lib/python3.9/site-packages/gmpy2/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gmpy2/gmpy2.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/gmpy2/gmpy2.h",
+    "lib/python3.9/site-packages/gmpy2/gmpy2.pxd"
+  ],
+  "fn": "gmpy2-2.1.2-py39heeb90bb_0.conda",
+  "license": "LGPL-3.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/gmpy2-2.1.2-py39heeb90bb_0",
+    "type": 1
+  },
+  "md5": "112b90ce5da4af34b7046f3057cc247e",
+  "name": "gmpy2",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/gmpy2-2.1.2-py39heeb90bb_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/COPYING.LESSER",
+        "path_type": "hardlink",
+        "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "sha256_in_prefix": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "size_in_bytes": 7651
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "68723c21ca575b2fcd69ed9810588de66692fd3f34c0c66ad5352653a6eaf378",
+        "sha256_in_prefix": "68723c21ca575b2fcd69ed9810588de66692fd3f34c0c66ad5352653a6eaf378",
+        "size_in_bytes": 2210
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "48a81c8ec61ee682e02240a0506fcdcce250a1e73a7f4323e4702df3f163615f",
+        "sha256_in_prefix": "48a81c8ec61ee682e02240a0506fcdcce250a1e73a7f4323e4702df3f163615f",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "fd3cea8db975b7fda98fd81f64fbc6d69a72bda3b2a3151ad39de77e1e34ac4f",
+        "sha256_in_prefix": "fd3cea8db975b7fda98fd81f64fbc6d69a72bda3b2a3151ad39de77e1e34ac4f",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c7a8aa7cc8d197b44e9b47dff67aaf22141af807014d521f3535c22cc6222bb1",
+        "sha256_in_prefix": "c7a8aa7cc8d197b44e9b47dff67aaf22141af807014d521f3535c22cc6222bb1",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2-2.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4a6e8660420bb413e4fe08f3d2c9e04e3c792669f879bb7179b7644153898114",
+        "sha256_in_prefix": "4a6e8660420bb413e4fe08f3d2c9e04e3c792669f879bb7179b7644153898114",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "de9ed5a04d31e6b5b1381d783bca4210e0a547a037dd543ed66cb068d78e7e53",
+        "sha256_in_prefix": "de9ed5a04d31e6b5b1381d783bca4210e0a547a037dd543ed66cb068d78e7e53",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6720f053cde26175c2c4c3fa1c774e9c6c22865e40119c47cde58a250d6cb0c3",
+        "sha256_in_prefix": "6720f053cde26175c2c4c3fa1c774e9c6c22865e40119c47cde58a250d6cb0c3",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "49db683a1c43f6141f36677988e8eddfcf181918dca8539e420d08a1f0fc6341",
+        "sha256_in_prefix": "49db683a1c43f6141f36677988e8eddfcf181918dca8539e420d08a1f0fc6341",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2/gmpy2.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fda6c97cc89d4cca7ac805cae87d3f4cbd68994d9195f3f4e0835abb926d3bb7",
+        "sha256_in_prefix": "fda6c97cc89d4cca7ac805cae87d3f4cbd68994d9195f3f4e0835abb926d3bb7",
+        "size_in_bytes": 644608
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2/gmpy2.h",
+        "path_type": "hardlink",
+        "sha256": "3a11b7bc4a52019ae41cda27dede42db668f5a9929f6341fd61d4b91861e607d",
+        "sha256_in_prefix": "3a11b7bc4a52019ae41cda27dede42db668f5a9929f6341fd61d4b91861e607d",
+        "size_in_bytes": 20625
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gmpy2/gmpy2.pxd",
+        "path_type": "hardlink",
+        "sha256": "f36a87076d4fd08e64f11bc915fcefb66a3e17248b8c09f670f07702395eb8e2",
+        "sha256_in_prefix": "f36a87076d4fd08e64f11bc915fcefb66a3e17248b8c09f670f07702395eb8e2",
+        "size_in_bytes": 4681
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::gmpy2==2.1.2=py39heeb90bb_0",
+  "sha256": "b8f8ccd4c97481199c871226586f7b4280e0bff337f0ce892961d796d1259ce5",
+  "size": 196058,
+  "subdir": "linux-64",
+  "timestamp": 1645438799000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/gmpy2-2.1.2-py39heeb90bb_0.conda",
+  "version": "2.1.2"
+}

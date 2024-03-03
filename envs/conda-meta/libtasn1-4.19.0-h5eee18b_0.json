@@ -1,0 +1,100 @@
+{
+  "arch": "x86_64",
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libtasn1-4.19.0-h5eee18b_0",
+  "files": [
+    "bin/asn1Coding",
+    "bin/asn1Decoding",
+    "bin/asn1Parser",
+    "include/libtasn1.h",
+    "lib/libtasn1.so",
+    "lib/libtasn1.so.6",
+    "lib/libtasn1.so.6.6.3",
+    "lib/pkgconfig/libtasn1.pc"
+  ],
+  "fn": "libtasn1-4.19.0-h5eee18b_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libtasn1-4.19.0-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "ad9cb0e2ebdf8e055ea5362d5374cc85",
+  "name": "libtasn1",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libtasn1-4.19.0-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/asn1Coding",
+        "path_type": "hardlink",
+        "sha256": "f0259d1cc53c67255985302dd37452468f72bf588b44d8ba93dc9e8a915a2cf0",
+        "sha256_in_prefix": "f0259d1cc53c67255985302dd37452468f72bf588b44d8ba93dc9e8a915a2cf0",
+        "size_in_bytes": 26256
+      },
+      {
+        "_path": "bin/asn1Decoding",
+        "path_type": "hardlink",
+        "sha256": "c3001c7051dcd62bf45a16d0b21adb34d9494763b9cbd62306a2242b66d0ebe9",
+        "sha256_in_prefix": "c3001c7051dcd62bf45a16d0b21adb34d9494763b9cbd62306a2242b66d0ebe9",
+        "size_in_bytes": 31016
+      },
+      {
+        "_path": "bin/asn1Parser",
+        "path_type": "hardlink",
+        "sha256": "f5ce39f9693a3cdaa1a21525ef4a570612e4aacedc6fba6d475db65ceb12e119",
+        "sha256_in_prefix": "f5ce39f9693a3cdaa1a21525ef4a570612e4aacedc6fba6d475db65ceb12e119",
+        "size_in_bytes": 17632
+      },
+      {
+        "_path": "include/libtasn1.h",
+        "path_type": "hardlink",
+        "sha256": "8493490c766056959470f54241fae531d68f390eafc2316f33a2117a05a24c82",
+        "sha256_in_prefix": "8493490c766056959470f54241fae531d68f390eafc2316f33a2117a05a24c82",
+        "size_in_bytes": 18101
+      },
+      {
+        "_path": "lib/libtasn1.so",
+        "path_type": "softlink",
+        "sha256": "a70c4c8d49703f68be626514c3bdc52f3af901412cbaa9e7fe6081a6bd1209b4",
+        "size_in_bytes": 91512
+      },
+      {
+        "_path": "lib/libtasn1.so.6",
+        "path_type": "softlink",
+        "sha256": "a70c4c8d49703f68be626514c3bdc52f3af901412cbaa9e7fe6081a6bd1209b4",
+        "size_in_bytes": 91512
+      },
+      {
+        "_path": "lib/libtasn1.so.6.6.3",
+        "path_type": "hardlink",
+        "sha256": "a70c4c8d49703f68be626514c3bdc52f3af901412cbaa9e7fe6081a6bd1209b4",
+        "sha256_in_prefix": "a70c4c8d49703f68be626514c3bdc52f3af901412cbaa9e7fe6081a6bd1209b4",
+        "size_in_bytes": 91512
+      },
+      {
+        "_path": "lib/pkgconfig/libtasn1.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libtasn1_1680816612763/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "c98d5adfae3484a248992d10da32281e1d511af0ee8b522ff7db9fb79de7be64",
+        "sha256_in_prefix": "9562b64990dbf67e1167f86d837292b5866b12d852e096ecc37efa2fef4a658a",
+        "size_in_bytes": 1350
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::libtasn1==4.19.0=h5eee18b_0",
+  "sha256": "42bab8a0dfdd07ea20b5d1cd26e2fe235b788dfaf8ed9529b6056847257afc3d",
+  "size": 64729,
+  "subdir": "linux-64",
+  "timestamp": 1680816662000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libtasn1-4.19.0-h5eee18b_0.conda",
+  "version": "4.19.0"
+}

@@ -1,0 +1,132 @@
+{
+  "arch": "x86_64",
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/async-timeout-4.0.2-py39h06a4308_0",
+  "files": [
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/LICENSE",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/zip-safe",
+    "lib/python3.9/site-packages/async_timeout/__init__.py",
+    "lib/python3.9/site-packages/async_timeout/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/async_timeout/py.typed"
+  ],
+  "fn": "async-timeout-4.0.2-py39h06a4308_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/async-timeout-4.0.2-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "4a415c0e86274f84b1732b2844e7bb5b",
+  "name": "async-timeout",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/async-timeout-4.0.2-py39h06a4308_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e18d7bb8f513e2c46bb585c94b585bd30720dd3ccb21ddb0786f72d16658f92c",
+        "sha256_in_prefix": "e18d7bb8f513e2c46bb585c94b585bd30720dd3ccb21ddb0786f72d16658f92c",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ca3808a03d548013c8fa8d92e9a6ab9e24782e19918b47026a1185c1b720582c",
+        "sha256_in_prefix": "ca3808a03d548013c8fa8d92e9a6ab9e24782e19918b47026a1185c1b720582c",
+        "size_in_bytes": 4173
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "261df24c535f5c15730bbac51a35c15e8fb62e0f099f85e0fb54ae494e2baa98",
+        "sha256_in_prefix": "261df24c535f5c15730bbac51a35c15e8fb62e0f099f85e0fb54ae494e2baa98",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d96f1b0a0db98847af560c7964d687640a47ab2e1e69db42325f3275e2864905",
+        "sha256_in_prefix": "d96f1b0a0db98847af560c7964d687640a47ab2e1e69db42325f3275e2864905",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f683387bb4f0abc883ffbfd0dcccf413a18f201eaf26f445a3e501c1442d0435",
+        "sha256_in_prefix": "f683387bb4f0abc883ffbfd0dcccf413a18f201eaf26f445a3e501c1442d0435",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout-4.0.2.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "37e25423f544c611e73b47a6905ffe874f1d9781c180e8ded7a3780a2f96fa0a",
+        "sha256_in_prefix": "37e25423f544c611e73b47a6905ffe874f1d9781c180e8ded7a3780a2f96fa0a",
+        "size_in_bytes": 7487
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a155a1bae2ab5fe0ad2487e1105ae6bd21bab8719f7ece74b15d3d15e1508384",
+        "sha256_in_prefix": "a155a1bae2ab5fe0ad2487e1105ae6bd21bab8719f7ece74b15d3d15e1508384",
+        "size_in_bytes": 6824
+      },
+      {
+        "_path": "lib/python3.9/site-packages/async_timeout/py.typed",
+        "path_type": "hardlink",
+        "sha256": "b72a33cd14f57f38971130f1a249aecadea384e9ad8d46e754d25d65c1bb8a4d",
+        "sha256_in_prefix": "b72a33cd14f57f38971130f1a249aecadea384e9ad8d46e754d25d65c1bb8a4d",
+        "size_in_bytes": 12
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "anaconda/linux-64::async-timeout==4.0.2=py39h06a4308_0",
+  "sha256": "fcb0703830623a1802f7d362b882f0f028723d401dbd9dfba49ce299349a8eb7",
+  "size": 11710,
+  "subdir": "linux-64",
+  "timestamp": 1664876394000,
+  "url": "https://conda.anaconda.org/anaconda/linux-64/async-timeout-4.0.2-py39h06a4308_0.tar.bz2",
+  "version": "4.0.2"
+}

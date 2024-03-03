@@ -1,0 +1,78 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/libcublas-12.1.0.26-0",
+  "files": [
+    "lib/libcublas.so.12",
+    "lib/libcublas.so.12.1.0.26",
+    "lib/libcublasLt.so.12",
+    "lib/libcublasLt.so.12.1.0.26",
+    "lib/libnvblas.so.12",
+    "lib/libnvblas.so.12.1.0.26"
+  ],
+  "fn": "libcublas-12.1.0.26-0.tar.bz2",
+  "license": "",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/libcublas-12.1.0.26-0",
+    "type": 1
+  },
+  "md5": "74f872929a02e01ef746a064fa46a80c",
+  "name": "libcublas",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/libcublas-12.1.0.26-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcublas.so.12",
+        "path_type": "softlink",
+        "sha256": "288ab0701153c7291f63b1ebd919d25bb16cbf7878dfad7c51c2c9639544c9d3",
+        "size_in_bytes": 107456016
+      },
+      {
+        "_path": "lib/libcublas.so.12.1.0.26",
+        "path_type": "hardlink",
+        "sha256": "288ab0701153c7291f63b1ebd919d25bb16cbf7878dfad7c51c2c9639544c9d3",
+        "sha256_in_prefix": "288ab0701153c7291f63b1ebd919d25bb16cbf7878dfad7c51c2c9639544c9d3",
+        "size_in_bytes": 107456016
+      },
+      {
+        "_path": "lib/libcublasLt.so.12",
+        "path_type": "softlink",
+        "sha256": "9ea0a9db09e8e6688e31eb05f151e16da850fc93f94574f6d72b06f596717889",
+        "size_in_bytes": 507691264
+      },
+      {
+        "_path": "lib/libcublasLt.so.12.1.0.26",
+        "path_type": "hardlink",
+        "sha256": "9ea0a9db09e8e6688e31eb05f151e16da850fc93f94574f6d72b06f596717889",
+        "sha256_in_prefix": "9ea0a9db09e8e6688e31eb05f151e16da850fc93f94574f6d72b06f596717889",
+        "size_in_bytes": 507691264
+      },
+      {
+        "_path": "lib/libnvblas.so.12",
+        "path_type": "softlink",
+        "sha256": "a7bfd8c5e872cd18d6de9eb51737bad49b2fb4e59abf8a7d81a6dc608c06f6a4",
+        "size_in_bytes": 740960
+      },
+      {
+        "_path": "lib/libnvblas.so.12.1.0.26",
+        "path_type": "hardlink",
+        "sha256": "a7bfd8c5e872cd18d6de9eb51737bad49b2fb4e59abf8a7d81a6dc608c06f6a4",
+        "sha256_in_prefix": "a7bfd8c5e872cd18d6de9eb51737bad49b2fb4e59abf8a7d81a6dc608c06f6a4",
+        "size_in_bytes": 740960
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "nvidia/linux-64::libcublas==12.1.0.26=0",
+  "sha256": "d269774ee934885d43c13464ffa8cec69440868c85a993b906bce56f8de203ae",
+  "size": 344950844,
+  "subdir": "linux-64",
+  "timestamp": 1675918695000,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcublas-12.1.0.26-0.tar.bz2",
+  "version": "12.1.0.26"
+}

@@ -1,0 +1,399 @@
+#! /bin/sh
+##
+# Copyright by The HDF Group.
+# Copyright by the Board of Trustees of the University of Illinois.
+# All rights reserved.
+#
+# This file is part of HDF5.  The full HDF5 copyright notice, including
+# terms governing use, modification, and redistribution, is contained in
+# the COPYING file, which can be found at the root of the source code
+# distribution tree, or in https://support.hdfgroup.org/ftp/HDF5/releases.
+# If you do not have access to either file, you may request a copy from
+# help@hdfgroup.org.
+##
+
+# This tool is adapted from the mpicc command of the MPICH Software.
+
+############################################################################
+##                                                                        ##
+## Things You May Have to Modify:                                         ##
+##                                                                        ##
+## If the following paths don't point to the place were HDF5 is installed ##
+## on your system (i.e., you received a binary distribution or moved the  ##
+## files from the originally installed directory to another directory)    ##
+## then modify them accordingly to represent the new paths.               ##
+##                                                                        ##
+############################################################################
+prefix="/home/james/code/course22/envs"
+exec_prefix="${prefix}"
+libdir="${exec_prefix}/lib"
+includedir="${prefix}/include"
+HL="hl"
+
+############################################################################
+##                                                                        ##
+## Things You Can Modify to Override HDF5 Library Build Components:       ##
+##                                                                        ##
+## (Advanced usage - know what you're doing - you're on your own here.)   ##
+## The four variables below can be used to insert paths and flags in      ##
+## CPPFLAGS, CFLAGS, LDFLAGS, or LIBS in the h5cc compile line:           ##
+##    $CLINKER $H5BLD_CPPFLAGS $CPPFLAGS $H5BLD_CFLAGS $CFLAGS $LDFLAGS   ##
+##    $LIBS $clibpath $link_objs $link_args $shared_link                  ##
+##                                                                        ##
+## These settings can be overriden by setting HDF5_CFLAGS,                ##
+## HDF5_CPPFLAGS, HDF5_LDFLAGS, or HDF5_LIBS in the environment.          ##
+##                                                                        ##
+############################################################################
+CFLAGSBASE=""
+CPPFLAGSBASE=""
+LDFLAGSBASE=""
+LIBSBASE=""
+
+############################################################################
+##                                                                        ##
+## You shouldn't have to modify anything below this line.                 ##
+##                                                                        ##
+############################################################################
+
+# Constants definitions
+EXIT_SUCCESS=0
+EXIT_FAILURE=1
+
+host_os="linux-gnu"
+
+prog_name="`basename $0`"
+
+allargs=""
+compile_args=""
+libraries=""
+link_args=""
+link_objs=""
+clibpath=""
+
+do_link="yes"
+do_compile="no"
+dash_o="no"
+dash_c="no"
+get_output_file="no"
+
+SHOW="eval"
+CCBASE="x86_64-conda-linux-gnu-cc"
+CLINKERBASE="x86_64-conda-linux-gnu-cc"
+
+# CFLAGS, CPPFLAGS and LDFLAGS are reserved for use by the script user.
+# FLAGS brought from the hdf5 build are put in H5BLD_*FLAGS.
+
+# User's CPPFLAGS and CFLAGS come after their H5BLD counterparts.  User's 
+# LDFLAGS come just before clibpath, user's LIBS come after $link_objs and 
+# before the hdf5 libraries in $link_args, followed by any external library 
+# paths and libraries from AM_LDFLAGS, LDFLAGS, AM_LIBS or LIBS carried in 
+# from the hdf5 build. The order of the flags is intended to give precedence
+# to the user's flags.
+H5BLD_CFLAGS=" -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/james/code/course22/envs/include -fdebug-prefix-map=/opt/conda/conda-bld/hdf5_1655306718793/work=/usr/local/src/conda/hdf5-1.10.6 -fdebug-prefix-map=/home/james/code/course22/envs=/usr/local/src/conda-prefix"
+H5BLD_CPPFLAGS=" -I/home/james/code/course22/envs/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/james/code/course22/envs/include"
+H5BLD_LDFLAGS=" -L/home/james/code/course22/envs/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/james/code/course22/envs/lib -Wl,-rpath-link,/home/james/code/course22/envs/lib -L/home/james/code/course22/envs/lib"
+H5BLD_LIBS="-lpthread -lz -ldl -lm "
+
+CC="${HDF5_CC:-$CCBASE}"
+CLINKER="${HDF5_CLINKER:-$CLINKERBASE}"
+CFLAGS="${HDF5_CFLAGS:-$CFLAGSBASE}"
+CPPFLAGS="${HDF5_CPPFLAGS:-$CPPFLAGSBASE}"
+LDFLAGS="${HDF5_LDFLAGS:-$LDFLAGSBASE}"
+LIBS="${HDF5_LIBS:-$LIBSBASE}"
+
+# If a static library is available, the default will be to use it.  If the only
+# available library is shared, it will be used by default.  The user can 
+# override either default, although choosing an unavailable library will result
+# in link errors.  
+STATIC_AVAILABLE="yes"
+if test "${STATIC_AVAILABLE}" = "yes"; then
+  USE_SHARED_LIB="${HDF5_USE_SHLIB:-no}"
+else
+  USE_SHARED_LIB="${HDF5_USE_SHLIB:-yes}"
+fi
+
+
+usage() {
+  # A wonderfully informative "usage" message.
+  echo "usage: $prog_name [OPTIONS] <compile line>"
+  echo "  OPTIONS:"
+  echo "    -help        This help message."
+  echo "    -echo        Show all the shell commands executed"
+  echo "    -prefix=DIR  Prefix directory to find HDF5 lib/ and include/"
+  echo "                   subdirectories [default: $prefix]"
+  # A wonderfully informative "usage" message.
+  echo "usage: $prog_name [OPTIONS] <compile line>"
+  echo "  OPTIONS:"
+  echo "    -help        This help message."
+  echo "    -echo        Show all the shell commands executed"
+  echo "    -prefix=DIR  Prefix directory to find HDF5 lib/ and include/"
+  echo "                   subdirectories [default: $prefix]"
+  echo "    -show        Show the commands without executing them"
+  echo "    -showconfig  Show the HDF5 library configuration summary"
+  echo "    -shlib       Compile with shared HDF5 libraries [default for hdf5 built"
+  echo "                                                     without static libraries]"
+  echo "    -noshlib     Compile with static HDF5 libraries [default for hdf5 built"
+  echo "                                                     with static libraries]"
+  echo " "
+  echo "  <compile line>  - the normal compile line options for your compiler."
+  echo "                    $prog_name uses the same compiler you used to compile"
+  echo "                    HDF5. Check with your compiler's man pages for more"
+  echo "                    information on which options are needed."
+  echo " "
+  echo " You can override the compiler, linker, and whether or not to use static"
+  echo " or shared libraries to compile your program by setting the following"
+  echo " environment variables accordingly:"
+  echo " "
+  echo "   HDF5_CC                  -  use a different C compiler"
+  echo "   HDF5_CLINKER             -  use a different linker"
+  echo "   HDF5_USE_SHLIB=[yes|no]  -  use shared or static version of the HDF5 library"
+  echo "                                 [default: no except when built with only" 
+  echo "                                           shared libraries]"
+  echo " "
+  echo " You can also add or change paths and flags to the compile line using"
+  echo " the following environment varibles or by assigning them to their counterparts"
+  echo " in the 'Things You Can Modify to Override...'" section of $prog_name
+  echo " "
+  echo "  Variable              Current value to be replaced"
+  echo "  HDF5_CPPFLAGS         \"$CPPFLAGSBASE\""
+  echo "  HDF5_CFLAGS           \"$CFLAGSBASE\""
+  echo "  HDF5_LDFLAGS          \"$LDFLAGSBASE\""
+  echo "  HDF5_LIBS             \"$LIBSBASE\""
+  echo " "
+  echo " Note that adding library paths to HDF5_LDFLAGS where another hdf5 version"
+  echo " is located may link your program with that other hdf5 library version."
+  echo " "
+  exit $EXIT_FAILURE
+}
+
+# Show the configuration summary of the library recorded in the
+# libhdf5.settings file reside in the lib directory.
+showconfigure()
+{
+  cat ${libdir}/libhdf5.settings
+  status=$?
+}
+
+# Main
+status=$EXIT_SUCCESS
+
+if test "$#" = "0"; then
+  # No parameters specified, issue usage statement and exit.
+  usage
+fi
+
+case "$CC" in
+  gcc)
+    kind="gcc"
+    ;;
+  mpicc|mpcc|mpicc_r)
+    # Is this gcc masquarading as an MPI compiler?
+    if test "`${CC} -v 2>&1 | sed -n 2p | cut -c1-3`" = "gcc"; then
+      kind="gcc"
+    else
+      # Nope
+      kind="$host_os"
+    fi
+    ;;
+  *)
+    kind="$host_os"
+    ;;
+esac
+
+for arg in $@ ; do
+  if test "x$get_output_file" = "xyes"; then
+    link_args="$link_args $arg"
+    output_file="$arg"
+    get_output_file="no"
+    continue
+  fi
+
+  case "$arg" in
+    -c)
+      allargs="$allargs $arg"
+      compile_args="$compile_args $arg"
+
+      if test "x$do_link" = "xyes" -a -n "$output_file"; then
+        compile_args="$compile_args -o $output_file"
+      fi
+
+      do_link="no"
+      dash_c="yes"
+      ;;
+    -o)
+      allargs="$allargs $arg"
+      dash_o="yes"
+
+      if test "x$dash_c" = "xyes"; then
+        compile_args="$compile_args $arg"
+      else
+        link_args="$link_args $arg"
+        do_link="yes"
+        get_output_file="yes"
+      fi
+      ;;
+    -E|-M|-MT)
+      allargs="$allargs $arg"
+      compile_args="$compile_args $arg"
+      dash_c="yes"
+      do_link="no"
+      ;;
+    -l*)
+      libraries=" $libraries $arg "
+      allargs="$allargs $arg"
+      ;;
+    -prefix=*)
+      prefix="`expr "$arg" : '-prefix=\(.*\)'`"
+      ;;
+    -echo)
+      set -x
+      ;;
+    -show)
+      SHOW="echo"
+      ;;
+    -showconfig)
+      showconfigure
+      exit $status
+      ;;
+    -shlib)
+      USE_SHARED_LIB="yes"
+      ;;
+    -noshlib)
+      USE_SHARED_LIB="no"
+      ;;
+    -help)
+      usage
+      ;;
+    *\"*)
+      qarg="'"$arg"'"
+      allargs="$allargs $qarg"
+      ;;
+    *\'*)
+      qarg='\"'"$arg"'\"'
+      allargs="$allargs $qarg"
+      ;;
+    *)
+      allargs="$allargs $qarg"
+
+      if test -s "$arg"; then
+        ext=`expr "$arg" : '.*\(\..*\)'`
+
+        if test "x$ext" = "x.c"; then
+          do_compile="yes"
+          compile_args="$compile_args $arg"
+          fname=`basename $arg .c`
+          link_objs="$link_objs $fname.o"
+        elif test "x$ext" = "x.o"; then
+          if test "x$dash_c" = "xyes"; then
+            compile_args="$compile_args $arg"
+          else
+            do_link="yes"
+            link_objs="$link_objs $arg"
+          fi
+        elif test "x$ext" = "x.a"; then
+          # This is an archive that we're linking in
+          libraries=" $libraries $arg "
+        else
+          compile_args="$compile_args $arg"
+          link_args="$link_args $arg"
+        fi
+      else
+        compile_args="$compile_args $arg"
+        link_args="$link_args $arg"
+      fi
+      ;;
+  esac
+done
+
+if test "$dash_c" = "yes" -a "$do_compile" = no -a "$do_link" = no ; then
+    # -c was specified.  Force do_compile on.
+    do_compile=yes
+fi
+
+if test "x$do_compile" = "xyes"; then
+  if test "x$dash_c" != "xyes"; then
+    compile_args="-c $compile_args"
+  fi
+
+  $SHOW $CC -I$includedir $H5BLD_CPPFLAGS $CPPFLAGS $H5BLD_CFLAGS $CFLAGS $compile_args
+  status=$?
+
+  if test "$status" != "0"; then
+    exit $status
+  fi
+fi
+
+if test "x$do_link" = "xyes"; then
+  shared_link=""
+# conditionnaly link with the hl library  
+  if test "X$HL" = "Xhl"; then
+   libraries=" $libraries -lhdf5_hl -lhdf5 "
+  else
+   libraries=" $libraries  -lhdf5 "
+  fi
+  link_args="$link_args -L${libdir}"
+
+  case "$kind" in
+    gcc|linux*)
+      # MacOS X doesn't support the "-Wl,-rpath -Wl," style of linker flags.
+      # It appears to want none of them specified.
+      case "$host_os" in
+        darwin*)          flag="" ;;
+        *)                flag="-Wl,-rpath -Wl," ;;
+      esac
+      ;;
+    hpux*)                flag="-Wl,+b -Wl," ;;
+    freebsd*|solaris*)    flag="-R" ;;
+    rs6000*|aix*)         flag="-L" ;;
+    sgi)                  flag="-rpath " ;;
+    *)                    flag="" ;;
+  esac
+
+  if test -n "$flag"; then
+    shared_link="${flag}${libdir}"
+  fi
+
+  if test "x$USE_SHARED_LIB" != "xyes"; then
+    # The "-lhdf5" & "-lhdf5_hl" flags are in here already...This is a static
+    # compile though, so change it to the static version (.a) of the library.
+    new_libraries=""
+    for lib in $libraries; do
+      case "$lib" in
+        -lhdf5)
+          new_libraries="$new_libraries ${libdir}/libhdf5.a"
+          ;;
+        -lhdf5_hl)
+          new_libraries="$new_libraries ${libdir}/libhdf5_hl.a"
+          ;;
+        *)
+          new_libraries="$new_libraries $lib"
+          ;;
+      esac
+    done
+    libraries="$new_libraries"
+  fi
+
+  for lib in $libraries; do
+    if echo $link_args | grep " $lib " > /dev/null ||
+       echo $link_args | grep " $lib$" > /dev/null; then
+      :
+    else
+      link_args="$link_args $lib "
+    fi
+  done
+
+  # The LIBS are just a bunch of -l* libraries necessary for the HDF5
+  # module. It's okay if they're included twice in the compile line.
+  link_args="$link_args $H5BLD_LDFLAGS $H5BLD_LIBS"
+
+  # User's CPPFLAGS and CFLAGS come after their H5BLD counterparts.  User's 
+  # LDFLAGS come just before clibpath, user's LIBS come after $link_objs and 
+  # before the hdf5 libraries in $link_args, followed by any external library 
+  # paths and libraries from AM_LDFLAGS, LDFLAGS, AM_LIBS or LIBS carried in 
+  # from the hdf5 build. The order of the flags is intended to give precedence
+  # to the user's flags.
+  $SHOW $CLINKER $H5BLD_CPPFLAGS $CPPFLAGS $H5BLD_CFLAGS $CFLAGS $LDFLAGS $clibpath $link_objs $LIBS $link_args $shared_link
+  status=$?
+fi
+
+exit $status

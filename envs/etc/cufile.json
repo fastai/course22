@@ -1,0 +1,192 @@
+{
+    // NOTE : Application can override custom configuration via export CUFILE_ENV_PATH_JSON=<filepath>
+    // e.g : export CUFILE_ENV_PATH_JSON="/home/<xxx>/cufile.json"
+
+            "logging": {
+                            // log directory, if not enabled will create log file under current working directory
+                            //"dir": "/home/<xxxx>",
+
+                            // NOTICE|ERROR|WARN|INFO|DEBUG|TRACE (in decreasing order of severity)
+                            "level": "ERROR"
+            },
+
+            "profile": {
+                            // nvtx profiling on/off
+                            "nvtx": false,
+                            // cufile stats level(0-3)
+                            "cufile_stats": 0
+            },
+
+            "execution" : {
+                    // max number of workitems in the queue;
+                    "max_io_queue_depth": 128,
+                    // max number of host threads per gpu to spawn for parallel IO
+                    "max_io_threads" : 4,
+                    // enable support for parallel IO
+                    "parallel_io" : true,
+                    // minimum IO threshold before splitting the IO
+                    "min_io_threshold_size_kb" : 8192,
+		    // maximum parallelism for a single request
+		    "max_request_parallelism" : 4
+            },
+
+            "properties": {
+                            // max IO chunk size (parameter should be multiples of 64K) used by cuFileRead/Write internally per IO request
+                            "max_direct_io_size_kb" : 16384,
+                            // device memory size (parameter should be 4K aligned) for reserving bounce buffers for the entire GPU
+                            "max_device_cache_size_kb" : 131072,
+                            // limit on maximum device memory size (parameter should be 4K aligned) that can be pinned for a given process
+                            "max_device_pinned_mem_size_kb" : 33554432,
+                            // true or false (true will enable asynchronous io submission to nvidia-fs driver)
+                            // Note : currently the overall IO will still be synchronous
+                            "use_poll_mode" : false,
+                            // maximum IO request size (parameter should be 4K aligned) within or equal to which library will use polling for IO completion
+                            "poll_mode_max_size_kb": 4,
+                            // allow compat mode, this will enable use of cuFile posix read/writes
+                            "allow_compat_mode": true,
+                            // enable GDS write support for RDMA based storage
+                            "gds_rdma_write_support": true,
+                            // GDS batch size
+                            "io_batchsize": 128,
+                            // enable io priority w.r.t compute streams
+                            // valid options are "default", "low", "med", "high"
+                            "io_priority": "default",
+                            // client-side rdma addr list for user-space file-systems(e.g ["10.0.1.0", "10.0.2.0"])
+                            "rdma_dev_addr_list": [ ],
+                            // load balancing policy for RDMA memory registration(MR), (RoundRobin, RoundRobinMaxMin)
+                            // In RoundRobin, MRs will be distributed uniformly across NICS closest to a GPU
+                            // In RoundRobinMaxMin, MRs will be distributed across NICS closest to a GPU
+                            // with minimal sharing of NICS acros GPUS
+                            "rdma_load_balancing_policy": "RoundRobin",
+			    //32-bit dc key value in hex
+			    //"rdma_dc_key": "0xffeeddcc", 
+			    //To enable/disable different rdma OPs use the below bit map
+			    //Bit 0 - If set enables Local RDMA WRITE
+			    //Bit 1 - If set enables Remote RDMA WRITE
+			    //Bit 2 - If set enables Remote RDMA READ
+			    //Bit 3 - If set enables REMOTE RDMA Atomics
+			    //Bit 4 - If set enables Relaxed ordering.
+			    //"rdma_access_mask": "0x1f",
+                            
+                            // In platforms where IO transfer to a GPU will cause cross RootPort PCie transfers, enabling this feature
+                            // might help improve overall BW provided there exists a GPU(s) with Root Port common to that of the storage NIC(s).
+                            // If this feature is enabled, please provide the ip addresses used by the mount either in file-system specific
+                            // section for mount_table or in the rdma_dev_addr_list property in properties section
+                            "rdma_dynamic_routing": false,
+                            // The order describes the sequence in which a policy is selected for dynamic routing for cross Root Port transfers
+                            // If the first policy is not applicable, it will fallback to the next and so on.
+                            // policy GPU_MEM_NVLINKS: use GPU memory with NVLink to transfer data between GPUs
+                            // policy GPU_MEM: use GPU memory with PCIe to transfer data between GPUs
+                            // policy SYS_MEM: use system memory with PCIe to transfer data to GPU
+                            // policy P2P: use P2P PCIe to transfer across between NIC and GPU
+                            "rdma_dynamic_routing_order": [ "GPU_MEM_NVLINKS", "GPU_MEM", "SYS_MEM", "P2P" ]
+            },
+
+            "fs": {
+                    "generic": {
+
+                            // for unaligned writes, setting it to true will, cuFileWrite use posix write internally instead of regular GDS write
+                            "posix_unaligned_writes" : false
+                    },
+
+		    "beegfs" : {
+                            // IO threshold for read/write (param should be 4K aligned)) equal to or below which cuFile will use posix read/write
+                            "posix_gds_min_kb" : 0
+
+                            // To restrict the IO to selected IP list, when dynamic routing is enabled
+                            // if using a single BeeGFS mount, provide the ip addresses here
+                            //"rdma_dev_addr_list" : []
+
+                            // if using multiple lustre mounts, provide ip addresses used by respective mount here 
+                            //"mount_table" : {
+                            //                    "/beegfs/client1" : {
+                            //                                    "rdma_dev_addr_list" : ["172.172.1.40", "172.172.1.42"]
+                            //                    },
+
+                            //                    "/beegfs/client2" : {
+                            //                                    "rdma_dev_addr_list" : ["172.172.2.40", "172.172.2.42"]
+                            //                    }
+                            //}
+
+		    },
+                    "lustre": {
+
+                            // IO threshold for read/write (param should be 4K aligned)) equal to or below which cuFile will use posix read/write
+                            "posix_gds_min_kb" : 0
+
+                            // To restrict the IO to selected IP list, when dynamic routing is enabled
+                            // if using a single lustre mount, provide the ip addresses here (use : sudo lnetctl net show)
+                            //"rdma_dev_addr_list" : []
+
+                            // if using multiple lustre mounts, provide ip addresses used by respective mount here 
+                            //"mount_table" : {
+                            //                    "/lustre/ai200_01/client" : {
+                            //                                    "rdma_dev_addr_list" : ["172.172.1.40", "172.172.1.42"]
+                            //                    },
+
+                            //                    "/lustre/ai200_02/client" : {
+                            //                                    "rdma_dev_addr_list" : ["172.172.2.40", "172.172.2.42"]
+                            //                    }
+                            //}
+                    },
+
+                    "nfs": {
+
+                           // To restrict the IO to selected IP list, when dynamic routing is enabled
+                           //"rdma_dev_addr_list" : []
+
+                           //"mount_table" : {
+                           //                     "/mnt/nfsrdma_01/" : {
+                           //                                     "rdma_dev_addr_list" : []
+                           //                     },
+
+                           //                     "/mnt/nfsrdma_02/" : {
+                           //                                     "rdma_dev_addr_list" : []
+                           //                     }
+                           //}
+                    },
+                    
+		    "gpfs": {
+                           //allow GDS writes with GPFS
+                           "gds_write_support": false
+
+                           //"rdma_dev_addr_list" : []
+
+                           //"mount_table" : {
+                           //                     "/mnt/gpfs_01" : {
+                           //                                     "rdma_dev_addr_list" : []
+                           //                     },
+
+                           //                     "/mnt/gpfs_02/" : {
+                           //                                     "rdma_dev_addr_list" : []
+                           //                     }
+                           //}
+                    },
+
+                    "weka": {
+
+                            // enable/disable RDMA write
+                            "rdma_write_support" : false
+                    }
+            },
+
+            "denylist": {
+                            // specify list of vendor driver modules to deny for nvidia-fs (e.g. ["nvme" , "nvme_rdma"])
+                            "drivers":  [ ],
+
+                            // specify list of block devices to prevent IO using cuFile (e.g. [ "/dev/nvme0n1" ])
+                            "devices": [ ],
+
+                            // specify list of mount points to prevent IO using cuFile (e.g. ["/mnt/test"])
+                            "mounts": [ ],
+
+                            // specify list of file-systems to prevent IO using cuFile (e.g ["lustre", "wekafs"])
+                            "filesystems": [ ]
+            },
+        
+            "miscellaneous": {
+                            // enable only for enforcing strict checks at API level for debugging
+                            "api_check_aggressive": false
+	    }
+}
+
