@@ -1,0 +1,105 @@
+{
+  "build": "pyhb6f538c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "ffmpeg",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/ffmpy-0.3.0-pyhb6f538c_0",
+  "files": [
+    "lib/python3.9/site-packages/ffmpy-0.3.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/ffmpy-0.3.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/ffmpy-0.3.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/ffmpy-0.3.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/ffmpy-0.3.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/ffmpy-0.3.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/ffmpy-0.3.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/ffmpy.py",
+    "lib/python3.9/site-packages/__pycache__/ffmpy.cpython-39.pyc"
+  ],
+  "fn": "ffmpy-0.3.0-pyhb6f538c_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/ffmpy-0.3.0-pyhb6f538c_0",
+    "type": 1
+  },
+  "md5": "6ac23fb78d7234152221fea00aeb11c8",
+  "name": "ffmpy",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/ffmpy-0.3.0-pyhb6f538c_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/ffmpy-0.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ffmpy-0.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7ddf207e4a3d2c1b96bd404bb151fbfc6f46ef3e1b1c8ce35f819e791d25b537",
+        "sha256_in_prefix": "7ddf207e4a3d2c1b96bd404bb151fbfc6f46ef3e1b1c8ce35f819e791d25b537",
+        "size_in_bytes": 2654
+      },
+      {
+        "_path": "site-packages/ffmpy-0.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "967fe6087bfe886553364cc4075010029ae1fb59b1501a107f8132810a632229",
+        "sha256_in_prefix": "967fe6087bfe886553364cc4075010029ae1fb59b1501a107f8132810a632229",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "site-packages/ffmpy-0.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ffmpy-0.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/ffmpy-0.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a3470f87c7293e7ab2004dab52f4c6a9d5c044517b751cecebaf293492b2169b",
+        "sha256_in_prefix": "a3470f87c7293e7ab2004dab52f4c6a9d5c044517b751cecebaf293492b2169b",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/ffmpy-0.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2283570dc07c500789b27681d4fb7677e806f3bba70925fce754fbc82d923b33",
+        "sha256_in_prefix": "2283570dc07c500789b27681d4fb7677e806f3bba70925fce754fbc82d923b33",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/ffmpy.py",
+        "path_type": "hardlink",
+        "sha256": "1a1a3fc45477b61fae1c0affb373b983e38c5cd05a911fd702c769a4a0b8735e",
+        "sha256_in_prefix": "1a1a3fc45477b61fae1c0affb373b983e38c5cd05a911fd702c769a4a0b8735e",
+        "size_in_bytes": 8461
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/ffmpy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "19e8500b169244e2ab0df3d086c3040c0cd96631781bb16c9045a0b2e6ea6e61",
+  "size": 10415,
+  "subdir": "noarch",
+  "timestamp": 1659475099000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ffmpy-0.3.0-pyhb6f538c_0.tar.bz2",
+  "version": "0.3.0"
+}

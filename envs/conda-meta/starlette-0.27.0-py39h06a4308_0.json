@@ -1,0 +1,643 @@
+{
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "anyio >=3.4.0,<5",
+    "python >=3.9,<3.10.0a0",
+    "typing_extensions >=3.10.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/starlette-0.27.0-py39h06a4308_0",
+  "files": [
+    "lib/python3.9/site-packages/starlette-0.27.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/starlette-0.27.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/starlette-0.27.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/starlette-0.27.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/starlette-0.27.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/starlette-0.27.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/starlette-0.27.0.dist-info/licenses/LICENSE.md",
+    "lib/python3.9/site-packages/starlette/__init__.py",
+    "lib/python3.9/site-packages/starlette/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/_compat.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/applications.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/authentication.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/background.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/concurrency.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/convertors.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/datastructures.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/endpoints.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/formparsers.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/requests.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/responses.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/routing.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/schemas.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/staticfiles.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/status.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/templating.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/testclient.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/types.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/__pycache__/websockets.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/_compat.py",
+    "lib/python3.9/site-packages/starlette/_utils.py",
+    "lib/python3.9/site-packages/starlette/applications.py",
+    "lib/python3.9/site-packages/starlette/authentication.py",
+    "lib/python3.9/site-packages/starlette/background.py",
+    "lib/python3.9/site-packages/starlette/concurrency.py",
+    "lib/python3.9/site-packages/starlette/config.py",
+    "lib/python3.9/site-packages/starlette/convertors.py",
+    "lib/python3.9/site-packages/starlette/datastructures.py",
+    "lib/python3.9/site-packages/starlette/endpoints.py",
+    "lib/python3.9/site-packages/starlette/exceptions.py",
+    "lib/python3.9/site-packages/starlette/formparsers.py",
+    "lib/python3.9/site-packages/starlette/middleware/__init__.py",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/authentication.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/cors.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/errors.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/gzip.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/httpsredirect.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/sessions.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/trustedhost.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/__pycache__/wsgi.cpython-39.pyc",
+    "lib/python3.9/site-packages/starlette/middleware/authentication.py",
+    "lib/python3.9/site-packages/starlette/middleware/base.py",
+    "lib/python3.9/site-packages/starlette/middleware/cors.py",
+    "lib/python3.9/site-packages/starlette/middleware/errors.py",
+    "lib/python3.9/site-packages/starlette/middleware/exceptions.py",
+    "lib/python3.9/site-packages/starlette/middleware/gzip.py",
+    "lib/python3.9/site-packages/starlette/middleware/httpsredirect.py",
+    "lib/python3.9/site-packages/starlette/middleware/sessions.py",
+    "lib/python3.9/site-packages/starlette/middleware/trustedhost.py",
+    "lib/python3.9/site-packages/starlette/middleware/wsgi.py",
+    "lib/python3.9/site-packages/starlette/py.typed",
+    "lib/python3.9/site-packages/starlette/requests.py",
+    "lib/python3.9/site-packages/starlette/responses.py",
+    "lib/python3.9/site-packages/starlette/routing.py",
+    "lib/python3.9/site-packages/starlette/schemas.py",
+    "lib/python3.9/site-packages/starlette/staticfiles.py",
+    "lib/python3.9/site-packages/starlette/status.py",
+    "lib/python3.9/site-packages/starlette/templating.py",
+    "lib/python3.9/site-packages/starlette/testclient.py",
+    "lib/python3.9/site-packages/starlette/types.py",
+    "lib/python3.9/site-packages/starlette/websockets.py"
+  ],
+  "fn": "starlette-0.27.0-py39h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/starlette-0.27.0-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "4389fb92aaf37d97454a23422d773d18",
+  "name": "starlette",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/starlette-0.27.0-py39h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/starlette-0.27.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette-0.27.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7598b6cde49bc5c4d74adbb52c16628ad1467231bd2d182a4bb8ce7cb31fee08",
+        "sha256_in_prefix": "7598b6cde49bc5c4d74adbb52c16628ad1467231bd2d182a4bb8ce7cb31fee08",
+        "size_in_bytes": 5836
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette-0.27.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fad91f589050936864fc1c043e7424ebe255614876ee16168c2637423d6db952",
+        "sha256_in_prefix": "fad91f589050936864fc1c043e7424ebe255614876ee16168c2637423d6db952",
+        "size_in_bytes": 5321
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette-0.27.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette-0.27.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "sha256_in_prefix": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette-0.27.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "82b8628ccd6b8e0fc16c2e96aca84cfb1f81d57d28e1898d09773e29e9f2097d",
+        "sha256_in_prefix": "82b8628ccd6b8e0fc16c2e96aca84cfb1f81d57d28e1898d09773e29e9f2097d",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette-0.27.0.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+        "sha256_in_prefix": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1e3b1cf57437024a979bee5c7655fe1fc88a8d44738b5150796362db1c77e14a",
+        "sha256_in_prefix": "1e3b1cf57437024a979bee5c7655fe1fc88a8d44738b5150796362db1c77e14a",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "deb256cf35b4c4740d6e11f02047bf7602ac2fa3ed14e5924220388daaa8dd21",
+        "sha256_in_prefix": "deb256cf35b4c4740d6e11f02047bf7602ac2fa3ed14e5924220388daaa8dd21",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/_compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8208c14414e3fa654a4d637002f7bcfabceec3bf0a5596de88c161acfb19aa2f",
+        "sha256_in_prefix": "8208c14414e3fa654a4d637002f7bcfabceec3bf0a5596de88c161acfb19aa2f",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f98c95e9fcd5bc71ea7fc7dee2ebd7b5e604fed48ce9ef8b6d6c98dba610fdab",
+        "sha256_in_prefix": "f98c95e9fcd5bc71ea7fc7dee2ebd7b5e604fed48ce9ef8b6d6c98dba610fdab",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/applications.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f0d0a6822382795909feba9f7f8d83bbafdca65fcd279bf0a887cca0685bdde",
+        "sha256_in_prefix": "2f0d0a6822382795909feba9f7f8d83bbafdca65fcd279bf0a887cca0685bdde",
+        "size_in_bytes": 9781
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/authentication.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b1ef64cd811ce1d81d08a0cb1ecf6db1843dab3dc61e8fb80a7ba14789587c6",
+        "sha256_in_prefix": "9b1ef64cd811ce1d81d08a0cb1ecf6db1843dab3dc61e8fb80a7ba14789587c6",
+        "size_in_bytes": 5543
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/background.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2c7149defcc67064ee783ee0c5f458abd23e8b8a43b6bec6cc0ff8064f02525",
+        "sha256_in_prefix": "e2c7149defcc67064ee783ee0c5f458abd23e8b8a43b6bec6cc0ff8064f02525",
+        "size_in_bytes": 1895
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/concurrency.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfc8b588e2d59fe75376af73caafc04fcb85ded7ba77130efe1f3605fcf5cfe3",
+        "sha256_in_prefix": "cfc8b588e2d59fe75376af73caafc04fcb85ded7ba77130efe1f3605fcf5cfe3",
+        "size_in_bytes": 1994
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/config.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "592e9deba23fa82e247f0068121b959732329506c7c8f70f1f099600f4aaeafb",
+        "sha256_in_prefix": "592e9deba23fa82e247f0068121b959732329506c7c8f70f1f099600f4aaeafb",
+        "size_in_bytes": 4761
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/convertors.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5be1a141830806a8bbcd86a77c2357a6690b619a8a87b4aa30f947e20618d67",
+        "sha256_in_prefix": "b5be1a141830806a8bbcd86a77c2357a6690b619a8a87b4aa30f947e20618d67",
+        "size_in_bytes": 3666
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/datastructures.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d7384fc188f52a974d6a90ce686ec92a8ef69c31d7b2bac3b432be7e14658cf",
+        "sha256_in_prefix": "7d7384fc188f52a974d6a90ce686ec92a8ef69c31d7b2bac3b432be7e14658cf",
+        "size_in_bytes": 27305
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/endpoints.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "04976bba181f5893918a6327157ab087b204a103e345475fbbe222aa8efb3868",
+        "sha256_in_prefix": "04976bba181f5893918a6327157ab087b204a103e345475fbbe222aa8efb3868",
+        "size_in_bytes": 4959
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e093c290066c49696a3ff218bea5c318584fcb11a9402eeba50f7285ce45640c",
+        "sha256_in_prefix": "e093c290066c49696a3ff218bea5c318584fcb11a9402eeba50f7285ce45640c",
+        "size_in_bytes": 2242
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/formparsers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "321d88b7897deb3f4c67dd0993eb20dd1df96615ea55e68ffdccc6e55b45613e",
+        "sha256_in_prefix": "321d88b7897deb3f4c67dd0993eb20dd1df96615ea55e68ffdccc6e55b45613e",
+        "size_in_bytes": 8112
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/requests.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b3c8098f1cc3833d91edb238d9a5bb1deab2504f3177fbdb56cddb34e7bf1aa",
+        "sha256_in_prefix": "2b3c8098f1cc3833d91edb238d9a5bb1deab2504f3177fbdb56cddb34e7bf1aa",
+        "size_in_bytes": 10229
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/responses.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "12dceb1f89fb32dee4e7f408677fff9fed839bbc97c30b1d1f00f9e34b33fb50",
+        "sha256_in_prefix": "12dceb1f89fb32dee4e7f408677fff9fed839bbc97c30b1d1f00f9e34b33fb50",
+        "size_in_bytes": 10931
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/routing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0d8cf28fee75b2a291fd84b99a086b453c99e6883bd7af30cef232c92b4eaed",
+        "sha256_in_prefix": "a0d8cf28fee75b2a291fd84b99a086b453c99e6883bd7af30cef232c92b4eaed",
+        "size_in_bytes": 26560
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/schemas.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa86cee6952501cafbff425e751cbdced609efd95582ff58e774160da5421094",
+        "sha256_in_prefix": "fa86cee6952501cafbff425e751cbdced609efd95582ff58e774160da5421094",
+        "size_in_bytes": 4765
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/staticfiles.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "17011a270a6bae916c26b722361cc5ca30109aa9b077f6317689ff243787b9bd",
+        "sha256_in_prefix": "17011a270a6bae916c26b722361cc5ca30109aa9b077f6317689ff243787b9bd",
+        "size_in_bytes": 6814
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/status.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "71a570b795422410d725ab7f0a2707a986c1ae1019dcd2047605eaffd81fb7de",
+        "sha256_in_prefix": "71a570b795422410d725ab7f0a2707a986c1ae1019dcd2047605eaffd81fb7de",
+        "size_in_bytes": 4396
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/templating.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bef52945d12cbb9a0a80023b6eea1cbc3dc330c95fcbd4b69dc254be84b2e458",
+        "sha256_in_prefix": "bef52945d12cbb9a0a80023b6eea1cbc3dc330c95fcbd4b69dc254be84b2e458",
+        "size_in_bytes": 3835
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/testclient.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "87fbf4601edce52b7c35de9c987032e2cc09861529d90cc71dccb80ac6199388",
+        "sha256_in_prefix": "87fbf4601edce52b7c35de9c987032e2cc09861529d90cc71dccb80ac6199388",
+        "size_in_bytes": 20284
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/types.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fcaf4a16b62c5fa99d11176b20f6b2f7f3d2a413be69fa93f749fb387fc45143",
+        "sha256_in_prefix": "fcaf4a16b62c5fa99d11176b20f6b2f7f3d2a413be69fa93f749fb387fc45143",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/__pycache__/websockets.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5580f4be2e4fc3cba99a0f5da1244da02cdebc6dfd59f84427a4031347359036",
+        "sha256_in_prefix": "5580f4be2e4fc3cba99a0f5da1244da02cdebc6dfd59f84427a4031347359036",
+        "size_in_bytes": 6541
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "a5c6818802abf4e37b3c5560efcd325a5807f3c0185d319f73257a7376b0558e",
+        "sha256_in_prefix": "a5c6818802abf4e37b3c5560efcd325a5807f3c0185d319f73257a7376b0558e",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "6df5aa171e0c4c315012b41b51473626ee235de6c07f1b7d6da6e3fef7d826c0",
+        "sha256_in_prefix": "6df5aa171e0c4c315012b41b51473626ee235de6c07f1b7d6da6e3fef7d826c0",
+        "size_in_bytes": 2091
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/applications.py",
+        "path_type": "hardlink",
+        "sha256": "ff627980bb98247c754e563b5cfd0000669f63e70951cb0d7de75723d1a936da",
+        "sha256_in_prefix": "ff627980bb98247c754e563b5cfd0000669f63e70951cb0d7de75723d1a936da",
+        "size_in_bytes": 10508
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/authentication.py",
+        "path_type": "hardlink",
+        "sha256": "0fbe40bd0d61d2589e8838ae0a7a26778260bbe488abeefd2d48e468a32cc9d2",
+        "sha256_in_prefix": "0fbe40bd0d61d2589e8838ae0a7a26778260bbe488abeefd2d48e468a32cc9d2",
+        "size_in_bytes": 5246
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/background.py",
+        "path_type": "hardlink",
+        "sha256": "834a2ec869e823609db44d8dfc026239851fd428722c971aa85a94f20225005a",
+        "sha256_in_prefix": "834a2ec869e823609db44d8dfc026239851fd428722c971aa85a94f20225005a",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/concurrency.py",
+        "path_type": "hardlink",
+        "sha256": "208c6524049c861bfb4f58a4fd6411b8dfba3ddd2bfbeff1e20aadf6874ed187",
+        "sha256_in_prefix": "208c6524049c861bfb4f58a4fd6411b8dfba3ddd2bfbeff1e20aadf6874ed187",
+        "size_in_bytes": 1741
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/config.py",
+        "path_type": "hardlink",
+        "sha256": "dca54e148e3f1d8d13388f2bc777e8e524a076c2d056ae043a2c1512bb0c0ce0",
+        "sha256_in_prefix": "dca54e148e3f1d8d13388f2bc777e8e524a076c2d056ae043a2c1512bb0c0ce0",
+        "size_in_bytes": 4607
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/convertors.py",
+        "path_type": "hardlink",
+        "sha256": "a959d569ff451afa8126f20d3210e6218f73fb27d7ac0208bcf46c7a8dc2d020",
+        "sha256_in_prefix": "a959d569ff451afa8126f20d3210e6218f73fb27d7ac0208bcf46c7a8dc2d020",
+        "size_in_bytes": 2168
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/datastructures.py",
+        "path_type": "hardlink",
+        "sha256": "e93e03e5c2a273a3ab5b8566e0a3594486a42f5604d95a48bb593f43b0e50b86",
+        "sha256_in_prefix": "e93e03e5c2a273a3ab5b8566e0a3594486a42f5604d95a48bb593f43b0e50b86",
+        "size_in_bytes": 23087
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/endpoints.py",
+        "path_type": "hardlink",
+        "sha256": "3217215a165a774dbb7521a77af939c5136340300586bf52032e3ac5bc4e5b14",
+        "sha256_in_prefix": "3217215a165a774dbb7521a77af939c5136340300586bf52032e3ac5bc4e5b14",
+        "size_in_bytes": 5143
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "d66d53fbbc657e4d565967e6420d1575e85839e9ac08d874220c6ae377aea1e9",
+        "sha256_in_prefix": "d66d53fbbc657e4d565967e6420d1575e85839e9ac08d874220c6ae377aea1e9",
+        "size_in_bytes": 1648
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/formparsers.py",
+        "path_type": "hardlink",
+        "sha256": "0fc0b83cf8c4cde48868a34eb6a86a450c6b811acc6ba4c1f06cfbd8d1499ae2",
+        "sha256_in_prefix": "0fc0b83cf8c4cde48868a34eb6a86a450c6b811acc6ba4c1f06cfbd8d1499ae2",
+        "size_in_bytes": 10423
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b447a0be1d6506151f1da274a7e4fff4553b3d14f5587a08736bd95f4a54966f",
+        "sha256_in_prefix": "b447a0be1d6506151f1da274a7e4fff4553b3d14f5587a08736bd95f4a54966f",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fccc84a4fa700e155b45387470f86f745ea6a908ab1adb32318b2074fb15abaf",
+        "sha256_in_prefix": "fccc84a4fa700e155b45387470f86f745ea6a908ab1adb32318b2074fb15abaf",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/authentication.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa31e5366c078a0a6400cfc7cb3b843f449fbd779ec33ad56cab28cf4cb579b9",
+        "sha256_in_prefix": "fa31e5366c078a0a6400cfc7cb3b843f449fbd779ec33ad56cab28cf4cb579b9",
+        "size_in_bytes": 1948
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "683859da21a405a4017dabb5831904bed9fe3a11579befc503b599a4d148f01d",
+        "sha256_in_prefix": "683859da21a405a4017dabb5831904bed9fe3a11579befc503b599a4d148f01d",
+        "size_in_bytes": 5337
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/cors.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2ba7b1866ff3dd1d4e5504392a9ff7a8f69263e04384a130bd326467d833fbf",
+        "sha256_in_prefix": "e2ba7b1866ff3dd1d4e5504392a9ff7a8f69263e04384a130bd326467d833fbf",
+        "size_in_bytes": 4878
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/errors.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "faa086d745f5ea7cf7a130c6de7516e363a186a3baeca8959d839929204d5ccc",
+        "sha256_in_prefix": "faa086d745f5ea7cf7a130c6de7516e363a186a3baeca8959d839929204d5ccc",
+        "size_in_bytes": 7274
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "25938fc0c238d3157a653076830bbdd1919a4cf8492ed979fe790fc019e9a43b",
+        "sha256_in_prefix": "25938fc0c238d3157a653076830bbdd1919a4cf8492ed979fe790fc019e9a43b",
+        "size_in_bytes": 3616
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/gzip.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "38d1830b0ab5bbf4b7f40d41c15f5d7044ec8fff77971ce854c46be1ae76220c",
+        "sha256_in_prefix": "38d1830b0ab5bbf4b7f40d41c15f5d7044ec8fff77971ce854c46be1ae76220c",
+        "size_in_bytes": 3289
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/httpsredirect.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d7d3ddb6c3dbc9588be1631c704ec526b3e6434dec6997c077338f53e1c0b7e",
+        "sha256_in_prefix": "5d7d3ddb6c3dbc9588be1631c704ec526b3e6434dec6997c077338f53e1c0b7e",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/sessions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1aad4f2350e0f3a107f81ba78fb2061d10146ab5e9c64d303362adf8c3854b0e",
+        "sha256_in_prefix": "1aad4f2350e0f3a107f81ba78fb2061d10146ab5e9c64d303362adf8c3854b0e",
+        "size_in_bytes": 2898
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/trustedhost.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e0888f2a0c86259406ed53456b0719b641ba232f5af08c93e0bf90a614f3dee",
+        "sha256_in_prefix": "4e0888f2a0c86259406ed53456b0719b641ba232f5af08c93e0bf90a614f3dee",
+        "size_in_bytes": 1984
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/__pycache__/wsgi.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e06a8e033e713e334081d47d45944768592b55b16c58746dacc6a2699dc12e48",
+        "sha256_in_prefix": "e06a8e033e713e334081d47d45944768592b55b16c58746dacc6a2699dc12e48",
+        "size_in_bytes": 4727
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/authentication.py",
+        "path_type": "hardlink",
+        "sha256": "acfdedf2dec7a0edf15bc2c7e3c628fc663c8f3cb1ed60ab4fcf26ff53bf909e",
+        "sha256_in_prefix": "acfdedf2dec7a0edf15bc2c7e3c628fc663c8f3cb1ed60ab4fcf26ff53bf909e",
+        "size_in_bytes": 1787
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/base.py",
+        "path_type": "hardlink",
+        "sha256": "70219e3d7fb80d59f5e05d5b52061c84a6e9b7dfb727a35e8447d966c6e6fb3f",
+        "sha256_in_prefix": "70219e3d7fb80d59f5e05d5b52061c84a6e9b7dfb727a35e8447d966c6e6fb3f",
+        "size_in_bytes": 5010
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/cors.py",
+        "path_type": "hardlink",
+        "sha256": "ba02d4c60d2fc704dd28328a67b4e788486455f42fae2faa07d29d6509db2731",
+        "sha256_in_prefix": "ba02d4c60d2fc704dd28328a67b4e788486455f42fae2faa07d29d6509db2731",
+        "size_in_bytes": 7075
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/errors.py",
+        "path_type": "hardlink",
+        "sha256": "bdbbcb2569d966270b5e377d4a0034890a3d2f10d420e9eee6e587afe9da6eff",
+        "sha256_in_prefix": "bdbbcb2569d966270b5e377d4a0034890a3d2f10d420e9eee6e587afe9da6eff",
+        "size_in_bytes": 7833
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "94d9259ba7aadc244ddbf63a7cb50d61ef60019ec27d491cf25ebe53d0f2a30e",
+        "sha256_in_prefix": "94d9259ba7aadc244ddbf63a7cb50d61ef60019ec27d491cf25ebe53d0f2a30e",
+        "size_in_bytes": 4128
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/gzip.py",
+        "path_type": "hardlink",
+        "sha256": "e0fc01738d932c6a39d123549fc3cd32776226637a547748048e71d4fcaae20a",
+        "sha256_in_prefix": "e0fc01738d932c6a39d123549fc3cd32776226637a547748048e71d4fcaae20a",
+        "size_in_bytes": 4507
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/httpsredirect.py",
+        "path_type": "hardlink",
+        "sha256": "48d4e579a6002c6a084d5ef1c1b89ce2007a55874cf1895e6bfca4722533df58",
+        "sha256_in_prefix": "48d4e579a6002c6a084d5ef1c1b89ce2007a55874cf1895e6bfca4722533df58",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/sessions.py",
+        "path_type": "hardlink",
+        "sha256": "f85de3fa95ead5c366bd5875ab1ae7e299d51c9c31cce0960bdd2f77bcbc6a9a",
+        "sha256_in_prefix": "f85de3fa95ead5c366bd5875ab1ae7e299d51c9c31cce0960bdd2f77bcbc6a9a",
+        "size_in_bytes": 3612
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/trustedhost.py",
+        "path_type": "hardlink",
+        "sha256": "e684e79c6457402e0a25344eb3cd361bdb49cc18a3db323dcded7568475b8a7b",
+        "sha256_in_prefix": "e684e79c6457402e0a25344eb3cd361bdb49cc18a3db323dcded7568475b8a7b",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/middleware/wsgi.py",
+        "path_type": "hardlink",
+        "sha256": "61b8e57044d763368de7ef91936b82daf12fc4088ac2ebd643b22e3858d4dc7e",
+        "sha256_in_prefix": "61b8e57044d763368de7ef91936b82daf12fc4088ac2ebd643b22e3858d4dc7e",
+        "size_in_bytes": 4906
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/requests.py",
+        "path_type": "hardlink",
+        "sha256": "0be06174c878484c8a73fe88e85b53b3fd64c95b073e16adb487d1b29e4a3215",
+        "sha256_in_prefix": "0be06174c878484c8a73fe88e85b53b3fd64c95b073e16adb487d1b29e4a3215",
+        "size_in_bytes": 10757
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/responses.py",
+        "path_type": "hardlink",
+        "sha256": "ae4ff1a1e034021bebf4fc8752b53706803f559cd5ecf85341939391b064324e",
+        "sha256_in_prefix": "ae4ff1a1e034021bebf4fc8752b53706803f559cd5ecf85341939391b064324e",
+        "size_in_bytes": 13147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/routing.py",
+        "path_type": "hardlink",
+        "sha256": "e792ba784d674102686e73ad95e5ecf87ce144d996a50f25dad1ad2a1e1e5cad",
+        "sha256_in_prefix": "e792ba784d674102686e73ad95e5ecf87ce144d996a50f25dad1ad2a1e1e5cad",
+        "size_in_bytes": 32447
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/schemas.py",
+        "path_type": "hardlink",
+        "sha256": "38d49fc3974a6a6ce1a75277dd1fa174c45eecb14501a5642ca96d3471e9822c",
+        "sha256_in_prefix": "38d49fc3974a6a6ce1a75277dd1fa174c45eecb14501a5642ca96d3471e9822c",
+        "size_in_bytes": 4959
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/staticfiles.py",
+        "path_type": "hardlink",
+        "sha256": "388a4936861b10fb97ac3fd50ead04616fd0beb2ad3df1694b9f0be52e76fe9f",
+        "sha256_in_prefix": "388a4936861b10fb97ac3fd50ead04616fd0beb2ad3df1694b9f0be52e76fe9f",
+        "size_in_bytes": 8733
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/status.py",
+        "path_type": "hardlink",
+        "sha256": "96fe3457b8a062193f38dc922735334384f7813827bcd2c239bf38e9950e3521",
+        "sha256_in_prefix": "96fe3457b8a062193f38dc922735334384f7813827bcd2c239bf38e9950e3521",
+        "size_in_bytes": 6086
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/templating.py",
+        "path_type": "hardlink",
+        "sha256": "f0e062b6d97e50316e5110a49fc7d92caeb3bdd1086ca50afc6eed77b05eec07",
+        "sha256_in_prefix": "f0e062b6d97e50316e5110a49fc7d92caeb3bdd1086ca50afc6eed77b05eec07",
+        "size_in_bytes": 4170
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/testclient.py",
+        "path_type": "hardlink",
+        "sha256": "3349230dd87260809182440c138f745c18ddfc6dd31aa2871688578cc1f20676",
+        "sha256_in_prefix": "3349230dd87260809182440c138f745c18ddfc6dd31aa2871688578cc1f20676",
+        "size_in_bytes": 29208
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/types.py",
+        "path_type": "hardlink",
+        "sha256": "d6b0c5ffd49344c6b1e2a1b571b2fc618c89c7ce7f23225e7c60a8ed0d52bfd3",
+        "sha256_in_prefix": "d6b0c5ffd49344c6b1e2a1b571b2fc618c89c7ce7f23225e7c60a8ed0d52bfd3",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "lib/python3.9/site-packages/starlette/websockets.py",
+        "path_type": "hardlink",
+        "sha256": "e23706f9fe8169c38dc00ca1b94cc2027b08afc3fefb7a571744ddb5508bbab8",
+        "sha256_in_prefix": "e23706f9fe8169c38dc00ca1b94cc2027b08afc3fefb7a571744ddb5508bbab8",
+        "size_in_bytes": 7360
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "284121189a27bf2959997f6d71a7053b6f2bf2d97ebd3ee1d36e4bc4085f8576",
+  "size": 125252,
+  "subdir": "linux-64",
+  "timestamp": 1692980527000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/starlette-0.27.0-py39h06a4308_0.conda",
+  "version": "0.27.0"
+}

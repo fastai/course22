@@ -1,0 +1,242 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/pydub-0.25.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pydub-0.25.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pydub/__init__.py",
+    "lib/python3.9/site-packages/pydub/audio_segment.py",
+    "lib/python3.9/site-packages/pydub/effects.py",
+    "lib/python3.9/site-packages/pydub/exceptions.py",
+    "lib/python3.9/site-packages/pydub/generators.py",
+    "lib/python3.9/site-packages/pydub/logging_utils.py",
+    "lib/python3.9/site-packages/pydub/playback.py",
+    "lib/python3.9/site-packages/pydub/pyaudioop.py",
+    "lib/python3.9/site-packages/pydub/scipy_effects.py",
+    "lib/python3.9/site-packages/pydub/silence.py",
+    "lib/python3.9/site-packages/pydub/utils.py",
+    "lib/python3.9/site-packages/pydub/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/audio_segment.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/effects.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/generators.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/logging_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/playback.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/pyaudioop.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/scipy_effects.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/silence.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydub/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "pydub-0.25.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/pydub-0.25.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "d75382d83f6f169e012d229729302892",
+  "name": "pydub",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/pydub-0.25.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ae856536224cc7a389e968771fc5f259814bdd0da63539cf72282adbaef6897a",
+        "sha256_in_prefix": "ae856536224cc7a389e968771fc5f259814bdd0da63539cf72282adbaef6897a",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7f433cfd956d6e2628508f5e8d721e274dc9a3d03935b8bed15d5b56ab398989",
+        "sha256_in_prefix": "7f433cfd956d6e2628508f5e8d721e274dc9a3d03935b8bed15d5b56ab398989",
+        "size_in_bytes": 1406
+      },
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "52bb83920a636448bed69daa4bd97f67beb02fb93a1a2d976a9d66475ed06dda",
+        "sha256_in_prefix": "52bb83920a636448bed69daa4bd97f67beb02fb93a1a2d976a9d66475ed06dda",
+        "size_in_bytes": 2005
+      },
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b8699bbfba9dc4967ad428048b2deb5eb60ce8bd9fdcd8fe808fa615bce64607",
+        "sha256_in_prefix": "b8699bbfba9dc4967ad428048b2deb5eb60ce8bd9fdcd8fe808fa615bce64607",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/pydub-0.25.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3c78620c241565dc9c6717ca2f6950a33aee053e9986fc99030aa346bc37b74c",
+        "sha256_in_prefix": "3c78620c241565dc9c6717ca2f6950a33aee053e9986fc99030aa346bc37b74c",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/pydub/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c355efd5ac1b691ddf3214cd135fa0ae77ecc200114cd42b2a90737d9fbe5410",
+        "sha256_in_prefix": "c355efd5ac1b691ddf3214cd135fa0ae77ecc200114cd42b2a90737d9fbe5410",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "site-packages/pydub/audio_segment.py",
+        "path_type": "hardlink",
+        "sha256": "35fe55907198d6ff49a9becdb4461fc11a4badfaaeb1f05d3c6399b22ed1e428",
+        "sha256_in_prefix": "35fe55907198d6ff49a9becdb4461fc11a4badfaaeb1f05d3c6399b22ed1e428",
+        "size_in_bytes": 49185
+      },
+      {
+        "_path": "site-packages/pydub/effects.py",
+        "path_type": "hardlink",
+        "sha256": "d4750cce179faf01bf135ad39f3bdb97e3f4f8a36ec079250a7bbc402192ee30",
+        "sha256_in_prefix": "d4750cce179faf01bf135ad39f3bdb97e3f4f8a36ec079250a7bbc402192ee30",
+        "size_in_bytes": 11507
+      },
+      {
+        "_path": "site-packages/pydub/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "a2c817a14ba3c291fc2ba86bf34898a56df408c043170ab26910fee5ded9a4ab",
+        "sha256_in_prefix": "a2c817a14ba3c291fc2ba86bf34898a56df408c043170ab26910fee5ded9a4ab",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "site-packages/pydub/generators.py",
+        "path_type": "hardlink",
+        "sha256": "bbaabb27c24b398fae119a8c3d44f36a4c72b9add735070f883b2e88adbe94b0",
+        "sha256_in_prefix": "bbaabb27c24b398fae119a8c3d44f36a4c72b9add735070f883b2e88adbe94b0",
+        "size_in_bytes": 4045
+      },
+      {
+        "_path": "site-packages/pydub/logging_utils.py",
+        "path_type": "hardlink",
+        "sha256": "5ae4aa7f39f8cf24fb3f15c7195f8f5cc0f29ee7de33ab02e9e4a6565197d915",
+        "sha256_in_prefix": "5ae4aa7f39f8cf24fb3f15c7195f8f5cc0f29ee7de33ab02e9e4a6565197d915",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "site-packages/pydub/playback.py",
+        "path_type": "hardlink",
+        "sha256": "cc59e055c9542ffee80e2a63cca0bc6fb8d3a0f355d750d5dbcac6c87f298a8d",
+        "sha256_in_prefix": "cc59e055c9542ffee80e2a63cca0bc6fb8d3a0f355d750d5dbcac6c87f298a8d",
+        "size_in_bytes": 1987
+      },
+      {
+        "_path": "site-packages/pydub/pyaudioop.py",
+        "path_type": "hardlink",
+        "sha256": "0e9fdc4200326230f8395d991eec6d288d8a001b8f8bd618351505f20891f344",
+        "sha256_in_prefix": "0e9fdc4200326230f8395d991eec6d288d8a001b8f8bd618351505f20891f344",
+        "size_in_bytes": 13094
+      },
+      {
+        "_path": "site-packages/pydub/scipy_effects.py",
+        "path_type": "hardlink",
+        "sha256": "536a7c010b95ade4e9e4caed500cd16d680e1d473a0f0ab44c01bf46d120fbb8",
+        "sha256_in_prefix": "536a7c010b95ade4e9e4caed500cd16d680e1d473a0f0ab44c01bf46d120fbb8",
+        "size_in_bytes": 6637
+      },
+      {
+        "_path": "site-packages/pydub/silence.py",
+        "path_type": "hardlink",
+        "sha256": "17a315d1595a3ba9adba2b232c692cfd447e1959b33b5bfceff34abf3c11737d",
+        "sha256_in_prefix": "17a315d1595a3ba9adba2b232c692cfd447e1959b33b5bfceff34abf3c11737d",
+        "size_in_bytes": 6457
+      },
+      {
+        "_path": "site-packages/pydub/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5bbd6980915b6cd3f769d1fadf29f4128d022cb560cd71bb5876125e95af7727",
+        "sha256_in_prefix": "5bbd6980915b6cd3f769d1fadf29f4128d022cb560cd71bb5876125e95af7727",
+        "size_in_bytes": 12368
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/audio_segment.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/effects.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/generators.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/logging_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/playback.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/pyaudioop.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/scipy_effects.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/silence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydub/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f067c4683f308ff7efeac52d1e08860f297189d8bdf58ef3e1410c2d5475fc1a",
+  "size": 31190,
+  "subdir": "noarch",
+  "timestamp": 1615612572000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pydub-0.25.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.25.1"
+}

@@ -1,0 +1,537 @@
+{
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/python-multipart-0.0.6-py39h06a4308_0",
+  "files": [
+    "lib/python3.9/site-packages/multipart/__init__.py",
+    "lib/python3.9/site-packages/multipart/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/multipart/__pycache__/decoders.cpython-39.pyc",
+    "lib/python3.9/site-packages/multipart/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/multipart/__pycache__/multipart.cpython-39.pyc",
+    "lib/python3.9/site-packages/multipart/decoders.py",
+    "lib/python3.9/site-packages/multipart/exceptions.py",
+    "lib/python3.9/site-packages/multipart/multipart.py",
+    "lib/python3.9/site-packages/multipart/tests/__init__.py",
+    "lib/python3.9/site-packages/multipart/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/multipart/tests/__pycache__/compat.cpython-39.pyc",
+    "lib/python3.9/site-packages/multipart/tests/__pycache__/test_multipart.cpython-39.pyc",
+    "lib/python3.9/site-packages/multipart/tests/compat.py",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header_value.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header_value.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_CR.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_CR.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_LF.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_LF.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_final_hyphen.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_final_hyphen.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_end_of_headers.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_end_of_headers.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_header_char.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_header_char.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_initial_boundary.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_initial_boundary.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/base64_encoding.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/base64_encoding.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/empty_header.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/empty_header.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_fields.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_fields.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_files.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_files.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/quoted_printable_encoding.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/quoted_printable_encoding.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_blocks.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_blocks.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_longer.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_longer.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_single_file.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_single_file.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_with_leading_newlines.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_with_leading_newlines.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_file.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/single_file.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/utf8_filename.http",
+    "lib/python3.9/site-packages/multipart/tests/test_data/http/utf8_filename.yaml",
+    "lib/python3.9/site-packages/multipart/tests/test_multipart.py",
+    "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/METADATA",
+    "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/RECORD",
+    "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/WHEEL",
+    "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/licenses/LICENSE.txt"
+  ],
+  "fn": "python-multipart-0.0.6-py39h06a4308_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/python-multipart-0.0.6-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "a083d7c27ac2fbad034de38e9d408080",
+  "name": "python-multipart",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/python-multipart-0.0.6-py39h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/multipart/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "11a65dee15d75cdcf94567f367896bfb02965c2e1a9cc35613bbb8b4f5ed5abd",
+        "sha256_in_prefix": "11a65dee15d75cdcf94567f367896bfb02965c2e1a9cc35613bbb8b4f5ed5abd",
+        "size_in_bytes": 335
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "71df09baf745971a85aaebcecfc07562f208d890459ebcef11e9d4192cd05145",
+        "sha256_in_prefix": "71df09baf745971a85aaebcecfc07562f208d890459ebcef11e9d4192cd05145",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/__pycache__/decoders.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "88cebd91b54f6694a7f491a2d745e95ccf612accc8224d6ce3623ecb2192c429",
+        "sha256_in_prefix": "88cebd91b54f6694a7f491a2d745e95ccf612accc8224d6ce3623ecb2192c429",
+        "size_in_bytes": 5745
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d273cc90196f5b0da89991587f372585d301e8376e05018c16e298ff98172c69",
+        "sha256_in_prefix": "d273cc90196f5b0da89991587f372585d301e8376e05018c16e298ff98172c69",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/__pycache__/multipart.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d375f426c827d57e103411ad806f1c931eb7e9780896c76b21644b2d7c258022",
+        "sha256_in_prefix": "d375f426c827d57e103411ad806f1c931eb7e9780896c76b21644b2d7c258022",
+        "size_in_bytes": 44435
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/decoders.py",
+        "path_type": "hardlink",
+        "sha256": "e8b7825404660eb42098cb1aba5d565087fbf50fa62c4f6cc211b1ba641effdf",
+        "sha256_in_prefix": "e8b7825404660eb42098cb1aba5d565087fbf50fa62c4f6cc211b1ba641effdf",
+        "size_in_bytes": 6107
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "c8367da6aab763d64c0af8f64e402f39c35d3231478cb9c797896e167cedef9d",
+        "sha256_in_prefix": "c8367da6aab763d64c0af8f64e402f39c35d3231478cb9c797896e167cedef9d",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/multipart.py",
+        "path_type": "hardlink",
+        "sha256": "6517356de6428022179187b45f0c61fe0e2715dae9dde1227785ce0d821faa04",
+        "sha256_in_prefix": "6517356de6428022179187b45f0c61fe0e2715dae9dde1227785ce0d821faa04",
+        "size_in_bytes": 71230
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a9d1bcfec165358c7f0a153721bf1de57c468ff61338f0ea483c85f6f2effd2",
+        "sha256_in_prefix": "6a9d1bcfec165358c7f0a153721bf1de57c468ff61338f0ea483c85f6f2effd2",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/__pycache__/compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "70ded41dcf961231c815cefe05f8b153f6437caf2cd10d7236650e0caed8afd0",
+        "sha256_in_prefix": "70ded41dcf961231c815cefe05f8b153f6437caf2cd10d7236650e0caed8afd0",
+        "size_in_bytes": 3479
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/__pycache__/test_multipart.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "017025ea436debd6c28b9af03313923c45b0c00ab4fb812081d62dfcab9a20ac",
+        "sha256_in_prefix": "017025ea436debd6c28b9af03313923c45b0c00ab4fb812081d62dfcab9a20ac",
+        "size_in_bytes": 38643
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/compat.py",
+        "path_type": "hardlink",
+        "sha256": "ddaa3072298ed52614e96a92dc69542778e69202c7eb77bc02c50f8e5b5ad715",
+        "sha256_in_prefix": "ddaa3072298ed52614e96a92dc69542778e69202c7eb77bc02c50f8e5b5ad715",
+        "size_in_bytes": 4266
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header.http",
+        "path_type": "hardlink",
+        "sha256": "5c48a637f06012a4170aa2b8eb76cc803f4f28841e2eb4215add8cdef36bf5c1",
+        "sha256_in_prefix": "5c48a637f06012a4170aa2b8eb76cc803f4f28841e2eb4215add8cdef36bf5c1",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header.yaml",
+        "path_type": "hardlink",
+        "sha256": "384cc4d8fa8aefc7e2f648ccdb760ebb8c4cd3343f2d1c128b0a853409a4bb9d",
+        "sha256_in_prefix": "384cc4d8fa8aefc7e2f648ccdb760ebb8c4cd3343f2d1c128b0a853409a4bb9d",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header_value.http",
+        "path_type": "hardlink",
+        "sha256": "a5fe2c3fe978fe1cd9f0aaf9d60504e8215c0a27ee592675d3ebe7c7a9ad5c38",
+        "sha256_in_prefix": "a5fe2c3fe978fe1cd9f0aaf9d60504e8215c0a27ee592675d3ebe7c7a9ad5c38",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/CR_in_header_value.yaml",
+        "path_type": "hardlink",
+        "sha256": "5a3a893582fe7141f69fd93e5ddcb5603bd27c3aaa5f1b228a70439f71d352ee",
+        "sha256_in_prefix": "5a3a893582fe7141f69fd93e5ddcb5603bd27c3aaa5f1b228a70439f71d352ee",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary.http",
+        "path_type": "hardlink",
+        "sha256": "8c8b29d4ce811d020717da3deb9cf73edf13167715bda063e4de37869ad1a413",
+        "sha256_in_prefix": "8c8b29d4ce811d020717da3deb9cf73edf13167715bda063e4de37869ad1a413",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary.yaml",
+        "path_type": "hardlink",
+        "sha256": "1ebed6641c19adb7f8be3bab8d1cc619e63db455492d1466575ac4157a29fbab",
+        "sha256_in_prefix": "1ebed6641c19adb7f8be3bab8d1cc619e63db455492d1466575ac4157a29fbab",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_CR.http",
+        "path_type": "hardlink",
+        "sha256": "2af88caa8fc5532d4dd7e6fe6147f25a1b393e637afdf53baa13181531a75212",
+        "sha256_in_prefix": "2af88caa8fc5532d4dd7e6fe6147f25a1b393e637afdf53baa13181531a75212",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_CR.yaml",
+        "path_type": "hardlink",
+        "sha256": "1e39549e2fa7b97ddb1b6fb71482e8e062c1a4b0f80c8990e3c54f95f9df2166",
+        "sha256_in_prefix": "1e39549e2fa7b97ddb1b6fb71482e8e062c1a4b0f80c8990e3c54f95f9df2166",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_LF.http",
+        "path_type": "hardlink",
+        "sha256": "2b29662743be45f9d49d76e3561c09a731ec5aa3533c99f6f7fc1fb2fac6ec03",
+        "sha256_in_prefix": "2b29662743be45f9d49d76e3561c09a731ec5aa3533c99f6f7fc1fb2fac6ec03",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_LF.yaml",
+        "path_type": "hardlink",
+        "sha256": "b64cf3fe438566d91aae63274de9f7e799e6f0c70fc1b98f99618cc545014b35",
+        "sha256_in_prefix": "b64cf3fe438566d91aae63274de9f7e799e6f0c70fc1b98f99618cc545014b35",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_final_hyphen.http",
+        "path_type": "hardlink",
+        "sha256": "2fa6f3462b2d0f85f94d3775cc1b5f47a80ce0440befbfe2048fcf81ac38b9fc",
+        "sha256_in_prefix": "2fa6f3462b2d0f85f94d3775cc1b5f47a80ce0440befbfe2048fcf81ac38b9fc",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/almost_match_boundary_without_final_hyphen.yaml",
+        "path_type": "hardlink",
+        "sha256": "7052b1c053184e8f4f2916f4e086a2fff998f4a1b6f483e44a6de9f340e0119c",
+        "sha256_in_prefix": "7052b1c053184e8f4f2916f4e086a2fff998f4a1b6f483e44a6de9f340e0119c",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_end_of_headers.http",
+        "path_type": "hardlink",
+        "sha256": "b9c103ca54c2835fe174456421cfb593c650f820487f9b977c329b481b12685d",
+        "sha256_in_prefix": "b9c103ca54c2835fe174456421cfb593c650f820487f9b977c329b481b12685d",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_end_of_headers.yaml",
+        "path_type": "hardlink",
+        "sha256": "d541c4458d83eeda741c4525e710f84a2a2d3f6b24113981385e448dc1b61d3c",
+        "sha256_in_prefix": "d541c4458d83eeda741c4525e710f84a2a2d3f6b24113981385e448dc1b61d3c",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_header_char.http",
+        "path_type": "hardlink",
+        "sha256": "cd3a9714d43dcab6dcf36bee6cf83de53e1e760d547a1db169d9550f694ee750",
+        "sha256_in_prefix": "cd3a9714d43dcab6dcf36bee6cf83de53e1e760d547a1db169d9550f694ee750",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_header_char.yaml",
+        "path_type": "hardlink",
+        "sha256": "f72915b004a7bd8bd7e75aad90226a8607a078dfa1a12538d0cb1842fa9e54da",
+        "sha256_in_prefix": "f72915b004a7bd8bd7e75aad90226a8607a078dfa1a12538d0cb1842fa9e54da",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_initial_boundary.http",
+        "path_type": "hardlink",
+        "sha256": "2061529299b0db55df017af4c4e1f08f4be7871ca3fae0965637258e8ebc2cba",
+        "sha256_in_prefix": "2061529299b0db55df017af4c4e1f08f4be7871ca3fae0965637258e8ebc2cba",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/bad_initial_boundary.yaml",
+        "path_type": "hardlink",
+        "sha256": "78149bb9ed0160362162d29d0429e6d4b1aad0efdf38cc15e99a0ba5914314ce",
+        "sha256_in_prefix": "78149bb9ed0160362162d29d0429e6d4b1aad0efdf38cc15e99a0ba5914314ce",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/base64_encoding.http",
+        "path_type": "hardlink",
+        "sha256": "7c36ebe0180b74d4bc9188933bb8381f107cd61be6883dac454080a228df471d",
+        "sha256_in_prefix": "7c36ebe0180b74d4bc9188933bb8381f107cd61be6883dac454080a228df471d",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/base64_encoding.yaml",
+        "path_type": "hardlink",
+        "sha256": "733d8ac59c688bcd4c897461ec398940e59c76a407e5a864ac9c9d198bf88695",
+        "sha256_in_prefix": "733d8ac59c688bcd4c897461ec398940e59c76a407e5a864ac9c9d198bf88695",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/empty_header.http",
+        "path_type": "hardlink",
+        "sha256": "fb04871d22eed43db07dd0bc65c6b0e535ff5124ef5b3e7a080369b1c78e6584",
+        "sha256_in_prefix": "fb04871d22eed43db07dd0bc65c6b0e535ff5124ef5b3e7a080369b1c78e6584",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/empty_header.yaml",
+        "path_type": "hardlink",
+        "sha256": "e3175509827e97cf0731790c2cd9124282cd81446819c2b347501c94f2e990e7",
+        "sha256_in_prefix": "e3175509827e97cf0731790c2cd9124282cd81446819c2b347501c94f2e990e7",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_fields.http",
+        "path_type": "hardlink",
+        "sha256": "ea9f7796cfc1edb93c9973d886cac5c2f92d497f02b917541f8be7f846416913",
+        "sha256_in_prefix": "ea9f7796cfc1edb93c9973d886cac5c2f92d497f02b917541f8be7f846416913",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_fields.yaml",
+        "path_type": "hardlink",
+        "sha256": "99e3cce4355f033b72ed034413232edaaac5236f136c6f72591bd61695a3ec9a",
+        "sha256_in_prefix": "99e3cce4355f033b72ed034413232edaaac5236f136c6f72591bd61695a3ec9a",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_files.http",
+        "path_type": "hardlink",
+        "sha256": "12d99a815055a6c1469c2aa5c1f2a0b3041f53c9466b740d90fe8654905ae40d",
+        "sha256_in_prefix": "12d99a815055a6c1469c2aa5c1f2a0b3041f53c9466b740d90fe8654905ae40d",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/multiple_files.yaml",
+        "path_type": "hardlink",
+        "sha256": "40ef493204ef90bd8498858097c2dc6c3ae47cd983934780e523a4de016e1561",
+        "sha256_in_prefix": "40ef493204ef90bd8498858097c2dc6c3ae47cd983934780e523a4de016e1561",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/quoted_printable_encoding.http",
+        "path_type": "hardlink",
+        "sha256": "fbec9871e835ed29aa209b1acf0f9214285dc5e4c0abccd5e25ccf54cfd032b3",
+        "sha256_in_prefix": "fbec9871e835ed29aa209b1acf0f9214285dc5e4c0abccd5e25ccf54cfd032b3",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/quoted_printable_encoding.yaml",
+        "path_type": "hardlink",
+        "sha256": "1bf2fa9673fe7b8b877c6a58405a29c437696ddfc46f12f6a18f0df75d014ce2",
+        "sha256_in_prefix": "1bf2fa9673fe7b8b877c6a58405a29c437696ddfc46f12f6a18f0df75d014ce2",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field.http",
+        "path_type": "hardlink",
+        "sha256": "263752c0588cd261b4ec7633042723cdeaa0a8003d825c7e55c4548e43a1f1c0",
+        "sha256_in_prefix": "263752c0588cd261b4ec7633042723cdeaa0a8003d825c7e55c4548e43a1f1c0",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field.yaml",
+        "path_type": "hardlink",
+        "sha256": "1cc5ddd78fa6f6c281bd3b27cd639a1b5dbfdf0bdee52a1779421217ddf09517",
+        "sha256_in_prefix": "1cc5ddd78fa6f6c281bd3b27cd639a1b5dbfdf0bdee52a1779421217ddf09517",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_blocks.http",
+        "path_type": "hardlink",
+        "sha256": "e256990086c59b111166d80f5b3b8e8a1bc484b583d4d19349da99e916b9f0db",
+        "sha256_in_prefix": "e256990086c59b111166d80f5b3b8e8a1bc484b583d4d19349da99e916b9f0db",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_blocks.yaml",
+        "path_type": "hardlink",
+        "sha256": "ea62af1ed9a25e1e8ec6889b26cc79a54ade20cc90c8f6ff0d6cbb1841bd057f",
+        "sha256_in_prefix": "ea62af1ed9a25e1e8ec6889b26cc79a54ade20cc90c8f6ff0d6cbb1841bd057f",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_longer.http",
+        "path_type": "hardlink",
+        "sha256": "05306dd4cb146b1b876aebbe9a58dbde553ef19d9da6344dfe59195b8a640d70",
+        "sha256_in_prefix": "05306dd4cb146b1b876aebbe9a58dbde553ef19d9da6344dfe59195b8a640d70",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_longer.yaml",
+        "path_type": "hardlink",
+        "sha256": "68436140fb476933c8be025b7620c7bdc3ad72d8441141c240811f2e3d1a6a56",
+        "sha256_in_prefix": "68436140fb476933c8be025b7620c7bdc3ad72d8441141c240811f2e3d1a6a56",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_single_file.http",
+        "path_type": "hardlink",
+        "sha256": "1b8755d220928ef124e43489d555d6cba47c1e89f7f96384c5ea78d673d655e4",
+        "sha256_in_prefix": "1b8755d220928ef124e43489d555d6cba47c1e89f7f96384c5ea78d673d655e4",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_single_file.yaml",
+        "path_type": "hardlink",
+        "sha256": "40ef60a9d5d0b288b32e38bdafc91d94f587241e6f3bbc2ccea3f57c7bec355f",
+        "sha256_in_prefix": "40ef60a9d5d0b288b32e38bdafc91d94f587241e6f3bbc2ccea3f57c7bec355f",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_with_leading_newlines.http",
+        "path_type": "hardlink",
+        "sha256": "61f34451d6716e2e1b0464d4e13e1649067a4090c995c2d951ccd8cc653925ac",
+        "sha256_in_prefix": "61f34451d6716e2e1b0464d4e13e1649067a4090c995c2d951ccd8cc653925ac",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_field_with_leading_newlines.yaml",
+        "path_type": "hardlink",
+        "sha256": "1cc5ddd78fa6f6c281bd3b27cd639a1b5dbfdf0bdee52a1779421217ddf09517",
+        "sha256_in_prefix": "1cc5ddd78fa6f6c281bd3b27cd639a1b5dbfdf0bdee52a1779421217ddf09517",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_file.http",
+        "path_type": "hardlink",
+        "sha256": "6b1441d0a79be2e8407c7c6decd6b5c7df8f4070a288a2bcb37f1ad861bceb41",
+        "sha256_in_prefix": "6b1441d0a79be2e8407c7c6decd6b5c7df8f4070a288a2bcb37f1ad861bceb41",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/single_file.yaml",
+        "path_type": "hardlink",
+        "sha256": "7942b21a43530eb5dd1a78b81321036f10c14df00ab2cb554393b94968216137",
+        "sha256_in_prefix": "7942b21a43530eb5dd1a78b81321036f10c14df00ab2cb554393b94968216137",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/utf8_filename.http",
+        "path_type": "hardlink",
+        "sha256": "c3f4727f8842fca268eeff9ad7c7491440aa9b6d67cc0e59d7c76c1b2bbace30",
+        "sha256_in_prefix": "c3f4727f8842fca268eeff9ad7c7491440aa9b6d67cc0e59d7c76c1b2bbace30",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_data/http/utf8_filename.yaml",
+        "path_type": "hardlink",
+        "sha256": "2a90dce1efb2629fc95176be4b9969e7dd6dce81326e0cb0b4689a9f491014f7",
+        "sha256_in_prefix": "2a90dce1efb2629fc95176be4b9969e7dd6dce81326e0cb0b4689a9f491014f7",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/python3.9/site-packages/multipart/tests/test_multipart.py",
+        "path_type": "hardlink",
+        "sha256": "56bc683ad5cee0d5a94f5389aa8ec55962326e7c4645eba6216091f850c81c29",
+        "sha256_in_prefix": "56bc683ad5cee0d5a94f5389aa8ec55962326e7c4645eba6216091f850c81c29",
+        "size_in_bytes": 38988
+      },
+      {
+        "_path": "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2785907fdf571d24a0fc40c6edf1a0246a2d4bf1e9ed5882b69638ad0d8e8323",
+        "sha256_in_prefix": "2785907fdf571d24a0fc40c6edf1a0246a2d4bf1e9ed5882b69638ad0d8e8323",
+        "size_in_bytes": 2459
+      },
+      {
+        "_path": "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fa3d5a31ed90fc5f5e0aeec1c246df794785baeb2f6c77b5392f9eeb76dcf371",
+        "sha256_in_prefix": "fa3d5a31ed90fc5f5e0aeec1c246df794785baeb2f6c77b5392f9eeb76dcf371",
+        "size_in_bytes": 6334
+      },
+      {
+        "_path": "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "sha256_in_prefix": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "81c0b4e4095bb62d3f57b54205ee54298a3fcc43c12564b9a9c4136b66fc13c6",
+        "sha256_in_prefix": "81c0b4e4095bb62d3f57b54205ee54298a3fcc43c12564b9a9c4136b66fc13c6",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/python3.9/site-packages/python_multipart-0.0.6.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a8e833176cd617daf00b9d6d39fa15ca8edebc6d1643079cd2f4893c0c289be2",
+        "sha256_in_prefix": "a8e833176cd617daf00b9d6d39fa15ca8edebc6d1643079cd2f4893c0c289be2",
+        "size_in_bytes": 556
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dc5f7fa3f5ea7037528386a16b9feded53f0e97b6e3d8b0d527cf83e0c578f10",
+  "size": 63630,
+  "subdir": "linux-64",
+  "timestamp": 1692946426000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/python-multipart-0.0.6-py39h06a4308_0.conda",
+  "version": "0.0.6"
+}

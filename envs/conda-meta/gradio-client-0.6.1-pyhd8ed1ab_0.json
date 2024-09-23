@@ -1,0 +1,257 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "fsspec",
+    "httpx",
+    "huggingface_hub >=0.13.0",
+    "packaging",
+    "python >=3.8",
+    "requests ~=2.0",
+    "typing_extensions ~=4.0",
+    "websockets >=10.0,<12.0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/gradio-client-0.6.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/gradio_client-0.6.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/gradio_client-0.6.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/gradio_client-0.6.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/gradio_client-0.6.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/gradio_client-0.6.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/gradio_client-0.6.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/gradio_client/CHANGELOG.md",
+    "lib/python3.9/site-packages/gradio_client/__init__.py",
+    "lib/python3.9/site-packages/gradio_client/cli/__init__.py",
+    "lib/python3.9/site-packages/gradio_client/cli/deploy_discord.py",
+    "lib/python3.9/site-packages/gradio_client/client.py",
+    "lib/python3.9/site-packages/gradio_client/data_classes.py",
+    "lib/python3.9/site-packages/gradio_client/documentation.py",
+    "lib/python3.9/site-packages/gradio_client/exceptions.py",
+    "lib/python3.9/site-packages/gradio_client/media_data.py",
+    "lib/python3.9/site-packages/gradio_client/package.json",
+    "lib/python3.9/site-packages/gradio_client/serializing.py",
+    "lib/python3.9/site-packages/gradio_client/templates/discord_chat.py",
+    "lib/python3.9/site-packages/gradio_client/types.json",
+    "lib/python3.9/site-packages/gradio_client/utils.py",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/cli/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/cli/__pycache__/deploy_discord.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/data_classes.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/documentation.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/media_data.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/serializing.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/templates/__pycache__/discord_chat.cpython-39.pyc",
+    "lib/python3.9/site-packages/gradio_client/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "gradio-client-0.6.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/gradio-client-0.6.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "55dadcaee57a80520ef67e27884382f4",
+  "name": "gradio-client",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/gradio-client-0.6.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/gradio_client-0.6.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gradio_client-0.6.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e216ee1475fd1585d6faa8ef3ec3289a41ad8a674b055a6906f65c55f8e781ac",
+        "sha256_in_prefix": "e216ee1475fd1585d6faa8ef3ec3289a41ad8a674b055a6906f65c55f8e781ac",
+        "size_in_bytes": 7051
+      },
+      {
+        "_path": "site-packages/gradio_client-0.6.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7d5268f448727c259ab669efee8bfd7fba0c99df24e4fa78293b541b4ff68935",
+        "sha256_in_prefix": "7d5268f448727c259ab669efee8bfd7fba0c99df24e4fa78293b541b4ff68935",
+        "size_in_bytes": 2353
+      },
+      {
+        "_path": "site-packages/gradio_client-0.6.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gradio_client-0.6.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "sha256_in_prefix": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/gradio_client-0.6.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2d767bb2c3c341dc15e831ac5aaaea98c4b49c0eb4743f9e42e95ae47bd92620",
+        "sha256_in_prefix": "2d767bb2c3c341dc15e831ac5aaaea98c4b49c0eb4743f9e42e95ae47bd92620",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/gradio_client/CHANGELOG.md",
+        "path_type": "hardlink",
+        "sha256": "9da7194c9217901f7ba37d989ffc421e894743e811263ebec8e8d0202fcc4b74",
+        "sha256_in_prefix": "9da7194c9217901f7ba37d989ffc421e894743e811263ebec8e8d0202fcc4b74",
+        "size_in_bytes": 14803
+      },
+      {
+        "_path": "site-packages/gradio_client/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cc14015680e78d052d14299b2ae733d1a35fd11a434d8a17d781aab365ee30ec",
+        "sha256_in_prefix": "cc14015680e78d052d14299b2ae733d1a35fd11a434d8a17d781aab365ee30ec",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "site-packages/gradio_client/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8d6e266232dd43e51b3ea28d30a9a190d2cabb6941536a439f881328f5fed1b8",
+        "sha256_in_prefix": "8d6e266232dd43e51b3ea28d30a9a190d2cabb6941536a439f881328f5fed1b8",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "site-packages/gradio_client/cli/deploy_discord.py",
+        "path_type": "hardlink",
+        "sha256": "4793bdf746b8b3608f6a9e86d5503aac6f606d15a78d8f74080c6765c9e1d106",
+        "sha256_in_prefix": "4793bdf746b8b3608f6a9e86d5503aac6f606d15a78d8f74080c6765c9e1d106",
+        "size_in_bytes": 1623
+      },
+      {
+        "_path": "site-packages/gradio_client/client.py",
+        "path_type": "hardlink",
+        "sha256": "1a9eced47a54b7e42791b25eb79b05d2e9c117c9837808260251ef4cf94b19e6",
+        "sha256_in_prefix": "1a9eced47a54b7e42791b25eb79b05d2e9c117c9837808260251ef4cf94b19e6",
+        "size_in_bytes": 55176
+      },
+      {
+        "_path": "site-packages/gradio_client/data_classes.py",
+        "path_type": "hardlink",
+        "sha256": "397eee3e7456a21ca04869a65ec62fb4d820a832163edd3fd78ea389839ac6d5",
+        "sha256_in_prefix": "397eee3e7456a21ca04869a65ec62fb4d820a832163edd3fd78ea389839ac6d5",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "site-packages/gradio_client/documentation.py",
+        "path_type": "hardlink",
+        "sha256": "db07cf8d11ae4170a233bc9ca21ec497ffb1b7d44a8559f44d52a77ac5ddb519",
+        "sha256_in_prefix": "db07cf8d11ae4170a233bc9ca21ec497ffb1b7d44a8559f44d52a77ac5ddb519",
+        "size_in_bytes": 10682
+      },
+      {
+        "_path": "site-packages/gradio_client/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "68a07ff184cd34af3748f1aa29b9fd7e2d7683d663b7b2a64c61dbc6c4bb0619",
+        "sha256_in_prefix": "68a07ff184cd34af3748f1aa29b9fd7e2d7683d663b7b2a64c61dbc6c4bb0619",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/gradio_client/media_data.py",
+        "path_type": "hardlink",
+        "sha256": "c07378b93dc373767306bd0e1616b874f236bc9e925a6f4d49575d71112500bd",
+        "sha256_in_prefix": "c07378b93dc373767306bd0e1616b874f236bc9e925a6f4d49575d71112500bd",
+        "size_in_bytes": 722623
+      },
+      {
+        "_path": "site-packages/gradio_client/package.json",
+        "path_type": "hardlink",
+        "sha256": "cbd9449921f6cbc3f373cff3b1972c64fe6df652d037727b8d679ca363736160",
+        "sha256_in_prefix": "cbd9449921f6cbc3f373cff3b1972c64fe6df652d037727b8d679ca363736160",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/gradio_client/serializing.py",
+        "path_type": "hardlink",
+        "sha256": "138d2d0731b29ae5c5c935a3065433ecc863b96c10921055df0d4069b1c88bf5",
+        "sha256_in_prefix": "138d2d0731b29ae5c5c935a3065433ecc863b96c10921055df0d4069b1c88bf5",
+        "size_in_bytes": 20867
+      },
+      {
+        "_path": "site-packages/gradio_client/templates/discord_chat.py",
+        "path_type": "hardlink",
+        "sha256": "17161ebe0e6e9773fbf773a008dd534fbf17a8c5ecb370987329ae2c11f74e08",
+        "sha256_in_prefix": "17161ebe0e6e9773fbf773a008dd534fbf17a8c5ecb370987329ae2c11f74e08",
+        "size_in_bytes": 5678
+      },
+      {
+        "_path": "site-packages/gradio_client/types.json",
+        "path_type": "hardlink",
+        "sha256": "85304936ce59c970b5f9ffb451fcc57b3761ccda773a752136cdd0bfe9ae010d",
+        "sha256_in_prefix": "85304936ce59c970b5f9ffb451fcc57b3761ccda773a752136cdd0bfe9ae010d",
+        "size_in_bytes": 4432
+      },
+      {
+        "_path": "site-packages/gradio_client/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0393524034636efc20019c8ba1ba8d82ffe7ad1ed3d67b56142425396ba6f0fa",
+        "sha256_in_prefix": "0393524034636efc20019c8ba1ba8d82ffe7ad1ed3d67b56142425396ba6f0fa",
+        "size_in_bytes": 17718
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/cli/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/cli/__pycache__/deploy_discord.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/data_classes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/documentation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/media_data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/serializing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/templates/__pycache__/discord_chat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gradio_client/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6661baff5fbb8cd3028a47dfc68d948499ed9ec3a02b6e223cb7a7927f0be7de",
+  "size": 292454,
+  "subdir": "noarch",
+  "timestamp": 1697500707000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/gradio-client-0.6.1-pyhd8ed1ab_0.conda",
+  "version": "0.6.1"
+}

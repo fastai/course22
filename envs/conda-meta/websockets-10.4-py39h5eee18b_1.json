@@ -1,0 +1,602 @@
+{
+  "build": "py39h5eee18b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/websockets-10.4-py39h5eee18b_1",
+  "files": [
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/LICENSE",
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/websockets-10.4.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/websockets/__init__.py",
+    "lib/python3.9/site-packages/websockets/__main__.py",
+    "lib/python3.9/site-packages/websockets/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/auth.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/connection.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/datastructures.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/frames.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/headers.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/http.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/http11.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/server.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/streams.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/typing.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/uri.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/__pycache__/version.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/auth.py",
+    "lib/python3.9/site-packages/websockets/client.py",
+    "lib/python3.9/site-packages/websockets/connection.py",
+    "lib/python3.9/site-packages/websockets/datastructures.py",
+    "lib/python3.9/site-packages/websockets/exceptions.py",
+    "lib/python3.9/site-packages/websockets/extensions/__init__.py",
+    "lib/python3.9/site-packages/websockets/extensions/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/extensions/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/extensions/__pycache__/permessage_deflate.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/extensions/base.py",
+    "lib/python3.9/site-packages/websockets/extensions/permessage_deflate.py",
+    "lib/python3.9/site-packages/websockets/frames.py",
+    "lib/python3.9/site-packages/websockets/headers.py",
+    "lib/python3.9/site-packages/websockets/http.py",
+    "lib/python3.9/site-packages/websockets/http11.py",
+    "lib/python3.9/site-packages/websockets/imports.py",
+    "lib/python3.9/site-packages/websockets/legacy/__init__.py",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/auth.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/compatibility.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/framing.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/handshake.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/http.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/protocol.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/__pycache__/server.cpython-39.pyc",
+    "lib/python3.9/site-packages/websockets/legacy/auth.py",
+    "lib/python3.9/site-packages/websockets/legacy/client.py",
+    "lib/python3.9/site-packages/websockets/legacy/compatibility.py",
+    "lib/python3.9/site-packages/websockets/legacy/framing.py",
+    "lib/python3.9/site-packages/websockets/legacy/handshake.py",
+    "lib/python3.9/site-packages/websockets/legacy/http.py",
+    "lib/python3.9/site-packages/websockets/legacy/protocol.py",
+    "lib/python3.9/site-packages/websockets/legacy/server.py",
+    "lib/python3.9/site-packages/websockets/py.typed",
+    "lib/python3.9/site-packages/websockets/server.py",
+    "lib/python3.9/site-packages/websockets/speedups.c",
+    "lib/python3.9/site-packages/websockets/speedups.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/websockets/streams.py",
+    "lib/python3.9/site-packages/websockets/typing.py",
+    "lib/python3.9/site-packages/websockets/uri.py",
+    "lib/python3.9/site-packages/websockets/utils.py",
+    "lib/python3.9/site-packages/websockets/version.py"
+  ],
+  "fn": "websockets-10.4-py39h5eee18b_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/websockets-10.4-py39h5eee18b_1",
+    "type": 1
+  },
+  "md5": "eba56d4c38ec84c3110a1b61cec82d20",
+  "name": "websockets",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/websockets-10.4-py39h5eee18b_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "daeca11bf3608da35e546ea0c32be18958a8be1441fa3de9cbd20e4c8bc718e6",
+        "sha256_in_prefix": "daeca11bf3608da35e546ea0c32be18958a8be1441fa3de9cbd20e4c8bc718e6",
+        "size_in_bytes": 1536
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "855623445d63e750e09985c24f117dfd8273ce91fc1840efc1711efb6b8bc6e1",
+        "sha256_in_prefix": "855623445d63e750e09985c24f117dfd8273ce91fc1840efc1711efb6b8bc6e1",
+        "size_in_bytes": 6390
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "16c5b155986b4c409169332a2179ac7b5e57a0b634107014e8a1baa80c893fcd",
+        "sha256_in_prefix": "16c5b155986b4c409169332a2179ac7b5e57a0b634107014e8a1baa80c893fcd",
+        "size_in_bytes": 4994
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "de85dbb45e2f630990c9fd0b4086a02ad97454ede03fceb9e7aa8a88b6f46c37",
+        "sha256_in_prefix": "de85dbb45e2f630990c9fd0b4086a02ad97454ede03fceb9e7aa8a88b6f46c37",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2f432bd178b5a5591a7268eaf1733cbe8418899cad177a1fec2c401cdc32bd01",
+        "sha256_in_prefix": "2f432bd178b5a5591a7268eaf1733cbe8418899cad177a1fec2c401cdc32bd01",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets-10.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "02699042a845c23a0210accd6a35d8e5fdbccb12cffdc8157e52444bcd84fdcb",
+        "sha256_in_prefix": "02699042a845c23a0210accd6a35d8e5fdbccb12cffdc8157e52444bcd84fdcb",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6d45df3bb5888646157b93d888430aa9ed965216fc5075fd920d1a288ec8891e",
+        "sha256_in_prefix": "6d45df3bb5888646157b93d888430aa9ed965216fc5075fd920d1a288ec8891e",
+        "size_in_bytes": 3436
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "ab7e52c7f16d1a9bf2a597bd6e131013df869fb4b2705209b3ead9a653b6022e",
+        "sha256_in_prefix": "ab7e52c7f16d1a9bf2a597bd6e131013df869fb4b2705209b3ead9a653b6022e",
+        "size_in_bytes": 7255
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce80f0e7adbe41a44f7c61c17d39730175e37663134304a73c3ccfca04edb9d1",
+        "sha256_in_prefix": "ce80f0e7adbe41a44f7c61c17d39730175e37663134304a73c3ccfca04edb9d1",
+        "size_in_bytes": 1817
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce7a531f667676339ffd6dfebe9d466597040be5bcaa04c5921ad552e3fc7f76",
+        "sha256_in_prefix": "ce7a531f667676339ffd6dfebe9d466597040be5bcaa04c5921ad552e3fc7f76",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/auth.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1634a5d3adf8b33fd2be8cfe5d4c08bb652a9d2fd69f1ee7e3ea391e963ae18d",
+        "sha256_in_prefix": "1634a5d3adf8b33fd2be8cfe5d4c08bb652a9d2fd69f1ee7e3ea391e963ae18d",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/client.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "464032524070806c146adfa9a917458b307fdd0a7a5fcf48222e3b0871507f22",
+        "sha256_in_prefix": "464032524070806c146adfa9a917458b307fdd0a7a5fcf48222e3b0871507f22",
+        "size_in_bytes": 9947
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/connection.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d33dd434cec67c98b2c536a9980c7daad6c547f800964c4b6dc53ca6b7db5d3",
+        "sha256_in_prefix": "2d33dd434cec67c98b2c536a9980c7daad6c547f800964c4b6dc53ca6b7db5d3",
+        "size_in_bytes": 15760
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/datastructures.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e91f6249ab2a449d44fceda971907b90f315d6d50eb49360cf01d802f116211",
+        "sha256_in_prefix": "7e91f6249ab2a449d44fceda971907b90f315d6d50eb49360cf01d802f116211",
+        "size_in_bytes": 7040
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "013e73643bb3a2a7d6504d67dc09f150fc5a3389e60af250653122b98ac5017b",
+        "sha256_in_prefix": "013e73643bb3a2a7d6504d67dc09f150fc5a3389e60af250653122b98ac5017b",
+        "size_in_bytes": 12913
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/frames.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "79625956f74cc12ee463f83eb03f26dfd3f2ed59cb1b3af66b4ba463d6e4dec5",
+        "sha256_in_prefix": "79625956f74cc12ee463f83eb03f26dfd3f2ed59cb1b3af66b4ba463d6e4dec5",
+        "size_in_bytes": 10491
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/headers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfe6a3915c87995bfe0292c3d3f9f7b62ae524daefd226b06ff358dc4d99e796",
+        "sha256_in_prefix": "dfe6a3915c87995bfe0292c3d3f9f7b62ae524daefd226b06ff358dc4d99e796",
+        "size_in_bytes": 13254
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/http.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0494e6d9cb27e1e4824e7b52f88f36bda81d5ca009736c577089be5cc7b2ae3c",
+        "sha256_in_prefix": "0494e6d9cb27e1e4824e7b52f88f36bda81d5ca009736c577089be5cc7b2ae3c",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/http11.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f37bdd01b9569a2106fa9e3217bac023a388510fe544dd9780b3c44218f20fbd",
+        "sha256_in_prefix": "f37bdd01b9569a2106fa9e3217bac023a388510fe544dd9780b3c44218f20fbd",
+        "size_in_bytes": 9045
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/imports.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8491c3897e94a6af62b1749f668fd5401f60878f2149d6844a50509f022b4952",
+        "sha256_in_prefix": "8491c3897e94a6af62b1749f668fd5401f60878f2149d6844a50509f022b4952",
+        "size_in_bytes": 2596
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/server.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9e30b0e420077d67a4addd805b6afb39e8071f717f84a839e689c8fe287accf",
+        "sha256_in_prefix": "d9e30b0e420077d67a4addd805b6afb39e8071f717f84a839e689c8fe287accf",
+        "size_in_bytes": 14967
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/streams.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fee2a197b78ab0f6076cb45154bbcf2f78adb8c58bf4c0bc7da9686a1be3e79b",
+        "sha256_in_prefix": "fee2a197b78ab0f6076cb45154bbcf2f78adb8c58bf4c0bc7da9686a1be3e79b",
+        "size_in_bytes": 4138
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/typing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5cca30e32d5a2d62c0c038cc96748c668e2e7c251e656e91b051b4914d734409",
+        "sha256_in_prefix": "5cca30e32d5a2d62c0c038cc96748c668e2e7c251e656e91b051b4914d734409",
+        "size_in_bytes": 675
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/uri.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "773f2e7f91f6ba01a6edebc7b45be870a3f376814d5c6e2d1aac43d7a82ae038",
+        "sha256_in_prefix": "773f2e7f91f6ba01a6edebc7b45be870a3f376814d5c6e2d1aac43d7a82ae038",
+        "size_in_bytes": 2834
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "38a5fe37309e508fada38b50c2714d19e0008903aeaac76723d68d4323d207fa",
+        "sha256_in_prefix": "38a5fe37309e508fada38b50c2714d19e0008903aeaac76723d68d4323d207fa",
+        "size_in_bytes": 1438
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/__pycache__/version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b735d33da4104717835a10e17ac838e4a798209dcb60fc77e0dbdcd4a62ff23",
+        "sha256_in_prefix": "3b735d33da4104717835a10e17ac838e4a798209dcb60fc77e0dbdcd4a62ff23",
+        "size_in_bytes": 1529
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/auth.py",
+        "path_type": "hardlink",
+        "sha256": "e57b939f1a7a7f68f368dbd32a1b4e67e3a63368294e4ed541fe9ccb8cadeb40",
+        "sha256_in_prefix": "e57b939f1a7a7f68f368dbd32a1b4e67e3a63368294e4ed541fe9ccb8cadeb40",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/client.py",
+        "path_type": "hardlink",
+        "sha256": "519c8cb2355de2a344e965f094484ae0f94426b943a2e1b564d7ccfeae53b83f",
+        "sha256_in_prefix": "519c8cb2355de2a344e965f094484ae0f94426b943a2e1b564d7ccfeae53b83f",
+        "size_in_bytes": 11885
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/connection.py",
+        "path_type": "hardlink",
+        "sha256": "fa2768b9294d50e48031cbd5a594f12de84aa6c4bbff6fd82fbfe9584425dce2",
+        "sha256_in_prefix": "fa2768b9294d50e48031cbd5a594f12de84aa6c4bbff6fd82fbfe9584425dce2",
+        "size_in_bytes": 23665
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/datastructures.py",
+        "path_type": "hardlink",
+        "sha256": "a5c4fb45d088e997d875d1d631cc0f47ed40f3d191a63dbac6076d999b118220",
+        "sha256_in_prefix": "a5c4fb45d088e997d875d1d631cc0f47ed40f3d191a63dbac6076d999b118220",
+        "size_in_bytes": 5738
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "1716f9534d441324b8237f4e0b5785678df9333a69dfd838762f571fe90cbc1a",
+        "sha256_in_prefix": "1716f9534d441324b8237f4e0b5785678df9333a69dfd838762f571fe90cbc1a",
+        "size_in_bytes": 10049
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/extensions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "42466cc5a255965552a75ba1743e6e3c689b75bc7fd3dd46ad555f4b92d7729c",
+        "sha256_in_prefix": "42466cc5a255965552a75ba1743e6e3c689b75bc7fd3dd46ad555f4b92d7729c",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/extensions/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "73ab6b2c276f001b218eaf94070181d1f13d73cb2e6fd6c93d473a62f3f5318f",
+        "sha256_in_prefix": "73ab6b2c276f001b218eaf94070181d1f13d73cb2e6fd6c93d473a62f3f5318f",
+        "size_in_bytes": 253
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/extensions/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eaca69acb31bb1da6fbb60801bc84683c3b0545a26a3648606f9c2aa4c5cbee0",
+        "sha256_in_prefix": "eaca69acb31bb1da6fbb60801bc84683c3b0545a26a3648606f9c2aa4c5cbee0",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/extensions/__pycache__/permessage_deflate.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "948aefacd8db23b1aade52788da5a743cb631bf52a2265603845eaf7627cf39e",
+        "sha256_in_prefix": "948aefacd8db23b1aade52788da5a743cb631bf52a2265603845eaf7627cf39e",
+        "size_in_bytes": 13043
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/extensions/base.py",
+        "path_type": "hardlink",
+        "sha256": "a43fab92e30a6b27ed9f0276753df0fc6826122ee3237d1db08081163d508f6b",
+        "sha256_in_prefix": "a43fab92e30a6b27ed9f0276753df0fc6826122ee3237d1db08081163d508f6b",
+        "size_in_bytes": 3101
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/extensions/permessage_deflate.py",
+        "path_type": "hardlink",
+        "sha256": "01e380fad4edcba8be547a4617951c1ac2b1edb872d230c38a2c15b4ce2ef0db",
+        "sha256_in_prefix": "01e380fad4edcba8be547a4617951c1ac2b1edb872d230c38a2c15b4ce2ef0db",
+        "size_in_bytes": 24783
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/frames.py",
+        "path_type": "hardlink",
+        "sha256": "d7b19da8afc932dcf88e3c90d8f55e177a546deb11584211bdec659fd88db9e8",
+        "sha256_in_prefix": "d7b19da8afc932dcf88e3c90d8f55e177a546deb11584211bdec659fd88db9e8",
+        "size_in_bytes": 12532
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/headers.py",
+        "path_type": "hardlink",
+        "sha256": "458af21f6cea07fd98d360531762ac4057d8c4033af8a87e0370efff7da8a400",
+        "sha256_in_prefix": "458af21f6cea07fd98d360531762ac4057d8c4033af8a87e0370efff7da8a400",
+        "size_in_bytes": 16120
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/http.py",
+        "path_type": "hardlink",
+        "sha256": "1d1fc82228f7c69a0a9222f31a9e21e7f36456bd9af19782a86528a68e94e11b",
+        "sha256_in_prefix": "1d1fc82228f7c69a0a9222f31a9e21e7f36456bd9af19782a86528a68e94e11b",
+        "size_in_bytes": 644
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/http11.py",
+        "path_type": "hardlink",
+        "sha256": "298d0ac8e9dc627fd540d309d084bf72a663f3e002bf9516ce6f8a3477f71ccc",
+        "sha256_in_prefix": "298d0ac8e9dc627fd540d309d084bf72a663f3e002bf9516ce6f8a3477f71ccc",
+        "size_in_bytes": 12569
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/imports.py",
+        "path_type": "hardlink",
+        "sha256": "4975ecd2096277e50773095ae728d1ef60c86c67944eb4bd5456a03ef3ef44d6",
+        "sha256_in_prefix": "4975ecd2096277e50773095ae728d1ef60c86c67944eb4bd5456a03ef3ef44d6",
+        "size_in_bytes": 2790
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "266999426fc46a5f5533146d4fcbf6f46ccfb1740cea36210f897e9c034df5df",
+        "sha256_in_prefix": "266999426fc46a5f5533146d4fcbf6f46ccfb1740cea36210f897e9c034df5df",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/auth.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4c7d48434f4f1bf34b03289975702371a87aad46f062278d067095daff911de",
+        "sha256_in_prefix": "f4c7d48434f4f1bf34b03289975702371a87aad46f062278d067095daff911de",
+        "size_in_bytes": 5801
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/client.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d4c83e7e0d187a3cd584a2a9bab1215fe0d3a9366e50152abbbc9fa5b829c10",
+        "sha256_in_prefix": "9d4c83e7e0d187a3cd584a2a9bab1215fe0d3a9366e50152abbbc9fa5b829c10",
+        "size_in_bytes": 19194
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/compatibility.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "77f51074f3167d70105b453adab68553c0820ce4033a5e0e0f2c586b31efb5a6",
+        "sha256_in_prefix": "77f51074f3167d70105b453adab68553c0820ce4033a5e0e0f2c586b31efb5a6",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/framing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb3d88db131c4712d2f238afc59cb074712e7644c99e83079b423f1d6fa8d1d3",
+        "sha256_in_prefix": "cb3d88db131c4712d2f238afc59cb074712e7644c99e83079b423f1d6fa8d1d3",
+        "size_in_bytes": 4597
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/handshake.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4215f31093ae4727ed12b40f1a5e3701517a46ee518ead19a4a8fcea27e3f252",
+        "sha256_in_prefix": "4215f31093ae4727ed12b40f1a5e3701517a46ee518ead19a4a8fcea27e3f252",
+        "size_in_bytes": 5006
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/http.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "01e190c349ff556be483d638f93c4cb26b50c0580bc8b8494ff85c72f5c2a575",
+        "sha256_in_prefix": "01e190c349ff556be483d638f93c4cb26b50c0580bc8b8494ff85c72f5c2a575",
+        "size_in_bytes": 5011
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/protocol.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "769489babadb2ec2864bba4a9718e8935bee27c092f6d09a289d08df100a53ca",
+        "sha256_in_prefix": "769489babadb2ec2864bba4a9718e8935bee27c092f6d09a289d08df100a53ca",
+        "size_in_bytes": 40216
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/__pycache__/server.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "53f7b9497d98c056f67d4560fd19e26cfe43add7a9fee33c36757432f2e1ae45",
+        "sha256_in_prefix": "53f7b9497d98c056f67d4560fd19e26cfe43add7a9fee33c36757432f2e1ae45",
+        "size_in_bytes": 33299
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/auth.py",
+        "path_type": "hardlink",
+        "sha256": "d55cf7d960226b624d9d0b75758564220dec12b707ebc8e768ae14fb2a481ff4",
+        "sha256_in_prefix": "d55cf7d960226b624d9d0b75758564220dec12b707ebc8e768ae14fb2a481ff4",
+        "size_in_bytes": 6477
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/client.py",
+        "path_type": "hardlink",
+        "sha256": "e47f59088e7d81e07e75212006b25aad5d79a2025361797d7fd07bd2dc0bfc6e",
+        "sha256_in_prefix": "e47f59088e7d81e07e75212006b25aad5d79a2025361797d7fd07bd2dc0bfc6e",
+        "size_in_bytes": 26486
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "7d6bd97f3c75ddb054d9e394209ad9089252f0dddf4b26633b9443d6d627d0ad",
+        "sha256_in_prefix": "7d6bd97f3c75ddb054d9e394209ad9089252f0dddf4b26633b9443d6d627d0ad",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/framing.py",
+        "path_type": "hardlink",
+        "sha256": "fac43be6e331fec594ea3777553660087c6f89671690aaf72720a70751d6be49",
+        "sha256_in_prefix": "fac43be6e331fec594ea3777553660087c6f89671690aaf72720a70751d6be49",
+        "size_in_bytes": 5002
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/handshake.py",
+        "path_type": "hardlink",
+        "sha256": "44afee8bd3b94cb42b6fe78129c5ffe6cf1773b04e94b8c2fe0345bee8b8c22e",
+        "sha256_in_prefix": "44afee8bd3b94cb42b6fe78129c5ffe6cf1773b04e94b8c2fe0345bee8b8c22e",
+        "size_in_bytes": 5476
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/http.py",
+        "path_type": "hardlink",
+        "sha256": "7787bc89eefcd0db18a8abd096d5b59005ddcb8784e4a72bf23429f034f9545b",
+        "sha256_in_prefix": "7787bc89eefcd0db18a8abd096d5b59005ddcb8784e4a72bf23429f034f9545b",
+        "size_in_bytes": 6930
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "c22f5f6e0b1df9a11d66fdf25da07e5461a8c65180ec3dda1fc8d93a23ddd426",
+        "sha256_in_prefix": "c22f5f6e0b1df9a11d66fdf25da07e5461a8c65180ec3dda1fc8d93a23ddd426",
+        "size_in_bytes": 63015
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/legacy/server.py",
+        "path_type": "hardlink",
+        "sha256": "c2d6a841ccd216f49c7e957dca9abf68432f775d596412ae9ea029ebebf51d2e",
+        "sha256_in_prefix": "c2d6a841ccd216f49c7e957dca9abf68432f775d596412ae9ea029ebebf51d2e",
+        "size_in_bytes": 44288
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/server.py",
+        "path_type": "hardlink",
+        "sha256": "a6a5e1b0ed487a82af60510bf3192b06a69be84737c4150ff20ff5d570a89ca7",
+        "sha256_in_prefix": "a6a5e1b0ed487a82af60510bf3192b06a69be84737c4150ff20ff5d570a89ca7",
+        "size_in_bytes": 18480
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/speedups.c",
+        "path_type": "hardlink",
+        "sha256": "8213eaf8d177e552d536432fd2e14322bb8da55212c96faabe86603e913ae6ac",
+        "sha256_in_prefix": "8213eaf8d177e552d536432fd2e14322bb8da55212c96faabe86603e913ae6ac",
+        "size_in_bytes": 5834
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/speedups.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b7efddad5c35442a2443dedb826cca1c0c009dffa47e54339bda4f078369892a",
+        "sha256_in_prefix": "b7efddad5c35442a2443dedb826cca1c0c009dffa47e54339bda4f078369892a",
+        "size_in_bytes": 16360
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/streams.py",
+        "path_type": "hardlink",
+        "sha256": "f27bfad876324bbe2dfc94961a27b84a8600cfcfa331c41a71a1e70f44642bdd",
+        "sha256_in_prefix": "f27bfad876324bbe2dfc94961a27b84a8600cfcfa331c41a71a1e70f44642bdd",
+        "size_in_bytes": 4038
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/typing.py",
+        "path_type": "hardlink",
+        "sha256": "cb1d12c529a297925f1b87d4b63f9d83247551c5b9c309af82ab443a6709c66e",
+        "sha256_in_prefix": "cb1d12c529a297925f1b87d4b63f9d83247551c5b9c309af82ab443a6709c66e",
+        "size_in_bytes": 1384
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/uri.py",
+        "path_type": "hardlink",
+        "sha256": "a32998528edb5fc2e87d8cd7a53dd4a9365f902b76cb8b3af345ebfaac3cf2a9",
+        "sha256_in_prefix": "a32998528edb5fc2e87d8cd7a53dd4a9365f902b76cb8b3af345ebfaac3cf2a9",
+        "size_in_bytes": 3215
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/utils.py",
+        "path_type": "hardlink",
+        "sha256": "4018606d79fd66fbcb1338fe5fcfb348759532452a73a5a6fbf1c18e06b944d3",
+        "sha256_in_prefix": "4018606d79fd66fbcb1338fe5fcfb348759532452a73a5a6fbf1c18e06b944d3",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "lib/python3.9/site-packages/websockets/version.py",
+        "path_type": "hardlink",
+        "sha256": "ec5060f1c61e9187331398c5f1c663d278b17fe6a57c7db0a431f402aac585c4",
+        "sha256_in_prefix": "ec5060f1c61e9187331398c5f1c663d278b17fe6a57c7db0a431f402aac585c4",
+        "size_in_bytes": 2721
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1d4715b25037cbd9aefbeff2da943cafe58deefbe36b810e109ead6513d988d6",
+  "size": 134036,
+  "subdir": "linux-64",
+  "timestamp": 1678966910000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/websockets-10.4-py39h5eee18b_1.conda",
+  "version": "10.4"
+}

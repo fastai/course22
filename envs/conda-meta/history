@@ -283,3 +283,42 @@
 +defaults/linux-64::jupyterlab_widgets-3.0.9-py39h06a4308_0
 +defaults/linux-64::widgetsnbextension-4.0.10-py39h06a4308_0
 # update specs: ['ipywidgets']
+==> 2024-08-03 20:28:11 <==
+# cmd: /home/james/miniconda3/bin/conda install gradio
+# conda version: 24.3.0
+-defaults/linux-64::ca-certificates-2023.12.12-h06a4308_0
+-defaults/linux-64::certifi-2024.2.2-py39h06a4308_0
+-defaults/linux-64::comm-0.1.2-py39h06a4308_0
+-defaults/linux-64::ipywidgets-8.0.4-py39h06a4308_0
+-defaults/linux-64::jupyterlab_widgets-3.0.9-py39h06a4308_0
+-defaults/linux-64::openssl-3.0.13-h7f8727e_0
+-defaults/linux-64::widgetsnbextension-4.0.10-py39h06a4308_0
++conda-forge/noarch::ffmpy-0.3.0-pyhb6f538c_0
++conda-forge/noarch::gradio-3.50.2-pyhd8ed1ab_0
++conda-forge/noarch::gradio-client-0.6.1-pyhd8ed1ab_0
++conda-forge/noarch::pydub-0.25.1-pyhd8ed1ab_0
++defaults/linux-64::aiofiles-22.1.0-py39h06a4308_0
++defaults/linux-64::altair-5.0.1-py39h06a4308_0
++defaults/linux-64::anyio-4.2.0-py39h06a4308_0
++defaults/linux-64::ca-certificates-2024.7.2-h06a4308_0
++defaults/linux-64::certifi-2024.7.4-py39h06a4308_0
++defaults/linux-64::fastapi-0.103.0-py39h06a4308_0
++defaults/linux-64::h11-0.14.0-py39h06a4308_0
++defaults/linux-64::httpcore-1.0.2-py39h06a4308_0
++defaults/linux-64::httpx-0.26.0-py39h06a4308_0
++defaults/linux-64::huggingface_hub-0.23.1-py39h06a4308_0
++defaults/linux-64::jsonschema-4.19.2-py39h06a4308_0
++defaults/linux-64::jsonschema-specifications-2023.7.1-py39h06a4308_0
++defaults/linux-64::openssl-3.0.14-h5eee18b_0
++defaults/linux-64::orjson-3.9.15-py39h97a8848_0
++defaults/linux-64::python-multipart-0.0.6-py39h06a4308_0
++defaults/linux-64::referencing-0.30.2-py39h06a4308_0
++defaults/linux-64::rpds-py-0.10.6-py39hb02cf49_0
++defaults/linux-64::sniffio-1.3.0-py39h06a4308_0
++defaults/linux-64::starlette-0.27.0-py39h06a4308_0
++defaults/linux-64::toolz-0.12.0-py39h06a4308_0
++defaults/linux-64::uvicorn-0.20.0-py39h06a4308_0
++defaults/linux-64::websockets-10.4-py39h5eee18b_1
++defaults/noarch::semantic_version-2.8.5-pyhd3eb1b0_0
+# update specs: ['gradio']
+# neutered specs: ['ca-certificates==2024.7.2', 'openssl==3.0.14', 'certifi==2024.7.4']

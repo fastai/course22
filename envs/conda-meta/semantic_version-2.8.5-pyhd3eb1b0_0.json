@@ -1,0 +1,138 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/james/miniconda3/pkgs/semantic_version-2.8.5-pyhd3eb1b0_0",
+  "files": [
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/LICENSE",
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/METADATA",
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/RECORD",
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/WHEEL",
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/semantic_version-2.8.5.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/semantic_version/__init__.py",
+    "lib/python3.9/site-packages/semantic_version/base.py",
+    "lib/python3.9/site-packages/semantic_version/django_fields.py",
+    "lib/python3.9/site-packages/semantic_version/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/semantic_version/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/semantic_version/__pycache__/django_fields.cpython-39.pyc"
+  ],
+  "fn": "semantic_version-2.8.5-pyhd3eb1b0_0.conda",
+  "license": "BSD",
+  "link": {
+    "source": "/home/james/miniconda3/pkgs/semantic_version-2.8.5-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "bf59ec135139010bab5893a2970b49b2",
+  "name": "semantic_version",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/james/miniconda3/pkgs/semantic_version-2.8.5-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a85e7ef2fbc670d26781ed6844cd31a7e8ada65d21328f75a0b02402faae37ea",
+        "sha256_in_prefix": "a85e7ef2fbc670d26781ed6844cd31a7e8ada65d21328f75a0b02402faae37ea",
+        "size_in_bytes": 1317
+      },
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1b5546e701e26245460b3e532fdad07f9c1b783ddd4c31f53959b95d4e38f264",
+        "sha256_in_prefix": "1b5546e701e26245460b3e532fdad07f9c1b783ddd4c31f53959b95d4e38f264",
+        "size_in_bytes": 10172
+      },
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6c5079947c9b65729e39d069c716ea37acb1d132c945f7b42067b33afb3d1625",
+        "sha256_in_prefix": "6c5079947c9b65729e39d069c716ea37acb1d132c945f7b42067b33afb3d1625",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "eceac9b916c1ec79653cf1454116d21ea28788b9e47c06589028407604494bf8",
+        "sha256_in_prefix": "eceac9b916c1ec79653cf1454116d21ea28788b9e47c06589028407604494bf8",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "site-packages/semantic_version-2.8.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f16345a85eb0f6c8305863a023106aeb91d0eb36a4384eed09a18acf48a74252",
+        "sha256_in_prefix": "f16345a85eb0f6c8305863a023106aeb91d0eb36a4384eed09a18acf48a74252",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/semantic_version/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5fed3c3d0b2c1871b65e59cbff9379306fa93140d08cc7893a5d2de8deb6c5b2",
+        "sha256_in_prefix": "5fed3c3d0b2c1871b65e59cbff9379306fa93140d08cc7893a5d2de8deb6c5b2",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "site-packages/semantic_version/base.py",
+        "path_type": "hardlink",
+        "sha256": "0b013791fabbf529b6c3cd66a1b2bdbb0be236ff6f7b7ce81bffd4e503141a45",
+        "sha256_in_prefix": "0b013791fabbf529b6c3cd66a1b2bdbb0be236ff6f7b7ce81bffd4e503141a45",
+        "size_in_bytes": 47079
+      },
+      {
+        "_path": "site-packages/semantic_version/django_fields.py",
+        "path_type": "hardlink",
+        "sha256": "b79f374bcac5d5cc627b4fa4495173b8f5ee8e955acef33289306eede305bc0a",
+        "sha256_in_prefix": "b79f374bcac5d5cc627b4fa4495173b8f5ee8e955acef33289306eede305bc0a",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "lib/python3.9/site-packages/semantic_version/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/semantic_version/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/semantic_version/__pycache__/django_fields.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "39a0cb57a94192b9efa4122566cb69d98c540cdb49b2d3e1771cae7cf1391b0c",
+  "size": 19158,
+  "subdir": "noarch",
+  "timestamp": 1613321091000,
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/semantic_version-2.8.5-pyhd3eb1b0_0.conda",
+  "version": "2.8.5"
+}
